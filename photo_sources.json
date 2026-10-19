@@ -1,34 +1,20 @@
 {
-  "version": "v29",
-  "checked": "2026-10-18",
+  "version": "v35",
+  "checked": "2026-10-19",
   "source": "Wikimedia Commons individual file description pages",
-  "total": 139,
-  "newly_added": 5,
-  "inherited_from_v28": 134,
-  "newly_verified_on_web": 5,
-  "photo_spots": 60,
+  "total": 168,
+  "newly_added": 3,
+  "newly_verified_on_web": 3,
   "cities": 12,
-  "spot_photo_count": 138,
-  "audit_summary": {
-    "taken_2024_or_later": 109,
-    "taken_before_2024": 30,
-    "unknown_year": 0,
-    "spots_with_one_photo": 8,
-    "city_only_photo_records": 1,
-    "exact_filename_duplicates": 0,
-    "exact_source_duplicates": 0,
-    "unverified_this_run": 134,
-    "verified_this_run": 5,
-    "spot_photo_count": 138,
-    "cities": 12,
-    "spots": 60
-  },
-  "metadata_verification": "Five individual file descriptions reviewed for place, author, license and date on 2026-10-18. All 134 inherited entries retain their original checked dates and are NOT reverified in this run.",
-  "image_loading_verification": "External image bytes not reachable from build runtime; no live image loading assertions. Browser fallback behavior will be tested with network blocked.",
+  "photo_spots": 60,
+  "metadata_verification": "v35 신규 3장 원본 설명 개별 확인; 기존 165장은 출처 기록 계승(이번 개별 재검증 아님).",
+  "image_loading_verification": "외부 Wikimedia Commons 실제 이미지 로딩·바이트 확인은 실행 환경 네트워크 제한으로 미검증.",
   "notes": [
-    "v29 adds 5 images for Ba Na Hills (2), Momochi Beach, Ubud Monkey Forest, Long Son Pagoda.",
-    "2026 aerial Ba Na Hills file was intentionally excluded because page creation date 2026-03-07 conflicts with EXIF capture date 2025-07-10.",
-    "Long Son Pagoda (2018) and Ubud Monkey Forest (2022) photos are clearly marked as historical captures."
+    "모든 기존 사진 165장 파일명 유지",
+    "원본 사진 파일은 ZIP에 포함되지 않음",
+    "CSS 크롭은 원본 파일 변경이 아님",
+    "CC BY-SA의 수정본 배포 시 동일조건 공유, 저작자·원본·라이선스·변경 여부 표시",
+    "외부 이미지의 현재 접속 가능 여부와 제3자 권리는 별도 확인 필요"
   ],
   "photos": [
     {
@@ -47,8 +33,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Osaka_Dotonbori_yoru.jpg/960px-Osaka_Dotonbori_yoru.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Osaka Dotonbori yoru.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -66,9 +56,13 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Osaka_Castle_(13382751243).jpg/960px-Osaka_Castle_(13382751243).jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "scene": "2014년에 촬영한 오사카성. 최신 현장 모습과 다를 수 있습니다.",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Osaka Castle (13382751243).jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "도쿄",
@@ -86,9 +80,13 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/2024_Shibuya_Crossing.jpg/960px-2024_Shibuya_Crossing.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "scene": "시부야 스크램블 교차로를 직접 촬영한 사진.",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "2024 Shibuya Crossing.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "도쿄",
@@ -106,8 +104,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Sensoji_Temple_Asakusa_Tokyo_2024-12-02.jpg/960px-Sensoji_Temple_Asakusa_Tokyo_2024-12-02.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Sensoji Temple Asakusa Tokyo 2024-12-02.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "나트랑",
@@ -125,8 +127,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Nha_trang_beach.jpg/960px-Nha_trang_beach.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Nha trang beach.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "나트랑",
@@ -144,8 +150,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Po_Nagar_01.jpg/960px-Po_Nagar_01.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Po Nagar 01.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -163,8 +173,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/My_Khe_Beach%2C_Da_Nang%2C_Vietnam.jpg/960px-My_Khe_Beach%2C_Da_Nang%2C_Vietnam.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "My Khe Beach, Da Nang, Vietnam.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -182,8 +196,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Da_nang_dragon_bridge.jpg/960px-Da_nang_dragon_bridge.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Da nang dragon bridge.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -201,8 +219,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Taipei_101%2C_Nov_2024.jpg/960px-Taipei_101%2C_Nov_2024.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Taipei 101, Nov 2024.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -220,8 +242,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Chiang_Kai-shek_Memorial_Hall%2C_Taipei%2C_Nov_2024_(7).jpg/960px-Chiang_Kai-shek_Memorial_Hall%2C_Taipei%2C_Nov_2024_(7).jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Chiang Kai-shek Memorial Hall, Taipei, Nov 2024 (7).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "방콕",
@@ -239,8 +265,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wat_Arun_Ratchawararam_Ratchawaramahawihan_%2C_Buddhist_temple_in_Bangkok%2C_Thailand.jpeg/960px-Wat_Arun_Ratchawararam_Ratchawaramahawihan_%2C_Buddhist_temple_in_Bangkok%2C_Thailand.jpeg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Wat Arun Ratchawararam Ratchawaramahawihan , Buddhist temple in Bangkok, Thailand.jpeg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "방콕",
@@ -258,8 +288,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/202307_Grand_Palace_of_Bangkok_04.jpg/960px-202307_Grand_Palace_of_Bangkok_04.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "202307 Grand Palace of Bangkok 04.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -277,8 +311,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Marina_Bay_Sands_at_night%2C_Singapore%2C_20240121_2024_2860.jpg/960px-Marina_Bay_Sands_at_night%2C_Singapore%2C_20240121_2024_2860.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Marina Bay Sands at night, Singapore, 20240121 2024 2860.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -296,8 +334,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Gardens_by_the_Bay_at_night%2C_Singapore%2C_20240205_1900_5942.jpg/960px-Gardens_by_the_Bay_at_night%2C_Singapore%2C_20240205_1900_5942.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Gardens by the Bay at night, Singapore, 20240205 1900 5942.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -315,8 +357,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Magellan%27s_Cross%2C_Cebu_City%2C_Jan_2024.jpg/960px-Magellan%27s_Cross%2C_Cebu_City%2C_Jan_2024.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Magellan's Cross, Cebu City, Jan 2024.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -334,8 +380,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Bali_Tegallalang.jpg/960px-Bali_Tegallalang.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Bali Tegallalang.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -353,8 +403,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Bali_Uluwatu_Temple.jpg/960px-Bali_Uluwatu_Temple.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Bali Uluwatu Temple.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -372,8 +426,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Eiffel_Tower_2025-03-24.jpg/960px-Eiffel_Tower_2025-03-24.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Eiffel Tower 2025-03-24.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -391,8 +449,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Paris_-_Louvre_7941.jpg/960px-Paris_-_Louvre_7941.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Paris - Louvre 7941.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -410,8 +472,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Ohori_Park_20240811.jpg/960px-Ohori_Park_20240811.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Ohori Park 20240811.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -429,8 +495,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Dazaifu_Tenmangu_07.jpg/960px-Dazaifu_Tenmangu_07.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Dazaifu Tenmangu 07.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -448,8 +518,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Victoria_Harbour_2024.jpg/960px-Victoria_Harbour_2024.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Victoria Harbour 2024.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -467,8 +541,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Hong_Kong_from_Victoria_Peak1.jpg/960px-Hong_Kong_from_Victoria_Peak1.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Hong Kong from Victoria Peak1.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -487,8 +565,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Osaka_Dotonbori_yoru_01.jpg/960px-Osaka_Dotonbori_yoru_01.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Osaka Dotonbori yoru 01.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "도쿄",
@@ -507,8 +589,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Tokyo_Skytree%2C_20240824_1409_5701.jpg/960px-Tokyo_Skytree%2C_20240824_1409_5701.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Tokyo Skytree, 20240824 1409 5701.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "도쿄",
@@ -527,8 +613,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/20240120_Tokyo_Skytree_14.37.24.jpg/960px-20240120_Tokyo_Skytree_14.37.24.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "20240120 Tokyo Skytree 14.37.24.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -547,8 +637,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/A-Mei_Teahouse%2C_Jiufen%2C_New_Taipei%2C_Feb_2025_%285%29.jpg/960px-A-Mei_Teahouse%2C_Jiufen%2C_New_Taipei%2C_Feb_2025_%285%29.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "A-Mei Teahouse, Jiufen, New Taipei, Feb 2025 (5).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -567,8 +661,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/A-Mei_Teahouse%2C_Jiufen%2C_New_Taipei%2C_Feb_2025_%282%29.jpg/960px-A-Mei_Teahouse%2C_Jiufen%2C_New_Taipei%2C_Feb_2025_%282%29.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "A-Mei Teahouse, Jiufen, New Taipei, Feb 2025 (2).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -587,8 +685,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Merlion_Park_22_Dec_2024.jpg/960px-Merlion_Park_22_Dec_2024.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Merlion Park 22 Dec 2024.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -607,8 +709,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/A_sunset_at_Pura_Tanah_Lot_%282025%29_-_img_04.jpg/960px-A_sunset_at_Pura_Tanah_Lot_%282025%29_-_img_04.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "A sunset at Pura Tanah Lot (2025) - img 04.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -627,8 +733,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Basilique_du_Sacr%C3%A9-C%C5%93ur_de_Montmartre_%2806.02.2025%29_09.jpg/960px-Basilique_du_Sacr%C3%A9-C%C5%93ur_de_Montmartre_%2806.02.2025%29_09.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Basilique du Sacré-Cœur de Montmartre (06.02.2025) 09.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -647,8 +757,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Main_hall_of_the_Mus%C3%A9e_d%27Orsay_02.jpg/960px-Main_hall_of_the_Mus%C3%A9e_d%27Orsay_02.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Main hall of the Musée d'Orsay 02.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "도쿄",
@@ -669,8 +783,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/September_2024_Meiji_Jingu_2.jpg/960px-September_2024_Meiji_Jingu_2.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "September 2024 Meiji Jingu 2.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -691,8 +809,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Hoi_An_%26_Thu_Bon_River_2024.jpg/960px-Hoi_An_%26_Thu_Bon_River_2024.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Hoi An & Thu Bon River 2024.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -713,8 +835,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Shilin_Night_Market_Dadong_Road.jpg/960px-Shilin_Night_Market_Dadong_Road.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Shilin Night Market Dadong Road.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "방콕",
@@ -735,8 +861,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/WatPho.jpg/960px-WatPho.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "WatPho.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "방콕",
@@ -757,8 +887,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Bathing_of_Buddha_statues_(%E0%B8%AA%E0%B8%A3%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9E%E0%B8%A3%E0%B8%B0)_Songkran_-_Wat_Pho%2C_Bangkok_(2025)_-_img_06.jpg/960px-Bathing_of_Buddha_statues_(%E0%B8%AA%E0%B8%A3%E0%B8%87%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9E%E0%B8%A3%E0%B8%B0)_Songkran_-_Wat_Pho%2C_Bangkok_(2025)_-_img_06.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Bathing of Buddha statues (สรงน้ำพระ) Songkran - Wat Pho, Bangkok (2025) - img 06.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -779,8 +913,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Sto._Ni%C3%B1o_Basilica%2C_Cebu_City%2C_Jan_2024.jpg/960px-Sto._Ni%C3%B1o_Basilica%2C_Cebu_City%2C_Jan_2024.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Sto. Niño Basilica, Cebu City, Jan 2024.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -801,8 +939,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fort_San_Pedro%2C_Cebu_City%2C_Jan_2024.jpg/960px-Fort_San_Pedro%2C_Cebu_City%2C_Jan_2024.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Fort San Pedro, Cebu City, Jan 2024.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -823,8 +965,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/TW_%E5%8F%B0%E7%81%A3_Taiwan_TPE_%E5%8F%B0%E5%8C%97%E5%B8%82_Taipei_%E5%A3%AB%E6%9E%97%E5%A4%9C%E5%B8%82_Shilin_Night_Market_March_2024_R12S_321.jpg/960px-TW_%E5%8F%B0%E7%81%A3_Taiwan_TPE_%E5%8F%B0%E5%8C%97%E5%B8%82_Taipei_%E5%A3%AB%E6%9E%97%E5%A4%9C%E5%B8%82_Shilin_Night_Market_March_2024_R12S_321.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "TW 台灣 Taiwan TPE 台北市 Taipei 士林夜市 Shilin Night Market March 2024 R12S 321.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -843,8 +989,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Umeda_Sky_Building_20260305.jpg/960px-Umeda_Sky_Building_20260305.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Umeda Sky Building 20260305.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "나트랑",
@@ -863,8 +1013,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Long_Son_Pagoda_3.jpg/960px-Long_Son_Pagoda_3.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Long Son Pagoda 3.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "나트랑",
@@ -883,8 +1037,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Rock_with_hand_sign,_Hon_Chong.jpg/960px-Rock_with_hand_sign,_Hon_Chong.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Rock with hand sign, Hon Chong.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -903,9 +1061,13 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Marble_Mountain_Hoi_An,_Da_Nang.jpg/960px-Marble_Mountain_Hoi_An,_Da_Nang.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "scene": "다낭 오행산 응우한선 지역 린옹 사찰 인근에서 촬영된 사진.",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Marble Mountain Hoi An, Da Nang.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -924,8 +1086,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Taipei_National_Palace_Museum.jpg/960px-Taipei_National_Palace_Museum.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Taipei National Palace Museum.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "방콕",
@@ -944,10 +1110,14 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/20251123_Chatuchak_market_Bangkok.jpg/960px-20251123_Chatuchak_market_Bangkok.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v27",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "20251123 Chatuchak market Bangkok.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -966,8 +1136,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Canal_City_Hakata.jpg/960px-Canal_City_Hakata.jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Canal City Hakata.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -986,8 +1160,12 @@
       "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Star_Ferry_pier._Kowloon_side._Hong_Kong..jpg/960px-Star_Ferry_pier._Kowloon_side._Hong_Kong..jpg",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Star Ferry pier. Kowloon side. Hong Kong..jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -1004,8 +1182,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Universal Studios in Japan.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -1022,8 +1204,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "KUROMON MARKET OSAKA (54676620980).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "도쿄",
@@ -1040,8 +1226,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Tsukiji Outer Market.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "나트랑",
@@ -1058,8 +1248,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Dam Market Nha Trang 1.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -1076,8 +1270,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Golden Hand Bridge, Ba Na Hills.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "방콕",
@@ -1094,8 +1292,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "IconSiam in Night.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -1112,10 +1314,14 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v26",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Chinatown, Singapore 24 September 2024 22.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -1132,12 +1338,16 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "scene": "센토사 코브 지역 사진이며 센토사 섬 전체 또는 모든 명소를 대표하지 않습니다.",
       "lastVerifiedVersion": "v27",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
       "imageBytesChecked": false,
-      "locationNote": "센토사 코브(Sentosa Cove) 사진. 센토사섬 전체나 모든 해변을 대표하지 않습니다."
+      "locationNote": "센토사 코브(Sentosa Cove) 사진. 센토사섬 전체나 모든 해변을 대표하지 않습니다.",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Sentosa Cove, Singapore 2024-09-27 5.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -1154,9 +1364,13 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "scene": "막탄섬 해변 리조트의 2010년 사진. 현재 해변·시설 상태와 다를 수 있습니다.",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Mactan-beach.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -1173,8 +1387,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "WikiNights Cebu - Tops Lookout (001).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -1191,8 +1409,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Sacred Monkey Forest Sanctuary (49819121021).jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -1209,8 +1431,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Seminyak Beach.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -1227,8 +1453,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Río Sena, París, Francia, 2026-04-06, DD 55.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -1245,8 +1475,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Nakasu and Naka River view from Nishi-ōhashi Bridge Nakasu Hakata-ku Fukuoka City 20221215.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -1263,8 +1497,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Seaside Momochi Seaside Park the sunset Momochihama 2-chōme Sawara-ku Fukuoka 20240116.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -1281,8 +1519,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "HK TST 尖沙咀東 Tsim Sha Tsui East 海濱公園 Promenade Waterfront Salisbury Road March 2023 Px3 01.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -1299,8 +1541,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Night market Mongkok. (16228821210).jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -1317,8 +1563,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Tian Tan Buddha 2023081302.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -1336,8 +1586,12 @@
       "scene": "다자이후 텐만구 경내 입구 사진. 건물 및 시설 현황은 달라질 수 있습니다.",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Dazaifu Tenmangu-Courtyard entrance.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -1355,8 +1609,12 @@
       "scene": "다자이후 텐만구 경내의 청동 소 조형물",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Dazaifu Tenmangu-Bronze Bull statue.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -1374,8 +1632,12 @@
       "scene": "다낭 오행산(응우하인선)의 탐타이 사원 주변. 파일명에 Hoi An이 있으나 촬영 좌표와 원본 분류는 다낭 오행산",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Marble Mountain Danang Hoi An.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -1393,8 +1655,12 @@
       "scene": "유니버설 스튜디오 재팬 내부의 동키콩 컨트리 구역 입구",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Entrance to Donkey Kong Country.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -1411,9 +1677,13 @@
       "cover": false,
       "scene": "2025년 오사카성 천수각을 촬영한 사진. 관광지 위치 및 사진 저작권 정보를 원본에서 확인.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Osaka Castle, Osaka, Japan.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -1430,9 +1700,13 @@
       "cover": false,
       "scene": "2025년 촬영한 오사카성 성벽. 천수각 사진이 아니라 성벽 사진임을 구분.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Osaka castle walls.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -1449,9 +1723,13 @@
       "cover": false,
       "scene": "막탄섬 블루워터스 해변의 2017년 사진. 특정 리조트 해변이므로 막탄섬 전체 해변과 동일하지 않습니다.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "BB Blue Waters Mactan beach 2.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -1468,9 +1746,13 @@
       "cover": false,
       "scene": "몽콕 통초이 거리(레이디스 마켓 일대)의 2015년 여름 야시장 모습. 현재 노점 운영 여부와는 다를 수 있습니다.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Tung Choi Street market of summer night.JPG",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "도쿄",
@@ -1488,8 +1770,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Sensoji temple, Asakusa, Tokyo, Japan.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -1507,8 +1793,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Gardens by the Bay, Singapore (54150067279).jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -1526,8 +1816,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Marina-bay-sands-wikipedia.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -1545,8 +1839,12 @@
       "cover": false,
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Paris sommeren 2025 10.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -1563,10 +1861,14 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A_street_in_Dotonbori,_Osaka,_Japan.jpg?width=960",
       "checked": "2026-10-17",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "cover": false,
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "A street in Dotonbori, Osaka, Japan.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "나트랑",
@@ -1584,9 +1886,13 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coast_of_Nha_Trang,_Vietnam._June_2025.jpg?width=960",
       "checked": "2026-10-17",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Coast of Nha Trang, Vietnam. June 2025.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "나트랑",
@@ -1603,10 +1909,14 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beach_in_Nha_Trang.jpg?width=960",
       "checked": "2026-10-17",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "cover": false,
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Beach in Nha Trang.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -1623,10 +1933,14 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tegalalang_Rice_Terraces.jpg?width=960",
       "checked": "2026-10-17",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "cover": false,
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Tegalalang Rice Terraces.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -1643,10 +1957,14 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seminyak_Beach_01.jpg?width=960",
       "checked": "2026-10-17",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
       "cover": false,
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Seminyak Beach 01.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -1664,9 +1982,13 @@
       "sceneType": "night",
       "scene": "2024년 4월 3일 이전에 촬영된 투본강 등불 배의 야경. 촬영일은 정확히 확인되지 않음.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Hoi An - HoiAn1441.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "방콕",
@@ -1684,9 +2006,13 @@
       "sceneType": "night",
       "scene": "2024년 10월 22일 강변에서 바라본 왓 아룬과 일몰.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Sunset view of Wat Arun in Bangkok.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -1704,9 +2030,13 @@
       "sceneType": "nature",
       "scene": "2025년 9월 5일 샹산에서 바라본 타이베이 101.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Taipei 101 from Xiangshan 20250905.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -1724,9 +2054,13 @@
       "sceneType": "architecture",
       "scene": "2025년 2월 6일 루브르 박물관에서 촬영한 현장 사진. 세부 장면은 원본 설명 참조.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Musée du Louvre (06.02.2025) 82.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -1744,9 +2078,13 @@
       "sceneType": "nature",
       "scene": "2022년 6월 25일 촬영한 미케 비치 해안선. 현재 모습과 다를 수 있음.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "My Khe Beach Danang Coastline.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -1764,9 +2102,13 @@
       "sceneType": "night",
       "scene": "2025년 9월 16일 이전 촬영된 타이베이 101 야경. 정확한 촬영일 미상.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Taipei, assorted - TaipeiCityscapes4964.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -1784,9 +2126,13 @@
       "sceneType": "culture",
       "scene": "2025년 6월 19일 루브르 박물관 내부에서 촬영된 모나리자.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Mona Lisa Louvre 2025.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "방콕",
@@ -1804,9 +2150,13 @@
       "sceneType": "architecture",
       "scene": "2024년 2월 24일 촬영된 왓 아룬 탑의 세부 장식.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Details of Wat Arun Pagoda.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -1824,9 +2174,13 @@
       "sceneType": "architecture",
       "scene": "2025년 11월 7일 촬영한 타이베이 101 고층 건물.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Taipei 101 2025.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "도쿄",
@@ -1844,9 +2198,13 @@
       "sceneType": "culture",
       "scene": "2025년 8월 시부야 스크램블 교차로와 거리 풍경. 촬영일은 월까지만 확인됨.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath (외부 이미지 실제 로딩은 이 환경에서 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "2025 Shibuya Crossing.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "도쿄",
@@ -1864,9 +2222,13 @@
       "sceneType": "night",
       "scene": "2025년 11월 저녁에 촬영한 시부야 스크램블 교차로의 야경.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath (외부 이미지 실제 로딩은 이 환경에서 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Shibuya crossing at night, Tokyo, Japan.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -1884,9 +2246,13 @@
       "sceneType": "culture",
       "scene": "2025년 3월 촬영된 호이안 구시가지 거리. 다낭 도심이 아닌 호이안의 모습.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath (외부 이미지 실제 로딩은 이 환경에서 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Hoi An Ancient Town.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -1904,9 +2270,13 @@
       "sceneType": "night",
       "scene": "2025년 3월 호이안 올드타운의 등불과 야경. 일본교 인근 거리.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath (외부 이미지 실제 로딩은 이 환경에서 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Hoi An by night (23801).jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -1924,9 +2294,13 @@
       "sceneType": "night",
       "scene": "2025년 2월 밤에 촬영한 몽마르트르 사크레쾨르 대성당.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath (외부 이미지 실제 로딩은 이 환경에서 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Basilique du Sacré-Cœur de Montmartre (06.02.2025) 14.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -1944,9 +2318,13 @@
       "sceneType": "nature",
       "scene": "빅토리아 피크의 루가드 로드에서 바라본 빅토리아 하버 일출 파노라마. 여러 장을 합성한 파노라마 사진.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath (외부 이미지 실제 로딩은 이 환경에서 미검증)",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Victoria Harbour, Hong Kong at sunrise.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -1964,10 +2342,14 @@
       "scene": "싱가포르 머라이언 조각상을 가까이 촬영한 2025년 모습.",
       "sceneType": "architecture",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath 외부 링크, 실제 이미지 HTTP 로딩 미확인",
       "newInVersion": 23,
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Merlion of Singapore.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "도쿄",
@@ -1985,10 +2367,14 @@
       "scene": "메이지 신궁의 입구 도리이와 참배길, 2025년 촬영.",
       "sceneType": "culture",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath 외부 링크, 실제 이미지 HTTP 로딩 미확인",
       "newInVersion": 23,
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "The entrance to Meiji Jingu, Tokyo, Japan.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -2006,10 +2392,14 @@
       "scene": "오호리 공원 호수의 우키미도 정자 남쪽과 물가 풍경.",
       "sceneType": "nature",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath 외부 링크, 실제 이미지 HTTP 로딩 미확인",
       "newInVersion": 23,
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Ōhori Park The S side of Ukimidō Ōhorikōen Chūō-ku Fukuoka 20260605 174625.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -2027,10 +2417,14 @@
       "scene": "오호리 공원 우키미도 정자 내부의 천장과 구조를 보여주는 사진.",
       "sceneType": "architecture",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath 외부 링크, 실제 이미지 HTTP 로딩 미확인",
       "newInVersion": 23,
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Ōhori Park The interior of Ukimidō Ōhorikōen Chūō-ku Fukuoka 20260605 175002.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -2048,10 +2442,14 @@
       "scene": "울루와뚜 지역에서 촬영한 절벽 주변 풍경. 사원 건물이 보인다고 단정하지 않습니다.",
       "sceneType": "nature",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath 외부 링크, 실제 이미지 HTTP 로딩 미확인",
       "newInVersion": 23,
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Pemandangan Uluwatu.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -2069,10 +2467,14 @@
       "scene": "울루와뚜 사원 주변의 바다와 절벽. 사원 건축물 자체가 아닌 주변 풍경입니다.",
       "sceneType": "nature",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "imageTransport": "Wikimedia Commons Special:FilePath 외부 링크, 실제 이미지 HTTP 로딩 미확인",
       "newInVersion": 23,
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)"
+      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "The sea and cliffs of Pura Luhur Uluwatu.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -2090,9 +2492,13 @@
       "sceneType": "culture",
       "scene": "2025년 세부 시내 마젤란의 십자가 유적을 촬영한 현장 사진. 촬영 당시 모습.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v24",
-      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인"
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Magellan's Cross (P. Burgos, Cebu City; 01-21-2025).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -2110,9 +2516,13 @@
       "sceneType": "culture",
       "scene": "마젤란의 십자가와 플라자 수그부를 위에서 본 2024년 사진. 축제 당시 주변 분위기.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v24",
-      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인"
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Magellan's Cross, Plaza Sugbu top view, Fiesta Senyor 2024 (P. Burgos, Cebu City; 01-21-2024).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -2130,9 +2540,13 @@
       "sceneType": "architecture",
       "scene": "2024년 11월 중정기념당의 건축 외관을 촬영한 사진.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v24",
-      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인"
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Chiang Kai-shek Memorial Hall, Taipei, Nov 2024 (1).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -2150,9 +2564,13 @@
       "sceneType": "architecture",
       "scene": "2025년 9월 촬영한 오르세 미술관 중앙 홀 내부. 전시 작품·시설은 현재와 다를 수 있습니다.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v24",
-      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인"
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Main hall of the Musée d'Orsay 04.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -2170,9 +2588,13 @@
       "sceneType": "architecture",
       "scene": "2025년 5월 촬영한 다낭 용다리. 불쇼·분수 운영 여부는 별도 확인.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v24",
-      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인"
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Cầu Rồng (66038).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "나트랑",
@@ -2190,9 +2612,13 @@
       "sceneType": "architecture",
       "scene": "2023년 촬영한 포나가르 참탑과 만다파 기둥. 과거 촬영본이며 현장 동선은 달라질 수 있습니다.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v24",
-      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인"
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실시간 로딩 미확인",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "04052023 Ponagar Hindu temples complex, Nha Trang Vietnam - 274.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -2210,9 +2636,13 @@
       "source": "https://commons.wikimedia.org/wiki/File:%C5%8Chori_Park_The_N_side_of_Ukimid%C5%8D_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260605_175211.jpg",
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%8Chori_Park_The_N_side_of_Ukimid%C5%8D_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260605_175211.jpg?width=960",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v25",
-      "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지"
+      "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Ōhori Park The N side of Ukimidō Ōhorikōen Chūō-ku Fukuoka 20260605 175211.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -2230,9 +2660,13 @@
       "source": "https://commons.wikimedia.org/wiki/File:%C5%8Chori_Park_Yanagishima_viewed_from_Kangetsubashi_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260616_180036.jpg",
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%8Chori_Park_Yanagishima_viewed_from_Kangetsubashi_%C5%8Chorik%C5%8Den_Ch%C5%AB%C5%8D-ku_Fukuoka_20260616_180036.jpg?width=960",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v25",
-      "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지"
+      "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Ōhori Park Yanagishima viewed from Kangetsubashi Ōhorikōen Chūō-ku Fukuoka 20260616 180036.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -2250,9 +2684,13 @@
       "source": "https://commons.wikimedia.org/wiki/File:Fort_San_Pedro,_Cebu_Port_Pier_1_drone_view_(Cebu_City;_01-21-2025).jpg",
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort_San_Pedro,_Cebu_Port_Pier_1_drone_view_(Cebu_City;_01-21-2025).jpg?width=960",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v25",
-      "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지"
+      "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Fort San Pedro, Cebu Port Pier 1 drone view (Cebu City; 01-21-2025).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -2270,9 +2708,13 @@
       "source": "https://commons.wikimedia.org/wiki/File:Fort_San_Pedro_scenery.jpg",
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort_San_Pedro_scenery.jpg?width=960",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v25",
-      "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지"
+      "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Fort San Pedro scenery.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "세부",
@@ -2290,9 +2732,13 @@
       "source": "https://commons.wikimedia.org/wiki/File:Tops_of_Cebu_entrance.jpg",
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tops_of_Cebu_entrance.jpg?width=960",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v25",
-      "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지"
+      "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Tops of Cebu entrance.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -2310,11 +2756,15 @@
       "sceneType": "architecture",
       "scene": "건물 구조를 올려다본 2025년 근경. 주변 거리에서 촬영.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v26",
       "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "UMEDA SKY BUILDING on 22nd March 2025.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "오사카",
@@ -2332,11 +2782,15 @@
       "sceneType": "architecture",
       "scene": "그랜드그린 오사카 쪽에서 바라본 고층 건물 전경.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v26",
       "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Umeda Sky Building from Grand Green Osaka 20250831.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -2354,11 +2808,15 @@
       "sceneType": "culture",
       "scene": "빅토리아 하버 위를 운항하는 스타페리의 낮 풍경.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v26",
       "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "2024-12-27 A Star Ferry crosses Victoria Harbour 1.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -2376,11 +2834,15 @@
       "sceneType": "architecture",
       "scene": "사우스브리지로드 265–271번지 역사적 상가 건축 디테일.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v26",
       "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Chinatown-SG - Old Eu Yan Sang Building, South Bridge Road, Singapore (2025) - img 04.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "방콕",
@@ -2398,11 +2860,15 @@
       "sceneType": "architecture",
       "scene": "왕궁 경내 전통 건축물을 가까이서 담은 2024년 사진.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v26",
       "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Grand Palace, Bangkok-84.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -2420,11 +2886,15 @@
       "sceneType": "nature",
       "scene": "퐁뇌프 다리에서 내려다본 센강의 낮 풍경.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v26",
       "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "2025-09-06 16-05-00 Seine-Paris.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "파리",
@@ -2442,11 +2912,15 @@
       "sceneType": "culture",
       "scene": "여름 저녁 센강변을 걷는 사람들과 산책로 분위기.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v26",
       "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Sommeren 2025 i Paris 13.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -2464,11 +2938,15 @@
       "sceneType": "nature",
       "scene": "바다와 사원 주변에서 본 일몰 시간대 풍경.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v26",
       "imageTransport": "Wikimedia Commons 외부 URL · 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "A sunset at Pura Tanah Lot (2025) - img 05.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "타이베이",
@@ -2487,11 +2965,15 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Braised%20pork%20stone,%20Taipei%20National%20Palace%20Museum%20(2025)%20-%20img%2003.jpg?width=960",
       "cover": false,
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v27",
       "imageTransport": "Wikimedia Commons 외부 이미지 · 로딩 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Braised pork stone, Taipei National Palace Museum (2025) - img 03.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -2510,11 +2992,15 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sentosa%20Cove,%20Singapore%202024-09-27%203.jpg?width=960",
       "cover": false,
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v27",
       "imageTransport": "Wikimedia Commons 외부 이미지 · 로딩 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Sentosa Cove, Singapore 2024-09-27 3.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -2533,11 +3019,15 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seiry%C5%AB%20Park%20Fukuoka%20Hakata%20Yatai%20Nakasu%201-ch%C5%8Dme%20Hakata-ku%20Fukuoka%2020250401%20174434.jpg?width=960",
       "cover": false,
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v27",
       "imageTransport": "Wikimedia Commons 외부 이미지 · 로딩 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Seiryū Park Fukuoka Hakata Yatai Nakasu 1-chōme Hakata-ku Fukuoka 20250401 174434.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -2556,11 +3046,15 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Po%20Lin%20Big%20Buddha.jpg?width=960",
       "cover": false,
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v27",
       "imageTransport": "Wikimedia Commons 외부 이미지 · 로딩 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Po Lin Big Buddha.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -2579,11 +3073,15 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sentosa%20Island,%20Singapore,%2020240206%201155%206401.jpg?width=960",
       "cover": false,
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v27",
       "imageTransport": "Wikimedia Commons 외부 이미지 · 로딩 실패 시 명시적 SVG 대체 이미지",
       "sourcePageCheckedVia": "Wikimedia Commons file description web text 2026-10-17",
-      "imageBytesChecked": false
+      "imageBytesChecked": false,
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Sentosa Island, Singapore, 20240206 1155 6401.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -2601,10 +3099,14 @@
       "sceneType": "nature",
       "scene": "2025년 11월 침사추이 해변 산책로에서 촬영한 빅토리아 하버 풍경.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v28",
       "sourceVerificationReference": "turn10search2",
-      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Looking Towards Victoria Harbour from Tsim Sha Tsui Promenade.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "홍콩",
@@ -2622,10 +3124,14 @@
       "sceneType": "architecture",
       "scene": "2025년 8월 침사추이 산책로에서 센트럴 방향으로 촬영한 홍콩 항구·도시 풍경.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v28",
       "sourceVerificationReference": "turn13view0",
-      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "View of Victoria Harbour from Tsim Sha Tsui.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -2643,10 +3149,14 @@
       "sceneType": "architecture",
       "scene": "2025년 2월 가든스 바이 더 베이에서 바라본 마리나 베이 샌즈.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v28",
       "sourceVerificationReference": "turn3view2",
-      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Marina Bay Sands (2025, Gardens by the Bay view).jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -2664,10 +3174,14 @@
       "sceneType": "night",
       "scene": "2024년 2월 19시경 촬영한 마리나 베이 샌즈 야경.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v28",
       "sourceVerificationReference": "turn3view3",
-      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Marina Bay Sands at night, Singapore, 20240205 1918 5981.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "방콕",
@@ -2685,10 +3199,14 @@
       "sceneType": "culture",
       "scene": "2025년 7월 촬영한 왓 포 와불상 내부 디테일.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v28",
       "sourceVerificationReference": "turn3view5",
-      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Reclining Buddha statue of Wat Pho (3).jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "싱가포르",
@@ -2706,10 +3224,14 @@
       "sceneType": "night",
       "scene": "2024년 11월 마리나 베이 샌즈 전망대에서 촬영한 슈퍼트리 그로브 야경. Wikimedia Commons 우수 사진 선정.",
       "metadataVerifiedThisRun": false,
-      "metadataVerification": "v28 이하 원본 설명 확인 기록 계승 · v29 개별 원본 재검증하지 않음",
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v28",
       "sourceVerificationReference": "turn9view0",
-      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 파일 (실제 이미지 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Supertree Grove, Gardens by the Bay, Singapore1.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -2727,10 +3249,14 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Golden%20Bridge%20at%20Ba%20Na%20Hills%2020250718.jpg?width=960",
       "checked": "2026-10-18",
       "cover": false,
-      "metadataVerifiedThisRun": true,
-      "metadataVerification": "v29 개별 Wikimedia Commons 파일 설명의 장소·저작자·라이선스·촬영일 확인",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v29",
-      "imageTransport": "Wikimedia Commons 외부 사진 (현 환경에서 실제 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 사진 (현 환경에서 실제 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Golden Bridge at Ba Na Hills 20250718.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "다낭",
@@ -2748,10 +3274,14 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Golden%20Bridge%2C%20Ba%20Na%20Hills%2C%20Vietnam.jpg?width=960",
       "checked": "2026-10-18",
       "cover": false,
-      "metadataVerifiedThisRun": true,
-      "metadataVerification": "v29 개별 Wikimedia Commons 파일 설명의 장소·저작자·라이선스·촬영일 확인",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v29",
-      "imageTransport": "Wikimedia Commons 외부 사진 (현 환경에서 실제 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 사진 (현 환경에서 실제 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "The Golden Bridge, Ba Na Hills, Vietnam.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "후쿠오카",
@@ -2769,10 +3299,14 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seaside%20Momochi%20Seaside%20Park%20W%20from%20Marizon%20Momochi-hama%202-ch%C5%8Dme%20Sawara-ku%20Fukuoka%2020240126.jpg?width=960",
       "checked": "2026-10-18",
       "cover": false,
-      "metadataVerifiedThisRun": true,
-      "metadataVerification": "v29 개별 Wikimedia Commons 파일 설명의 장소·저작자·라이선스·촬영일 확인",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v29",
-      "imageTransport": "Wikimedia Commons 외부 사진 (현 환경에서 실제 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 사진 (현 환경에서 실제 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Seaside Momochi Seaside Park W from Marizon Momochi-hama 2-chōme Sawara-ku Fukuoka 20240126.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "발리",
@@ -2790,10 +3324,14 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Macaca%20fascicularis%2C%20Ubud%20Monkey%20Forest%2C%20Bali%2C%2020220822%201038%200020.jpg?width=960",
       "checked": "2026-10-18",
       "cover": false,
-      "metadataVerifiedThisRun": true,
-      "metadataVerification": "v29 개별 Wikimedia Commons 파일 설명의 장소·저작자·라이선스·촬영일 확인",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v29",
-      "imageTransport": "Wikimedia Commons 외부 사진 (현 환경에서 실제 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 사진 (현 환경에서 실제 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Macaca fascicularis, Ubud Monkey Forest, Bali, 20220822 1038 0020.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
     },
     {
       "city": "나트랑",
@@ -2811,10 +3349,741 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Long%20Son%20Pagoda%206.jpg?width=960",
       "checked": "2026-10-18",
       "cover": false,
-      "metadataVerifiedThisRun": true,
-      "metadataVerification": "v29 개별 Wikimedia Commons 파일 설명의 장소·저작자·라이선스·촬영일 확인",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
       "lastVerifiedVersion": "v29",
-      "imageTransport": "Wikimedia Commons 외부 사진 (현 환경에서 실제 바이트 로딩 미검증)"
+      "imageTransport": "Wikimedia Commons 외부 사진 (현 환경에서 실제 바이트 로딩 미검증)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Long Son Pagoda 6.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "세부",
+      "spot": "산토니뇨 성당",
+      "label": "산토니뇨 성당 · 2026년 외관",
+      "file": "Basilica Minore del Sto. Niño de Cebu.jpg",
+      "author": "Mei Balintong",
+      "license": "CC BY-SA 4.0",
+      "taken": "2026-02-15",
+      "sceneType": "architecture",
+      "scene": "2026년 2월 촬영한 세부 산토니뇨 성당의 건축 외관. 실제 사진이며 촬영 당시의 모습입니다.",
+      "locationNote": "세부 시티 산토니뇨 성당. 외관 사진이며 실내 사진과 구분합니다.",
+      "sourceVerificationReference": "turn5view1",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_Minore_del_Sto._Ni%C3%B1o_de_Cebu.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica%20Minore%20del%20Sto.%20Ni%C3%B1o%20de%20Cebu.jpg?width=960",
+      "checked": "2026-10-18",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v30에서 확인한 기록 계승 · v31 개별 재확인 없음",
+      "lastVerifiedVersion": "v30",
+      "imageTransport": "Wikimedia Commons 외부 이미지 URL (현재 환경 실제 바이트 로딩 불가)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Basilica Minore del Sto. Niño de Cebu.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "세부",
+      "spot": "산토니뇨 성당",
+      "label": "산토니뇨 성당 · 2025년 내부",
+      "file": "Basilica del Santo Niño in Cebu City (03) (2025-04-18).jpg",
+      "author": "Wide Awake!",
+      "license": "CC BY 4.0",
+      "taken": "2025-04-18",
+      "sceneType": "culture",
+      "scene": "2025년 4월 촬영한 산토니뇨 성당 실내 모습. 현장 예배·촬영 안내를 준수하세요.",
+      "locationNote": "세부 시티 산토니뇨 성당 내부. 외부 광장이나 다른 성당 사진이 아닙니다.",
+      "sourceVerificationReference": "turn7view1",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilica_del_Santo_Ni%C3%B1o_in_Cebu_City_(03)_(2025-04-18).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica%20del%20Santo%20Ni%C3%B1o%20in%20Cebu%20City%20%2803%29%20%282025-04-18%29.jpg?width=960",
+      "checked": "2026-10-18",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v30에서 확인한 기록 계승 · v31 개별 재확인 없음",
+      "lastVerifiedVersion": "v30",
+      "imageTransport": "Wikimedia Commons 외부 이미지 URL (현재 환경 실제 바이트 로딩 불가)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Basilica del Santo Niño in Cebu City (03) (2025-04-18).jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "방콕",
+      "spot": "아이콘시암",
+      "label": "아이콘시암 · 강변 쇼핑몰 야경",
+      "file": "ICONSIAM at night 06122024.jpg",
+      "author": "Noobythailand",
+      "license": "CC BY 4.0",
+      "taken": "2024-12-06",
+      "sceneType": "night",
+      "scene": "2024년 12월 밤 촬영한 방콕 아이콘시암 쇼핑몰의 야간 풍경.",
+      "locationNote": "짜오프라야강변 아이콘시암 쇼핑몰. 밤 풍경으로, 현재 조명과 행사 연출은 다를 수 있습니다.",
+      "sourceVerificationReference": "turn7view0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:ICONSIAM_at_night_06122024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ICONSIAM%20at%20night%2006122024.jpg?width=960",
+      "checked": "2026-10-18",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v30에서 확인한 기록 계승 · v31 개별 재확인 없음",
+      "lastVerifiedVersion": "v30",
+      "imageTransport": "Wikimedia Commons 외부 이미지 URL (현재 환경 실제 바이트 로딩 불가)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "ICONSIAM at night 06122024.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "방콕",
+      "spot": "아이콘시암",
+      "label": "아이콘시암 · 야간 건축 디테일",
+      "file": "Back of IconSiam Facade.jpg",
+      "author": "Allen Marx 12",
+      "license": "CC BY-SA 4.0",
+      "taken": "2025-06-26",
+      "sceneType": "architecture",
+      "scene": "2025년 6월 아이콘시암의 뒤편 장식 건축물과 조명을 촬영한 세부 사진.",
+      "locationNote": "아이콘시암 시설 뒤편의 건축·장식 디테일. 강변 전경 사진과는 구분합니다.",
+      "sourceVerificationReference": "turn3view1",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:Back_of_IconSiam_Facade.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Back%20of%20IconSiam%20Facade.jpg?width=960",
+      "checked": "2026-10-18",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v30에서 확인한 기록 계승 · v31 개별 재확인 없음",
+      "lastVerifiedVersion": "v30",
+      "imageTransport": "Wikimedia Commons 외부 이미지 URL (현재 환경 실제 바이트 로딩 불가)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Back of IconSiam Facade.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "오사카",
+      "spot": "구로몬 시장",
+      "label": "구로몬 시장 · 2025년 거리 간판",
+      "file": "黒門市場 松本清 大阪市中央区 2025-03-24.jpg",
+      "author": "ERIC SALARD",
+      "license": "CC BY-SA 4.0",
+      "taken": "2025-03-24",
+      "sceneType": "culture",
+      "scene": "2025년 3월 구로몬 시장 상점가의 간판과 거리 분위기를 촬영한 사진. 식품 진열 사진은 아닙니다.",
+      "locationNote": "오사카 주오구 구로몬 시장 안의 드러그스토어 간판·거리 풍경. 시장 전체 전경은 아닙니다.",
+      "sourceVerificationReference": "turn5view5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:%E9%BB%92%E9%96%80%E5%B8%82%E5%A0%B4_%E6%9D%BE%E6%9C%AC%E6%B8%85_%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA_2025-03-24.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%BB%92%E9%96%80%E5%B8%82%E5%A0%B4%20%E6%9D%BE%E6%9C%AC%E6%B8%85%20%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8C%BA%202025-03-24.jpg?width=960",
+      "checked": "2026-10-18",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v30에서 확인한 기록 계승 · v31 개별 재확인 없음",
+      "lastVerifiedVersion": "v30",
+      "imageTransport": "Wikimedia Commons 외부 이미지 URL (현재 환경 실제 바이트 로딩 불가)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "黒門市場 松本清 大阪市中央区 2025-03-24.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "도쿄",
+      "spot": "츠키지 장외시장",
+      "label": "츠키지 장외시장 · 2021년 와카바 식당",
+      "file": "築地場外市場の若葉(20211107) 01.jpg",
+      "author": "経済特区",
+      "license": "CC BY-SA 4.0",
+      "taken": "2021-11-07",
+      "sceneType": "culture",
+      "scene": "2021년 11월 츠키지 장외시장 내 와카바 식당에서 촬영한 사진. 과거 사진이며 현재 상점 운영과 다를 수 있습니다.",
+      "locationNote": "츠키지 장외시장 내부의 특정 식당(와카바). 시장 전체 전경이 아닙니다.",
+      "sourceVerificationReference": "turn7view2",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source": "https://commons.wikimedia.org/wiki/File:%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4%E3%81%AE%E8%8B%A5%E8%91%89(20211107)_01.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%AF%89%E5%9C%B0%E5%A0%B4%E5%A4%96%E5%B8%82%E5%A0%B4%E3%81%AE%E8%8B%A5%E8%91%89%2820211107%29%2001.jpg?width=960",
+      "checked": "2026-10-18",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v30에서 확인한 기록 계승 · v31 개별 재확인 없음",
+      "lastVerifiedVersion": "v30",
+      "imageTransport": "Wikimedia Commons 외부 이미지 URL (현재 환경 실제 바이트 로딩 불가)",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "築地場外市場の若葉(20211107) 01.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "나트랑",
+      "spot": "혼총 곶",
+      "label": "혼총 곶 언덕에서 바라본 바위와 바다",
+      "file": "Hon Chong seen from the hill.JPG",
+      "author": "Vinhtantran",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "taken": "2008-08-27",
+      "scene": "혼총 곶의 해안 암석과 주변 풍경. 2008년 과거 촬영본.",
+      "locationNote": "베트남 나트랑 혼총 곶, 언덕에서 본 풍경",
+      "checked": "2026-10-18",
+      "source": "https://commons.wikimedia.org/wiki/File:Hon_Chong_seen_from_the_hill.JPG",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hon_Chong_seen_from_the_hill.JPG?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v31 확인 기록 계승 · v32에서는 원본 설명을 개별 재검증하지 않음",
+      "lastVerifiedVersion": "v31 (이전 확인 기록)",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실제 네트워크 로딩은 환경에 따라 다름",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Hon Chong seen from the hill.JPG",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "방콕",
+      "spot": "짜뚜짝 시장",
+      "label": "짜뚜짝 주말시장 활기찬 시장 풍경",
+      "file": "Chatuchak Weekend Market 1.jpg",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2018-05-12",
+      "scene": "짜뚜짝 주말시장의 실제 시장 풍경. 2018년 촬영본.",
+      "locationNote": "태국 방콕 짜뚜짝 주말시장",
+      "checked": "2026-10-18",
+      "source": "https://commons.wikimedia.org/wiki/File:Chatuchak_Weekend_Market_1.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chatuchak_Weekend_Market_1.jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v31 확인 기록 계승 · v32에서는 원본 설명을 개별 재검증하지 않음",
+      "lastVerifiedVersion": "v31 (이전 확인 기록)",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실제 네트워크 로딩은 환경에 따라 다름",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Chatuchak Weekend Market 1.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "후쿠오카",
+      "spot": "캐널시티 하카타",
+      "label": "캐널시티 하카타 리뉴얼 외관",
+      "file": "Canalcityhakata2019.jpg",
+      "author": "Fukuoka Photo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2019-02-23",
+      "scene": "외관 리뉴얼 이후 촬영한 캐널시티 하카타. 2019년 과거 촬영본.",
+      "locationNote": "일본 후쿠오카 캐널시티 하카타",
+      "checked": "2026-10-18",
+      "source": "https://commons.wikimedia.org/wiki/File:Canalcityhakata2019.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canalcityhakata2019.jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v31 확인 기록 계승 · v32에서는 원본 설명을 개별 재검증하지 않음",
+      "lastVerifiedVersion": "v31 (이전 확인 기록)",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실제 네트워크 로딩은 환경에 따라 다름",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Canalcityhakata2019.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "나트랑",
+      "spot": "담 시장",
+      "label": "나트랑 담 시장 내부 다른 구도",
+      "file": "Dam Market Nha Trang 2.jpg",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2018-07-23",
+      "scene": "담 시장 내부와 상품 진열을 다른 시선으로 기록한 2018년 촬영본.",
+      "locationNote": "베트남 나트랑 담 시장",
+      "checked": "2026-10-18",
+      "source": "https://commons.wikimedia.org/wiki/File:Dam_Market_Nha_Trang_2.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dam_Market_Nha_Trang_2.jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v31 확인 기록 계승 · v32에서는 원본 설명을 개별 재검증하지 않음",
+      "lastVerifiedVersion": "v31 (이전 확인 기록)",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실제 네트워크 로딩은 환경에 따라 다름",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Dam Market Nha Trang 2.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "오사카",
+      "spot": "도톤보리",
+      "label": "도톤보리 입구의 네온 야경",
+      "file": "Entrance to Dotonbori, Osaka, Japan.jpg",
+      "author": "Joli Rumi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2025-11-09",
+      "scene": "네온사인이 켜진 도톤보리 입구. 세로 구도로 밤의 활기를 담았습니다.",
+      "locationNote": "일본 오사카 도톤보리 입구",
+      "checked": "2026-10-18",
+      "source": "https://commons.wikimedia.org/wiki/File:Entrance_to_Dotonbori,_Osaka,_Japan.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrance_to_Dotonbori,_Osaka,_Japan.jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v32 개별 원본 확인 기록 계승; v33에서 재확인하지 않음",
+      "lastVerifiedVersion": "v32",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 네트워크 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Entrance to Dotonbori, Osaka, Japan.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "도쿄",
+      "spot": "시부야 스크램블",
+      "label": "시부야 스크램블 2025년 야경",
+      "file": "2025 Shibuya Crossing at night.jpg",
+      "author": "Kakidai",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2025-08-30",
+      "scene": "어두워진 뒤 사람과 빛이 교차하는 시부야 스크램블.",
+      "locationNote": "일본 도쿄 시부야 스크램블 교차로",
+      "checked": "2026-10-18",
+      "source": "https://commons.wikimedia.org/wiki/File:2025_Shibuya_Crossing_at_night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2025_Shibuya_Crossing_at_night.jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v32 개별 원본 확인 기록 계승; v33에서 재확인하지 않음",
+      "lastVerifiedVersion": "v32",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 네트워크 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "2025 Shibuya Crossing at night.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "타이베이",
+      "spot": "타이베이 101",
+      "label": "샹산에서 바라본 타이베이 101 파노라마",
+      "file": "View of Taipei City from Xiangshan 20250905.jpg",
+      "author": "Sinsyuan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2025-09-05",
+      "scene": "샹산 전망에서 타이베이 101과 시가지를 넓게 조망한 사진.",
+      "locationNote": "대만 타이베이 샹산 전망, 타이베이 101",
+      "checked": "2026-10-18",
+      "source": "https://commons.wikimedia.org/wiki/File:View_of_Taipei_City_from_Xiangshan_20250905.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Taipei_City_from_Xiangshan_20250905.jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v32 개별 원본 확인 기록 계승; v33에서 재확인하지 않음",
+      "lastVerifiedVersion": "v32",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 네트워크 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "View of Taipei City from Xiangshan 20250905.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "다낭",
+      "spot": "호이안 올드타운",
+      "label": "호이안의 밤과 일본교",
+      "file": "Hoi An by night (13772).jpg",
+      "author": "Andre Hospers",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "taken": "2025-03-02",
+      "scene": "호이안 구시가지의 야간 풍경. 사진 원본은 일본교(Japanese Bridge)를 묘사합니다.",
+      "locationNote": "베트남 호이안 올드타운 일본교 주변",
+      "checked": "2026-10-18",
+      "source": "https://commons.wikimedia.org/wiki/File:Hoi_An_by_night_(13772).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoi_An_by_night_(13772).jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v32 개별 원본 확인 기록 계승; v33에서 재확인하지 않음",
+      "lastVerifiedVersion": "v32",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 네트워크 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Hoi An by night (13772).jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "파리",
+      "spot": "에펠탑",
+      "label": "여름날 에펠탑 2025",
+      "file": "Eiffel Tower July 2025.jpg",
+      "author": "John Dillenbeck",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "taken": "2025-07-22",
+      "scene": "여름 낮 에펠탑을 아래에서 바라본 풍경.",
+      "locationNote": "프랑스 파리 에펠탑",
+      "checked": "2026-10-18",
+      "source": "https://commons.wikimedia.org/wiki/File:Eiffel_Tower_July_2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eiffel_Tower_July_2025.jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v32 개별 원본 확인 기록 계승; v33에서 재확인하지 않음",
+      "lastVerifiedVersion": "v32",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 네트워크 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Eiffel Tower July 2025.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "싱가포르",
+      "spot": "마리나 베이 샌즈",
+      "label": "에스플러네이드 다리에서 본 마리나베이 야경",
+      "file": "Marina Bay Sands at night 20250904 (3).jpg",
+      "author": "DvTor8303",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "taken": "2025-09-04",
+      "scene": "에스플러네이드 다리에서 본 마리나 베이 샌즈 야경.",
+      "locationNote": "싱가포르 에스플러네이드 브리지, 마리나 베이 샌즈",
+      "checked": "2026-10-18",
+      "source": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_at_night_20250904_(3).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marina_Bay_Sands_at_night_20250904_(3).jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v32 개별 원본 확인 기록 계승; v33에서 재확인하지 않음",
+      "lastVerifiedVersion": "v32",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 네트워크 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Marina Bay Sands at night 20250904 (3).jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "오사카",
+      "spot": "우메다 스카이 빌딩",
+      "label": "2026년 우메다 스카이 빌딩 외관",
+      "file": "Umeda Sky Building 2026.jpg",
+      "author": "Sakai Yayoi",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "taken": "2026-08-24",
+      "checked": "2026-10-19",
+      "source": "https://commons.wikimedia.org/wiki/File:Umeda_Sky_Building_2026.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Umeda%20Sky%20Building%202026.jpg?width=960",
+      "cover": false,
+      "scene": "2026년 오사카에서 촬영한 우메다 스카이 빌딩 외관. 전망대 내부 사진이 아닙니다.",
+      "locationNote": "오사카 우메다 스카이 빌딩 외관",
+      "sceneType": "architecture",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v33: 2026-10-19 Wikimedia Commons 개별 파일 설명의 장소·촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v33",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · HTTP 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Umeda Sky Building 2026.jpg",
+      "reuseTerms": "CC0/퍼블릭 도메인: 출처 표시는 투명성을 위해 제공",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "나트랑",
+      "spot": "나트랑 해변",
+      "label": "나트랑 만과 빈원더스의 파노라마",
+      "file": "Nha Trang Bay and Vinwonders. Nha Trang, Vietnam. June 2025.jpg",
+      "author": "Rayrayokocha",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "taken": "2025-07-02",
+      "checked": "2026-10-19",
+      "source": "https://commons.wikimedia.org/wiki/File:Nha_Trang_Bay_and_Vinwonders._Nha_Trang,_Vietnam._June_2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nha%20Trang%20Bay%20and%20Vinwonders.%20Nha%20Trang,%20Vietnam.%20June%202025.jpg?width=960",
+      "cover": false,
+      "scene": "나트랑 만과 빈원더스의 멀리 보이는 전경. 도심 해변 근접 사진이 아닌 원경입니다.",
+      "locationNote": "베트남 나트랑 만, 빈원더스 방향 원경",
+      "sceneType": "nature",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v33: 2026-10-19 Wikimedia Commons 개별 파일 설명의 장소·촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v33",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · HTTP 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Nha Trang Bay and Vinwonders. Nha Trang, Vietnam. June 2025.jpg",
+      "reuseTerms": "CC BY: 저작자 표시·원본/라이선스 링크·수정 표시",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "타이베이",
+      "spot": "지우펀",
+      "label": "지우펀 골목의 등불",
+      "file": "Jiufen Lantern, New Taipei, Feb 2025.jpg",
+      "author": "Ralff Nestor Nacor",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2025-02-01",
+      "checked": "2026-10-19",
+      "source": "https://commons.wikimedia.org/wiki/File:Jiufen_Lantern,_New_Taipei,_Feb_2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jiufen%20Lantern,%20New%20Taipei,%20Feb%202025.jpg?width=960",
+      "cover": false,
+      "scene": "지우펀 올드스트리트의 붉은 등불과 골목 풍경. 낮에 촬영했습니다.",
+      "locationNote": "신베이시 지우펀 올드스트리트",
+      "sceneType": "culture",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v33: 2026-10-19 Wikimedia Commons 개별 파일 설명의 장소·촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v33",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · HTTP 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Jiufen Lantern, New Taipei, Feb 2025.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "타이베이",
+      "spot": "지우펀",
+      "label": "지우펀 아메이 찻집",
+      "file": "A-Mei Teahouse, Jiufen, New Taipei, Feb 2025 (4).jpg",
+      "author": "Ralff Nestor Nacor",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2025-02-01",
+      "checked": "2026-10-19",
+      "source": "https://commons.wikimedia.org/wiki/File:A-Mei_Teahouse,_Jiufen,_New_Taipei,_Feb_2025_(4).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A-Mei%20Teahouse,%20Jiufen,%20New%20Taipei,%20Feb%202025%20(4).jpg?width=960",
+      "cover": false,
+      "scene": "지우펀 아메이 찻집의 실제 건축 외관. 낮 촬영 사진입니다.",
+      "locationNote": "신베이시 지우펀 아메이 찻집",
+      "sceneType": "culture",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v33: 2026-10-19 Wikimedia Commons 개별 파일 설명의 장소·촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v33",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · HTTP 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "A-Mei Teahouse, Jiufen, New Taipei, Feb 2025 (4).jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "방콕",
+      "spot": "왓 아룬",
+      "label": "2025년 왓 아룬 사원의 건축",
+      "file": "Wat Arun di Thailand.jpg",
+      "author": "Qintharasf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2025-06-03",
+      "checked": "2026-10-19",
+      "source": "https://commons.wikimedia.org/wiki/File:Wat_Arun_di_Thailand.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wat%20Arun%20di%20Thailand.jpg?width=960",
+      "cover": false,
+      "scene": "방콕 왓 아룬 사원의 탑과 장식을 담은 실제 현장 사진.",
+      "locationNote": "방콕 짜오프라야강변 왓 아룬 사원",
+      "sceneType": "city",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v33: 2026-10-19 Wikimedia Commons 개별 파일 설명의 장소·촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v33",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · HTTP 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Wat Arun di Thailand.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "파리",
+      "spot": "몽마르트르",
+      "label": "몽마르트르 사크레쾨르 대성당",
+      "file": "Basilique du Sacré-Cœur de Montmartre (06.02.2025) 26.jpg",
+      "author": "Gargarapalvin",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2025-02-06",
+      "checked": "2026-10-19",
+      "source": "https://commons.wikimedia.org/wiki/File:Basilique_du_Sacr%C3%A9-C%C5%93ur_de_Montmartre_(06.02.2025)_26.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilique%20du%20Sacr%C3%A9-C%C5%93ur%20de%20Montmartre%20(06.02.2025)%2026.jpg?width=960",
+      "cover": false,
+      "scene": "몽마르트르 언덕 사크레쾨르 대성당의 야간 건축 사진.",
+      "locationNote": "파리 몽마르트르 사크레쾨르 대성당",
+      "sceneType": "night",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v33: 2026-10-19 Wikimedia Commons 개별 파일 설명의 장소·촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v33",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · HTTP 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Basilique du Sacré-Cœur de Montmartre (06.02.2025) 26.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "발리",
+      "spot": "우붓 몽키 포레스트",
+      "label": "우붓 몽키 포레스트의 원숭이 가족",
+      "file": "Ubud Monkey Family.jpg",
+      "author": "Deerpeter",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2024-06-29",
+      "checked": "2026-10-19",
+      "source": "https://commons.wikimedia.org/wiki/File:Ubud_Monkey_Family.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ubud%20Monkey%20Family.jpg?width=960",
+      "cover": false,
+      "scene": "우붓 몽키 포레스트에서 촬영한 원숭이 가족. 2026년 원본 사진 구도가 잘린 이력이 있습니다.",
+      "locationNote": "발리 우붓 몽키 포레스트",
+      "sceneType": "nature",
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v33: 2026-10-19 Wikimedia Commons 개별 파일 설명의 장소·촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v33",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · HTTP 실물 로딩 미검증",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "photoTitle": "Ubud Monkey Family.jpg",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님"
+    },
+    {
+      "city": "세부",
+      "spot": "마젤란의 십자가",
+      "label": "2025년 세부 마젤란의 십자가 내부",
+      "file": "Magellans cross cebu city.jpg",
+      "author": "RGVINCE",
+      "license": "CC BY-SA 4.0",
+      "taken": "2025-07-29",
+      "scene": "마젤란의 십자가를 보호하는 팔각 정자의 내부를 담은 2025년 사진. 인근 산토니뇨 성당과 묶어 방문하기 좋습니다.",
+      "sceneType": "culture",
+      "locationNote": "필리핀 세부 시티 마젤란의 십자가",
+      "tip": "마젤란의 십자가와 산토니뇨 성당을 같은 도보 일정으로 묶고, 현지 종교 행사와 혼잡 시간을 확인하세요.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-19",
+      "source": "https://commons.wikimedia.org/wiki/File:Magellans_cross_cebu_city.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Magellans%20cross%20cebu%20city.jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v34: 2026-10-19 Wikimedia Commons 개별 파일 설명의 촬영일·저작자·라이선스·장소 확인",
+      "lastVerifiedVersion": "v34",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · HTTP 실물 로딩 미검증",
+      "photoTitle": "Magellans cross cebu city.jpg",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님",
+      "addedVersion": "v34"
+    },
+    {
+      "city": "후쿠오카",
+      "spot": "모모치 해변",
+      "label": "2023년 모모치 해변의 저녁 풍경",
+      "file": "Seaside Momochi Seaside Park the Hakata Bay evening view Momochi-hama 2-chōme Sawara-ku Fukuoka 20231103 1757.jpg",
+      "author": "Hirho",
+      "license": "CC BY-SA 4.0",
+      "taken": "2023-11-03",
+      "scene": "마리존에서 바라본 모모치 해변의 해 질 녘 풍경. 후쿠오카 타워와 함께 저녁 산책 코스로 추천합니다.",
+      "sceneType": "nature",
+      "locationNote": "일본 후쿠오카 모모치하마 해변, 마리존 인근",
+      "tip": "해 질 무렵 해변 산책과 후쿠오카 타워 주변 야경을 연결해 보세요. 일몰 시각은 계절마다 다릅니다.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-19",
+      "source": "https://commons.wikimedia.org/wiki/File:Seaside_Momochi_Seaside_Park_the_Hakata_Bay_evening_view_Momochi-hama_2-chōme_Sawara-ku_Fukuoka_20231103_1757.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seaside%20Momochi%20Seaside%20Park%20the%20Hakata%20Bay%20evening%20view%20Momochi-hama%202-ch%C5%8Dme%20Sawara-ku%20Fukuoka%2020231103%201757.jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v34: 2026-10-19 Wikimedia Commons 개별 파일 설명의 촬영일·저작자·라이선스·장소 확인",
+      "lastVerifiedVersion": "v34",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · HTTP 실물 로딩 미검증",
+      "photoTitle": "Seaside Momochi Seaside Park the Hakata Bay evening view Momochi-hama 2-chōme Sawara-ku Fukuoka 20231103 1757.jpg",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님",
+      "addedVersion": "v34"
+    },
+    {
+      "city": "홍콩",
+      "spot": "스타페리",
+      "label": "2020년 빅토리아항의 스타페리",
+      "file": "HK 天星渡海小輪 Star Ferry 夜星 Night Star ship view May 2020 SS2 09.jpg",
+      "author": "Shea Lingtons Roa",
+      "license": "CC BY-SA 4.0",
+      "taken": "2020-05-09",
+      "scene": "2020년 빅토리아항에서 촬영한 스타페리 선박의 모습. 현재 운항 노선·요금은 별도 확인이 필요합니다.",
+      "sceneType": "city",
+      "locationNote": "홍콩 빅토리아항 스타페리 선박",
+      "tip": "센트럴↔침사추이 항로를 검토해 보세요. 승선 전에 운영 노선과 막차·요금을 확인하세요.",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-19",
+      "source": "https://commons.wikimedia.org/wiki/File:HK_天星渡海小輪_Star_Ferry_夜星_Night_Star_ship_view_May_2020_SS2_09.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HK%20%E5%A4%A9%E6%98%9F%E6%B8%A1%E6%B5%B7%E5%B0%8F%E8%BC%AA%20Star%20Ferry%20%E5%A4%9C%E6%98%9F%20Night%20Star%20ship%20view%20May%202020%20SS2%2009.jpg?width=960",
+      "cover": false,
+      "metadataVerifiedThisRun": false,
+      "metadataVerification": "v34: 2026-10-19 Wikimedia Commons 개별 파일 설명의 촬영일·저작자·라이선스·장소 확인",
+      "lastVerifiedVersion": "v34",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · HTTP 실물 로딩 미검증",
+      "photoTitle": "HK 天星渡海小輪 Star Ferry 夜星 Night Star ship view May 2020 SS2 09.jpg",
+      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
+      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
+      "verificationScope": "이전 버전 확인 기록 계승 · v35 원본 개별 재검증 아님",
+      "addedVersion": "v34"
+    },
+    {
+      "city": "싱가포르",
+      "spot": "마리나 베이 샌즈",
+      "label": "마리나 베이 샌즈 전망에서 본 싱가포르 야경",
+      "file": "Skyline of Singapore from Marina Bay Sands.jpg",
+      "author": "Reema Jalihal",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "taken": "2025-11-23",
+      "sceneType": "night",
+      "scene": "마리나 베이 샌즈 고층 전망에서 내려다본 싱가포르 도심의 밤 풍경. 촬영 위치는 건물 전망 방향이며 마리나 베이 샌즈 건물 자체를 찍은 사진은 아닙니다.",
+      "locationNote": "싱가포르 마리나 베이 샌즈에서 바라본 도심 야경 (Commons 카메라 좌표 1.285144, 103.861206)",
+      "checked": "2026-10-19",
+      "photoTitle": "Skyline of Singapore from Marina Bay Sands.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Skyline_of_Singapore_from_Marina_Bay_Sands.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Singapore_from_Marina_Bay_Sands.jpg?width=960",
+      "cover": false,
+      "siteModification": "원본 이미지 파일은 수정하거나 ZIP에 재배포하지 않음. CSS object-fit:cover로 표시 일부 잘릴 수 있음.",
+      "reuseTerms": "CC0: 저작권 포기 범위 내 상업적 이용 가능, 출처는 투명성을 위해 표시",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-19 Wikimedia Commons 개별 파일 설명에서 촬영일·장소 설명·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v35",
+      "verificationScope": "v35에서 개별 원본 페이지 확인 · 외부 이미지 실제 바이트 로딩 미검증",
+      "imageTransport": "Wikimedia Commons 외부 이미지 (실제 네트워크 로딩 미검증)"
+    },
+    {
+      "city": "나트랑",
+      "spot": "나트랑 해변",
+      "label": "나트랑 해안도시의 아침 풍경",
+      "file": "Nha Trang, Vietnam. June 2025.jpg",
+      "author": "Rayrayokocha",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "taken": "2025-06-30",
+      "sceneType": "sea",
+      "scene": "나트랑의 호텔 마당에서 바라본 해안도시 전경. 해변 근접 촬영이 아니라 숙소 주변에서 본 도시와 바다의 풍경입니다.",
+      "locationNote": "베트남 나트랑, 호텔 마당에서 바라본 해안도시 전경 (구체적인 호텔 위치 미확인)",
+      "checked": "2026-10-19",
+      "photoTitle": "Nha Trang, Vietnam. June 2025.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Nha_Trang,_Vietnam._June_2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nha_Trang%2C_Vietnam._June_2025.jpg?width=960",
+      "cover": false,
+      "siteModification": "원본 이미지 파일은 수정하거나 ZIP에 재배포하지 않음. CSS object-fit:cover로 표시 일부 잘릴 수 있음.",
+      "reuseTerms": "CC BY: 저작자·원본·라이선스·변경 여부 표시",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-19 Wikimedia Commons 개별 파일 설명에서 촬영일·장소 설명·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v35",
+      "verificationScope": "v35에서 개별 원본 페이지 확인 · 외부 이미지 실제 바이트 로딩 미검증",
+      "imageTransport": "Wikimedia Commons 외부 이미지 (실제 네트워크 로딩 미검증)"
+    },
+    {
+      "city": "타이베이",
+      "spot": "타이베이 101",
+      "label": "타이베이 101의 밤 조명",
+      "file": "Taipei 101 at night (28 Dec 2025).jpg",
+      "author": "Aristorkle",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2025-12-28",
+      "sceneType": "night",
+      "scene": "2025년 12월 28일 저녁 촬영된 타이베이 101의 야간 외관. 사진은 촬영 당시 조명 상태를 보여주며 현재와 다를 수 있습니다.",
+      "locationNote": "대만 타이베이 신이구의 타이베이 101 외관 야경 (사진 촬영 지점 상세 미확인)",
+      "checked": "2026-10-19",
+      "photoTitle": "Taipei 101 at night (28 Dec 2025).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Taipei_101_at_night_(28_Dec_2025).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taipei_101_at_night_%2828_Dec_2025%29.jpg?width=960",
+      "cover": false,
+      "siteModification": "원본 이미지 파일은 수정하거나 ZIP에 재배포하지 않음. CSS object-fit:cover로 표시 일부 잘릴 수 있음.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·변경 여부 표시, 수정본 배포 시 동일조건 공유",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-19 Wikimedia Commons 개별 파일 설명에서 촬영일·장소 설명·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v35",
+      "verificationScope": "v35에서 개별 원본 페이지 확인 · 외부 이미지 실제 바이트 로딩 미검증",
+      "imageTransport": "Wikimedia Commons 외부 이미지 (실제 네트워크 로딩 미검증)"
     }
   ]
 }

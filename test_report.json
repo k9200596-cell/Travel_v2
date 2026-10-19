@@ -1,186 +1,332 @@
 {
-  "version": "v29",
-  "run_date": "2026-10-18",
-  "environment": "Chromium headless, set_content(about:blank), external network blocked, in-memory localStorage shim; no actual browser persistence assertion",
+  "version": "v35",
+  "tested_at": "2026-10-19",
+  "browser": "Chromium Playwright page.set_content; Map-backed mock localStorage; external HTTP aborted; source static checks",
+  "passed": 63,
+  "failed": 0,
+  "total": 63,
   "checks": [
     {
-      "name": "JavaScript 실행 오류 없음",
+      "name": "v35 header",
       "passed": true,
-      "details": "[]"
+      "detail": ""
     },
     {
-      "name": "우측 상단 v29",
+      "name": "inline CSS JS",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "도시 12개",
+      "name": "source metadata 168",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "관광지 데이터 60곳",
+      "name": "12 cities source metadata",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "사진 메타데이터 139장",
+      "name": "all 165 v34 photo filenames preserved",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "사진 중복 파일 없음",
+      "name": "no photo duplicate",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "신규 사진 5장 메타데이터 표시",
+      "name": "exactly 3 new individually checked",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "모든 관광지 사진 연결",
+      "name": "all photo source links Wikimedia",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "대표 사진 5장",
+      "name": "all photo licenses allowed",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "사진 여행 카드 5개",
+      "name": "all records metadata fields",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "사진 저널 57장",
+      "name": "v35 sources distinct locations",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "사진 카드 출처 링크",
+      "name": "previous archive collapsed",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "사진 카드 지도/일정 버튼",
+      "name": "ZIP valid",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "사진 출처 CSV 다운로드",
+      "name": "ZIP root index matches HTML",
       "passed": true,
-      "details": "K-TRAVEL-사진출처점검-오사카-v29.csv"
+      "detail": ""
     },
     {
-      "name": "이번 확인 사진 5장 필터",
+      "name": "ZIP source artifacts before test report",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "외부 이미지 실패 시 대체 이미지",
+      "name": "320px JS errors zero",
       "passed": true,
-      "details": ""
+      "detail": "[]"
     },
     {
-      "name": "대체 이미지 alt 설명",
+      "name": "320px no horizontal overflow",
       "passed": true,
-      "details": ""
+      "detail": "[320, 320]"
     },
     {
-      "name": "사진 선택 → 해당 도시",
+      "name": "320px v35 photo cards 3",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "관광지 일정 추가",
+      "name": "320px 12 city cards",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "실제 항공료 × 2명·숙박비 × 4박 경비 계산",
+      "name": "320px new photos fallback when offline",
       "passed": true,
-      "details": ""
+      "detail": "['fallback', 'fallback', 'fallback']"
     },
     {
-      "name": "관광지 빠른 검색",
+      "name": "390px JS errors zero",
       "passed": true,
-      "details": "1"
+      "detail": "[]"
     },
     {
-      "name": "현재 여행 JSON 백업 다운로드",
+      "name": "390px no horizontal overflow",
       "passed": true,
-      "details": "K-TRAVEL-PUS-다낭_2026-11-16~11-20-2026-10-17_165155.json"
+      "detail": "[390, 390]"
     },
     {
-      "name": "모의 localStorage 저장",
+      "name": "390px v35 photo cards 3",
       "passed": true,
-      "details": "[['ktravel-plans', 400]]"
+      "detail": ""
     },
     {
-      "name": "모의 저장소를 새 문서에 이관",
+      "name": "390px 12 city cards",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "저장목록에 계획 표시",
+      "name": "390px new photos fallback when offline",
       "passed": true,
-      "details": ""
+      "detail": "['fallback', 'fallback', 'fallback']"
     },
     {
-      "name": "저장목록 JSON 파일로 내보내기",
+      "name": "v35 source links and license in gallery",
       "passed": true,
-      "details": "K-TRAVEL-여행계획-2026-10-17_165159.json"
+      "detail": ""
     },
     {
-      "name": "백업 JSON 스키마",
+      "name": "day photo filter",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "백업 JSON 다시 가져오기",
+      "name": "night photo filter",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "신규 사진 lazy-loading",
+      "name": "all filter restored",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "버전이 상단 오른쪽 끝",
+      "name": "city definition count",
       "passed": true,
-      "details": ""
+      "detail": ""
     },
     {
-      "name": "320px 화면 가로 넘침 없음",
+      "name": "spot definition count",
       "passed": true,
-      "details": "{'doc': 320, 'win': 320}"
+      "detail": ""
     },
     {
-      "name": "390px 화면 가로 넘침 없음",
+      "name": "entry guide remains",
       "passed": true,
-      "details": "{'doc': 390, 'win': 390}"
+      "detail": ""
     },
     {
-      "name": "768px 화면 가로 넘침 없음",
+      "name": "planner cost remains",
       "passed": true,
-      "details": "{'doc': 768, 'win': 768}"
+      "detail": ""
     },
     {
-      "name": "1280px 화면 가로 넘침 없음",
+      "name": "backup and save buttons remain",
       "passed": true,
-      "details": "{'doc': 1280, 'win': 1280}"
+      "detail": ""
+    },
+    {
+      "name": "global search remains",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "photo opens destination planner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "photo picks Singapore",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spot details shown",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "localStorage usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spot added to itinerary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cost fields exist",
+      "passed": true,
+      "detail": "8"
+    },
+    {
+      "name": "cost changed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "budget total renders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "backup export function available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "save browser function available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "saved plan in mock localStorage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "saved airfare preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "saved itinerary preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "saved trip restored",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "v34 JSON backup imported",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "global spot search finds Dotonbori",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "backup version v35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON backup download actually works",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px JS errors zero",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "768px no horizontal overflow",
+      "passed": true,
+      "detail": "[768, 768]"
+    },
+    {
+      "name": "768px v35 photo cards 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 12 city cards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px new photos fallback when offline",
+      "passed": true,
+      "detail": "['fallback', 'fallback', 'fallback']"
+    },
+    {
+      "name": "1280px JS errors zero",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "1280px no horizontal overflow",
+      "passed": true,
+      "detail": "[1280, 1280]"
+    },
+    {
+      "name": "1280px v35 photo cards 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1280px 12 city cards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1280px new photos fallback when offline",
+      "passed": true,
+      "detail": "['fallback', 'fallback', 'fallback']"
     }
   ],
-  "passed": 34,
-  "failed": 0,
-  "browser_errors": [],
   "limitations": [
-    "외부 Wikimedia 이미지 바이트 로딩 불가; 실패 처리만 검증",
-    "신규 사진 5장 원본 설명의 메타데이터는 웹에서 개별 확인",
-    "기존 134장의 메타데이터는 이번 실행에서 재검증하지 않음",
-    "브라우저 실제 localStorage 재시작·새로고침 지속성은 이 실행 환경의 보안 제한으로 확인하지 못함"
+    "Wikimedia Commons image HTTP bytes / availability not tested (network blocked); offline fallback tested",
+    "GitHub Pages deployment not performed; deployed repo index.html checked via GitHub connector and was v31",
+    "New photo metadata verified from Wikimedia Commons file descriptions; existing 165 metadata not individually rechecked",
+    "Browser localStorage was mocked in this test; real Android phone storage and interactions not tested",
+    "Some travel costs, transport and admission are estimates and need official current checks"
   ]
 }
