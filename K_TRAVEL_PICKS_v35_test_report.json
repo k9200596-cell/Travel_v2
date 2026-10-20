@@ -1,0 +1,332 @@
+{
+  "version": "v35",
+  "tested_at": "2026-10-19",
+  "browser": "Chromium Playwright page.set_content; Map-backed mock localStorage; external HTTP aborted; source static checks",
+  "passed": 63,
+  "failed": 0,
+  "total": 63,
+  "checks": [
+    {
+      "name": "v35 header",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "inline CSS JS",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "source metadata 168",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "12 cities source metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all 165 v34 photo filenames preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no photo duplicate",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "exactly 3 new individually checked",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all photo source links Wikimedia",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all photo licenses allowed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all records metadata fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "v35 sources distinct locations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "previous archive collapsed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ZIP valid",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ZIP root index matches HTML",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "ZIP source artifacts before test report",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320px JS errors zero",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "320px no horizontal overflow",
+      "passed": true,
+      "detail": "[320, 320]"
+    },
+    {
+      "name": "320px v35 photo cards 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320px 12 city cards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "320px new photos fallback when offline",
+      "passed": true,
+      "detail": "['fallback', 'fallback', 'fallback']"
+    },
+    {
+      "name": "390px JS errors zero",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "390px no horizontal overflow",
+      "passed": true,
+      "detail": "[390, 390]"
+    },
+    {
+      "name": "390px v35 photo cards 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390px 12 city cards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "390px new photos fallback when offline",
+      "passed": true,
+      "detail": "['fallback', 'fallback', 'fallback']"
+    },
+    {
+      "name": "v35 source links and license in gallery",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "day photo filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "night photo filter",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "all filter restored",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "city definition count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spot definition count",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "entry guide remains",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "planner cost remains",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "backup and save buttons remain",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "global search remains",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "photo opens destination planner",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "photo picks Singapore",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spot details shown",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "localStorage usable",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "spot added to itinerary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "cost fields exist",
+      "passed": true,
+      "detail": "8"
+    },
+    {
+      "name": "cost changed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "budget total renders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "backup export function available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "save browser function available",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "saved plan in mock localStorage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "saved airfare preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "saved itinerary preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "saved trip restored",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "v34 JSON backup imported",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "global spot search finds Dotonbori",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "backup version v35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "JSON backup download actually works",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px JS errors zero",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "768px no horizontal overflow",
+      "passed": true,
+      "detail": "[768, 768]"
+    },
+    {
+      "name": "768px v35 photo cards 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px 12 city cards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "768px new photos fallback when offline",
+      "passed": true,
+      "detail": "['fallback', 'fallback', 'fallback']"
+    },
+    {
+      "name": "1280px JS errors zero",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "1280px no horizontal overflow",
+      "passed": true,
+      "detail": "[1280, 1280]"
+    },
+    {
+      "name": "1280px v35 photo cards 3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1280px 12 city cards",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1280px new photos fallback when offline",
+      "passed": true,
+      "detail": "['fallback', 'fallback', 'fallback']"
+    }
+  ],
+  "limitations": [
+    "Wikimedia Commons image HTTP bytes / availability not tested (network blocked); offline fallback tested",
+    "GitHub Pages deployment not performed; deployed repo index.html checked via GitHub connector and was v31",
+    "New photo metadata verified from Wikimedia Commons file descriptions; existing 165 metadata not individually rechecked",
+    "Browser localStorage was mocked in this test; real Android phone storage and interactions not tested",
+    "Some travel costs, transport and admission are estimates and need official current checks"
+  ]
+}
