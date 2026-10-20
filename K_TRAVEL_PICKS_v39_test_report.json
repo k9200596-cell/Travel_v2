@@ -1,0 +1,23 @@
+{
+  "version": "v39",
+  "source": "local v38",
+  "checks": {
+    "javascript_syntax": "PASS (node --check)",
+    "24 destinations": "PASS (Node vm static DATA evaluation)",
+    "120 landmarks": "PASS (Node vm static DATA evaluation)",
+    "standalone CSS and JS": "PASS",
+    "country ordering code": "PASS",
+    "auto itinerary code preserved": "PASS",
+    "storage and backup code preserved": "PASS",
+    "image fallback": "PASS",
+    "photo credits": "PASS",
+    "zip index": "PASS"
+  },
+  "limitations": [
+    "브라우저 실행 테스트는 실행 환경에서 로컬 파일 및 localhost 접근 차단으로 미수행",
+    "신규 12개 도시 사진은 저작권 검증 전이므로 대체 디자인",
+    "기존 179개 사진 원본·실제 로딩 미재검증",
+    "기존 기능은 코드 존재와 구문을 확인했으며 동작 보증 아님",
+    "GitHub 업로드·배포 미실행"
+  ]
+}
