@@ -1,0 +1,53 @@
+{
+  "version": "v40",
+  "checks": {
+    "js_syntax": "PASS",
+    "browser_dom": "PASS",
+    "24_destinations": "PASS",
+    "120_landmarks": "PASS",
+    "itinerary_24_cities_7_lengths": "PASS",
+    "new_city_auto_itinerary": "PASS",
+    "local_storage_roundtrip": "PASS",
+    "budget_calculation": "PASS",
+    "version_badge": "PASS",
+    "overwrite_confirmation": "PASS",
+    "json_backup_payload": "PASS"
+  },
+  "issues": [],
+  "test_scope": "Headless Chromium via Playwright; remote photo requests blocked; local HTML and JS UI exercised",
+  "limitations": [
+    "외부 Wikimedia 사진 실제 로딩 미검증",
+    "기존 179개 사진 저작권·촬영일 전수 재검증 미완료",
+    "JSON 파일 실제 다운로드/재가져오기 브라우저 자동화 미실시 (백업 데이터 구조 검증)",
+    "GitHub Pages 실제 배포 별도 확인 필요"
+  ],
+  "photo_audit": {
+    "catalog_entries": 179,
+    "display_eligible": 178,
+    "excluded": 1,
+    "licenses": {
+      "CC0 1.0": 30,
+      "CC BY 2.0": 4,
+      "CC BY-SA 4.0": 97,
+      "CC BY 4.0": 39,
+      "Public domain (PD-self)": 1,
+      "CC BY-SA 3.0": 4,
+      "CC BY-SA 2.0": 2,
+      "CC BY 3.0": 1,
+      "CC BY 3.0 PL": 1
+    },
+    "external_photo_loading_tested": false,
+    "license_metadata_independently_rechecked": false
+  },
+  "github": {
+    "repository": "k9200596-cell/Travel_v2",
+    "branch": "main",
+    "observed_repository_version": "v39",
+    "repository_file_sha": "6c448fd4ea4bebe52447a2a5ae54be2715b9c293",
+    "backup_attempt": "FAILED",
+    "backup_error": "HTTP 403 Resource not accessible by integration (GitHub Contents API)",
+    "upload": "NOT_ATTEMPTED (backup failed)",
+    "pages": "NOT VERIFIED; no new deployment triggered",
+    "source_note": "v40 generated from local v39 file; repository v39 content length differs by 76 characters from local copy, so reconciliation is needed before any upload"
+  }
+}
