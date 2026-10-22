@@ -24,6 +24,9 @@ const DATA={
 '후쿠오카':{country:'일본',airport:'FUK',tag:'근거리 · 미식 · 쇼핑',photo:'photo-1493976040374-85c8e12f0c0e',intro:'한국에서 가까워 짧은 일정에도 여행하기 좋은 규슈의 관문 도시. 하카타·텐진을 중심으로 이동하고 다자이후는 근교 코스로 묶어보세요.',spots:[['오호리 공원','호수 주변을 여유롭게 걷는 도심 공원.','산책',90,'Ōhori Park'],['캐널시티 하카타','쇼핑과 식사, 분수쇼 등을 즐기는 복합시설.','쇼핑',120,'Canal City Hakata'],['다자이후 텐만구','근교의 유명 신사와 참배길 상점가를 둘러보는 명소.','근교·문화',150,'Dazaifu Tenmangū'],['나카스 강변','야간 산책과 포장마차 거리로 알려진 지역.','야경·미식',90,'Nakasu'],['모모치 해변','도심과 가까운 해변에서 산책과 사진 촬영을 즐기는 곳.','해변',90,'Momochi Seaside Park']]},
 '홍콩':{country:'홍콩',airport:'HKG',tag:'야경 · 쇼핑 · 미식',photo:'photo-1536599018102-9f803c140fc1',intro:'빅토리아 하버의 야경, 트램·페리, 시장과 미식이 매력적인 도시. 피크와 란타우섬은 이동 및 대기시간을 고려해 방문하세요.',spots:[['빅토리아 피크','홍콩의 고층 빌딩과 항구를 내려다보는 전망 명소.','전망',150,'Victoria Peak'],['스타페리','빅토리아 하버를 건너며 도심 풍경을 감상하는 대표 교통수단.','체험',60,'Star Ferry'],['침사추이 산책로','빅토리아 하버를 따라 야경과 스카이라인을 감상하는 산책 코스.','야경',90,'Tsim Sha Tsui'],['몽콕 야시장','현지 분위기와 쇼핑을 즐길 수 있는 번화한 시장 거리.','시장',120,'Mong Kok'],['란타우 대불','란타우섬의 대형 불상과 주변 사찰을 둘러보는 근교 코스.','근교·문화',240,'Tian Tan Buddha']]}
 };
+
+/* v39: 추가 여행지 12곳. 사진 출처를 검증하지 못한 새 도시는 명시적 대체 이미지 사용. */
+Object.assign(DATA, {"삿포로": {"country": "일본", "airport": "CTS", "tag": "설경 · 온천 · 미식", "photo": "", "intro": "눈 내리는 오도리공원과 붉은 벽돌 건축, 홋카이도 음식이 어우러진 도시. 겨울에는 미끄럼 방지 신발이 유용하고, 여름에는 라벤더와 맑은 공기를 즐길 수 있습니다.", "spots": [["오도리공원", "삿포로 중심부를 가로지르는 녹지 축. 계절마다 꽃·조명·축제가 달라집니다.", "공원·축제", 90, "Odori Park"], ["삿포로 TV타워", "오도리공원과 격자형 시가지를 조망하는 전망 명소.", "전망", 60, "Sapporo TV Tower"], ["홋카이도 구본청사", "붉은 벽돌 건물과 정원이 인상적인 역사 공간. 개방 구역은 확인하세요.", "건축·역사", 80, "Former Hokkaido Government Office"], ["모이와산", "로프웨이로 오르는 야경 전망대. 기상에 따라 운행이 달라질 수 있습니다.", "야경", 150, "Mount Moiwa"], ["시로이 코이비토 파크", "홋카이도 과자 브랜드의 테마형 시설. 체험은 사전 예약을 확인하세요.", "체험", 120, "Shiroi Koibito Park"]]}, "오키나와": {"country": "일본", "airport": "OKA", "tag": "바다 · 드라이브 · 휴양", "photo": "", "intro": "에메랄드빛 해변과 류큐 문화가 만나는 섬. 렌터카 이용 시 좌측통행에 주의하고, 태풍철에는 해양 액티비티 취소 가능성을 고려하세요.", "spots": [["츄라우미 수족관", "대형 수조에서 고래상어와 해양 생물을 관찰하는 북부 대표 명소.", "수족관", 180, "Okinawa Churaumi Aquarium"], ["만좌모", "절벽과 푸른 바다를 바라보는 짧은 산책 코스.", "자연", 70, "Cape Manzamo"], ["국제거리", "나하 시내 기념품·먹거리 상점이 밀집한 번화가.", "쇼핑", 120, "Kokusai Dori"], ["고우리대교", "푸른 바다 위를 가로지르는 드라이브 코스. 안전한 정차 장소를 이용하세요.", "드라이브", 80, "Kouri Bridge"], ["슈리성 공원", "류큐왕국의 역사를 만나는 유적 공원. 복원·관람 구역을 확인하세요.", "역사", 120, "Shuri Castle"]]}, "하노이": {"country": "베트남", "airport": "HAN", "tag": "구시가지 · 호수 · 음식", "photo": "", "intro": "오토바이 소리와 길거리 쌀국수 향이 어우러지는 베트남 수도. 구시가지 골목은 도보 탐방이 좋고 횡단 시 차량 흐름을 살펴야 합니다.", "spots": [["호안끼엠 호수", "구시가지 중심의 산책 명소. 이른 아침 현지인의 운동 풍경이 인상적입니다.", "호수", 90, "Hoan Kiem Lake"], ["하노이 구시가지", "상점과 노점, 오래된 건축물이 이어지는 미식 골목.", "거리·미식", 150, "Hanoi Old Quarter"], ["문묘", "베트남 전통 교육·유교 문화의 흔적을 느낄 수 있는 유적.", "역사", 100, "Temple of Literature Hanoi"], ["호찌민 묘소 주변", "바딘 광장과 주변 역사 시설을 둘러보는 코스. 입장 규정을 확인하세요.", "역사", 100, "Ho Chi Minh Mausoleum"], ["쩐꾸옥 사원", "서호변의 오래된 불교 사찰. 복장과 예절을 지키세요.", "사찰", 75, "Tran Quoc Pagoda"]]}, "푸꾸옥": {"country": "베트남", "airport": "PQC", "tag": "석양 · 해변 · 리조트", "photo": "", "intro": "잔잔한 바다와 긴 해변이 매력적인 섬. 해양 투어는 바람·파고에 따라 취소될 수 있으니 일정에 여유를 두세요.", "spots": [["사오비치", "밝은 모래와 얕은 물빛이 인상적인 남동부 해변.", "해변", 150, "Sao Beach Phu Quoc"], ["혼똠 케이블카", "바다 위로 이어지는 케이블카에서 군도를 내려다보는 체험.", "전망·체험", 180, "Hon Thom Cable Car"], ["즈엉동 야시장", "해산물과 간식을 맛보는 저녁 시장 거리.", "시장·미식", 120, "Duong Dong Night Market"], ["선셋타운", "남부 해안의 석양 전망과 테마형 거리 풍경.", "석양", 150, "Sunset Town Phu Quoc"], ["푸꾸옥 국립공원", "열대 숲과 섬의 자연을 만나는 지역. 지정된 탐방로를 이용하세요.", "자연", 180, "Phu Quoc National Park"]]}, "상하이": {"country": "중국", "airport": "PVG", "tag": "스카이라인 · 근대 건축 · 미식", "photo": "", "intro": "와이탄의 유럽풍 건축과 푸둥의 초고층 야경이 강렬한 대비를 이루는 도시. 결제 앱과 인터넷·지도 사용 환경을 출발 전에 준비하세요.", "spots": [["와이탄", "황푸강을 따라 근대 건축과 푸둥 스카이라인을 마주 보는 산책로.", "야경", 120, "The Bund Shanghai"], ["동방명주", "푸둥의 상징적인 전망 타워. 전망대 운영시간을 확인하세요.", "전망", 120, "Oriental Pearl Tower"], ["예원", "전통 정원과 주변 상점가가 어우러진 역사 공간.", "정원", 120, "Yu Garden"], ["난징동루", "네온사인과 상점이 이어지는 대표 쇼핑 거리.", "쇼핑", 100, "Nanjing Road"], ["톈즈팡", "골목 속 소규모 상점과 카페가 모인 예술 거리.", "골목", 100, "Tianzifang"]]}, "베이징": {"country": "중국", "airport": "PEK", "tag": "황궁 · 역사 · 만리장성", "photo": "", "intro": "황실 건축과 넓은 광장, 골목 후퉁이 공존하는 수도. 자금성 등 인기 명소는 예약 규정을 미리 확인하세요.", "spots": [["자금성", "명·청 황궁의 거대한 전각과 정원을 걷는 핵심 명소.", "역사", 210, "Forbidden City"], ["천단공원", "황제가 제례를 올리던 원형 건축물과 공원.", "역사·공원", 120, "Temple of Heaven"], ["만리장성 무톈위", "산등성이를 따라 이어지는 성벽과 전망을 즐기는 근교 코스.", "근교", 300, "Mutianyu Great Wall"], ["이화원", "호수와 정자, 산책로가 펼쳐진 황실 정원.", "정원", 180, "Summer Palace"], ["스차하이 후퉁", "호수 주변 옛 골목과 전통 가옥을 산책하는 지역.", "골목", 120, "Shichahai"]]}, "치앙마이": {"country": "태국", "airport": "CNX", "tag": "사원 · 카페 · 산책", "photo": "", "intro": "북부 태국의 느긋한 분위기와 사원, 산이 어우러진 도시. 우기에는 산악 도로와 야외 활동을 유연하게 계획하세요.", "spots": [["왓 프라탓 도이수텝", "산 위 황금 사원과 도시 전망을 함께 즐기는 곳.", "사원", 150, "Wat Phra That Doi Suthep"], ["왓 체디루앙", "올드타운 한가운데 거대한 옛 탑이 남아 있는 사원.", "역사", 90, "Wat Chedi Luang"], ["타패 게이트", "옛 성벽과 광장이 있는 구시가지 입구.", "거리", 60, "Tha Phae Gate"], ["선데이 워킹스트리트", "일요일 저녁 열리는 공예·음식 시장. 운영일을 확인하세요.", "야시장", 150, "Sunday Walking Street Chiang Mai"], ["도이인타논 국립공원", "산악 풍경과 폭포를 즐기는 근교 자연 코스.", "자연", 300, "Doi Inthanon National Park"]]}, "보라카이": {"country": "필리핀", "airport": "MPH", "tag": "화이트비치 · 선셋 · 해양", "photo": "", "intro": "고운 백사장과 붉게 물드는 석양이 매력적인 휴양 섬. 공항에서 항구 이동과 배편을 고려하고 해양 활동은 날씨를 확인하세요.", "spots": [["화이트비치", "길게 이어지는 흰 모래사장에서 산책과 일몰을 즐기는 곳.", "해변", 180, "White Beach Boracay"], ["윌리스 록", "해변 가까이 솟은 작은 바위와 성모상이 있는 포토 스폿.", "풍경", 50, "Willys Rock"], ["푸카셸비치", "조금 더 한적한 북쪽 해변과 거친 파도 풍경.", "해변", 120, "Puka Shell Beach"], ["불라복 비치", "바람이 강한 시기에 수상 스포츠로 알려진 해변.", "액티비티", 120, "Bulabog Beach"], ["마운트 루호", "섬을 높은 곳에서 내려다보는 전망 코스.", "전망", 80, "Mount Luho"]]}, "뉴욕": {"country": "미국", "airport": "JFK", "tag": "도시 야경 · 미술 · 산책", "photo": "", "intro": "스카이라인과 미술관, 공원, 브로드웨이가 하루 종일 활기를 만드는 도시. 인기 전망대와 공연은 미리 예약하면 편합니다.", "spots": [["센트럴파크", "도심 속 호수와 산책로가 펼쳐진 대형 공원.", "공원", 150, "Central Park"], ["타임스스퀘어", "거대한 전광판과 극장가의 활기를 느끼는 곳.", "도심", 90, "Times Square"], ["브루클린 브리지", "맨해튼 스카이라인을 바라보며 걷는 보행교.", "전망", 110, "Brooklyn Bridge"], ["자유의 여신상", "페리로 접근하는 뉴욕 항구의 상징. 탑승·입장 예약을 확인하세요.", "랜드마크", 240, "Statue of Liberty"], ["메트로폴리탄 미술관", "고대부터 현대까지 방대한 작품을 감상하는 미술관.", "미술관", 180, "Metropolitan Museum of Art"]]}, "가오슝": {"country": "대만", "airport": "KHH", "tag": "항구 · 예술 · 야시장", "photo": "", "intro": "항구 도시의 여유와 현대 미술, 야시장이 어우러지는 남부 대만 여행지. MRT와 경전철을 조합하면 이동이 편합니다.", "spots": [["보얼예술특구", "옛 창고를 개조한 전시·디자인·산책 공간.", "예술", 120, "Pier-2 Art Center"], ["아이허", "강변 산책과 야간 조명을 즐기는 수변 코스.", "야경", 100, "Love River Kaohsiung"], ["연지담", "용호탑과 연못 주변을 둘러보는 전통 풍경 명소.", "풍경", 120, "Lotus Pond Kaohsiung"], ["치진섬", "페리로 건너가 해변과 등대를 둘러보는 작은 섬.", "섬", 180, "Cijin Island"], ["류허 야시장", "현지 간식과 해산물 요리를 맛보는 시장.", "미식", 90, "Liuhe Night Market"]]}, "코타키나발루": {"country": "말레이시아", "airport": "BKI", "tag": "석양 · 섬투어 · 자연", "photo": "", "intro": "남중국해로 지는 석양과 가까운 섬들의 투명한 물빛이 매력적인 도시. 해양 투어는 날씨와 보트 안전을 확인하세요.", "spots": [["탄중아루 비치", "붉게 물드는 일몰로 유명한 해변 산책 장소.", "석양", 120, "Tanjung Aru Beach"], ["마누칸섬", "스노클링과 해변 휴식을 즐기는 근교 섬.", "섬", 240, "Manukan Island"], ["사피섬", "보트로 이동해 해양 액티비티를 즐기는 섬.", "섬", 210, "Sapi Island"], ["시그널힐 전망대", "시가지와 항구를 바라보는 언덕 전망 지역.", "전망", 80, "Signal Hill Observatory Kota Kinabalu"], ["키나발루 국립공원", "산악 자연과 열대 식생을 만나는 장거리 근교 코스.", "자연", 300, "Kinabalu Park"]]}, "시드니": {"country": "호주", "airport": "SYD", "tag": "오페라하우스 · 항구 · 해변", "photo": "", "intro": "항구를 가르는 페리와 해안 산책로, 독특한 건축이 조화를 이루는 도시. 계절이 한국과 반대라는 점을 고려하세요.", "spots": [["시드니 오페라하우스", "항구 곡선을 따라 이어지는 상징적인 공연장 건축.", "랜드마크", 110, "Sydney Opera House"], ["하버브리지", "항구와 도심을 연결하는 대형 아치교. 보행로에서 풍경을 감상할 수 있습니다.", "전망", 100, "Sydney Harbour Bridge"], ["본다이 비치", "서핑과 해안 산책이 유명한 도시 해변.", "해변", 150, "Bondi Beach"], ["로열 보타닉 가든", "오페라하우스와 가까운 녹지·수변 산책 공간.", "공원", 120, "Royal Botanic Garden Sydney"], ["맨리 비치", "페리를 타고 항구를 건너 찾아가는 해변 마을.", "해변", 210, "Manly Beach"]]}});
 const CITY_GUIDES={"오사카":["간사이공항에서 난바·우메다 방면 철도 또는 공항버스 이용을 비교하세요.","지하철·사철 노선이 다양합니다. 교토·나라는 별도 이동권과 환승을 확인하세요.","도톤보리·난바는 같은 날, 오사카성·우메다는 다른 반나절로 묶기 좋습니다.","유니버설 스튜디오 방문일은 하루를 비우고 입장권·시간 지정 여부를 미리 확인하세요."],"도쿄":["나리타·하네다 공항은 시내 접근 방법과 소요시간이 다릅니다. 예약한 공항을 먼저 확인하세요.","JR·지하철·사철을 함께 이용하므로 교통카드와 환승 경로를 확인하세요.","아사쿠사·스카이트리, 시부야·하라주쿠처럼 인접 지역끼리 묶으면 편리합니다.","인기 전망대·테마시설은 예약 시간에 맞춰 동선을 잡으세요."],"나트랑":["깜라인공항과 나트랑 시내는 떨어져 있습니다. 호텔 픽업 또는 차량 이동을 미리 준비하세요.","시내에서는 도보와 차량 호출을 함께 이용하고 차량 번호를 확인하세요.","해변·카페는 여유롭게, 포나가르 참탑·혼총 곶은 반나절로 묶어보세요.","해양활동은 날씨·파도·운영 여부를 확인하고 햇빛에 대비하세요."],"다낭":["다낭공항에서 숙소까지 차량 이동을 미리 확인하세요.","시내·호이안·바나힐은 거리가 달라 차량 호출 또는 투어 이동이 편리할 수 있습니다.","미케비치·용다리는 시내 일정, 호이안과 바나힐은 각각 넉넉한 시간을 잡으세요.","바나힐은 고지대 기상 변화가 있고 호이안은 야간 방문 시 귀환 교통을 챙기세요."],"타이베이":["타오위안공항과 타이베이 도심은 공항철도·버스 등을 비교하세요.","MRT와 버스가 편리하며 교통카드를 이용할 수 있습니다.","시먼딩·용산사, 중정기념당·타이베이101을 구역별로 묶어보세요.","지우펀·스펀은 근교 일정으로 잡고 주말 혼잡과 귀가 시간을 확인하세요."],"방콕":["수완나품·돈므앙 공항 중 도착 공항을 먼저 확인하고 교통편을 정하세요.","BTS·MRT·보트·차량 호출을 조합하면 도로 정체를 줄일 수 있습니다.","왕궁·왓포는 한 구역으로, 쇼핑몰·야시장은 저녁 동선으로 배치하세요.","사원 복장 규정과 강한 더위에 대비하고 물을 충분히 준비하세요."],"싱가포르":["창이공항에서 MRT·택시 등 숙소 위치에 맞는 이동편을 비교하세요.","MRT와 도보 이동이 편리하지만 실외는 덥고 습할 수 있습니다.","마리나베이·가든스 바이 더 베이, 차이나타운은 인접 동선으로 구성하세요.","실내 온실 등 일부 시설은 유료·예약제일 수 있어 공식 운영정보를 확인하세요."],"세부":["막탄공항에서 막탄 리조트와 세부 시티까지 이동 시간이 다릅니다.","리조트 픽업·차량 호출·투어 차량을 상황에 맞게 선택하세요.","막탄 휴양일과 세부 시티 역사 탐방일을 분리하면 이동 부담이 적습니다.","호핑투어는 날씨·안전장비·보험 적용 여부를 사전에 확인하세요."],"발리":["응우라라이공항에서 우붓·스미냑 등 지역별 이동거리가 큽니다.","차량 호출 또는 전용 기사 이용을 고려하고 혼잡시간 이동을 피하세요.","우붓 자연명소와 남부 해변·절벽 사원은 서로 다른 날에 배치하세요.","사원 방문 복장 규정과 원숭이 서식지의 소지품 관리에 주의하세요."],"파리":["샤를드골공항에서 시내로 가는 철도·버스·택시의 승하차 지점을 확인하세요.","메트로와 도보를 조합하고 역·출구 위치를 미리 살펴보세요.","루브르·오르세 같은 박물관은 각 반나절 이상 확보하는 것이 편리합니다.","관광지 혼잡과 소매치기에 유의하고 사전 예약 가능 여부를 확인하세요."],"후쿠오카":["후쿠오카공항에서 하카타·텐진으로 이동하는 지하철·버스를 비교하세요.","시내 지하철·버스를 활용하고 다자이후는 근교 이동을 따로 계획하세요.","하카타·캐널시티, 텐진·오호리 공원, 다자이후를 구역별로 묶어보세요.","식당·포장마차는 영업시간과 대기시간을 확인하세요."],"홍콩":["홍콩공항에서 공항철도·버스 등 숙소 위치에 맞는 교통편을 선택하세요.","MTR·트램·페리를 조합하면 도시 풍경을 보며 이동할 수 있습니다.","침사추이·스타페리·센트럴을 연계하고 피크는 날씨 좋은 시간대를 고르세요.","란타우섬은 왕복 이동과 대기시간을 포함해 반나절 이상 고려하세요."]};
 const KEY='ktravel-plans',LEGACY='ktravel-free-plans',COST_LABELS=['왕복 항공료 (1인)','숙박비 (객실 1박)','식비 (전체)','현지 교통비 (전체)','관광·입장료 (전체)','쇼핑비 (전체)','보험·통신비 (전체)','기타 (전체)'],TASKS=['여권·비자·입국요건 확인','항공권 예약','숙소 예약','여행자보험 확인','유심·eSIM 준비','환전·결제수단 준비'];
 const $=id=>document.getElementById(id),safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),num=n=>Math.max(0,Number(n)||0),won=n=>Math.round(num(n)).toLocaleString('ko-KR')+'원';
@@ -87,7 +90,7 @@ function setCuratedImage(img,p,place,noteEl,requestedWidth=0){
 }
 function renderPhotoCredits(city){
  const items=PHOTO_CATALOG.filter(p=>p.city===city).sort((a,b)=>photoSortKey(b).localeCompare(photoSortKey(a)));
- $('photoCredits').innerHTML=items.map(p=>`<article><strong>${safe(p.label)}</strong><span>사진명: ${safe(p.photoTitle||p.file)}</span><span>저작자: ${safe(p.author)} · 촬영: ${safe(p.taken||'미확인')} · 출처 확인 기록: ${safe(p.checked)}</span><span>라이선스: ${safe(p.license)} · ${p.lastVerifiedVersion==='v38'?'v38 원본 개별 확인':p.lastVerifiedVersion==='v37'?'v37 확인 기록 계승':'이전 버전 기록 계승(이번 재검증 아님)'}</span><span>수정 여부: ${safe(p.siteModification||'이 사이트에서 원본 파일 수정 없음; CSS 화면 맞춤 일부 잘림')}</span><span>이용 조건: ${safe(p.reuseTerms||'원본 라이선스 조건 확인')}</span><span>${safe(p.scene||'')}</span><a href="${safe(p.source)}" target="_blank" rel="noopener noreferrer">원본 사진·제목 확인 ↗</a><a href="${safe(p.licenseUrl)}" target="_blank" rel="noopener noreferrer">라이선스 전문 ↗</a></article>`).join('');
+ $('photoCredits').innerHTML=items.map(p=>`<article><strong>${safe(p.label)}</strong><span>사진명: ${safe(p.photoTitle||p.file)}</span><span>저작자: ${safe(p.author)} · 촬영: ${safe(p.taken||'미확인')} · 출처 확인 기록: ${safe(p.checked)}</span><span>라이선스: ${safe(p.license)} · ${p.lastVerifiedVersion==='v38'?'v38 원본 개별 확인 (v40 재검증 아님)':p.lastVerifiedVersion==='v37'?'v37 확인 기록 계승':'이전 버전 기록 계승(이번 재검증 아님)'}</span><span>수정 여부: ${safe(p.siteModification||'이 사이트에서 원본 파일 수정 없음; CSS 화면 맞춤 일부 잘림')}</span><span>이용 조건: ${safe(p.reuseTerms||'원본 라이선스 조건 확인')}</span><span>${safe(p.scene||'')}</span><a href="${safe(p.source)}" target="_blank" rel="noopener noreferrer">원본 사진·제목 확인 ↗</a><a href="${safe(p.licenseUrl)}" target="_blank" rel="noopener noreferrer">라이선스 전문 ↗</a></article>`).join('');
  const stats=photoStats(city);
  $('photoStatus').textContent=`📷 사진 ${stats.covered}/${stats.total}곳 (${items.length}장) · 2024년 이후 촬영 ${stats.recent}곳 · 과거 촬영만 ${stats.old}곳 · 촬영연도 미확인 ${stats.unknown}곳 · 사진 없음 ${stats.missing}곳`;
  const reviewed=items.filter(p=>p.metadataVerifiedThisRun).length;
@@ -121,7 +124,7 @@ function renderBreakdown(){
  $('costBreakdown').innerHTML=groups.map(([label,value])=>`<div class="breakdown-item"><div class="breakdown-label"><span>${label}</span><strong>${won(value)}</strong></div><div class="breakdown-track"><div class="breakdown-fill" style="width:${t.total?Math.min(100,value/t.total*100):0}%"></div></div></div>`).join('');
 }
 function filterCities(){let q=$('citySearch').value.trim().toLocaleLowerCase(),country=$('countryFilter').value,n=0;document.querySelectorAll('[data-city]').forEach(b=>{let c=DATA[b.dataset.city],hit=(!country||c.country===country)&&(!q||(b.dataset.city+' '+c.country+' '+c.tag+' '+c.intro).toLocaleLowerCase().includes(q));b.closest('.city').classList.toggle('hidden',!hit);if(hit)n++});$('cityCount').textContent=`${n}개 도시 표시`;$('cityEmpty').classList.toggle('hidden',n!==0)}
-function renderCityGuide(city){let labels=['공항에서 시내','현지 이동','추천 동선','알아두면 좋은 팁'];let a=CITY_GUIDES[city]||[];$('cityGuide').innerHTML=a.map((v,i)=>`<div class="guide-card"><strong>${labels[i]}</strong>${safe(v)}</div>`).join('')}
+function renderCityGuide(city){let labels=['공항에서 시내','현지 이동','추천 동선','알아두면 좋은 팁'];let a=CITY_GUIDES[city]||['공항·시내 이동 수단과 운행시간을 공식 교통기관에서 확인하세요.','도심은 대중교통·도보, 외곽 명소는 투어·차량 이동을 비교하세요.','가까운 관광지 2~3곳을 하루에 묶고 먼 근교 코스는 별도 하루를 확보하세요.','입장료·운영시간·휴무일·날씨는 여행 직전에 공식 사이트에서 확인하세요.'];$('cityGuide').innerHTML=a.map((v,i)=>`<div class="guide-card"><strong>${labels[i]}</strong>${safe(v)}</div>`).join('')}
 function moveActivity(i,to){if(!Number.isInteger(to)||to<0||to>=days.length||to===active)return;const item=days[active].splice(i,1)[0];if(!item)return;days[to].push(item);active=to;renderDays();refresh();toast(`${to+1}일차로 일정을 이동했습니다`)}
 function sortActiveDay(){if(!days.length)return;days[active].sort((a,b)=>(a.time||'99:99').localeCompare(b.time||'99:99'));renderDays();toast('시간순으로 정렬했습니다')}
 function refresh(){let t=totals(),budget=num($('budget').value);$('sumDays').textContent=duration()?duration()+'일':'날짜 확인';$('sumPeople').textContent=t.people+'명';$('sumNights').textContent=t.nights+'박 · '+t.rooms+'객실';$('sumTotal').textContent=won(t.total);$('sumPer').textContent=won(t.total/t.people);$('sumBudget').textContent=budget?(budget>=t.total?'잔여 ':'초과 ')+won(Math.abs(budget-t.total)):'목표 미설정';$('budgetProgress').style.width=budget?Math.min(100,t.total/budget*100)+'%':'0%';let c=DATA[$('city').value],a=$('start').value,b=$('end').value;if(c&&duration())$('flightLink').href=`https://flight.naver.com/flights/international/${$('origin').value}:airport-${c.airport}:airport-${a.replaceAll('-','')}/${c.airport}:airport-${$('origin').value}:airport-${b.replaceAll('-','')}?adult=${t.people}&isDirect=true&fareType=Y`;else $('flightLink').href='https://flight.naver.com/';$('hotelLink').href='https://www.booking.com/searchresults.ko.html?ss='+encodeURIComponent($('city').value);renderBreakdown();refreshReadiness()}
@@ -403,14 +406,14 @@ function downloadPhotoCSV(){
 function backupCurrent(){
  const plan=snap(),stamp=new Date().toLocaleString('sv-SE').replace(' ','_').replaceAll(':','');
  const name=(plan.name||'여행계획').replace(/[\\/:*?"<>|]/g,'_').replace(/\s+/g,'_').slice(0,55);
- downloadJSON({format:'K-TRAVEL',version:38,plans:[plan]},`K-TRAVEL-${name}-${stamp}.json`);
+ downloadJSON({format:'K-TRAVEL',version:41,plans:[plan]},`K-TRAVEL-${name}-${stamp}.json`);
  toast('현재 계획을 JSON 파일로 저장했습니다. 브라우저 저장 없이도 백업됩니다.');
 }
-function exportData(){let blob=new Blob([JSON.stringify({format:'K-TRAVEL',version:38,plans:read()},null,2)],{type:'application/json'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='K-TRAVEL-여행계획-'+new Date().toLocaleString('sv-SE').replace(' ','_').replaceAll(':','')+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)}
+function exportData(){let blob=new Blob([JSON.stringify({format:'K-TRAVEL',version:41,plans:read()},null,2)],{type:'application/json'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='K-TRAVEL-여행계획-'+new Date().toLocaleString('sv-SE').replace(' ','_').replaceAll(':','')+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)}
 async function importData(e){let f=e.target.files?.[0];if(!f)return;try{if(f.size>5000000)throw Error('5MB 이하 파일만 가능합니다');let x=JSON.parse(await f.text()),a=Array.isArray(x)?x:x.plans;if(!Array.isArray(a)||a.length>1000||!a.every(y=>y&&typeof y.name==='string'))throw Error('지원하지 않는 파일입니다');let old=read(),ids=new Set(old.map(y=>y.id)),incoming=a.map(y=>({...y,id:!y.id||ids.has(y.id)?Date.now()+'-'+Math.random().toString(36).slice(2):y.id}));localStorage.setItem(KEY,JSON.stringify([...incoming,...old]));renderSaved();toast(incoming.length+'개 여행을 가져왔습니다')}catch(err){toast('가져오기 실패: '+err.message)}e.target.value=''}
 
 /* v10 additions: deterministic, no paid AI/API dependency */
-const LOCAL_CURRENCY={일본:'JPY',베트남:'VND',대만:'TWD',태국:'THB',싱가포르:'SGD',필리핀:'PHP',인도네시아:'IDR',프랑스:'EUR',홍콩:'HKD'};
+const LOCAL_CURRENCY={일본:'JPY',베트남:'VND',대만:'TWD',태국:'THB',싱가포르:'SGD',필리핀:'PHP',인도네시아:'IDR',프랑스:'EUR',홍콩:'HKD',중국:'CNY',미국:'USD',말레이시아:'MYR',호주:'AUD'};
 function currencyForCity(){return LOCAL_CURRENCY[DATA[$('city').value]?.country]||'현지 통화'}
 function refreshCurrency(){
  const currency=currencyForCity();$('currencyBadge').textContent=currency;
@@ -419,6 +422,7 @@ function refreshCurrency(){
  $('exchangeResult').textContent=`${amount.toLocaleString('ko-KR')} ${currency} ≈ ${won(amount*rate)}`;
 }
 
+/* v40: itinerary covers 24 destinations; correct currency badges for new countries. */
 /* v38: one-click trip duration-aware recommendation, no paid API. */
 const V38_CITY_PACKS={
  '오사카':[['구로몬 시장','도톤보리'],['오사카성','우메다 스카이 빌딩'],['유니버설 스튜디오 재팬']],
@@ -450,37 +454,60 @@ function v38TimeFor(sp, dayIndex, dayCount, position, priorEnd){
  return {time:String(Math.floor(start/60)).padStart(2,'0')+':'+String(start%60).padStart(2,'0'),end:start+Number(sp[3]||90)+Math.max(20,Number($('travelBuffer').value)||30)};
 }
 function v38Build(city, n){
+ // v40: covers all 24 destinations, including cities without a legacy arrival/departure map.
+ // Never repeat attractions, reserve a short departure-day visit, and spread sightseeing
+ // across longer trips. An unfilled day is intentionally a free/rest day.
  const spots=DATA[city]?.spots||[];
+ if(!spots.length||!Number.isInteger(n)||n<1||n>60)return [];
  const index=new Map(spots.map(s=>[s[0],s]));
- const packs=(V38_CITY_PACKS[city]||[spots.map(s=>s[0])]).map(group=>group.filter(name=>index.has(name))).filter(g=>g.length);
- const original=[...new Set(packs.flat())].filter(name=>index.has(name));
- const arrival=V38_ARRIVAL[city],departure=V38_DEPARTURE[city];
- const order=n===1?original:[arrival,...original.filter(x=>x!==arrival&&x!==departure),departure];
- const pool=[...new Set(order)].filter(name=>index.has(name)).map(name=>index.get(name));
+ const packs=(V38_CITY_PACKS[city]||[spots.map(s=>s[0])])
+   .map(group=>group.filter(name=>index.has(name))).filter(group=>group.length);
+ const names=[...new Set([...packs.flat(),...spots.map(s=>s[0])])];
+ const ordered=names.map(name=>index.get(name)).filter(Boolean);
+ const short=ordered.filter(sp=>Number(sp[3])<=150);
+ const arrival=index.get(V38_ARRIVAL[city])||short[0]||ordered[0];
+ const departure=(index.get(V38_DEPARTURE[city])?.[0]!==arrival[0]&&Number(index.get(V38_DEPARTURE[city])?.[3])<=180
+   ?index.get(V38_DEPARTURE[city]):null)
+   ||short.slice().reverse().find(sp=>sp[0]!==arrival[0])
+   ||ordered.slice().reverse().find(sp=>sp[0]!==arrival[0]);
  const result=Array.from({length:n},()=>[]);
- const capacity=(i)=>n===1?3:(i===0||i===n-1?1:2);
- let k=0;
- for(let i=0;i<n;i++){
-  let end=0;
-  while(result[i].length<capacity(i)&&k<pool.length){
-   const sp=(n>1&&i===n-1)?pool.find(x=>x[0]===departure):(n>1&&pool[k]?.[0]===departure?null:pool[k]);
-   if(!sp)break;
-   if(Number(sp[3])>=300&&result[i].length){break}
-   if(Number(sp[3])>=300&&n>1&&(i===0||i===n-1)){k++;continue}
-   const slot=v38TimeFor(sp,i,n,result[i].length,end);
-   if(!slot)break;
-   result[i].push({time:slot.time,place:sp[0],memo:sp[1]+' · 권장 체류 '+sp[3]+'분 · 이동시간·운영시간은 현지 확인',cost:0});
-   end=slot.end;k++;
-   if(n>1&&i===n-1)break;
-   if(Number(sp[3])>=300)break;
-   // Spread the highlights across a longer trip, leaving time to relax.
-   if(n>=4 && pool.length-k>=n-i-1)break;
+ const buffer=Math.max(20,Number($('travelBuffer').value)||30);
+ function place(day,sp){
+  if(!sp)return false;
+  const last=result[day].at(-1);
+  const lastSp=last?index.get(last.place):null;
+  const priorEnd=last?Number(last.time.slice(0,2))*60+Number(last.time.slice(3))+(Number(lastSp?.[3])||90)+buffer:0;
+  const slot=v38TimeFor(sp,day,n,result[day].length,priorEnd);
+  if(!slot)return false;
+  const max=(n>1&&day===n-1)?12*60+30:22*60;
+  if(slot.end-buffer>max)return false;
+  result[day].push({time:slot.time,place:sp[0],memo:sp[1]+' · 권장 체류 '+sp[3]+'분 · 이동시간·운영시간은 현지 확인',cost:0});
+  return true;
+ }
+ if(n===1){
+  for(const sp of ordered){if(result[0].length>=3)break;if(Number(sp[3])>=300&&result[0].length)continue;place(0,sp)}
+  return result;
+ }
+ place(0,arrival);
+ if(departure)place(n-1,departure);
+ const remaining=ordered.filter(sp=>sp[0]!==arrival[0]&&sp[0]!==departure?.[0]);
+ if(n<=2)return result;
+ const middle=n-2;
+ const dayCount=Math.min(middle,Math.ceil(remaining.length/2));
+ if(!dayCount)return result;
+ const targets=Array.from({length:dayCount},(_,i)=>1+(dayCount===1?0:Math.round(i*(middle-1)/(dayCount-1))));
+ let cursor=0;
+ for(const day of targets){
+  while(cursor<remaining.length&&result[day].length<2){
+   const sp=remaining[cursor++];
+   if(Number(sp[3])>=300&&result[day].length)continue;
+   if(place(day,sp)&&Number(sp[3])>=300)break;
   }
  }
  return result;
 }
 function v38RenderSummary(plan, title){
- const box=$('v38AutoSummary');if(!box)return;
+ const box=$('v39AutoSummary');if(!box)return;
  const total=plan.reduce((s,d)=>s+d.length,0);
  box.innerHTML=`<strong>${safe(title)} · ${safe($('city').value)} · ${plan.length}일 · 추천 ${total}곳</strong>`+
   `<div class="v38-day-preview">${plan.map((d,i)=>`<div class="v38-day"><b>${i+1}일차 <small>${safe(v38DateLabel(i))}</small></b><span>${d.length?d.map(x=>safe(x.time+' '+x.place)).join(' → '):'자유시간 · 휴식 / 추가 일정 가능'}</span></div>`).join('')}</div>`+
@@ -500,12 +527,12 @@ function v38ApplyDraft(mode){
  count=days.reduce((s,d)=>s+d.length,0);
  active=days.findIndex(d=>d.length);if(active<0)active=0;
  renderDays();renderSpots();refresh();v38Draft=null;
- $('v38AutoOptions').classList.add('hidden');
+ $('v39AutoOptions').classList.add('hidden');
  v38RenderSummary(days,'추천 일정 적용 완료');
  toast(`추천 일정 ${count}개가 반영되었습니다. 필요하면 수정·저장하세요.`);
  return true;
 }
-function v38CancelDraft(){v38Draft=null;$('v38AutoOptions').classList.add('hidden');$('v38AutoSummary').classList.add('hidden')}
+function v38CancelDraft(){v38Draft=null;$('v39AutoOptions').classList.add('hidden');$('v39AutoSummary').classList.add('hidden')}
 function recommendItinerary(){
  const n=duration();
  if(!n||!DATA[$('city').value]){toast('여행지·출발일·귀국일을 먼저 선택하세요 (1~60일).');return}
@@ -514,8 +541,8 @@ function recommendItinerary(){
  v38Draft={city:$('city').value,start:$('start').value,end:$('end').value,days:draft};
  const hasExisting=days.some(d=>d.length);
  v38RenderSummary(draft,hasExisting?'추천 일정 미리보기':'추천 일정 자동 불러오기');
- if(hasExisting){$('v38AutoOptions').classList.remove('hidden');toast('기존 일정이 있습니다. 빈 날짜 추가 또는 전체 교체를 선택하세요.');$('v38AutoSummary').scrollIntoView({block:'nearest',behavior:'smooth'});return}
- $('v38AutoOptions').classList.add('hidden');v38ApplyDraft('replace');
+ if(hasExisting){$('v39AutoOptions').classList.remove('hidden');toast('기존 일정이 있습니다. 빈 날짜 추가 또는 전체 교체를 선택하세요.');$('v39AutoSummary').scrollIntoView({block:'nearest',behavior:'smooth'});return}
+ $('v39AutoOptions').classList.add('hidden');v38ApplyDraft('replace');
 }
 function openDayRoute(){
  const arr=(days[active]||[]).filter(x=>x.place&&x.place.trim()).slice().sort((a,b)=>(a.time||'99:99').localeCompare(b.time||'99:99'));
@@ -689,7 +716,7 @@ function renderPhotoStories(filter=activeStoryMood){
 }
 
 function renderCityRoute(city){
- const stops=(V22_ROUTES[city]||[]).filter(n=>DATA[city]?.spots.some(sp=>sp[0]===n));
+ const stops=(V22_ROUTES[city]||DATA[city]?.spots.slice(0,3).map(sp=>sp[0])||[]).filter(n=>DATA[city]?.spots.some(sp=>sp[0]===n));
  $('routeDesc').textContent=`${city}의 대표 명소 ${stops.length}곳을 묶은 예시 코스입니다. 숙소 위치·운영시간·교통 상황에 맞게 순서를 조정하세요.`;
  $('routeStops').innerHTML=stops.map((name,i)=>`${i?'<span class="route-arrow" aria-hidden="true">→</span>':''}<span class="route-stop"><b>${i+1}</b>${safe(name)}</span>`).join('');
  const locations=stops.map(n=>n+' '+city);
@@ -711,14 +738,14 @@ function renderCityRoute(city){
  };
 }
 
-function init(){let names=Object.keys(DATA),opts=names.map(n=>`<option value="${safe(n)}">${safe(n)} · ${safe(DATA[n].country)}</option>`).join('');$('city').innerHTML=$('quickCity').innerHTML=opts;let today=new Date(),start=new Date(today.getTime()+30*86400000),end=new Date(today.getTime()+34*86400000),iso=x=>`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`;$('start').value=$('quickStart').value=iso(start);$('end').value=$('quickEnd').value=iso(end);$('cityCards').innerHTML=names.map(n=>{
+function init(){let names=Object.keys(DATA).sort((a,b)=>{const r=["일본", "베트남", "중국", "태국", "필리핀", "미국", "대만", "홍콩", "싱가포르", "인도네시아", "말레이시아", "프랑스", "호주"];return (r.indexOf(DATA[a].country)<0?99:r.indexOf(DATA[a].country))-(r.indexOf(DATA[b].country)<0?99:r.indexOf(DATA[b].country))}),opts=names.map(n=>`<option value="${safe(n)}">${safe(n)} · ${safe(DATA[n].country)}</option>`).join('');$('city').innerHTML=$('quickCity').innerHTML=opts;let today=new Date(),start=new Date(today.getTime()+30*86400000),end=new Date(today.getTime()+34*86400000),iso=x=>`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`;$('start').value=$('quickStart').value=iso(start);$('end').value=$('quickEnd').value=iso(end);$('cityCards').innerHTML=names.map(n=>{
  const p=CITY_PHOTO_MAP[n];
  const covered=DATA[n].spots.filter(sp=>!!spotPhoto(n,sp[0])).length;
  const mosaic=[p,...DATA[n].spots.map(sp=>spotPhoto(n,sp[0])).filter(Boolean).filter(x=>x?.file!==p?.file).slice(0,2)].filter(Boolean);
- const photoMosaic=mosaic.map((pic,i)=>`<span class="city-mosaic-item"><img loading="lazy" decoding="async" data-city-mosaic="${safe(n)}" data-city-mosaic-index="${i}" width="${i===0?560:280}" height="${i===0?370:180}" alt="${safe(n)} · ${safe(pic.spot)} 실제 관광지 사진"><span>${safe(pic.spot)}</span></span>`).join('');
+ const photoMosaic=mosaic.length?mosaic.map((pic,i)=>`<span class="city-mosaic-item"><img loading="lazy" decoding="async" data-city-mosaic="${safe(n)}" data-city-mosaic-index="${i}" width="${i===0?560:280}" height="${i===0?370:180}" alt="${safe(n)} · ${safe(pic.spot)} 실제 관광지 사진"><span>${safe(pic.spot)}</span></span>`).join(''):`<span class="v39-photo-placeholder"><strong>${safe(n)}</strong><small>검증된 현지 사진 준비 중 · 대체 디자인</small></span>`;
  const credits=mosaic.map((pic,i)=>`<div>${i+1}. ${safe(pic.spot)} · ${photoCredit(pic,true)} · 확인기록 ${safe(pic.checked)}</div>`).join('');
  return `<article class="city city-mosaic-card"><button type="button" class="city-open" data-city="${safe(n)}" aria-label="${safe(n)} 여행 가이드와 사진 갤러리 열기"><div class="city-mosaic">${photoMosaic}</div><div class="info"><span class="badge">${safe(DATA[n].country)}</span><h3>${safe(n)} <span aria-hidden="true">↗</span></h3><div class="muted small">${safe(DATA[n].tag)}</div><p class="city-teaser">${safe(DATA[n].intro.slice(0,74))}${DATA[n].intro.length>74?'…':''}</p><p class="small muted">${DATA[n].spots.length}개 관광지 · 사진 ${mosaic.length}장 미리보기 · 상세 코스 보기</p></div></button><div class="city-mosaic-footer"><span class="city-photo-note">📷 ${safe(photoAgeLabel(p))} · 촬영 시점의 풍경</span><details class="city-mosaic-sources"><summary>사진 ${mosaic.length}장 저작자·라이선스·원본 출처</summary>${credits}</details></div></article>`;
- }).join('');$('countryFilter').innerHTML='<option value="">전체 국가</option>'+[...new Set(names.map(n=>DATA[n].country))].map(x=>`<option value="${safe(x)}">${safe(x)}</option>`).join('');document.querySelectorAll('[data-city-mosaic]').forEach(img=>{const city=img.dataset.cityMosaic,i=Number(img.dataset.cityMosaicIndex),cover=CITY_PHOTO_MAP[city],mosaic=[cover,...DATA[city].spots.map(sp=>spotPhoto(city,sp[0])).filter(Boolean).filter(x=>x.file!==cover?.file).slice(0,2)].filter(Boolean);setCuratedImage(img,mosaic[i],city+' · '+(mosaic[i]?.spot||'여행지'),null,i===0?720:420)});$('citySearch').oninput=filterCities;$('countryFilter').onchange=filterCities;$('spotSearch').oninput=filterSpots;$('spotCategory').onchange=filterSpots;$('onlyPhotos').onchange=filterSpots;$('recentPhotos').onchange=()=>{if($('recentPhotos').checked)$('oldPhotos').checked=false;filterSpots()};$('oldPhotos').onchange=()=>{if($('oldPhotos').checked)$('recentPhotos').checked=false;filterSpots()};$('goEmptyDay').onclick=()=>{let i=days.findIndex(a=>a.length===0);if(i<0){toast('빈 날짜가 없습니다');return}active=i;renderDays();document.getElementById('dayTabs').scrollIntoView({behavior:'smooth',block:'center'})};filterCities();renderInspiration();setupHeroPhoto();document.querySelectorAll('[data-city]').forEach(b=>b.onclick=()=>selectCityForPlan(b.dataset.city));document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>show(b.dataset.nav));$('brand').onclick=e=>{e.preventDefault();show('discover')};$('quickGo').onclick=()=>{loaded=null;manual=false;entryDateEdited=false;entryChecks={};$('city').value=$('quickCity').value;$('start').value=$('quickStart').value;$('end').value=$('quickEnd').value;$('people').value=$('quickPeople').value;days=[];if(!syncDays()){toast('출발일과 귀국일을 확인하세요 (최대 60일)');return}nameAuto();renderDays();renderSpots();refresh();refreshCurrency();show('planner')};['city','origin','start','end','people','rooms','budget'].forEach(k=>$(k).addEventListener('change',()=>{if(['start','end'].includes(k)){if(!syncDays())toast('여행기간은 1~60일이어야 합니다');renderDays()}if(['city','start','end'].includes(k)){if(k==='city'){currentCityMood='all';$('cityPhotoSearch').value='';$('cityPhotoAll').checked=false;}renderSpots();}nameAuto();refresh();refreshCurrency()}));$('tripName').oninput=()=>manual=true;$('makeDays').onclick=()=>{if(!syncDays()){toast('출발일·귀국일을 확인하세요 (최대 60일)');return}renderDays();renderSpots();refresh();toast('일정표가 준비되었습니다')};$('addCustom').onclick=()=>edit();$('sortDay').onclick=sortActiveDay;$('autoItinerary').onclick=recommendItinerary;$('dayRoute').onclick=openDayRoute;$('printTrip').onclick=printItinerary;['localAmount','krwRate'].forEach(k=>$(k).addEventListener('input',refreshCurrency));['saveTop','saveBottom','saveSide'].forEach(k=>$(k).onclick=save);$('backupCurrent').onclick=backupCurrent;$('downloadPhotoCSV').onclick=downloadPhotoCSV;$('downloadPhotoSources').onclick=()=>{const city=$('city').value;downloadJSON({format:'K-TRAVEL-PHOTO-SOURCES',version:38,city,exportedAt:new Date().toISOString(),photos:PHOTO_CATALOG.filter(p=>p.city===city)},'K-TRAVEL-사진출처-'+city+'-v38.json')};$('export').onclick=exportData;$('import').onchange=importData;$('detailClose').onclick=closeDetail;$('detailPrev').onclick=()=>chooseDetailPhoto(detailPhotoIndex-1);$('detailNext').onclick=()=>chooseDetailPhoto(detailPhotoIndex+1);$('detailAdd').onclick=()=>{if(spotIndex!==null){addSpot(spotIndex);closeDetail()}};$('spotModal').onclick=e=>{if(e.target===$('spotModal'))closeDetail()};document.addEventListener('keydown',e=>{if($('spotModal').classList.contains('hidden'))return;if(e.key==='Escape')closeDetail();else if(e.key==='ArrowRight')chooseDetailPhoto(detailPhotoIndex+1);else if(e.key==='ArrowLeft')chooseDetailPhoto(detailPhotoIndex-1)});$('share').onclick=async()=>{let t=totals(),txt=`${$('tripName').value}\n${$('city').value} ${$('start').value} ~ ${$('end').value}\n${t.people}명 · 예상 총경비 ${won(t.total)} · 1인당 ${won(t.total/t.people)}\n`+days.map((d,i)=>`${i+1}일차: ${d.map(x=>x.place).join(', ')}`).join('\n');try{await navigator.clipboard.writeText(txt);toast('여행 요약을 복사했습니다')}catch{window.prompt('아래 내용을 복사하세요',txt)}};renderCosts();renderChecks();nameAuto();syncDays();renderDays();renderSpots();refresh();refreshCurrency()}
+ }).join('');$('countryFilter').innerHTML='<option value="">전체 국가</option>'+[...new Set(names.map(n=>DATA[n].country))].map(x=>`<option value="${safe(x)}">${safe(x)}</option>`).join('');document.querySelectorAll('[data-city-mosaic]').forEach(img=>{const city=img.dataset.cityMosaic,i=Number(img.dataset.cityMosaicIndex),cover=CITY_PHOTO_MAP[city],mosaic=[cover,...DATA[city].spots.map(sp=>spotPhoto(city,sp[0])).filter(Boolean).filter(x=>x.file!==cover?.file).slice(0,2)].filter(Boolean);setCuratedImage(img,mosaic[i],city+' · '+(mosaic[i]?.spot||'여행지'),null,i===0?720:420)});$('citySearch').oninput=filterCities;$('countryFilter').onchange=filterCities;$('spotSearch').oninput=filterSpots;$('spotCategory').onchange=filterSpots;$('onlyPhotos').onchange=filterSpots;$('recentPhotos').onchange=()=>{if($('recentPhotos').checked)$('oldPhotos').checked=false;filterSpots()};$('oldPhotos').onchange=()=>{if($('oldPhotos').checked)$('recentPhotos').checked=false;filterSpots()};$('goEmptyDay').onclick=()=>{let i=days.findIndex(a=>a.length===0);if(i<0){toast('빈 날짜가 없습니다');return}active=i;renderDays();document.getElementById('dayTabs').scrollIntoView({behavior:'smooth',block:'center'})};filterCities();renderInspiration();setupHeroPhoto();document.querySelectorAll('[data-city]').forEach(b=>b.onclick=()=>selectCityForPlan(b.dataset.city));document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>show(b.dataset.nav));$('brand').onclick=e=>{e.preventDefault();show('discover')};$('quickGo').onclick=()=>{loaded=null;manual=false;entryDateEdited=false;entryChecks={};$('city').value=$('quickCity').value;$('start').value=$('quickStart').value;$('end').value=$('quickEnd').value;$('people').value=$('quickPeople').value;days=[];if(!syncDays()){toast('출발일과 귀국일을 확인하세요 (최대 60일)');return}nameAuto();renderDays();renderSpots();refresh();refreshCurrency();show('planner')};['city','origin','start','end','people','rooms','budget'].forEach(k=>$(k).addEventListener('change',()=>{if(['start','end'].includes(k)){if(!syncDays())toast('여행기간은 1~60일이어야 합니다');renderDays()}if(['city','start','end'].includes(k)){if(k==='city'){currentCityMood='all';$('cityPhotoSearch').value='';$('cityPhotoAll').checked=false;}renderSpots();}nameAuto();refresh();refreshCurrency()}));$('tripName').oninput=()=>manual=true;$('makeDays').onclick=()=>{if(!syncDays()){toast('출발일·귀국일을 확인하세요 (최대 60일)');return}renderDays();renderSpots();refresh();toast('일정표가 준비되었습니다')};$('addCustom').onclick=()=>edit();$('sortDay').onclick=sortActiveDay;$('autoItinerary').onclick=recommendItinerary;$('dayRoute').onclick=openDayRoute;$('printTrip').onclick=printItinerary;['localAmount','krwRate'].forEach(k=>$(k).addEventListener('input',refreshCurrency));['saveTop','saveBottom','saveSide'].forEach(k=>$(k).onclick=save);$('backupCurrent').onclick=backupCurrent;$('downloadPhotoCSV').onclick=downloadPhotoCSV;$('downloadPhotoSources').onclick=()=>{const city=$('city').value;downloadJSON({format:'K-TRAVEL-PHOTO-SOURCES',version:39,city,exportedAt:new Date().toISOString(),photos:PHOTO_CATALOG.filter(p=>p.city===city)},'K-TRAVEL-사진출처-'+city+'-v39.json')};$('export').onclick=exportData;$('import').onchange=importData;$('detailClose').onclick=closeDetail;$('detailPrev').onclick=()=>chooseDetailPhoto(detailPhotoIndex-1);$('detailNext').onclick=()=>chooseDetailPhoto(detailPhotoIndex+1);$('detailAdd').onclick=()=>{if(spotIndex!==null){addSpot(spotIndex);closeDetail()}};$('spotModal').onclick=e=>{if(e.target===$('spotModal'))closeDetail()};document.addEventListener('keydown',e=>{if($('spotModal').classList.contains('hidden'))return;if(e.key==='Escape')closeDetail();else if(e.key==='ArrowRight')chooseDetailPhoto(detailPhotoIndex+1);else if(e.key==='ArrowLeft')chooseDetailPhoto(detailPhotoIndex-1)});$('share').onclick=async()=>{let t=totals(),txt=`${$('tripName').value}\n${$('city').value} ${$('start').value} ~ ${$('end').value}\n${t.people}명 · 예상 총경비 ${won(t.total)} · 1인당 ${won(t.total/t.people)}\n`+days.map((d,i)=>`${i+1}일차: ${d.map(x=>x.place).join(', ')}`).join('\n');try{await navigator.clipboard.writeText(txt);toast('여행 요약을 복사했습니다')}catch{window.prompt('아래 내용을 복사하세요',txt)}};renderCosts();renderChecks();nameAuto();syncDays();renderDays();renderSpots();refresh();refreshCurrency()}
 
 /* v32: field notes for newly verified landmarks; fees are intentionally not hard-coded. */
 Object.assign(SPOT_STORIES,{
@@ -829,7 +856,7 @@ const PHOTO_WALKS={
  '홍콩':{title:'항구를 건너 야경 전망으로',when:'오후부터 저녁',tip:'침사추이에서 스타페리로 홍콩섬에 건너가 피크로 이동합니다. 날씨에 따라 전망이 달라집니다.',spots:['침사추이 산책로','스타페리','빅토리아 피크']}
 };
 function renderPhotoWalk(city){
- const route=PHOTO_WALKS[city],box=$('photoWalkCards');if(!route||!box)return;
+ const route=PHOTO_WALKS[city]||{title:city+' 하루 산책 코스',when:'오전부터 오후까지',tip:'도시의 대표 명소 3곳을 중심으로 구성한 예시입니다',spots:DATA[city].spots.slice(0,3).map(sp=>sp[0])},box=$('photoWalkCards');if(!route||!box)return;
  $('photoWalkTitle').textContent=route.title;
  $('photoWalkWhen').textContent=`추천 시간대 · ${route.when}`;
  $('photoWalkTip').textContent=route.tip+' · 실제 교통·대기시간은 포함하지 않습니다.';
@@ -1119,13 +1146,33 @@ $('v37Ratio').addEventListener('click',e=>{v37FullFrame=!v37FullFrame;e.currentT
 renderV37Gallery();
 
 /* v38 UI wiring after v37 initialization. */
-$('v38QuickAuto').addEventListener('click',()=>{
+$('v39QuickAuto').addEventListener('click',()=>{
  const n=Math.round((new Date($('quickEnd').value+'T12:00:00')-new Date($('quickStart').value+'T12:00:00'))/86400000)+1;
  if(!Number.isFinite(n)||n<1||n>60){toast('여행 날짜를 확인하세요 (1~60일).');return}
  if(days.some(d=>d.length)&&!window.confirm('다른 여행지/날짜를 선택하면 현재 편집 중인 일정이 초기화됩니다. 저장 또는 백업했나요?'))return;
  $('quickGo').click();recommendItinerary();
 });
-$('v38PlannerAuto').addEventListener('click',recommendItinerary);
-$('v38Apply').addEventListener('click',()=>v38ApplyDraft($('v38ApplyMode').value));
-$('v38Cancel').addEventListener('click',v38CancelDraft);
+$('v39PlannerAuto').addEventListener('click',recommendItinerary);
+$('v39Apply').addEventListener('click',()=>v38ApplyDraft($('v39ApplyMode').value));
+$('v39Cancel').addEventListener('click',v38CancelDraft);
 ['city','start','end'].forEach(id=>$(id).addEventListener('change',v38CancelDraft));
+
+/* v41: search, sort and duplicate saved plans without altering the storage schema. */
+let v41SavedQuery='',v41SavedSort='recent';
+function v41DateValue(s){const t=Date.parse(String(s||''));return Number.isFinite(t)?t:0}
+function v41RenderSaved(){
+ const all=read();const q=v41SavedQuery.trim().toLocaleLowerCase();
+ const items=all.map((plan,index)=>({plan,index})).filter(({plan})=>!q||[plan.name,plan.city,plan.start,plan.end,plan.origin].join(' ').toLocaleLowerCase().includes(q));
+ if(v41SavedSort==='departure')items.sort((a,b)=>v41DateValue(a.plan.start)-v41DateValue(b.plan.start)||v41DateValue(b.plan.savedAt)-v41DateValue(a.plan.savedAt));
+ else if(v41SavedSort==='city')items.sort((a,b)=>String(a.plan.city||'').localeCompare(String(b.plan.city||''),'ko')||v41DateValue(b.plan.savedAt)-v41DateValue(a.plan.savedAt));
+ else items.sort((a,b)=>v41DateValue(b.plan.savedAt)-v41DateValue(a.plan.savedAt));
+ $('v41SavedCount').textContent=`${items.length}개 표시 / 전체 ${all.length}개 · 복제는 원본을 그대로 보존합니다.`;
+ $('savedList').innerHTML=items.length?items.map(({plan:x,index:i})=>`<article class="panel row v41-saved-card"><div><h3 style="margin:0">${safe(x.name)}</h3><div class="muted small v41-saved-meta">${safe(x.city)} · ${safe(x.start)} ~ ${safe(x.end)} · ${Array.isArray(x.days)?x.days.length:0}일</div></div><div class="actions"><button type="button" class="btn" data-v41-load="${i}">불러오기</button><button type="button" class="btn alt" data-v41-copy="${i}">복제</button><button type="button" class="btn danger" data-v41-delete="${i}">삭제</button></div></article>`).join(''):`<div class="empty">${all.length?'검색 결과가 없습니다. 검색어를 바꿔 보세요.':'저장된 여행계획이 없습니다.'}</div>`;
+ $('savedList').querySelectorAll('[data-v41-load]').forEach(b=>b.onclick=()=>{const x=read()[Number(b.dataset.v41Load)];if(x)load(x);else{toast('저장목록이 변경되었습니다. 다시 확인하세요.');v41RenderSaved()}});
+ $('savedList').querySelectorAll('[data-v41-copy]').forEach(b=>b.onclick=()=>{const x=read()[Number(b.dataset.v41Copy)];if(!x){v41RenderSaved();return}try{const copy=JSON.parse(JSON.stringify(x));copy.id=Date.now()+'-'+Math.random().toString(36).slice(2,10);copy.name=String(x.name||'나의 여행')+' (복사본)';copy.savedAt=new Date().toISOString();localStorage.setItem(KEY,JSON.stringify([copy,...read()]));v41SavedQuery='';$('v41SavedSearch').value='';v41SavedSort='recent';$('v41SavedSort').value='recent';v41RenderSaved();toast('원본을 유지하고 여행계획을 복제했습니다.')}catch(err){toast('복제 실패: 브라우저 저장 공간을 확인하세요.')}});
+ $('savedList').querySelectorAll('[data-v41-delete]').forEach(b=>b.onclick=()=>{const i=Number(b.dataset.v41Delete),a=read(),x=a[i];if(!x){v41RenderSaved();return}if(!confirm('「'+String(x.name||'여행계획')+'」을(를) 삭제할까요? 이 작업은 취소할 수 없습니다.'))return;try{a.splice(i,1);localStorage.setItem(KEY,JSON.stringify(a));v41RenderSaved();toast('선택한 여행계획을 삭제했습니다.')}catch(err){toast('삭제 실패: 저장 공간을 확인하세요.')}});
+}
+renderSaved=v41RenderSaved;
+$('v41SavedSearch').addEventListener('input',e=>{v41SavedQuery=e.target.value;v41RenderSaved()});
+$('v41SavedSort').addEventListener('change',e=>{v41SavedSort=e.target.value;v41RenderSaved()});
+window.addEventListener('storage',e=>{if(e.key===KEY&&!$('saved').classList.contains('hidden'))v41RenderSaved()});

@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#073e55">
-<meta name="description" content="K-TRAVEL PICKS v40: 179장 사진 출처 기록, 기존 사진 검증 기록 계승(이번 전수 재검증 아님), 24개 여행지 120개 명소, 여행 일정·실제 항공료·경비·저장.">
-<title>K-TRAVEL PICKS | 자유여행 계획 v40</title>
+<meta name="description" content="K-TRAVEL PICKS v41: 179장 사진 출처 기록, 기존 사진 검증 기록 계승(이번 전수 재검증 아님), 24개 여행지 120개 명소, 여행 일정·실제 항공료·경비·저장.">
+<title>K-TRAVEL PICKS | 자유여행 계획 v41</title>
 <style>
 
 
@@ -500,10 +500,13 @@
 /* v39: 출처 확인 전 사진 대체 디자인 */
 .v39-photo-placeholder{min-height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:100%;padding:20px;text-align:center;color:#fff;background:radial-gradient(circle at 80% 15%,#ffffff3d,transparent 40%),linear-gradient(135deg,#0a5c77,#159e9b 52%,#073f5e)}.v39-photo-placeholder strong{font-size:28px;letter-spacing:-1px}.v39-photo-placeholder small{font-size:12px;color:#e8fcff}.city-mosaic:has(.v39-photo-placeholder){min-height:210px}.v39-ranking-note{font-size:13px;color:#496978;background:#e9f7f7;border-radius:12px;padding:12px 16px;margin:12px 0}
 
+
+/* v41: saved-trip management, keyboard and narrow-screen readability */
+.v41-saved-tools{margin:16px 0 20px}.v41-saved-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(175px,1fr);gap:14px;align-items:end}.v41-saved-grid input,.v41-saved-grid select{width:100%;min-height:44px}.v41-saved-card{gap:16px;flex-wrap:wrap}.v41-saved-card>div:first-child{min-width:180px;flex:1 1 240px}.v41-saved-card .actions{flex-wrap:wrap}.v41-saved-card .actions button{min-height:42px}.v41-saved-card .v41-saved-meta{margin-top:5px}.v41-saved-card h3{overflow-wrap:anywhere}@media(max-width:640px){.v41-saved-grid{grid-template-columns:1fr}.v41-saved-card{align-items:stretch}.v41-saved-card .actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;width:100%}.v41-saved-card .actions button{padding:10px 5px;font-size:13px}}@media(max-width:370px){.v41-saved-card .actions{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v40</span></div></header>
+<header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v41</span></div></header>
 <main id="discover"><div class="hero"><div class="wrap"><div class="eyebrow">YOUR TRIP, YOUR WAY</div><h1>사진으로 먼저 떠나는 여행,<br>나만의 자유여행 완성</h1><p>실제 명소 사진으로 여행지를 발견하고, 마음에 드는 곳을 일정에 담아보세요.</p><div class="hero-photo-credit" id="heroPhotoCredit" aria-live="polite">실제 관광지 사진의 출처를 불러오는 중입니다.</div><div class="hero-photo-controls" role="group" aria-label="대표 여행지 사진 넘기기"><button type="button" id="heroPrev" aria-label="이전 대표 사진">‹</button><span id="heroPhotoCount" aria-live="polite">1 / 5</span><button type="button" id="heroNext" aria-label="다음 대표 사진">›</button><span>싱가포르 · 도쿄 · 발리 · 파리 · 세부 등 실제 촬영 사진</span></div><div class="quick"><label class="field">여행지<select id="quickCity"></select></label><label class="field">출발일<input id="quickStart" type="date"></label><label class="field">귀국일<input id="quickEnd" type="date"></label><label class="field">인원<input id="quickPeople" type="number" min="1" max="30" value="2"></label><button class="btn" id="quickGo">여행계획 만들기 →</button></div><div class="v39-hero-auto"><span>여행지와 날짜만 선택하면 일차별 코스를 바로 불러옵니다.</span><button type="button" class="btn" id="v39QuickAuto">✨ 추천 여행일정 자동 불러오기</button></div></div></div><section class="wrap section"><div class="section-head"><div><h2>인기 여행지 둘러보기</h2><div class="muted">24개 여행지 · 120개 관광지 · 출처 기록이 있는 사진 179장 · 관광지 사진 60곳. 관광지 사진이 없는 경우에는 명확한 대체 이미지를 표시합니다. 사진 촬영연도와 출처를 확인하세요.</div></div></div><div class="discover-tools"><label class="field">여행지·테마 검색<input id="citySearch" type="search" placeholder="예: 오사카, 해변, 미식" autocomplete="off"></label><label class="field">국가별 보기<select id="countryFilter"><option value="">전체 국가</option></select></label><span id="cityCount" class="muted small" role="status" aria-live="polite"></span></div><section class="global-spot-search" aria-label="60개 관광지 통합 빠른 검색"><label class="field"><strong>🔎 120개 명소 한 번에 찾기</strong><input type="search" id="globalSpotSearch" placeholder="예: 야경, 에펠탑, 참탑, 바다, 사원" autocomplete="off" aria-controls="globalSpotResults"></label><div id="globalSpotResults" class="global-spot-results hidden" role="region" aria-live="polite" aria-label="관광지 검색 결과"></div><p class="hint">명소를 누르면 해당 도시의 사진 갤러리·방문 팁·일정 추가 화면으로 이동합니다.</p></section><p class="v39-ranking-note">🇰🇷 한국인 해외여행 선호 국가를 참고한 국가별 여행지 정렬입니다. 일본·베트남·중국·태국 등 주요 방문국 우선. 정확한 국가별 순위는 집계 기준에 따라 달라집니다. 기존 12곳 사진은 이전 버전의 출처 기록을 사용하며, 새로 추가한 12곳은 라이선스 검증 전까지 실제 사진 대신 대체 디자인을 표시합니다.</p><div id="cityCards" class="cards"></div>
 
 <section class="v37-feature" aria-labelledby="v37Title">
@@ -614,7 +617,7 @@
   <button type="button" class="btn alt" id="goEmptyDay">빈 날짜로 이동</button>
 </div>
 <button id="saveSide" class="btn" style="width:100%">현재 여행 브라우저에 저장</button></section></aside></div></section></main>
-<main id="saved" class="hidden"><section class="wrap section"><div class="section-head"><div><h2>저장한 여행</h2><div class="muted">현재 브라우저에 저장한 계획입니다. 다른 기기로 옮길 때는 파일 백업을 이용하세요.</div></div></div><div class="panel"><div class="actions"><button id="export" class="btn">저장목록 파일로 저장</button><label class="btn alt" for="import" style="cursor:pointer">저장된 파일 가져오기</label><input id="import" type="file" accept=".json,application/json" class="hidden"></div><p class="hint">브라우저 데이터 삭제 시 계획도 삭제될 수 있습니다. 정기적으로 JSON 파일을 백업하세요.</p></div><div id="savedList"></div></section></main>
+<main id="saved" class="hidden"><section class="wrap section"><div class="section-head"><div><h2>저장한 여행</h2><div class="muted">현재 브라우저에 저장한 계획입니다. 다른 기기로 옮길 때는 파일 백업을 이용하세요.</div></div></div><div class="panel"><div class="actions"><button id="export" class="btn">저장목록 파일로 저장</button><label class="btn alt" for="import" style="cursor:pointer">저장된 파일 가져오기</label><input id="import" type="file" accept=".json,application/json" class="hidden"></div><p class="hint">브라우저 데이터 삭제 시 계획도 삭제될 수 있습니다. 정기적으로 JSON 파일을 백업하세요.</p></div><section class="panel v41-saved-tools" aria-label="저장된 여행 검색 및 정렬"><div class="v41-saved-grid"><label class="field">여행계획 검색<input id="v41SavedSearch" type="search" autocomplete="off" placeholder="여행지·계획 이름·날짜 검색" aria-controls="savedList"></label><label class="field">정렬 기준<select id="v41SavedSort" aria-controls="savedList"><option value="recent">최근 저장순</option><option value="departure">출발일 빠른순</option><option value="city">여행지 이름순</option></select></label></div><p class="hint" id="v41SavedCount" aria-live="polite">저장된 여행계획을 불러오는 중입니다.</p></section><div id="savedList"></div></section></main>
 <footer class="footer">K-TRAVEL PICKS · 무료 여행계획 도구 · v37<br>v37에서 신규 사진 6장과 기존 사진 4장의 장소·촬영 시점·저작자·라이선스를 개별 원본 설명에서 확인했습니다. 나머지 169장의 출처 기록은 계승했으며 이번에 개별 재검증하지 않았습니다. 외부 이미지 서버의 실시간 응답은 보장되지 않으며 현지 모습과 촬영일은 다를 수 있습니다. <br>입장료, 교통, 비자, 항공권 및 숙소 가격은 반드시 공식 판매처에서 확인하세요.</footer>
 <nav class="bottom" aria-label="모바일 메뉴"><button data-nav="discover" class="active">🌏 여행지</button><button data-nav="planner">🗓️ 여행계획</button><button data-nav="saved">💾 저장목록</button></nav>
 <div id="printSheet" class="print-only" aria-hidden="true"></div>
@@ -1033,10 +1036,10 @@ function downloadPhotoCSV(){
 function backupCurrent(){
  const plan=snap(),stamp=new Date().toLocaleString('sv-SE').replace(' ','_').replaceAll(':','');
  const name=(plan.name||'여행계획').replace(/[\\/:*?"<>|]/g,'_').replace(/\s+/g,'_').slice(0,55);
- downloadJSON({format:'K-TRAVEL',version:40,plans:[plan]},`K-TRAVEL-${name}-${stamp}.json`);
+ downloadJSON({format:'K-TRAVEL',version:41,plans:[plan]},`K-TRAVEL-${name}-${stamp}.json`);
  toast('현재 계획을 JSON 파일로 저장했습니다. 브라우저 저장 없이도 백업됩니다.');
 }
-function exportData(){let blob=new Blob([JSON.stringify({format:'K-TRAVEL',version:40,plans:read()},null,2)],{type:'application/json'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='K-TRAVEL-여행계획-'+new Date().toLocaleString('sv-SE').replace(' ','_').replaceAll(':','')+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)}
+function exportData(){let blob=new Blob([JSON.stringify({format:'K-TRAVEL',version:41,plans:read()},null,2)],{type:'application/json'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='K-TRAVEL-여행계획-'+new Date().toLocaleString('sv-SE').replace(' ','_').replaceAll(':','')+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)}
 async function importData(e){let f=e.target.files?.[0];if(!f)return;try{if(f.size>5000000)throw Error('5MB 이하 파일만 가능합니다');let x=JSON.parse(await f.text()),a=Array.isArray(x)?x:x.plans;if(!Array.isArray(a)||a.length>1000||!a.every(y=>y&&typeof y.name==='string'))throw Error('지원하지 않는 파일입니다');let old=read(),ids=new Set(old.map(y=>y.id)),incoming=a.map(y=>({...y,id:!y.id||ids.has(y.id)?Date.now()+'-'+Math.random().toString(36).slice(2):y.id}));localStorage.setItem(KEY,JSON.stringify([...incoming,...old]));renderSaved();toast(incoming.length+'개 여행을 가져왔습니다')}catch(err){toast('가져오기 실패: '+err.message)}e.target.value=''}
 
 /* v10 additions: deterministic, no paid AI/API dependency */
@@ -1783,5 +1786,25 @@ $('v39PlannerAuto').addEventListener('click',recommendItinerary);
 $('v39Apply').addEventListener('click',()=>v38ApplyDraft($('v39ApplyMode').value));
 $('v39Cancel').addEventListener('click',v38CancelDraft);
 ['city','start','end'].forEach(id=>$(id).addEventListener('change',v38CancelDraft));
+
+/* v41: search, sort and duplicate saved plans without altering the storage schema. */
+let v41SavedQuery='',v41SavedSort='recent';
+function v41DateValue(s){const t=Date.parse(String(s||''));return Number.isFinite(t)?t:0}
+function v41RenderSaved(){
+ const all=read();const q=v41SavedQuery.trim().toLocaleLowerCase();
+ const items=all.map((plan,index)=>({plan,index})).filter(({plan})=>!q||[plan.name,plan.city,plan.start,plan.end,plan.origin].join(' ').toLocaleLowerCase().includes(q));
+ if(v41SavedSort==='departure')items.sort((a,b)=>v41DateValue(a.plan.start)-v41DateValue(b.plan.start)||v41DateValue(b.plan.savedAt)-v41DateValue(a.plan.savedAt));
+ else if(v41SavedSort==='city')items.sort((a,b)=>String(a.plan.city||'').localeCompare(String(b.plan.city||''),'ko')||v41DateValue(b.plan.savedAt)-v41DateValue(a.plan.savedAt));
+ else items.sort((a,b)=>v41DateValue(b.plan.savedAt)-v41DateValue(a.plan.savedAt));
+ $('v41SavedCount').textContent=`${items.length}개 표시 / 전체 ${all.length}개 · 복제는 원본을 그대로 보존합니다.`;
+ $('savedList').innerHTML=items.length?items.map(({plan:x,index:i})=>`<article class="panel row v41-saved-card"><div><h3 style="margin:0">${safe(x.name)}</h3><div class="muted small v41-saved-meta">${safe(x.city)} · ${safe(x.start)} ~ ${safe(x.end)} · ${Array.isArray(x.days)?x.days.length:0}일</div></div><div class="actions"><button type="button" class="btn" data-v41-load="${i}">불러오기</button><button type="button" class="btn alt" data-v41-copy="${i}">복제</button><button type="button" class="btn danger" data-v41-delete="${i}">삭제</button></div></article>`).join(''):`<div class="empty">${all.length?'검색 결과가 없습니다. 검색어를 바꿔 보세요.':'저장된 여행계획이 없습니다.'}</div>`;
+ $('savedList').querySelectorAll('[data-v41-load]').forEach(b=>b.onclick=()=>{const x=read()[Number(b.dataset.v41Load)];if(x)load(x);else{toast('저장목록이 변경되었습니다. 다시 확인하세요.');v41RenderSaved()}});
+ $('savedList').querySelectorAll('[data-v41-copy]').forEach(b=>b.onclick=()=>{const x=read()[Number(b.dataset.v41Copy)];if(!x){v41RenderSaved();return}try{const copy=JSON.parse(JSON.stringify(x));copy.id=Date.now()+'-'+Math.random().toString(36).slice(2,10);copy.name=String(x.name||'나의 여행')+' (복사본)';copy.savedAt=new Date().toISOString();localStorage.setItem(KEY,JSON.stringify([copy,...read()]));v41SavedQuery='';$('v41SavedSearch').value='';v41SavedSort='recent';$('v41SavedSort').value='recent';v41RenderSaved();toast('원본을 유지하고 여행계획을 복제했습니다.')}catch(err){toast('복제 실패: 브라우저 저장 공간을 확인하세요.')}});
+ $('savedList').querySelectorAll('[data-v41-delete]').forEach(b=>b.onclick=()=>{const i=Number(b.dataset.v41Delete),a=read(),x=a[i];if(!x){v41RenderSaved();return}if(!confirm('「'+String(x.name||'여행계획')+'」을(를) 삭제할까요? 이 작업은 취소할 수 없습니다.'))return;try{a.splice(i,1);localStorage.setItem(KEY,JSON.stringify(a));v41RenderSaved();toast('선택한 여행계획을 삭제했습니다.')}catch(err){toast('삭제 실패: 저장 공간을 확인하세요.')}});
+}
+renderSaved=v41RenderSaved;
+$('v41SavedSearch').addEventListener('input',e=>{v41SavedQuery=e.target.value;v41RenderSaved()});
+$('v41SavedSort').addEventListener('change',e=>{v41SavedSort=e.target.value;v41RenderSaved()});
+window.addEventListener('storage',e=>{if(e.key===KEY&&!$('saved').classList.contains('hidden'))v41RenderSaved()});
 </script>
 </body></html>

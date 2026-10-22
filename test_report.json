@@ -1,439 +1,146 @@
 {
-  "version": "v38",
-  "date": "2026-10-20",
-  "method": "Chromium Playwright, local HTTP, external network blocked",
-  "checks": [
-    {
-      "name": "v38 version",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "no javascript errors at boot",
-      "passed": true,
-      "detail": "[]"
-    },
-    {
-      "name": "12 cities",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "60 spots in data",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "179 photo records",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "photo gate excludes uncertain location",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "hero recommendation button visible",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "one-click opens planner",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "five days generated",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "recommendation actually loaded",
-      "passed": true,
-      "detail": "5 spots"
-    },
-    {
-      "name": "day summary shown",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "no duplicate recommended place",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "first and last days max 1",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "existing schedule preview requires choice",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "existing unchanged before apply",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "fill keeps existing entries",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "cancel replace preserves data",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "replace confirmed applied",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "edit controls open",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "localStorage saved",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "JSON backup downloaded",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "backup preserves itinerary",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "JSON backup imported",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "cost inputs preserved",
-      "passed": true,
-      "detail": "8 fields"
-    },
-    {
-      "name": "actual flight and hotel cost calculation",
-      "passed": true,
-      "detail": "1220000"
-    },
-    {
-      "name": "photos lazy loaded",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "image error fallback works",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "route 오사카 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 오사카 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 오사카 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 오사카 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 도쿄 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 도쿄 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 도쿄 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 도쿄 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 나트랑 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 나트랑 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 나트랑 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 나트랑 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 다낭 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 다낭 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 다낭 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 다낭 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 타이베이 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 타이베이 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 타이베이 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 타이베이 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 방콕 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 방콕 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 방콕 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 방콕 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 싱가포르 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 싱가포르 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 싱가포르 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 싱가포르 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 세부 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 세부 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 세부 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 세부 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 발리 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 발리 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 발리 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 발리 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 파리 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 파리 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 파리 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 파리 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 후쿠오카 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 후쿠오카 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 후쿠오카 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 후쿠오카 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 홍콩 1 days",
-      "passed": true,
-      "detail": "{'length': 1, 'count': 3, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 홍콩 2 days",
-      "passed": true,
-      "detail": "{'length': 2, 'count': 2, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 홍콩 3 days",
-      "passed": true,
-      "detail": "{'length': 3, 'count': 4, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "route 홍콩 5 days",
-      "passed": true,
-      "detail": "{'length': 5, 'count': 5, 'valid': True, 'unique': True, 'arrive': True, 'depart': True}"
-    },
-    {
-      "name": "30-day trip supported",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "invalid date rejected",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "responsive 320px",
-      "passed": true,
-      "detail": "0"
-    },
-    {
-      "name": "responsive 390px",
-      "passed": true,
-      "detail": "0"
-    },
-    {
-      "name": "responsive 768px",
-      "passed": true,
-      "detail": "0"
-    },
-    {
-      "name": "responsive 1280px",
-      "passed": true,
-      "detail": "0"
-    },
-    {
-      "name": "no JS errors after interactions",
-      "passed": true,
-      "detail": "[]"
+  "version": "v41",
+  "date": "2026-10-22",
+  "tests": {
+    "script_initialization": {
+      "pass": true,
+      "detail": []
+    },
+    "24_cities_120_spots": {
+      "pass": true,
+      "detail": {
+        "cities": 24,
+        "spots": 120,
+        "photos": 178,
+        "ver": "v41",
+        "localStorageKey": "ktravel-plans"
+      }
+    },
+    "version_top_right": {
+      "pass": true,
+      "detail": null
+    },
+    "photos_inherited": {
+      "pass": true,
+      "detail": 178
+    },
+    "photo_fallback_and_license_metadata": {
+      "pass": true,
+      "detail": {
+        "fallback": true,
+        "licenseEntries": true
+      }
+    },
+    "itinerary_168_city_duration_cases": {
+      "pass": true,
+      "detail": []
+    },
+    "quick_plan_4_days": {
+      "pass": true,
+      "detail": null
+    },
+    "auto_itinerary_applied": {
+      "pass": true,
+      "detail": null
+    },
+    "existing_plan_requires_choice": {
+      "pass": true,
+      "detail": null
+    },
+    "fill_default": {
+      "pass": true,
+      "detail": null
+    },
+    "cancel_does_not_erase": {
+      "pass": true,
+      "detail": null
+    },
+    "airfare_lodging_math": {
+      "pass": true,
+      "detail": {
+        "people": 2,
+        "rooms": 1,
+        "nights": 3,
+        "activities": 0,
+        "total": 900000
+      }
+    },
+    "saved_plan_visible": {
+      "pass": true,
+      "detail": null
+    },
+    "saved_search_no_results": {
+      "pass": true,
+      "detail": null
+    },
+    "saved_search_by_city": {
+      "pass": true,
+      "detail": null
+    },
+    "duplicate_creates_independent_plan": {
+      "pass": true,
+      "detail": null
+    },
+    "sort_by_city": {
+      "pass": true,
+      "detail": null
+    },
+    "load_saved_plan": {
+      "pass": true,
+      "detail": null
+    },
+    "backup_current_json": {
+      "pass": true,
+      "detail": null
+    },
+    "export_saved_plans": {
+      "pass": true,
+      "detail": null
+    },
+    "import_saved_plans": {
+      "pass": true,
+      "detail": null
+    },
+    "delete_one_plan": {
+      "pass": true,
+      "detail": null
+    },
+    "saved_name_html_escaped": {
+      "pass": true,
+      "detail": null
+    },
+    "no_uncaught_browser_errors": {
+      "pass": true,
+      "detail": []
+    },
+    "zip_integrity": {
+      "pass": true,
+      "detail": null
+    },
+    "zip_source_consistency": {
+      "pass": true,
+      "detail": null
     }
-  ],
-  "passed": 82,
-  "failed": 0,
-  "console_errors": [],
+  },
   "limitations": [
-    "Wikimedia Commons image bytes and live loading not tested (network blocked).",
-    "Mobile tests are Chromium viewport emulation, not physical smartphone.",
-    "Photo source metadata audit only two individual originals this run; other records inherited.",
-    "Airline prices, opening hours and route travel times not fetched.",
-    "GitHub Pages production deployment not covered by local test."
+    "Chromium tests run with external network blocked; Wikimedia Commons image loads and live travel pricing not verified.",
+    "No new photo assets added; inherited license metadata has not been rechecked against each live Commons file.",
+    "Travel itineraries are recommendations, not verified against current opening hours or real-time transit.",
+    "Browser was loaded via Playwright set_content because Chromium blocks file/http navigation in this environment; localStorage was emulated in-memory. Actual browser persistent storage after reload was not independently verified.",
+    "GitHub write action returned HTTP 403; repository permission metadata indicated push=true but this specific integration cannot update the file.",
+    "GitHub Pages URL could not be fetched from this environment, so published page response is unverified."
   ],
   "github": {
+    "attempted": true,
+    "result": "failed",
+    "reason": "HTTP 403 Resource not accessible by integration on GitHub contents update_file",
     "repository": "k9200596-cell/Travel_v2",
     "branch": "main",
-    "existing_index_version": "v35",
-    "existing_blob_sha": "af848f7e6b64c673c24551994971a37c42ee2ef0",
-    "read": "success via connected GitHub",
-    "backup_attempt": "failed (GitHub API HTTP 403 Resource not accessible by integration)",
-    "write": "not attempted after backup failure",
-    "commit": null,
-    "pages_deployment": "not deployed; live Pages status not independently verified",
-    "reason": "GitHub integration lacks repository Contents write permission; deployment stopped before changes."
-  }
+    "remote_index_version_after_attempt": "v40",
+    "remote_index_blob_sha_after_attempt": "3aa2a8753bada09d853176b61f803a36a376e1c6",
+    "commit_sha": null,
+    "pages_live_status": "not verified; web fetch inaccessible"
+  },
+  "test_count": 26,
+  "all_passed": true
 }

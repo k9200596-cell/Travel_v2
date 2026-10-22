@@ -1,29 +1,10 @@
-# K-TRAVEL PICKS v38 — 2026-10-20
+# K-TRAVEL PICKS v41 (2026-10-22)
 
-## 핵심 개선
-- 여행지와 출발일·귀국일을 선택하고 **추천 여행일정 자동 불러오기**를 누르면 일차별 코스를 자동 구성합니다. 첫날·마지막 날은 방문 장소를 적게 배치하고, 도시별로 인접 명소를 묶은 사전 정의 추천 순서를 사용합니다. 별도의 AI/유료 API는 사용하지 않습니다.
-- 기존 일정이 없으면 한 번 클릭으로 즉시 일정에 반영합니다. 기존 일정이 있으면 미리보기 후 **빈 날짜만 채우기** 또는 **전체 교체**를 선택합니다. 전체 교체 시 별도 확인 창이 표시됩니다.
-- 생성한 일정은 기존 편집·삭제·날짜 이동·브라우저 저장·JSON 백업 기능으로 관리합니다.
-- 기존 12개 도시·60개 명소를 유지합니다. 사진 출처 기록 179건 중 1건은 명소·위치 검증 보류로 화면 표시 대상에서 제외(실제 표시 가능 178건)했습니다.
-- 기존 Wikimedia Commons 사진 2건(오사카 도톤보리 야경, 오사카성)의 장소·촬영일·저작자·라이선스를 2026-10-20 원본 설명에서 개별 재확인했습니다. 새 사진은 추가하지 않았습니다. 나머지 177건은 이전 버전 출처 기록을 계승했으며 **이번에 전수 재검증하지 않았습니다**.
-
-## 주의사항
-- 추천 코스는 정적 여행 가이드에 근거한 예시이며 실시간 이동 경로, 대기시간, 입장료, 휴무일, 항공편 시간, 현지 교통사정과 무관합니다. 장거리 명소·영업시간은 반드시 직접 확인해야 합니다.
-- 원본 사진을 ZIP에 넣지 않고 Wikimedia Commons의 공개 파일 URL로 연결합니다. 실제 이미지 로딩은 인터넷 접속에 따라 달라지며 실패 시 대체 이미지를 표시합니다.
-- CC BY/CC BY-SA 저작자표시 및 라이선스 링크를 유지해야 합니다. 출처 표기만으로 모든 사진을 무제한 사용할 수 있는 것은 아닙니다. 인물·상표·건축물 등 별도 권리도 검토가 필요합니다.
-
-## 검증
-- `K_TRAVEL_PICKS_v38_test_report.json`: Chromium Playwright 82개 항목 통과. 12개 도시별 1/2/3/5일 추천, 30일 여행, 기존 일정 보존·덮어쓰기 확인, 일정 편집, 브라우저 저장(모의 localStorage), 실제 항공료·숙박비 계산, JSON 다운로드·가져오기, 이미지 실패 대체, 320/390/768/1280px 화면 너비 등을 검사했습니다.
-- 실제 GitHub Pages 배포, 실제 휴대폰 브라우저 저장 장기 유지, 외부 이미지 로딩은 테스트 범위 밖입니다.
-
-## GitHub 자동 업로드 시도 결과
-- GitHub 연결을 통해 `main/index.html`의 v35 원본과 SHA를 읽는 데 성공했습니다.
-- 기존 파일 백업을 GitHub에 생성하려 했으나 **403 Resource not accessible by integration** 오류로 실패했습니다. 따라서 `index.html` 자동 교체와 Pages 배포는 **진행하지 않았습니다**.
-- GitHub App 또는 연결 계정에 대상 저장소의 **Contents: Read and write** 권한이 필요합니다. 권한 승인 후 다시 시도할 수 있습니다.
-
-## GitHub Pages 수동 업로드 방법(자동 업로드 실패 시)
-1. GitHub 저장소 `k9200596-cell/Travel_v2`의 `main/index.html`을 백업합니다.
-2. ZIP의 `index.html`을 기존 `index.html`에 덮어쓰고 Commit changes를 누릅니다.
-3. 사이트 `https://k9200596-cell.github.io/Travel_v2/`에서 상단 오른쪽 `v38` 표시와 자동 일정 불러오기 기능을 확인합니다.
-
-> v38 HTML에는 CSS·JavaScript가 모두 포함되어 있어 `index.html` 한 파일만 업로드해도 작동합니다. CSS/JS 별도 파일은 편집·학습용입니다.
+- Based on verified GitHub main/index.html v40 blob SHA `3aa2a8753bada09d853176b61f803a36a376e1c6`.
+- Added saved-trip search (name, destination, dates, departure airport), sort by save date/departure date/city, and duplicate trip plan without overwriting original.
+- Mobile saved-list layout improved. Existing 24 destinations, 120 attractions, itinerary generation, cost inputs, localStorage and JSON import/export are preserved in source and tested in Chromium.
+- No new third-party photos. Inherited 179 photo metadata entries from v40; individual copyright metadata not reverified in v41. Unverified destinations use clearly labeled placeholders.
+- No paid API. The website fetches external photos from Wikimedia Commons only when online.
+- GitHub deployment: NOT completed. update_file returned HTTP 403 Resource not accessible by integration; remote main/index.html remained v40. GitHub Pages public URL was not accessible to the checker. See test_report.json.
+- Browser test: 26 checks passed with in-memory localStorage mock because Chromium blocked local navigation. External photos were blocked; live photo rights and current prices not verified.
+- photo_sources.json contains inherited source records, not newly revalidated v41 records.

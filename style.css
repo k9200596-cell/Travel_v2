@@ -1,6 +1,7 @@
 
 
 
+
 :root{--ink:#152d3d;--muted:#5e7280;--blue:#0b7285;--teal:#08a39a;--line:#e1e9ed;--bg:#f5f8fa;--white:#fff;--shadow:0 12px 36px #12364d12}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--bg);font:15px/1.6 system-ui,-apple-system,'Apple SD Gothic Neo','Noto Sans KR',sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}.wrap{width:min(1180px,calc(100% - 36px));margin:auto}.hidden{display:none!important}
 .header{position:sticky;top:0;z-index:50;background:#ffffffed;backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.head{height:72px;display:flex;align-items:center;gap:22px}.brand{font-size:23px;font-weight:900;letter-spacing:-1.3px;white-space:nowrap}.brand b{color:var(--teal)}.nav{display:flex;gap:7px;margin-left:auto}.nav button{border:0;background:none;padding:11px 16px;color:#5c7080;border-radius:24px;font-weight:750}.nav button.active{color:#006e7c;background:#e3f6f4}.version{font-size:12px;border:1px solid #bde3e2;color:#086c78;background:#e9f8f6;border-radius:50px;padding:5px 11px;font-weight:900;margin-left:auto}.nav+.version{margin-left:0}
@@ -489,3 +490,10 @@
 .v38-auto-options .field{max-width:380px;margin:10px 0}
 .v38-auto-options .actions{margin-top:12px}
 @media(max-width:650px){.v38-hero-auto{justify-content:stretch}.v38-hero-auto .btn{width:100%}.v38-hero-auto span{width:100%;text-align:center}.v38-day{grid-template-columns:1fr;gap:2px}.v38-action{padding:12px}.v38-action .btn{width:100%}}
+
+/* v39: 출처 확인 전 사진 대체 디자인 */
+.v39-photo-placeholder{min-height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:100%;padding:20px;text-align:center;color:#fff;background:radial-gradient(circle at 80% 15%,#ffffff3d,transparent 40%),linear-gradient(135deg,#0a5c77,#159e9b 52%,#073f5e)}.v39-photo-placeholder strong{font-size:28px;letter-spacing:-1px}.v39-photo-placeholder small{font-size:12px;color:#e8fcff}.city-mosaic:has(.v39-photo-placeholder){min-height:210px}.v39-ranking-note{font-size:13px;color:#496978;background:#e9f7f7;border-radius:12px;padding:12px 16px;margin:12px 0}
+
+
+/* v41: saved-trip management, keyboard and narrow-screen readability */
+.v41-saved-tools{margin:16px 0 20px}.v41-saved-grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(175px,1fr);gap:14px;align-items:end}.v41-saved-grid input,.v41-saved-grid select{width:100%;min-height:44px}.v41-saved-card{gap:16px;flex-wrap:wrap}.v41-saved-card>div:first-child{min-width:180px;flex:1 1 240px}.v41-saved-card .actions{flex-wrap:wrap}.v41-saved-card .actions button{min-height:42px}.v41-saved-card .v41-saved-meta{margin-top:5px}.v41-saved-card h3{overflow-wrap:anywhere}@media(max-width:640px){.v41-saved-grid{grid-template-columns:1fr}.v41-saved-card{align-items:stretch}.v41-saved-card .actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;width:100%}.v41-saved-card .actions button{padding:10px 5px;font-size:13px}}@media(max-width:370px){.v41-saved-card .actions{grid-template-columns:1fr}}
