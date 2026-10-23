@@ -1,7 +1,7 @@
 {
-  "release": "v41",
-  "releaseDate": "2026-10-22",
-  "verificationNotice": "Source metadata inherited from v40 and earlier. v41 did not independently verify live Wikimedia Commons file descriptions, image bytes or current licenses.",
+  "release": "v42",
+  "releaseDate": "2026-10-23",
+  "verificationNotice": "이번 버전 신규 사진 8건만 Wikimedia Commons 개별 설명을 확인했습니다. 기존 178건은 이전 기록 계승으로 이번에 재검증하지 않았습니다. 외부 이미지 로딩 및 원본 바이트 검증은 수행하지 않았습니다. 기존 v41 별도 JSON에는 179건이 있었지만 v41 실제 HTML 내 활성 카탈로그는 178건이므로 활성 카탈로그 기준으로 산정합니다.",
   "photos": [
     {
       "city": "오사카",
@@ -512,31 +512,6 @@
       "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
       "verificationScope": "기존 출처 기록 계승 · v37에서 원본을 개별 재검증하지 않음",
       "verificationStatus": "inherited_metadata_unrechecked_v37"
-    },
-    {
-      "city": "홍콩",
-      "spot": null,
-      "label": "빅토리아 하버 풍경",
-      "file": "Victoria Harbour 2024.jpg",
-      "author": "Qian2007",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "taken": "2024-07-12",
-      "checked": "2026-10-16",
-      "source": "https://commons.wikimedia.org/wiki/File:Victoria_Harbour_2024.jpg",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoria_Harbour_2024.jpg?width=960",
-      "cover": true,
-      "previousUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Victoria_Harbour_2024.jpg/960px-Victoria_Harbour_2024.jpg",
-      "imageTransport": "Wikimedia Commons 외부 이미지 (v22 실제 로딩 미검증)",
-      "metadataVerifiedThisRun": false,
-      "metadataVerification": "v29 또는 그 이전 확인 기록 계승 · v30에서 개별 원본 재확인하지 않음",
-      "lastVerifiedVersion": "v23 또는 그 이전 (개별 checked 필드 참조)",
-      "siteModification": "이미지 원본 파일 수정·재배포 없음. CSS object-fit:cover로 화면 표시 영역 일부가 잘릴 수 있음.",
-      "photoTitle": "Victoria Harbour 2024.jpg",
-      "reuseTerms": "CC BY-SA: 저작자 표시 및 수정본 배포 시 동일조건 공유",
-      "verificationScope": "v38 장소/명소 연결 미확인: 실제 사진으로 자동 표시하지 않음",
-      "verificationStatus": "location_not_individually_confirmed_v38",
-      "excludedFromDisplayV38": true
     },
     {
       "city": "홍콩",
@@ -4587,6 +4562,424 @@
       "imageBytesChecked": false,
       "siteModification": "원본 파일 미수정·ZIP에 미포함. CSS object-fit:cover 사용 시 화면에 일부 잘림; 원본 비율 보기 지원.",
       "reuseTerms": "CC BY-SA 4.0: 저작자·원본·라이선스·수정 표시, 수정본 배포 시 동일조건 공유."
+    },
+    {
+      "city": "하노이",
+      "spot": "호안끼엠 호수",
+      "label": "호안끼엠 호수 · 2024년 풍경",
+      "file": "2024-04-26 Hoan Kiem Lake(ホアンキエム湖畔)DSCF9609.jpg",
+      "author": "Matsuoka.A",
+      "taken": "2024-04-26",
+      "scene": "하노이 중심부 호안끼엠 호수의 야간 풍경.",
+      "cover": true,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-23",
+      "source": "https://commons.wikimedia.org/wiki/File:2024-04-26%20Hoan%20Kiem%20Lake(%E3%83%9B%E3%82%A2%E3%83%B3%E3%82%AD%E3%82%A8%E3%83%A0%E6%B9%96%E7%95%94)DSCF9609.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-04-26%20Hoan%20Kiem%20Lake(%E3%83%9B%E3%82%A2%E3%83%B3%E3%82%AD%E3%82%A8%E3%83%A0%E6%B9%96%E7%95%94)DSCF9609.jpg?width=960",
+      "photoTitle": "2024-04-26 Hoan Kiem Lake(ホアンキエム湖畔)DSCF9609.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-23 Wikimedia Commons 개별 파일 설명에서 촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v42",
+      "imageTransport": "Wikimedia Commons 외부 링크 · 실제 이미지 바이트 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. CSS object-fit 화면 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자 표시, 원본 링크, 라이선스 링크, 수정 여부 표시. 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 원본 파일 설명 확인, 외부 이미지 접속 여부 미검증",
+      "verificationStatus": "verified_file_description_v42",
+      "sourcePageCheckedVia": "Wikimedia Commons file description 2026-10-23",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "상하이",
+      "spot": "와이탄",
+      "label": "와이탄 · 상하이 야경",
+      "file": "The Bund, Shanghai at night.jpg",
+      "author": "Lloyd Tudor",
+      "taken": "2024-02-13",
+      "scene": "황푸강변 와이탄의 야간 풍경.",
+      "cover": true,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-23",
+      "source": "https://commons.wikimedia.org/wiki/File:The%20Bund%2C%20Shanghai%20at%20night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Bund%2C%20Shanghai%20at%20night.jpg?width=960",
+      "photoTitle": "The Bund, Shanghai at night.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-23 Wikimedia Commons 개별 파일 설명에서 촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v42",
+      "imageTransport": "Wikimedia Commons 외부 링크 · 실제 이미지 바이트 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. CSS object-fit 화면 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자 표시, 원본 링크, 라이선스 링크, 수정 여부 표시. 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 원본 파일 설명 확인, 외부 이미지 접속 여부 미검증",
+      "verificationStatus": "verified_file_description_v42",
+      "sourcePageCheckedVia": "Wikimedia Commons file description 2026-10-23",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "오키나와",
+      "spot": "츄라우미 수족관",
+      "label": "츄라우미 수족관 외관",
+      "file": "Okinawa Churaumi Aquarium 20150316.JPG",
+      "author": "そらみみ",
+      "taken": "2015-03-16",
+      "scene": "오키나와 츄라우미 수족관의 2015년 외관.",
+      "cover": true,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-23",
+      "source": "https://commons.wikimedia.org/wiki/File:Okinawa%20Churaumi%20Aquarium%2020150316.JPG",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Okinawa%20Churaumi%20Aquarium%2020150316.JPG?width=960",
+      "photoTitle": "Okinawa Churaumi Aquarium 20150316.JPG",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-23 Wikimedia Commons 개별 파일 설명에서 촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v42",
+      "imageTransport": "Wikimedia Commons 외부 링크 · 실제 이미지 바이트 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. CSS object-fit 화면 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자 표시, 원본 링크, 라이선스 링크, 수정 여부 표시. 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 원본 파일 설명 확인, 외부 이미지 접속 여부 미검증",
+      "verificationStatus": "verified_file_description_v42",
+      "sourcePageCheckedVia": "Wikimedia Commons file description 2026-10-23",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "보라카이",
+      "spot": "화이트비치",
+      "label": "화이트비치 스테이션 1",
+      "file": "Boracay White Beach Station 1 shore Caticlan mountains (Malay, Aklan; 04-06-2024).jpg",
+      "author": "Patrickroque01",
+      "taken": "2024",
+      "scene": "화이트비치 스테이션 1과 멀리 보이는 산.",
+      "cover": true,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-23",
+      "source": "https://commons.wikimedia.org/wiki/File:Boracay%20White%20Beach%20Station%201%20shore%20Caticlan%20mountains%20(Malay%2C%20Aklan%3B%2004-06-2024).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boracay%20White%20Beach%20Station%201%20shore%20Caticlan%20mountains%20(Malay%2C%20Aklan%3B%2004-06-2024).jpg?width=960",
+      "photoTitle": "Boracay White Beach Station 1 shore Caticlan mountains (Malay, Aklan; 04-06-2024).jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-23 Wikimedia Commons 개별 파일 설명에서 촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v42",
+      "imageTransport": "Wikimedia Commons 외부 링크 · 실제 이미지 바이트 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. CSS object-fit 화면 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자 표시, 원본 링크, 라이선스 링크, 수정 여부 표시. 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 원본 파일 설명 확인, 외부 이미지 접속 여부 미검증",
+      "verificationStatus": "verified_file_description_v42",
+      "sourcePageCheckedVia": "Wikimedia Commons file description 2026-10-23",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "보라카이",
+      "spot": "불라복 비치",
+      "label": "불라복 비치 상공 전망",
+      "file": "Boracay Bulabog Beach top view (Malay, Aklan; 04-06-2024).jpg",
+      "author": "Patrickroque01",
+      "taken": "2024",
+      "scene": "불라복 비치의 해안 풍경. Commons 촬영일 표기는 04-06-2024로 월·일 순서가 불명확합니다.",
+      "cover": false,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-23",
+      "source": "https://commons.wikimedia.org/wiki/File:Boracay%20Bulabog%20Beach%20top%20view%20(Malay%2C%20Aklan%3B%2004-06-2024).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boracay%20Bulabog%20Beach%20top%20view%20(Malay%2C%20Aklan%3B%2004-06-2024).jpg?width=960",
+      "photoTitle": "Boracay Bulabog Beach top view (Malay, Aklan; 04-06-2024).jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-23 Wikimedia Commons 개별 파일 설명에서 촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v42",
+      "imageTransport": "Wikimedia Commons 외부 링크 · 실제 이미지 바이트 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. CSS object-fit 화면 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자 표시, 원본 링크, 라이선스 링크, 수정 여부 표시. 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 원본 파일 설명 확인, 외부 이미지 접속 여부 미검증",
+      "verificationStatus": "verified_file_description_v42",
+      "sourcePageCheckedVia": "Wikimedia Commons file description 2026-10-23",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "뉴욕",
+      "spot": "타임스스퀘어",
+      "label": "2024년 타임스스퀘어",
+      "file": "2024 in Times Square 20240523.jpg",
+      "author": "颐园居",
+      "taken": "2024-05-23",
+      "scene": "뉴욕 타임스스퀘어의 2024년 거리 풍경.",
+      "cover": true,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-23",
+      "source": "https://commons.wikimedia.org/wiki/File:2024%20in%20Times%20Square%2020240523.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2024%20in%20Times%20Square%2020240523.jpg?width=960",
+      "photoTitle": "2024 in Times Square 20240523.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-23 Wikimedia Commons 개별 파일 설명에서 촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v42",
+      "imageTransport": "Wikimedia Commons 외부 링크 · 실제 이미지 바이트 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. CSS object-fit 화면 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자 표시, 원본 링크, 라이선스 링크, 수정 여부 표시. 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 원본 파일 설명 확인, 외부 이미지 접속 여부 미검증",
+      "verificationStatus": "verified_file_description_v42",
+      "sourcePageCheckedVia": "Wikimedia Commons file description 2026-10-23",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "시드니",
+      "spot": "시드니 오페라하우스",
+      "label": "시드니 오페라하우스 전망",
+      "file": "Sydney Opera House seen from Pylon Lookout.jpg",
+      "author": "Ymblanter",
+      "taken": "2024-04-01",
+      "scene": "하버브리지 파일런 전망대에서 바라본 시드니 오페라하우스.",
+      "cover": true,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-23",
+      "source": "https://commons.wikimedia.org/wiki/File:Sydney%20Opera%20House%20seen%20from%20Pylon%20Lookout.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Opera%20House%20seen%20from%20Pylon%20Lookout.jpg?width=960",
+      "photoTitle": "Sydney Opera House seen from Pylon Lookout.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-23 Wikimedia Commons 개별 파일 설명에서 촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v42",
+      "imageTransport": "Wikimedia Commons 외부 링크 · 실제 이미지 바이트 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. CSS object-fit 화면 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자 표시, 원본 링크, 라이선스 링크, 수정 여부 표시. 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 원본 파일 설명 확인, 외부 이미지 접속 여부 미검증",
+      "verificationStatus": "verified_file_description_v42",
+      "sourcePageCheckedVia": "Wikimedia Commons file description 2026-10-23",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "베이징",
+      "spot": "자금성",
+      "label": "징산에서 바라본 자금성",
+      "file": "Forbidden City (20240627).jpg",
+      "author": "CNHowey",
+      "taken": "2024-06-27",
+      "scene": "징산공원 전망에서 내려다본 자금성.",
+      "cover": true,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-23",
+      "source": "https://commons.wikimedia.org/wiki/File:Forbidden%20City%20(20240627).jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Forbidden%20City%20(20240627).jpg?width=960",
+      "photoTitle": "Forbidden City (20240627).jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-23 Wikimedia Commons 개별 파일 설명에서 촬영일·저작자·라이선스 확인",
+      "lastVerifiedVersion": "v42",
+      "imageTransport": "Wikimedia Commons 외부 링크 · 실제 이미지 바이트 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. CSS object-fit 화면 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자 표시, 원본 링크, 라이선스 링크, 수정 여부 표시. 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 원본 파일 설명 확인, 외부 이미지 접속 여부 미검증",
+      "verificationStatus": "verified_file_description_v42",
+      "sourcePageCheckedVia": "Wikimedia Commons file description 2026-10-23",
+      "imageBytesChecked": false
+    }
+  ],
+  "missingSpots": [
+    {
+      "city": "삿포로",
+      "spot": "오도리공원"
+    },
+    {
+      "city": "삿포로",
+      "spot": "삿포로 TV타워"
+    },
+    {
+      "city": "삿포로",
+      "spot": "홋카이도 구본청사"
+    },
+    {
+      "city": "삿포로",
+      "spot": "모이와산"
+    },
+    {
+      "city": "삿포로",
+      "spot": "시로이 코이비토 파크"
+    },
+    {
+      "city": "오키나와",
+      "spot": "만좌모"
+    },
+    {
+      "city": "오키나와",
+      "spot": "국제거리"
+    },
+    {
+      "city": "오키나와",
+      "spot": "고우리대교"
+    },
+    {
+      "city": "오키나와",
+      "spot": "슈리성 공원"
+    },
+    {
+      "city": "하노이",
+      "spot": "하노이 구시가지"
+    },
+    {
+      "city": "하노이",
+      "spot": "문묘"
+    },
+    {
+      "city": "하노이",
+      "spot": "호찌민 묘소 주변"
+    },
+    {
+      "city": "하노이",
+      "spot": "쩐꾸옥 사원"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "사오비치"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "혼똠 케이블카"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "즈엉동 야시장"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "선셋타운"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "푸꾸옥 국립공원"
+    },
+    {
+      "city": "상하이",
+      "spot": "동방명주"
+    },
+    {
+      "city": "상하이",
+      "spot": "예원"
+    },
+    {
+      "city": "상하이",
+      "spot": "난징동루"
+    },
+    {
+      "city": "상하이",
+      "spot": "톈즈팡"
+    },
+    {
+      "city": "베이징",
+      "spot": "천단공원"
+    },
+    {
+      "city": "베이징",
+      "spot": "만리장성 무톈위"
+    },
+    {
+      "city": "베이징",
+      "spot": "이화원"
+    },
+    {
+      "city": "베이징",
+      "spot": "스차하이 후퉁"
+    },
+    {
+      "city": "치앙마이",
+      "spot": "왓 프라탓 도이수텝"
+    },
+    {
+      "city": "치앙마이",
+      "spot": "왓 체디루앙"
+    },
+    {
+      "city": "치앙마이",
+      "spot": "타패 게이트"
+    },
+    {
+      "city": "치앙마이",
+      "spot": "선데이 워킹스트리트"
+    },
+    {
+      "city": "치앙마이",
+      "spot": "도이인타논 국립공원"
+    },
+    {
+      "city": "보라카이",
+      "spot": "윌리스 록"
+    },
+    {
+      "city": "보라카이",
+      "spot": "푸카셸비치"
+    },
+    {
+      "city": "보라카이",
+      "spot": "마운트 루호"
+    },
+    {
+      "city": "뉴욕",
+      "spot": "센트럴파크"
+    },
+    {
+      "city": "뉴욕",
+      "spot": "브루클린 브리지"
+    },
+    {
+      "city": "뉴욕",
+      "spot": "자유의 여신상"
+    },
+    {
+      "city": "뉴욕",
+      "spot": "메트로폴리탄 미술관"
+    },
+    {
+      "city": "가오슝",
+      "spot": "보얼예술특구"
+    },
+    {
+      "city": "가오슝",
+      "spot": "아이허"
+    },
+    {
+      "city": "가오슝",
+      "spot": "연지담"
+    },
+    {
+      "city": "가오슝",
+      "spot": "치진섬"
+    },
+    {
+      "city": "가오슝",
+      "spot": "류허 야시장"
+    },
+    {
+      "city": "코타키나발루",
+      "spot": "탄중아루 비치"
+    },
+    {
+      "city": "코타키나발루",
+      "spot": "마누칸섬"
+    },
+    {
+      "city": "코타키나발루",
+      "spot": "사피섬"
+    },
+    {
+      "city": "코타키나발루",
+      "spot": "시그널힐 전망대"
+    },
+    {
+      "city": "코타키나발루",
+      "spot": "키나발루 국립공원"
+    },
+    {
+      "city": "시드니",
+      "spot": "하버브리지"
+    },
+    {
+      "city": "시드니",
+      "spot": "본다이 비치"
+    },
+    {
+      "city": "시드니",
+      "spot": "로열 보타닉 가든"
+    },
+    {
+      "city": "시드니",
+      "spot": "맨리 비치"
     }
   ]
 }

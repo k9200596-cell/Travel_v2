@@ -1,10 +1,29 @@
-# K-TRAVEL PICKS v41 (2026-10-22)
+# K-TRAVEL PICKS v42 (2026-10-23)
 
-- Based on verified GitHub main/index.html v40 blob SHA `3aa2a8753bada09d853176b61f803a36a376e1c6`.
-- Added saved-trip search (name, destination, dates, departure airport), sort by save date/departure date/city, and duplicate trip plan without overwriting original.
-- Mobile saved-list layout improved. Existing 24 destinations, 120 attractions, itinerary generation, cost inputs, localStorage and JSON import/export are preserved in source and tested in Chromium.
-- No new third-party photos. Inherited 179 photo metadata entries from v40; individual copyright metadata not reverified in v41. Unverified destinations use clearly labeled placeholders.
-- No paid API. The website fetches external photos from Wikimedia Commons only when online.
-- GitHub deployment: NOT completed. update_file returned HTTP 403 Resource not accessible by integration; remote main/index.html remained v40. GitHub Pages public URL was not accessible to the checker. See test_report.json.
-- Browser test: 26 checks passed with in-memory localStorage mock because Chromium blocked local navigation. External photos were blocked; live photo rights and current prices not verified.
-- photo_sources.json contains inherited source records, not newly revalidated v41 records.
+## 실행 방법
+`index.html`을 브라우저에서 엽니다. GitHub Pages에서는 저장소 루트의 기존 `index.html`을 이 파일로 교체하면 됩니다. `index.html`은 CSS/JavaScript를 내장한 **독립 실행형** 파일입니다. `style.css` 및 `app.js`는 개발·검토용 분리본이며 `index.html`에서 외부 파일로 불러오지 않습니다.
+
+## v42 개선
+- 한국 출발일/시각, 총 이동시간, 목적지 시간대에 따른 현지 도착일 계산. 미입력 시 임시 도착일 표시 및 직접 수정 가능.
+- 13개 국가별 입국 준비 안내. 중국/말레이시아/미국/호주 공식 안내 추가.
+- 방문 월·도시별 기후 경향 및 **개략적인** 기온 범위. 실제 기상청 공식 월별 기후 수치와 대조한 값이 아닙니다.
+- eSIM, 여행자보험, 약품, 어댑터, 결제, 옷차림, 우비 등 맞춤 체크리스트. 여행계획 저장 시 완료 상태 보존.
+- Wikimedia Commons 원본 파일 설명으로 라이선스를 개별 확인한 사진 8건 추가. 120개 관광명소 중 68개 출처기록 확보, 52개 미확인(대체 이미지 유지).
+- 24개 도시/120개 명소와 자동 일정·편집·삭제·경비·브라우저 저장·파일 백업 기능 보존.
+
+## 검증
+Chromium Playwright 기능 테스트 38개 통과, 일정 생성 168사례 통과, 도착일 계산 288사례 통과. 실제 모바일 실기기·외부 사진 로딩·localStorage 디스크 영속성·GitHub Pages 배포 상태는 검증하지 못했습니다.
+
+## GitHub 업로드
+2026-10-23 GitHub 연결로 쓰기 권한 점검 시 HTTP 403 `Resource not accessible by integration`. v42는 **GitHub에 업로드되지 않았습니다**. GitHub 저장소에는 확인 시점 기준 v41이 남아 있습니다. GitHub 앱의 저장소 접근 및 Contents 쓰기 권한을 확인해야 합니다. 별도 백업은 생성하지 않았습니다.
+
+## 파일
+- `index.html`: GitHub Pages 배포용 단일 HTML
+- `style.css`, `app.js`: 코드 검토용 분리본
+- `v42_patch.js`, `v42_patch.css`: v41 대비 추가된 코드
+- `photo_sources.json`: 활성 사진 출처 및 누락 목록
+- `missing_photos.csv`: 사진 미확인 관광명소 52곳
+- `test_report.json`: 실제 테스트 결과 및 한계
+
+## 중요
+입국 규정은 대한민국 일반여권 단기 관광 가정이며 출국 전 각국 공식 사이트에서 재확인해야 합니다. 기후 안내는 개략 추정치이고 실시간 예보가 아닙니다. 외부 사진 링크는 네트워크에 따라 로딩되지 않을 수 있으며 대체 이미지를 표시합니다. 유료 API는 사용하지 않습니다.

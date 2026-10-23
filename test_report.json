@@ -1,146 +1,235 @@
 {
-  "version": "v41",
-  "date": "2026-10-22",
-  "tests": {
-    "script_initialization": {
-      "pass": true,
-      "detail": []
+  "version": "v42",
+  "checked_at": "2026-10-23",
+  "method": "Chromium Playwright page.set_content; localStorage mocked in memory because local navigation blocked",
+  "passed": 38,
+  "failed": 0,
+  "results": [
+    {
+      "test": "JS 초기화 오류 없음",
+      "status": "PASS",
+      "detail": ""
     },
-    "24_cities_120_spots": {
-      "pass": true,
-      "detail": {
-        "cities": 24,
-        "spots": 120,
-        "photos": 178,
-        "ver": "v41",
-        "localStorageKey": "ktravel-plans"
-      }
+    {
+      "test": "v42 버전",
+      "status": "PASS",
+      "detail": ""
     },
-    "version_top_right": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "24개 도시",
+      "status": "PASS",
+      "detail": ""
     },
-    "photos_inherited": {
-      "pass": true,
-      "detail": 178
+    {
+      "test": "120개 명소",
+      "status": "PASS",
+      "detail": ""
     },
-    "photo_fallback_and_license_metadata": {
-      "pass": true,
-      "detail": {
-        "fallback": true,
-        "licenseEntries": true
-      }
+    {
+      "test": "13개국 입국정보",
+      "status": "PASS",
+      "detail": ""
     },
-    "itinerary_168_city_duration_cases": {
-      "pass": true,
-      "detail": []
+    {
+      "test": "24개 도시 기후/시차",
+      "status": "PASS",
+      "detail": ""
     },
-    "quick_plan_4_days": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "68개 명소 사진·52개 미확인",
+      "status": "PASS",
+      "detail": ""
     },
-    "auto_itinerary_applied": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "신규 8개 사진 라이선스",
+      "status": "PASS",
+      "detail": ""
     },
-    "existing_plan_requires_choice": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "신규 도시 대표 사진 연결",
+      "status": "PASS",
+      "detail": ""
     },
-    "fill_default": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "출발일 변경 → 임시 도착일 자동 갱신",
+      "status": "PASS",
+      "detail": ""
     },
-    "cancel_does_not_erase": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "입력 전 임시 안내 표시",
+      "status": "PASS",
+      "detail": ""
     },
-    "airfare_lodging_math": {
-      "pass": true,
-      "detail": {
-        "people": 2,
-        "rooms": 1,
-        "nights": 3,
-        "activities": 0,
-        "total": 900000
-      }
+    {
+      "test": "일본 시차 반영 익일 도착",
+      "status": "PASS",
+      "detail": ""
     },
-    "saved_plan_visible": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "일본 입국안내 표시",
+      "status": "PASS",
+      "detail": ""
     },
-    "saved_search_no_results": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "도착일 직접 수정 유지",
+      "status": "PASS",
+      "detail": ""
     },
-    "saved_search_by_city": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "출발일 재변경 → 수동값 초기화·재계산",
+      "status": "PASS",
+      "detail": ""
     },
-    "duplicate_creates_independent_plan": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "국가 변경 시 입국안내 교체",
+      "status": "PASS",
+      "detail": ""
     },
-    "sort_by_city": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "방콕 시차 적용",
+      "status": "PASS",
+      "detail": ""
     },
-    "load_saved_plan": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "방콕 우기 체크",
+      "status": "PASS",
+      "detail": ""
     },
-    "backup_current_json": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "말레이시아 MDAC 안내",
+      "status": "PASS",
+      "detail": ""
     },
-    "export_saved_plans": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "중국 입국 안내",
+      "status": "PASS",
+      "detail": ""
     },
-    "import_saved_plans": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "미국 ESTA 안내",
+      "status": "PASS",
+      "detail": ""
     },
-    "delete_one_plan": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "호주 ETA 안내",
+      "status": "PASS",
+      "detail": ""
     },
-    "saved_name_html_escaped": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "나트랑 10월 우기 정보",
+      "status": "PASS",
+      "detail": ""
     },
-    "no_uncaught_browser_errors": {
-      "pass": true,
-      "detail": []
+    {
+      "test": "맞춤 체크리스트 우비",
+      "status": "PASS",
+      "detail": ""
     },
-    "zip_integrity": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "eSIM·보험 포함",
+      "status": "PASS",
+      "detail": ""
     },
-    "zip_source_consistency": {
-      "pass": true,
-      "detail": null
+    {
+      "test": "체크리스트 완료 수 갱신",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "자동 일정 생성",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "항공료 인원 합산",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "일정 삭제 버튼 존재",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "일정 삭제 동작",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "브라우저 저장 호출",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "v42 입력 저장",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "체크리스트 저장",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "저장 계획 불러오기·입력 복원",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "저장 체크리스트 복원",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "백업 함수 존재",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "모바일 가로 스크롤 없음",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "마지막 JS 오류 없음",
+      "status": "PASS",
+      "detail": ""
     }
-  },
-  "limitations": [
-    "Chromium tests run with external network blocked; Wikimedia Commons image loads and live travel pricing not verified.",
-    "No new photo assets added; inherited license metadata has not been rechecked against each live Commons file.",
-    "Travel itineraries are recommendations, not verified against current opening hours or real-time transit.",
-    "Browser was loaded via Playwright set_content because Chromium blocks file/http navigation in this environment; localStorage was emulated in-memory. Actual browser persistent storage after reload was not independently verified.",
-    "GitHub write action returned HTTP 403; repository permission metadata indicated push=true but this specific integration cannot update the file.",
-    "GitHub Pages URL could not be fetched from this environment, so published page response is unverified."
   ],
-  "github": {
-    "attempted": true,
-    "result": "failed",
-    "reason": "HTTP 403 Resource not accessible by integration on GitHub contents update_file",
-    "repository": "k9200596-cell/Travel_v2",
-    "branch": "main",
-    "remote_index_version_after_attempt": "v40",
-    "remote_index_blob_sha_after_attempt": "3aa2a8753bada09d853176b61f803a36a376e1c6",
-    "commit_sha": null,
-    "pages_live_status": "not verified; web fetch inaccessible"
+  "browser_errors": [],
+  "limitations": [
+    "외부 사진 실제 로딩 미검증",
+    "GitHub Pages 배포는 별도 검증 필요",
+    "localStorage 실제 디스크 영속성 미검증",
+    "모바일 실기기 미검증",
+    "국가별 출입국 요건은 공식자료 확인일 기준",
+    "날씨 기온대는 월별 공식 평년값이 아닌 편의용 추정 범위",
+    "누락 관광지 사진 52곳은 검증 전 대체 디자인 유지",
+    "별도 photo_sources v41 JSON은 179건이지만 실제 v41 HTML 활성 카탈로그는 178건으로 차이 존재",
+    "GitHub 커밋은 실제 쓰기 권한 403으로 수행하지 않음"
+  ],
+  "regression_scenarios": {
+    "auto_itinerary_24_cities_x_7_durations": 168,
+    "auto_arrival_24_cities_x_12_months": 288,
+    "failed": 0
   },
-  "test_count": 26,
-  "all_passed": true
+  "photo_audit": {
+    "total_spots": 120,
+    "with_source_record": 68,
+    "missing_source_record": 52,
+    "new_source_records": 8,
+    "active_photo_catalog_records": 186,
+    "external_image_load_verified": false
+  },
+  "github": {
+    "repo": "k9200596-cell/Travel_v2",
+    "branch": "main",
+    "preexisting_index_blob_sha": "1973975feeb033cdd3667b1b449842e6f90390ec",
+    "current_index_version": "v41",
+    "upload_attempt": "GitHub connector create_blob unreferenced write-permission probe",
+    "result": "HTTP 403 Resource not accessible by integration",
+    "new_commit_created": false,
+    "pages_live_verified": false,
+    "pages_status": "unable to verify using available browser"
+  }
 }
