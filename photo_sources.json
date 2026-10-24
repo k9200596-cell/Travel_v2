@@ -1,7 +1,7 @@
 {
-  "release": "v42",
-  "releaseDate": "2026-10-23",
-  "verificationNotice": "이번 버전 신규 사진 8건만 Wikimedia Commons 개별 설명을 확인했습니다. 기존 178건은 이전 기록 계승으로 이번에 재검증하지 않았습니다. 외부 이미지 로딩 및 원본 바이트 검증은 수행하지 않았습니다. 기존 v41 별도 JSON에는 179건이 있었지만 v41 실제 HTML 내 활성 카탈로그는 178건이므로 활성 카탈로그 기준으로 산정합니다.",
+  "release": "v43",
+  "releaseDate": "2026-10-24",
+  "verificationNotice": "신규 4개 사진은 2026-10-24 Wikimedia Commons 원본 파일 설명의 저작자·촬영일·CC BY-SA 4.0 라이선스·장소를 개별 확인. 기존 186개 출처 기록은 계승했으며 이번에 전수 재검증하지 않음. 실제 이미지 로딩·현장 상태는 미검증.",
   "photos": [
     {
       "city": "오사카",
@@ -4770,6 +4770,110 @@
       "verificationStatus": "verified_file_description_v42",
       "sourcePageCheckedVia": "Wikimedia Commons file description 2026-10-23",
       "imageBytesChecked": false
+    },
+    {
+      "city": "시드니",
+      "spot": "하버브리지",
+      "label": "시드니 하버브리지 · 2025년",
+      "file": "Sydney Harbour Bridge 2025.jpg",
+      "author": "Bonnie Jin",
+      "taken": "2025-04-12",
+      "scene": "2025년 4월 촬영한 시드니 하버브리지의 전경.",
+      "cover": false,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-24",
+      "source": "https://commons.wikimedia.org/wiki/File:Sydney%20Harbour%20Bridge%202025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Harbour%20Bridge%202025.jpg?width=960",
+      "photoTitle": "Sydney Harbour Bridge 2025.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-24 Wikimedia Commons 원본 설명에서 장소·촬영일·저작자·라이선스 개별 확인",
+      "lastVerifiedVersion": "v43",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실제 이미지 바이트/모바일 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. 화면 CSS object-fit에 따른 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자·원본·라이선스 링크 및 수정 여부 표시, 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 Commons 파일 설명 확인; 사이트에서 실제 이미지 로딩 미검증",
+      "verificationStatus": "verified_file_description_v43",
+      "sourcePageCheckedVia": "Wikimedia Commons 원본 파일 설명 · 2026-10-24",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "시드니",
+      "spot": "본다이 비치",
+      "label": "본다이 비치 · 2025년",
+      "file": "Sydney Bondi Beach 2025.jpg",
+      "author": "LittleMi&Ada",
+      "taken": "2025-03-14",
+      "scene": "2025년 3월 촬영한 시드니 본다이 해변.",
+      "cover": false,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-24",
+      "source": "https://commons.wikimedia.org/wiki/File:Sydney%20Bondi%20Beach%202025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sydney%20Bondi%20Beach%202025.jpg?width=960",
+      "photoTitle": "Sydney Bondi Beach 2025.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-24 Wikimedia Commons 원본 설명에서 장소·촬영일·저작자·라이선스 개별 확인",
+      "lastVerifiedVersion": "v43",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실제 이미지 바이트/모바일 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. 화면 CSS object-fit에 따른 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자·원본·라이선스 링크 및 수정 여부 표시, 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 Commons 파일 설명 확인; 사이트에서 실제 이미지 로딩 미검증",
+      "verificationStatus": "verified_file_description_v43",
+      "sourcePageCheckedVia": "Wikimedia Commons 원본 파일 설명 · 2026-10-24",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "뉴욕",
+      "spot": "자유의 여신상",
+      "label": "자유의 여신상 · 2024년",
+      "file": "Statue of Liberty 2024.jpg",
+      "author": "Mojnsen",
+      "taken": "2024-02-19",
+      "scene": "2024년 2월 촬영한 뉴욕 자유의 여신상.",
+      "cover": false,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-24",
+      "source": "https://commons.wikimedia.org/wiki/File:Statue%20of%20Liberty%202024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue%20of%20Liberty%202024.jpg?width=960",
+      "photoTitle": "Statue of Liberty 2024.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-24 Wikimedia Commons 원본 설명에서 장소·촬영일·저작자·라이선스 개별 확인",
+      "lastVerifiedVersion": "v43",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실제 이미지 바이트/모바일 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. 화면 CSS object-fit에 따른 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자·원본·라이선스 링크 및 수정 여부 표시, 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 Commons 파일 설명 확인; 사이트에서 실제 이미지 로딩 미검증",
+      "verificationStatus": "verified_file_description_v43",
+      "sourcePageCheckedVia": "Wikimedia Commons 원본 파일 설명 · 2026-10-24",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "상하이",
+      "spot": "동방명주",
+      "label": "동방명주 · 상하이",
+      "file": "Oriental Pearl Tower in Shanghai.jpg",
+      "author": "Dmitry A. Mottl",
+      "taken": "2014-12-22",
+      "scene": "2014년 촬영한 상하이 동방명주. 현재의 도시 경관과 다를 수 있습니다.",
+      "cover": false,
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-10-24",
+      "source": "https://commons.wikimedia.org/wiki/File:Oriental%20Pearl%20Tower%20in%20Shanghai.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oriental%20Pearl%20Tower%20in%20Shanghai.jpg?width=960",
+      "photoTitle": "Oriental Pearl Tower in Shanghai.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-24 Wikimedia Commons 원본 설명에서 장소·촬영일·저작자·라이선스 개별 확인",
+      "lastVerifiedVersion": "v43",
+      "imageTransport": "Wikimedia Commons 외부 이미지 · 실제 이미지 바이트/모바일 로딩 미검증",
+      "siteModification": "원본 파일 수정·재배포 없음. 화면 CSS object-fit에 따른 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0: 저작자·원본·라이선스 링크 및 수정 여부 표시, 수정본 배포 시 동일조건 공유",
+      "verificationScope": "개별 Commons 파일 설명 확인; 사이트에서 실제 이미지 로딩 미검증",
+      "verificationStatus": "verified_file_description_v43",
+      "sourcePageCheckedVia": "Wikimedia Commons 원본 파일 설명 · 2026-10-24",
+      "imageBytesChecked": false
     }
   ],
   "missingSpots": [
@@ -4847,10 +4951,6 @@
     },
     {
       "city": "상하이",
-      "spot": "동방명주"
-    },
-    {
-      "city": "상하이",
       "spot": "예원"
     },
     {
@@ -4919,10 +5019,6 @@
     },
     {
       "city": "뉴욕",
-      "spot": "자유의 여신상"
-    },
-    {
-      "city": "뉴욕",
       "spot": "메트로폴리탄 미술관"
     },
     {
@@ -4964,14 +5060,6 @@
     {
       "city": "코타키나발루",
       "spot": "키나발루 국립공원"
-    },
-    {
-      "city": "시드니",
-      "spot": "하버브리지"
-    },
-    {
-      "city": "시드니",
-      "spot": "본다이 비치"
     },
     {
       "city": "시드니",

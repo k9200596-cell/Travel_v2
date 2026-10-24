@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#073e55">
-<meta name="description" content="K-TRAVEL PICKS v42: 179장 사진 출처 기록, 기존 사진 검증 기록 계승(이번 전수 재검증 아님), 24개 여행지 120개 명소, 여행 일정·실제 항공료·경비·저장.">
-<title>K-TRAVEL PICKS | 자유여행 계획 v42</title>
+<meta name="description" content="K-TRAVEL PICKS v43: 24개 여행지·120개 명소, 여행 준비 현황·사진 출처 4곳 추가, 24개 여행지 120개 명소, 여행 일정·실제 항공료·경비·저장.">
+<title>K-TRAVEL PICKS | 자유여행 계획 v43</title>
 <style>
 
 
@@ -508,11 +508,27 @@
 .v42-arrival-box,.v42-climate-box,.v42-pack-box{border:1px solid #c9e4e6;border-radius:17px;background:#f3fbfa;padding:17px;margin:14px 0}.v42-arrival-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.v42-arrival-box h3,.v42-climate-box h3,.v42-pack-box h3{margin:0 0 8px;font-size:17px}.v42-arrival-box p,.v42-climate-box p{margin:8px 0;color:#466574;font-size:13px}.v42-climate-tags{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}.v42-climate-tags span{border-radius:20px;background:#d9f2ee;color:#086d77;padding:5px 11px;font-size:13px;font-weight:750}.v42-climate-box small,.v42-pack-box small{display:block;font-size:12px;color:#56727c}.v42-pack-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.v42-pack-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.v42-pack-item{display:flex;align-items:flex-start;gap:10px;background:white;border:1px solid #dbe9e9;border-radius:12px;padding:12px;cursor:pointer}.v42-pack-item input{margin-top:4px;width:19px;height:19px;accent-color:#078b85;flex:none}.v42-pack-item b{display:block;font-size:14px}.v42-pack-item small{line-height:1.5;margin-top:4px}.v42-pack-item:has(input:checked){background:#e6f7f1;border-color:#88cabb}.v42-photo-audit{padding:12px 15px;border-radius:12px;background:#f1f8fc;color:#28576b;font-size:13px;margin:12px 0}.v42-photo-audit details{margin:8px 0}.v42-photo-audit summary{cursor:pointer;font-weight:750}.v42-photo-audit small{display:block;color:#56727c;margin-top:7px}.v42-arrival-box button{margin-top:10px}
 @media(max-width:680px){.v42-arrival-grid,.v42-pack-grid{grid-template-columns:1fr}.v42-arrival-box,.v42-climate-box,.v42-pack-box{padding:14px}.v42-pack-item{min-height:62px}.v42-pack-head{align-items:flex-start;flex-wrap:wrap}}
 
+
+/* v43: mobile-first readiness, explicit save state, and checklist filtering. */
+.v43-save-state{margin:0 0 14px;padding:10px 13px;border-radius:11px;font-size:12px;font-weight:750;line-height:1.5}
+.v43-unsaved{color:#7a4d14;background:#fff5e4;border:1px solid #f0d3a6}.v43-saved{color:#11634c;background:#ecf9f1;border:1px solid #bce6ce}
+.v43-readiness{background:linear-gradient(135deg,#edf9f7,#f7fbff);border:1px solid #c7e5e0;border-radius:15px;padding:16px;margin:14px 0 17px;scroll-margin-top:95px}
+.v43-readiness-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}.v43-readiness-head strong{font-size:16px}.v43-readiness-head>span{background:#d8f3e9;color:#08745e;border-radius:30px;padding:4px 11px;font-size:12px;font-weight:850}
+.v43-readiness-bars{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;margin:13px 0}.v43-readiness-bars>span{display:grid;grid-template-columns:1fr auto;gap:4px;font-size:12px;color:#3a6470}.v43-readiness-bars progress{grid-column:1/-1;width:100%;height:11px;accent-color:#08a39a}
+.v43-readiness p{font-size:12px;color:#526b74;margin:9px 0}.v43-readiness-links{display:flex;gap:8px;flex-wrap:wrap}.v43-readiness-links a{background:white;border:1px solid #c7e2e0;border-radius:9px;padding:8px 11px;color:#0c6571;font-size:12px;font-weight:800;min-height:40px}
+.v43-arrival-caution{margin:8px 0 12px;padding:10px 12px;background:#fff8e9;border:1px solid #eedbb6;color:#77531b;border-radius:10px;font-size:12px;line-height:1.65}
+.v43-climate-months{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:5px;margin:12px 0 5px}.v43-month{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:65px;border-radius:9px;background:#eff5f7;border:1px solid #dce9ec;color:#385e69;font-size:11px}.v43-month small{font-size:11px}.v43-month em{font-size:10px;font-style:normal;color:#157cba}.v43-month.v43-wet{background:#eaf3fc;border-color:#bed8f1}.v43-month.v43-current{outline:2px solid #0b9b91;outline-offset:1px;font-weight:900}
+.v43-climate-note{font-size:11px;color:#647783;margin:0 0 9px}.v43-pack-tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0 13px}.v43-pack-tools button{border:1px solid #b9d9d7;background:white;border-radius:9px;padding:9px 12px;font-weight:800;color:#0e6670;min-height:42px;font-size:12px}.v43-pack-tools button[aria-pressed="true"]{background:#0b7977;color:white;border-color:#0b7977}.v43-pack-tools .v43-copy{margin-left:auto;border-color:#6ab8b0}
+.v42-pack-item[hidden]{display:none!important}.v43-pack-empty{font-size:12px;padding:15px;background:#f1f9f5;border-radius:10px;color:#356a5a}
+@media(max-width:900px){.v43-climate-months{grid-template-columns:repeat(6,minmax(0,1fr))}}
+@media(max-width:600px){.v43-readiness{padding:13px}.v43-readiness-bars{grid-template-columns:1fr;gap:9px}.v43-readiness-links a{flex:1 1 30%;text-align:center;padding:9px 5px}.v43-pack-tools .v43-copy{margin-left:0;flex:1 1 100%}.v43-month{min-height:56px}.v43-month small{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.v43-readiness *{scroll-behavior:auto}}
+
 </style>
 </head>
 <body>
-<header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v42</span></div></header>
-<main id="discover"><div class="hero"><div class="wrap"><div class="eyebrow">YOUR TRIP, YOUR WAY</div><h1>사진으로 먼저 떠나는 여행,<br>나만의 자유여행 완성</h1><p>실제 명소 사진으로 여행지를 발견하고, 마음에 드는 곳을 일정에 담아보세요.</p><div class="hero-photo-credit" id="heroPhotoCredit" aria-live="polite">실제 관광지 사진의 출처를 불러오는 중입니다.</div><div class="hero-photo-controls" role="group" aria-label="대표 여행지 사진 넘기기"><button type="button" id="heroPrev" aria-label="이전 대표 사진">‹</button><span id="heroPhotoCount" aria-live="polite">1 / 5</span><button type="button" id="heroNext" aria-label="다음 대표 사진">›</button><span>싱가포르 · 도쿄 · 발리 · 파리 · 세부 등 실제 촬영 사진</span></div><div class="quick"><label class="field">여행지<select id="quickCity"></select></label><label class="field">출발일<input id="quickStart" type="date"></label><label class="field">귀국일<input id="quickEnd" type="date"></label><label class="field">인원<input id="quickPeople" type="number" min="1" max="30" value="2"></label><button class="btn" id="quickGo">여행계획 만들기 →</button></div><div class="v39-hero-auto"><span>여행지와 날짜만 선택하면 일차별 코스를 바로 불러옵니다.</span><button type="button" class="btn" id="v39QuickAuto">✨ 추천 여행일정 자동 불러오기</button></div></div></div><section class="wrap section"><div class="section-head"><div><h2>인기 여행지 둘러보기</h2><div class="muted">24개 여행지 · 120개 관광지 · 출처 기록이 있는 사진 179장 · 관광지 사진 60곳. 관광지 사진이 없는 경우에는 명확한 대체 이미지를 표시합니다. 사진 촬영연도와 출처를 확인하세요.</div></div></div><div class="discover-tools"><label class="field">여행지·테마 검색<input id="citySearch" type="search" placeholder="예: 오사카, 해변, 미식" autocomplete="off"></label><label class="field">국가별 보기<select id="countryFilter"><option value="">전체 국가</option></select></label><span id="cityCount" class="muted small" role="status" aria-live="polite"></span></div><section class="global-spot-search" aria-label="60개 관광지 통합 빠른 검색"><label class="field"><strong>🔎 120개 명소 한 번에 찾기</strong><input type="search" id="globalSpotSearch" placeholder="예: 야경, 에펠탑, 참탑, 바다, 사원" autocomplete="off" aria-controls="globalSpotResults"></label><div id="globalSpotResults" class="global-spot-results hidden" role="region" aria-live="polite" aria-label="관광지 검색 결과"></div><p class="hint">명소를 누르면 해당 도시의 사진 갤러리·방문 팁·일정 추가 화면으로 이동합니다.</p></section><p class="v39-ranking-note">🇰🇷 한국인 해외여행 선호 국가를 참고한 국가별 여행지 정렬입니다. 일본·베트남·중국·태국 등 주요 방문국 우선. 정확한 국가별 순위는 집계 기준에 따라 달라집니다. 기존 12곳 사진은 이전 버전의 출처 기록을 사용하며, 새로 추가한 12곳은 라이선스 검증 전까지 실제 사진 대신 대체 디자인을 표시합니다.</p><div id="cityCards" class="cards"></div>
+<header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v43</span></div></header>
+<main id="discover"><div class="hero"><div class="wrap"><div class="eyebrow">YOUR TRIP, YOUR WAY</div><h1>사진으로 먼저 떠나는 여행,<br>나만의 자유여행 완성</h1><p>실제 명소 사진으로 여행지를 발견하고, 마음에 드는 곳을 일정에 담아보세요.</p><div class="hero-photo-credit" id="heroPhotoCredit" aria-live="polite">실제 관광지 사진의 출처를 불러오는 중입니다.</div><div class="hero-photo-controls" role="group" aria-label="대표 여행지 사진 넘기기"><button type="button" id="heroPrev" aria-label="이전 대표 사진">‹</button><span id="heroPhotoCount" aria-live="polite">1 / 5</span><button type="button" id="heroNext" aria-label="다음 대표 사진">›</button><span>싱가포르 · 도쿄 · 발리 · 파리 · 세부 등 실제 촬영 사진</span></div><div class="quick"><label class="field">여행지<select id="quickCity"></select></label><label class="field">출발일<input id="quickStart" type="date"></label><label class="field">귀국일<input id="quickEnd" type="date"></label><label class="field">인원<input id="quickPeople" type="number" min="1" max="30" value="2"></label><button class="btn" id="quickGo">여행계획 만들기 →</button></div><div class="v39-hero-auto"><span>여행지와 날짜만 선택하면 일차별 코스를 바로 불러옵니다.</span><button type="button" class="btn" id="v39QuickAuto">✨ 추천 여행일정 자동 불러오기</button></div></div></div><section class="wrap section"><div class="section-head"><div><h2>인기 여행지 둘러보기</h2><div class="muted">24개 여행지 · 120개 관광지 · 출처 기록이 있는 사진 190장 · 관광지 사진 72곳. 관광지 사진이 없는 경우에는 명확한 대체 이미지를 표시합니다. 사진 촬영연도와 출처를 확인하세요.</div></div></div><div class="discover-tools"><label class="field">여행지·테마 검색<input id="citySearch" type="search" placeholder="예: 오사카, 해변, 미식" autocomplete="off"></label><label class="field">국가별 보기<select id="countryFilter"><option value="">전체 국가</option></select></label><span id="cityCount" class="muted small" role="status" aria-live="polite"></span></div><section class="global-spot-search" aria-label="60개 관광지 통합 빠른 검색"><label class="field"><strong>🔎 120개 명소 한 번에 찾기</strong><input type="search" id="globalSpotSearch" placeholder="예: 야경, 에펠탑, 참탑, 바다, 사원" autocomplete="off" aria-controls="globalSpotResults"></label><div id="globalSpotResults" class="global-spot-results hidden" role="region" aria-live="polite" aria-label="관광지 검색 결과"></div><p class="hint">명소를 누르면 해당 도시의 사진 갤러리·방문 팁·일정 추가 화면으로 이동합니다.</p></section><p class="v39-ranking-note">🇰🇷 한국인 해외여행 선호 국가를 참고한 국가별 여행지 정렬입니다. 일본·베트남·중국·태국 등 주요 방문국 우선. 정확한 국가별 순위는 집계 기준에 따라 달라집니다. 기존 12곳 사진은 이전 버전의 출처 기록을 사용하며, 새로 추가한 12곳은 라이선스 검증 전까지 실제 사진 대신 대체 디자인을 표시합니다.</p><div id="cityCards" class="cards"></div>
 
 <section class="v37-feature" aria-labelledby="v37Title">
  <div class="v37-heading"><div><span class="v37-kicker">K-TRAVEL PICKS · REAL PHOTO COLLECTION · v37</span>
@@ -566,7 +582,7 @@
  <div class="story-advanced-controls" aria-label="사진 상세 필터">
 <label class="field">도시 선택<select id="photoStoryCity" aria-label="사진 도시 선택"><option value="">모든 도시</option></select></label>
 <label class="story-verified-toggle"><input type="checkbox" id="photoStoryVerified"> 이번 v35 신규 3장 원본 확인 사진만 보기</label>
-<label class="story-verified-toggle"><input type="checkbox" id="photoStoryAll"> 📷 관광지 사진 전체 164장 보기</label>
+<label class="story-verified-toggle"><input type="checkbox" id="photoStoryAll"> 📷 관광지 사진 전체 190장 보기</label>
 <label class="field">촬영연도<select id="photoStoryYear" aria-label="사진 촬영연도 필터"><option value="all">전체 연도</option><option value="2025">2025년 이후</option><option value="2024">2024년 이후</option><option value="unknown">촬영연도 미상</option></select></label>
 <label class="field">사진 정렬<select id="photoStorySort" aria-label="사진 정렬"><option value="featured">추천순</option><option value="recent">최신 촬영순</option><option value="city">도시별</option></select></label>
 </div>
@@ -574,19 +590,19 @@
 <p id="photoStoryCount" class="story-count" role="status" aria-live="polite"></p>
  <div id="photoStoryGrid" class="photo-story-grid"></div>
  <p class="footer-note">촬영 당시 사진이며 현재의 날씨·경관·시설 운영과 다를 수 있습니다. 원본 설명을 확인했더라도 외부 이미지 파일의 실시간 연결은 보증하지 않습니다.</p>
-</section><div id="cityEmpty" class="empty hidden">검색 결과가 없습니다. 검색어 또는 국가 필터를 변경해 보세요.</div><p class="footer-note">도시 대표 사진은 출처 기록이 있는 관광지 사진을 우선 사용합니다. v39에서는 기존 사진 2장을 개별 재확인했습니다. 그 외 사진은 이전 확인 기록을 계승합니다. 다른 사진은 이번에 개별 재검증하지 않았습니다. 외부 사진 연결 상태는 실제 접속 시 달라질 수 있으며, 과거 사진은 현재 모습과 다를 수 있습니다. 원본 출처·라이선스를 확인하세요.</p></section></main>
+</section><div id="cityEmpty" class="empty hidden">검색 결과가 없습니다. 검색어 또는 국가 필터를 변경해 보세요.</div><p class="footer-note">도시 대표 사진은 출처 기록이 있는 관광지 사진을 우선 사용합니다. v43에서는 신규 4개 명소 사진의 원본 설명과 저작권을 확인했습니다. 기존 사진 출처 기록은 계승했으며 전수 재검증하지 않았습니다. 외부 사진 연결 상태는 실제 접속 시 달라질 수 있으며, 과거 사진은 현재 모습과 다를 수 있습니다. 원본 출처·라이선스를 확인하세요.</p></section></main>
 <main id="planner" class="hidden"><section class="wrap section"><div class="section-head"><div><h2>내 여행계획</h2><div class="muted">① 기본정보 → ② 관광지·일정 → ③ 경비 → ④ 저장</div></div><button class="btn alt" data-nav="discover">여행지 다시 선택</button></div><div class="layout"><div>
 <nav class="plan-shortcuts" aria-label="여행계획 바로가기"><a href="#tourGuide">📍 관광지</a><a href="#tripSchedule">🗓 일정</a><a href="#tripBudget">💳 경비</a><a href="#entryGuide">🛂 입국</a><a href="#tripChecklist">✓ 준비</a></nav>
-<section class="panel"><div class="row"><h2 id="planTitle">여행 기본정보</h2><button id="saveTop" class="btn alt">현재 여행 브라우저에 저장</button></div><div class="grid2"><label class="field">여행계획 이름<input id="tripName" maxlength="120"></label><label class="field">여행지<select id="city"></select></label><label class="field">출발공항<select id="origin"><option value="PUS">김해(PUS)</option><option value="ICN">인천(ICN)</option><option value="TAE">대구(TAE)</option><option value="CJJ">청주(CJJ)</option><option value="CJU">제주(CJU)</option></select></label><label class="field">인원<input id="people" type="number" min="1" max="30" value="2"></label><label class="field">출발일<input id="start" type="date"></label><label class="field">귀국일<input id="end" type="date"></label><label class="field">객실 수<input id="rooms" type="number" min="1" max="20" value="1"></label><label class="field">전체 여행 예산 (원)<input id="budget" type="number" min="0" step="10000" placeholder="선택 입력"></label></div><div class="actions" style="margin-top:14px"><button id="makeDays" class="btn">날짜별 일정표 만들기</button><a id="flightLink" class="btn alt" href="https://flight.naver.com/" target="_blank" rel="noopener noreferrer">네이버 항공권 검색 ↗</a><a id="hotelLink" class="btn alt" href="https://www.booking.com/" target="_blank" rel="noopener noreferrer">부킹닷컴 호텔 검색 ↗</a></div><div class="v39-action"><h3>🗓 여행지와 날짜만 고르면 일정 완성</h3><p>추천 명소를 일차별로 배치합니다. 이미 작성한 일정은 확인 없이 덮어쓰지 않습니다.</p><button type="button" id="v39PlannerAuto" class="btn">✨ 추천 여행일정 자동 불러오기</button></div><p class="hint">항공권 링크는 선택한 날짜·인원·출발공항을 전달합니다. 항공료는 검색 후 아래에 실제 금액을 입력하세요.</p></section>
+<section class="panel"><div class="row"><h2 id="planTitle">여행 기본정보</h2><button id="saveTop" class="btn alt">현재 여행 브라우저에 저장</button></div><div id="v43SaveStatus" class="v43-save-state" role="status" aria-live="polite">저장 상태 확인 중</div><div class="grid2"><label class="field">여행계획 이름<input id="tripName" maxlength="120"></label><label class="field">여행지<select id="city"></select></label><label class="field">출발공항<select id="origin"><option value="PUS">김해(PUS)</option><option value="ICN">인천(ICN)</option><option value="TAE">대구(TAE)</option><option value="CJJ">청주(CJJ)</option><option value="CJU">제주(CJU)</option></select></label><label class="field">인원<input id="people" type="number" min="1" max="30" value="2"></label><label class="field">출발일<input id="start" type="date"></label><label class="field">귀국일<input id="end" type="date"></label><label class="field">객실 수<input id="rooms" type="number" min="1" max="20" value="1"></label><label class="field">전체 여행 예산 (원)<input id="budget" type="number" min="0" step="10000" placeholder="선택 입력"></label></div><div class="actions" style="margin-top:14px"><button id="makeDays" class="btn">날짜별 일정표 만들기</button><a id="flightLink" class="btn alt" href="https://flight.naver.com/" target="_blank" rel="noopener noreferrer">네이버 항공권 검색 ↗</a><a id="hotelLink" class="btn alt" href="https://www.booking.com/" target="_blank" rel="noopener noreferrer">부킹닷컴 호텔 검색 ↗</a></div><div class="v39-action"><h3>🗓 여행지와 날짜만 고르면 일정 완성</h3><p>추천 명소를 일차별로 배치합니다. 이미 작성한 일정은 확인 없이 덮어쓰지 않습니다.</p><button type="button" id="v39PlannerAuto" class="btn">✨ 추천 여행일정 자동 불러오기</button></div><p class="hint">항공권 링크는 선택한 날짜·인원·출발공항을 전달합니다. 항공료는 검색 후 아래에 실제 금액을 입력하세요.</p></section>
 
 <section class="panel entry-guide" id="entryGuide" aria-labelledby="entryHeading">
  <div class="row entry-head"><div><span class="entry-kicker">✈️ BEFORE YOU FLY</span><h2 id="entryHeading">나라별 입국 준비 · 사전 신고</h2></div><span class="badge" id="entryCountryBadge">국가 확인</span></div>
  <p class="muted small">대한민국 일반여권 · 단기 관광 기준. 항공편·국적·체류 목적·경유지에 따라 달라집니다. <b>2026.10.18 공식자료 확인</b> · 출발 직전 다시 확인하세요.</p>
- <div class="entry-date-row"><label class="field">현지 도착 예정일(예상·수정 가능)<input id="entryArrivalDate" type="date" aria-describedby="entryDateHint"></label><div id="entryDateHint" class="entry-date-hint" role="status" aria-live="polite">출발일을 기준으로 임시 표시합니다. 항공편 정보를 입력하면 시차를 반영합니다.</div></div>
+ <div id="v43Readiness" class="v43-readiness" aria-live="polite"></div><div class="entry-date-row"><label class="field">현지 도착 예정일(예상·수정 가능)<input id="entryArrivalDate" type="date" aria-describedby="entryDateHint"></label><div id="entryDateHint" class="entry-date-hint" role="status" aria-live="polite">출발일을 기준으로 임시 표시합니다. 항공편 정보를 입력하면 시차를 반영합니다.</div></div>
 <div class="v42-arrival-box"><h3>✈️ 현지 도착일 자동 계산</h3><div class="v42-arrival-grid"><label class="field">한국 출발시각(선택)<input id="v42DepartureTime" type="time"></label><label class="field">총 이동시간(시간·경유 포함, 선택)<input id="v42FlightHours" type="number" min="0.5" max="48" step="0.5" placeholder="예: 5.5"></label></div><button type="button" class="btn outline" id="v42ArrivalReset">↻ 현지 도착일 다시 계산</button><p>입력하지 않으면 출발일을 임시 표시하며 확정 도착일로 취급하지 않습니다. 항공권의 현지 도착일을 최종 기준으로 삼으세요.</p></div>
-<div class="v42-climate-box" id="v42Climate"><h3>🌦 여행 월의 기후·우기·건기</h3><div id="v42ClimateSummary" aria-live="polite"></div></div>
+<div class="v42-climate-box" id="v42Climate"><h3>🌦 여행 월의 기후·우기·건기</h3><div id="v42ClimateSummary" aria-live="polite"></div><div id="v43ClimateMonths" class="v43-climate-months" aria-label="1월부터 12월까지 기온·강수 경향"></div><p class="v43-climate-note">월별 기온은 추정 중심값이며 공식 기후평년값이 아닙니다. 파란색은 비가 잦은 경향입니다.</p></div>
  <div class="entry-banner" id="entryVisa"></div>
- <div class="entry-window" id="entryWindow" role="status" aria-live="polite"></div>
+ <p id="v43ArrivalCaution" class="v43-arrival-caution" role="status"></p><div class="entry-window" id="entryWindow" role="status" aria-live="polite"></div>
  <div class="entry-actions" id="entryActions"></div>
  <div class="entry-subhead"><h3>🧳 출발 전 체크리스트</h3><span id="entryProgress">0/5개</span></div>
  <div class="entry-checks" id="entryChecks"></div>
@@ -612,7 +628,7 @@
 <div class="actions"><button type="button" id="v39Apply" class="btn">선택한 방식으로 일정 적용</button><button type="button" id="v39Cancel" class="btn outline">취소</button></div></div>
 <div id="dayTabs" class="tabs"></div><div class="schedule-check-tools"><label for="travelBuffer">일정 간 예상 이동·여유시간</label><select id="travelBuffer" aria-label="일정 사이 이동 및 여유시간"><option value="0">0분</option><option value="15">15분</option><option value="30" selected>30분 (권장)</option><option value="60">60분</option></select><span>관광지 체류시간 + 설정한 여유시간을 기준으로 시간 겹침을 안내합니다. 실제 이동시간을 계산하지 않습니다.</span></div><div id="dayStats" class="muted small" aria-live="polite"></div><div id="scheduleWarnings" class="schedule-warnings" role="status" aria-live="polite"></div><div id="dayItems"></div><div id="editor"></div></section>
 <section class="panel" id="tripBudget"><h2>여행 경비 계산</h2><p class="muted small">왕복 항공료는 <b>1인당 실제 결제 예상금액</b>, 숙박비는 <b>객실당 1박 금액</b>으로 입력하세요. 나머지는 여행 전체 합계입니다.</p><div id="costInputs"></div><div class="notice" style="margin-top:17px"><div class="row"><h3 style="margin:0">현지 통화 → 원화 빠른 계산</h3><span id="currencyBadge" class="badge">현지 통화</span></div><p class="small muted">실시간 환율 연동 없이 직접 입력합니다. 환산 결과는 총경비에 자동으로 더해지지 않습니다.</p><div class="exchange-grid"><label class="field">현지 금액<input id="localAmount" type="number" min="0" step="any" inputmode="decimal" placeholder="예: 100000"></label><label class="field">현지통화 1단위당 원화 환율<input id="krwRate" type="number" min="0" step="any" inputmode="decimal" placeholder="직접 입력 (예: 0.06)"></label></div><div id="exchangeResult" class="exchange-result" role="status" aria-live="polite">금액과 환율을 입력하세요.</div><p class="hint">예: 100,000 VND × 0.06원 = 6,000원. 환율은 예시이며 현재 시세가 아닙니다.</p></div><p class="hint">총경비 = 항공료 × 인원 + 숙박비 × 박수 × 객실 수 + 나머지 비용 + 일정별 비용</p></section>
-<section class="panel" id="tripChecklist"><h2>여행 준비 체크리스트</h2><div class="v42-pack-box"><div class="v42-pack-head"><h3>🧳 선택 국가·방문 월 맞춤 준비물</h3><span class="badge" id="v42PackingCount">0개 완료</span></div><div id="v42PackingList" class="v42-pack-grid"></div><p class="hint">완료 여부는 여행계획 저장 시 함께 저장됩니다. 일반적 추천이며 항공사·국가별 반입규정은 별도 확인하세요.</p></div><h3>기본 공통 준비사항</h3><div id="checklist"></div><h2 style="margin-top:20px">여행 메모</h2><label class="field">예약번호, 교통 정보, 주의사항 등<textarea id="memo" placeholder="민감한 개인정보·비밀번호는 입력하지 마세요."></textarea></label><div class="actions" style="margin-top:14px"><button id="saveBottom" class="btn">현재 여행 브라우저에 저장</button><button id="share" class="btn alt">여행 요약 복사</button><button id="backupCurrent" class="btn outline">현재 계획 파일로 저장</button></div></section>
+<section class="panel" id="tripChecklist"><h2>여행 준비 체크리스트</h2><div class="v42-pack-box"><div class="v42-pack-head"><h3>🧳 선택 국가·방문 월 맞춤 준비물</h3><span class="badge" id="v42PackingCount">0개 완료</span></div><div class="v43-pack-tools" role="group" aria-label="준비물 필터"><button type="button" data-v43-filter="all" aria-pressed="true">전체</button><button type="button" data-v43-filter="pending" aria-pressed="false">미완료만</button><button type="button" data-v43-filter="done" aria-pressed="false">완료만</button><button type="button" id="v43CopyPending" class="v43-copy">📋 미완료 목록 복사</button></div><div id="v42PackingList" class="v42-pack-grid"></div><p id="v43PackEmpty" class="v43-pack-empty" hidden>해당하는 준비물이 없습니다.</p><p class="hint">완료 여부는 여행계획 저장 시 함께 저장됩니다. 일반적 추천이며 항공사·국가별 반입규정은 별도 확인하세요.</p></div><h3>기본 공통 준비사항</h3><div id="checklist"></div><h2 style="margin-top:20px">여행 메모</h2><label class="field">예약번호, 교통 정보, 주의사항 등<textarea id="memo" placeholder="민감한 개인정보·비밀번호는 입력하지 마세요."></textarea></label><div class="actions" style="margin-top:14px"><button id="saveBottom" class="btn">현재 여행 브라우저에 저장</button><button id="share" class="btn alt">여행 요약 복사</button><button id="backupCurrent" class="btn outline">현재 계획 파일로 저장</button></div></section>
 </div><aside><section class="panel summary"><h2>나의 여행 경비</h2><div class="summary-line"><span>여행기간</span><b id="sumDays">-</b></div><div class="summary-line"><span>숙박</span><b id="sumNights">-</b></div><div class="summary-line"><span>인원</span><b id="sumPeople">-</b></div><p class="muted small" style="margin-bottom:4px">예상 총경비</p><div class="money" id="sumTotal">0원</div><div class="summary-line"><span>1인당 예상경비</span><b id="sumPer">0원</b></div><div class="summary-line"><span>예산 대비</span><b id="sumBudget">-</b></div><div class="progress" aria-label="예산 사용률"><span id="budgetProgress" style="width:0"></span></div><h3 class="breakdown-title">경비 구성</h3><div id="costBreakdown" class="breakdown" aria-live="polite"></div><p class="hint">현지 물가·환율은 자동 반영되지 않습니다. 입력한 금액 기준입니다.</p>
 <div class="readiness-card" aria-live="polite">
   <h3>여행 준비 한눈에</h3>
@@ -625,7 +641,7 @@
 </div>
 <button id="saveSide" class="btn" style="width:100%">현재 여행 브라우저에 저장</button></section></aside></div></section></main>
 <main id="saved" class="hidden"><section class="wrap section"><div class="section-head"><div><h2>저장한 여행</h2><div class="muted">현재 브라우저에 저장한 계획입니다. 다른 기기로 옮길 때는 파일 백업을 이용하세요.</div></div></div><div class="panel"><div class="actions"><button id="export" class="btn">저장목록 파일로 저장</button><label class="btn alt" for="import" style="cursor:pointer">저장된 파일 가져오기</label><input id="import" type="file" accept=".json,application/json" class="hidden"></div><p class="hint">브라우저 데이터 삭제 시 계획도 삭제될 수 있습니다. 정기적으로 JSON 파일을 백업하세요.</p></div><section class="panel v41-saved-tools" aria-label="저장된 여행 검색 및 정렬"><div class="v41-saved-grid"><label class="field">여행계획 검색<input id="v41SavedSearch" type="search" autocomplete="off" placeholder="여행지·계획 이름·날짜 검색" aria-controls="savedList"></label><label class="field">정렬 기준<select id="v41SavedSort" aria-controls="savedList"><option value="recent">최근 저장순</option><option value="departure">출발일 빠른순</option><option value="city">여행지 이름순</option></select></label></div><p class="hint" id="v41SavedCount" aria-live="polite">저장된 여행계획을 불러오는 중입니다.</p></section><div id="savedList"></div></section></main>
-<footer class="footer">K-TRAVEL PICKS · 무료 여행계획 도구 · v37<br>v37에서 신규 사진 6장과 기존 사진 4장의 장소·촬영 시점·저작자·라이선스를 개별 원본 설명에서 확인했습니다. 나머지 169장의 출처 기록은 계승했으며 이번에 개별 재검증하지 않았습니다. 외부 이미지 서버의 실시간 응답은 보장되지 않으며 현지 모습과 촬영일은 다를 수 있습니다. <br>입장료, 교통, 비자, 항공권 및 숙소 가격은 반드시 공식 판매처에서 확인하세요.</footer>
+<footer class="footer">K-TRAVEL PICKS · 무료 자유여행 도구 · v43<br>24개 여행지 · 120개 명소 · 출처 기록이 있는 명소 72곳 / 미확인 48곳(2026-10-24 기준). 이번에 4개 명소 사진의 원본 설명·저작자·CC BY-SA 4.0 라이선스를 확인했습니다. 기존 사진 기록은 재검증하지 않았습니다.<br>여행 정보·월별 기온은 참고용입니다. 입국 조건·운항·가격·기상은 출발 전 공식기관에서 다시 확인하세요.</footer>
 <nav class="bottom" aria-label="모바일 메뉴"><button data-nav="discover" class="active">🌏 여행지</button><button data-nav="planner">🗓️ 여행계획</button><button data-nav="saved">💾 저장목록</button></nav>
 <div id="printSheet" class="print-only" aria-hidden="true"></div>
 <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
@@ -1046,7 +1062,7 @@ function backupCurrent(){
  downloadJSON({format:'K-TRAVEL',version:41,plans:[plan]},`K-TRAVEL-${name}-${stamp}.json`);
  toast('현재 계획을 JSON 파일로 저장했습니다. 브라우저 저장 없이도 백업됩니다.');
 }
-function exportData(){let blob=new Blob([JSON.stringify({format:'K-TRAVEL',version:41,plans:read()},null,2)],{type:'application/json'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='K-TRAVEL-여행계획-'+new Date().toLocaleString('sv-SE').replace(' ','_').replaceAll(':','')+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)}
+function exportData(){let blob=new Blob([JSON.stringify({format:'K-TRAVEL',version:43,plans:read()},null,2)],{type:'application/json'}),u=URL.createObjectURL(blob),a=document.createElement('a');a.href=u;a.download='K-TRAVEL-여행계획-'+new Date().toLocaleString('sv-SE').replace(' ','_').replaceAll(':','')+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),2000)}
 async function importData(e){let f=e.target.files?.[0];if(!f)return;try{if(f.size>5000000)throw Error('5MB 이하 파일만 가능합니다');let x=JSON.parse(await f.text()),a=Array.isArray(x)?x:x.plans;if(!Array.isArray(a)||a.length>1000||!a.every(y=>y&&typeof y.name==='string'))throw Error('지원하지 않는 파일입니다');let old=read(),ids=new Set(old.map(y=>y.id)),incoming=a.map(y=>({...y,id:!y.id||ids.has(y.id)?Date.now()+'-'+Math.random().toString(36).slice(2):y.id}));localStorage.setItem(KEY,JSON.stringify([...incoming,...old]));renderSaved();toast(incoming.length+'개 여행을 가져왔습니다')}catch(err){toast('가져오기 실패: '+err.message)}e.target.value=''}
 
 /* v10 additions: deterministic, no paid AI/API dependency */
@@ -1197,7 +1213,7 @@ function printItinerary(){
  const dayHtml=days.map((arr,i)=>`<section class="print-day"><h2>${i+1}일차 · ${safe(dateLabel(i))}</h2>${arr.length?`<table><tr><th style="width:65px">시간</th><th style="width:140px">장소</th><th>메모</th><th style="width:85px">예상비용</th></tr>${arr.slice().sort((a,b)=>(a.time||'99:99').localeCompare(b.time||'99:99')).map(x=>`<tr><td>${safe(x.time||'-')}</td><td>${safe(x.place)}</td><td>${safe(x.memo||'')}</td><td>${won(x.cost)}</td></tr>`).join('')}</table>`:'<p class="print-muted">일정 미정</p>'}</section>`).join('');
  const check=TASKS.map((x,i)=>`${checks[i]?'☑':'□'} ${safe(x)}`).join('　');
   const scheduleNote=`<p class="print-muted">예상 일정 시간 겹침: ${allConflictCount()}건 (관광지 체류시간과 설정한 여유시간 기준 · 실제 이동시간 제외)</p>`;
- $('printSheet').innerHTML=trip+money+scheduleNote+dayHtml+`<h2>여행 준비</h2><p>${check}</p><h2>메모</h2><p style="white-space:pre-wrap">${safe($('memo').value)}</p><p class="print-footer">K-TRAVEL PICKS v33 · 예상 경비와 관광정보는 방문 전 확인하세요. · 인쇄 화면에서 PDF로 저장할 수 있습니다.</p>`;
+ $('printSheet').innerHTML=trip+money+scheduleNote+dayHtml+`<h2>여행 준비</h2><p>${check}</p><h2>메모</h2><p style="white-space:pre-wrap">${safe($('memo').value)}</p><p class="print-footer">K-TRAVEL PICKS v43 · 예상 경비와 관광정보는 방문 전 확인하세요. · 인쇄 화면에서 PDF로 저장할 수 있습니다.</p>`;
  window.print();
 }
 
@@ -1644,7 +1660,7 @@ function v42RenderPacking(){const city=$('city').value,month=v42Month(),items=v4
 function v42PhotoAudit(){const missing=Object.entries(DATA).flatMap(([city,d])=>d.spots.filter(s=>!spotPhoto(city,s[0])).map(s=>city+' · '+s[0]));const covered=120-missing.length;$('v42PhotoAudit').innerHTML=`<strong>📷 관광명소 사진 현황: ${covered}/120곳</strong> · 확인된 사진이 없는 명소 ${missing.length}곳. <details><summary>미확인 명소 목록 보기</summary><p>${missing.map(safe).join(' · ')}</p></details><small>v42 신규 ${V42_PHOTOS.length}곳: ${V42_PHOTOS.map(p=>safe(p.city+" "+p.spot)).join(" · ")}. 출처·라이선스·촬영일 확인, 외부 이미지 실제 로딩은 미검증.</small>`}
 const v42OldSnap=snap;snap=function(){return{...v42OldSnap(),v42DepartureTime:$('v42DepartureTime').value,v42FlightHours:$('v42FlightHours').value,v42ManualArrival,v42PackChecks:{...v42PackChecks},schema:8}};
 const v42OldLoad=load;load=function(x){v42PackChecks=x.v42PackChecks&&typeof x.v42PackChecks==='object'?x.v42PackChecks:{};$('v42DepartureTime').value=x.v42DepartureTime||'';$('v42FlightHours').value=x.v42FlightHours||'';v42ManualArrival=!!x.v42ManualArrival;v42OldLoad(x);v42SyncArrival();renderEntryGuide()};
-function v42Init(){for(const id of ['v42DepartureTime','v42FlightHours'])$(id).addEventListener('input',()=>{v42ManualArrival=false;v42SyncArrival(true);renderEntryGuide()});$('v42ArrivalReset').addEventListener('click',()=>{v42ManualArrival=false;v42SyncArrival(true);renderEntryGuide()});$('entryArrivalDate').addEventListener('input',()=>{v42ManualArrival=true;entryDateEdited=true});for(const id of ['start','city'])$(id).addEventListener('change',()=>{v42ManualArrival=false;v42SyncArrival(true);renderEntryGuide()});$('quickGo').addEventListener('click',()=>{v42ManualArrival=false;v42PackChecks={};$('v42DepartureTime').value='';$('v42FlightHours').value='';v42SyncArrival(true);renderEntryGuide()});v42PhotoAudit();renderEntryGuide()}
+function v42Init(){for(const id of ['v42DepartureTime','v42FlightHours'])$(id).addEventListener('input',()=>{v42ManualArrival=false;v42SyncArrival(true);renderEntryGuide()});$('v42ArrivalReset').addEventListener('click',()=>{v42ManualArrival=false;v42SyncArrival(true);renderEntryGuide()});$('entryArrivalDate').addEventListener('input',()=>{v42ManualArrival=true;entryDateEdited=true});for(const id of ['start','city'])$(id).addEventListener('change',()=>{v42ManualArrival=false;v42SyncArrival(true);renderEntryGuide()});$('quickGo').addEventListener('click',()=>{v42ManualArrival=false;v42SyncArrival(true);renderEntryGuide()});v42PhotoAudit();renderEntryGuide()}
 setTimeout(v42Init,0);
 
 init();
@@ -1859,5 +1875,122 @@ renderSaved=v41RenderSaved;
 $('v41SavedSearch').addEventListener('input',e=>{v41SavedQuery=e.target.value;v41RenderSaved()});
 $('v41SavedSort').addEventListener('change',e=>{v41SavedSort=e.target.value;v41RenderSaved()});
 window.addEventListener('storage',e=>{if(e.key===KEY&&!$('saved').classList.contains('hidden'))v41RenderSaved()});
+
+/* K-TRAVEL PICKS v43 — user-first regression fixes, trip readiness, 4 verified attraction photos. */
+const V43_PHOTOS = [
+  {city:'시드니',spot:'하버브리지',label:'시드니 하버브리지 · 2025년',file:'Sydney Harbour Bridge 2025.jpg',author:'Bonnie Jin',taken:'2025-04-12',scene:'2025년 4월 촬영한 시드니 하버브리지의 전경.'},
+  {city:'시드니',spot:'본다이 비치',label:'본다이 비치 · 2025년',file:'Sydney Bondi Beach 2025.jpg',author:'LittleMi&Ada',taken:'2025-03-14',scene:'2025년 3월 촬영한 시드니 본다이 해변.'},
+  {city:'뉴욕',spot:'자유의 여신상',label:'자유의 여신상 · 2024년',file:'Statue of Liberty 2024.jpg',author:'Mojnsen',taken:'2024-02-19',scene:'2024년 2월 촬영한 뉴욕 자유의 여신상.'},
+  {city:'상하이',spot:'동방명주',label:'동방명주 · 상하이',file:'Oriental Pearl Tower in Shanghai.jpg',author:'Dmitry A. Mottl',taken:'2014-12-22',scene:'2014년 촬영한 상하이 동방명주. 현재의 도시 경관과 다를 수 있습니다.'}
+].map(p=>({...p,cover:false,license:'CC BY-SA 4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',checked:'2026-10-24',source:'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(p.file),url:'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(p.file)+'?width=960',photoTitle:p.file,metadataVerifiedThisRun:true,metadataVerification:'2026-10-24 Wikimedia Commons 원본 설명에서 장소·촬영일·저작자·라이선스 개별 확인',lastVerifiedVersion:'v43',imageTransport:'Wikimedia Commons 외부 이미지 · 실제 이미지 바이트/모바일 로딩 미검증',siteModification:'원본 파일 수정·재배포 없음. 화면 CSS object-fit에 따른 크롭 가능',reuseTerms:'CC BY-SA 4.0: 저작자·원본·라이선스 링크 및 수정 여부 표시, 수정본 배포 시 동일조건 공유',verificationScope:'개별 Commons 파일 설명 확인; 사이트에서 실제 이미지 로딩 미검증',verificationStatus:'verified_file_description_v43',sourcePageCheckedVia:'Wikimedia Commons 원본 파일 설명 · 2026-10-24',imageBytesChecked:false}));
+for(const p of V43_PHOTOS){
+  if(!PHOTO_CATALOG.some(q=>q.city===p.city&&q.spot===p.spot&&q.file===p.file))PHOTO_CATALOG.push(p);
+  if(!spotPhoto(p.city,p.spot))SPOT_PHOTO_MAP.set(p.city+'|'+p.spot,p);
+}
+
+/* An explicit provisional-arrival warning prevents applying a guessed date as a confirmed entry-card window. */
+const v43OldEntryGuide=renderEntryGuide;
+renderEntryGuide=function(){
+  v43OldEntryGuide();
+  const arrival=v42ArrivalCalc(),hasDetails=Boolean($('v42DepartureTime').value&&Number($('v42FlightHours').value)>0),manual=v42ManualArrival;
+  $('v43ArrivalCaution').textContent=!hasDetails&&!manual
+    ?'⚠️ 현지 도착일 미확정: 신고 가능 날짜는 임시 계산입니다. 항공권의 현지 도착일·시각을 확인하거나 위 날짜를 직접 수정하세요.'
+    :manual?'✍️ 직접 입력한 도착일을 기준으로 신고 가능 날짜를 표시합니다. 항공권과 대조하세요.'
+    :'🕒 입력한 이동시간·현지 시차 기준 예상일입니다. 실제 항공권 도착일을 확인하세요.';
+  v43RenderReadiness();
+};
+
+/* Checklist filtering preserves all checked states; a filtered list never deletes tasks. */
+let v43PackFilter='all';
+const v43OldPacking=v42RenderPacking;
+v42RenderPacking=function(){
+  v43OldPacking();
+  const city=$('city').value,month=v42Month(),prefix=city+'|'+month+'|';
+  $('v42PackingList').querySelectorAll('[data-v42-pack]').forEach(input=>{
+    const done=Boolean(v42PackChecks[prefix+input.dataset.v42Pack]);
+    input.closest('.v42-pack-item').hidden=v43PackFilter==='pending'&&done||v43PackFilter==='done'&&!done;
+  });
+  const visible=$('v42PackingList').querySelectorAll('.v42-pack-item:not([hidden])').length;
+  $('v43PackEmpty').hidden=visible>0;
+  document.querySelectorAll('[data-v43-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.v43Filter===v43PackFilter)));
+  v43RenderReadiness();
+};
+function v43RenderReadiness(){
+  const city=$('city')?.value;if(!city||!DATA[city])return;
+  const month=v42Month(),country=DATA[city].country,prefix=city+'|'+month+'|';
+  const items=v42PackItems(),done=items.filter(x=>v42PackChecks[prefix+x[0]]).length;
+  const entryDone=ENTRY_CHECK_ITEMS.filter(([id])=>entryChecks[country+'|'+id]).length;
+  const remaining=items.filter(x=>!v42PackChecks[prefix+x[0]]).slice(0,3).map(x=>x[1].replace(/^\S+\s*/,''));
+  const summary=$('v43Readiness');if(!summary)return;
+  summary.innerHTML=`<div class="v43-readiness-head"><strong>🧭 ${safe(city)} 출발 준비 한눈에</strong><span>${entryDone+done}/${ENTRY_CHECK_ITEMS.length+items.length}개 완료</span></div>
+    <div class="v43-readiness-bars"><span>입국 준비 <b>${entryDone}/${ENTRY_CHECK_ITEMS.length}</b><progress max="${ENTRY_CHECK_ITEMS.length}" value="${entryDone}"></progress></span>
+    <span>맞춤 준비물 <b>${done}/${items.length}</b><progress max="${items.length}" value="${done}"></progress></span></div>
+    <p>${remaining.length?'남은 준비물 예시: '+safe(remaining.join(' · ')):'맞춤 준비물은 모두 체크했습니다. 입국 조건도 최종 확인하세요.'}</p>
+    <div class="v43-readiness-links"><a href="#entryChecks">🛂 입국 준비 확인</a><a href="#tripChecklist">🧳 준비물 체크</a><a href="#tripBudget">💳 여행 경비</a></div>`;
+}
+
+/* A 12-month visual strip exposes seasonal differences without pretending estimates are official normals. */
+const v43OldClimate=v42RenderClimate;
+v42RenderClimate=function(){
+  v43OldClimate();
+  const city=$('city').value,selected=v42Month();
+  $('v43ClimateMonths').innerHTML=Array.from({length:12},(_,i)=>{
+    const c=v42Climate(city,i+1);
+    return `<span class="v43-month ${c.wet?'v43-wet':''} ${i+1===selected?'v43-current':''}" ${i+1===selected?'aria-current="date"':''} title="${i+1}월: ${c.wet?'비가 잦은 경향':'비교적 적은 경향'}"><b>${i+1}월</b><small>${Number.isFinite(c.mean)?c.mean+'℃':'—'}</small>${c.wet?'<em>비↑</em>':''}</span>`;
+  }).join('');
+};
+
+/* Avoid misleading fixed audit counts when more photos are added. */
+v42PhotoAudit=function(){
+  const missing=Object.entries(DATA).flatMap(([city,d])=>d.spots.filter(s=>!spotPhoto(city,s[0])).map(s=>city+' · '+s[0]));
+  const total=Object.values(DATA).reduce((n,d)=>n+d.spots.length,0);
+  $('v42PhotoAudit').innerHTML=`<strong>📷 관광명소 사진 출처 현황: ${total-missing.length}/${total}곳</strong> · 미확인 ${missing.length}곳.
+  <details><summary>사진 출처 미확인 명소 ${missing.length}곳 보기</summary><p>${missing.map(safe).join(' · ')}</p></details>
+  <small>v43 신규 원본 확인 ${V43_PHOTOS.length}곳 · 확인일 2026-10-24. 실제 외부 이미지 로딩은 별도 검증이 필요합니다.</small>`;
+};
+
+/* Distinguish saved vs unsaved changes; do not persist sensitive data automatically. */
+let v43SavedSignature=null;
+function v43Signature(){const x=snap();delete x.id;delete x.savedAt;return JSON.stringify(x)}
+function v43SaveStatus(){
+  const box=$('v43SaveStatus');if(!box)return;
+  if(!loaded){box.className='v43-save-state v43-unsaved';box.textContent='● 새 여행계획 · 아직 브라우저에 저장하지 않았습니다.';return}
+  const dirty=v43SavedSignature!==v43Signature();
+  box.className='v43-save-state '+(dirty?'v43-unsaved':'v43-saved');
+  box.textContent=dirty?'● 저장되지 않은 변경사항이 있습니다. 「현재 여행 브라우저에 저장」을 누르세요.':'✓ 현재 여행계획이 이 브라우저에 저장되어 있습니다.';
+}
+const v43OldSave=save;
+save=function(){v43OldSave();if(loaded&&read().some(p=>p.id===loaded))v43SavedSignature=v43Signature();v43SaveStatus()};
+const v43OldLoad=load;
+load=function(x){v43OldLoad(x);v43SavedSignature=v43Signature();v43SaveStatus()};
+function v43CopyPending(){
+  const city=$('city').value,month=v42Month(),prefix=city+'|'+month+'|';
+  const pending=v42PackItems().filter(x=>!v42PackChecks[prefix+x[0]]);
+  const textLines=[`[${city} · ${month}월 여행 준비물]`,...pending.map(x=>'□ '+x[1]+' — '+x[2])];
+  const textToCopy=textLines.join('\n');
+  if(!pending.length){toast('맞춤 준비물을 모두 완료했습니다.');return}
+  if(navigator.clipboard?.writeText)navigator.clipboard.writeText(textToCopy).then(()=>toast('미완료 준비물 '+pending.length+'개를 복사했습니다.')).catch(()=>window.prompt('아래 목록을 복사하세요.',textToCopy));
+  else window.prompt('아래 목록을 복사하세요.',textToCopy);
+}
+function v43ConfirmSaved(){
+  const stored=read().find(p=>p.id===loaded);
+  if(stored){const copy={...stored};delete copy.id;delete copy.savedAt;
+    if(JSON.stringify(copy)===v43Signature())v43SavedSignature=v43Signature();}
+  v43SaveStatus();
+}
+function v43Init(){
+  /* v42 registered direct onclick handlers before v43 was loaded; observe successful saves. */
+  for(const id of ['saveTop','saveBottom'])$(id).addEventListener('click',()=>setTimeout(v43ConfirmSaved,0));
+  $('v43CopyPending').addEventListener('click',v43CopyPending);
+  document.querySelectorAll('[data-v43-filter]').forEach(b=>b.addEventListener('click',()=>{v43PackFilter=b.dataset.v43Filter;v42RenderPacking()}));
+  /* v42 quickGo used to wipe packing checks even when creating the same plan. Keep existing state. */
+  v42PhotoAudit();renderEntryGuide();v42RenderClimate();v42RenderPacking();
+  v43SavedSignature=loaded?v43Signature():null;v43SaveStatus();
+  document.addEventListener('input',()=>setTimeout(v43SaveStatus,0),true);
+  document.addEventListener('change',()=>setTimeout(v43SaveStatus,0),true);
+  document.addEventListener('click',()=>setTimeout(v43SaveStatus,0),true);
+}
+setTimeout(v43Init,10);
+
 </script>
 </body></html>
