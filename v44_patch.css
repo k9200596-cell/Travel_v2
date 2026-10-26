@@ -1,0 +1,20 @@
+/* v44: date clarity, mobile next action, progressive disclosure of old galleries */
+.v44-date-line{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px 18px;padding:10px 14px;border:1px solid #c9e8e6;background:#f0fbf9;border-radius:12px;margin-top:11px;color:#1c626b;font-size:13px;font-weight:700}
+.hero .v44-date-line{background:#ffffffee;color:#1c626b;border-color:#e0f0ee}
+.v44-date-line label{display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+.v44-date-line input{width:18px;height:18px;accent-color:#0b7285}
+.v44-date-line .v44-invalid{color:#a52222}
+.v44-overview{border:1px solid #bde4de;background:linear-gradient(135deg,#eafaf6,#f3f9ff);border-radius:15px;padding:14px 16px;margin:12px 0 17px}
+.v44-overview-title{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:15px}
+.v44-overview-title b{border-radius:30px;padding:4px 11px;background:#08788b;color:#fff;white-space:nowrap}
+.v44-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:12px}
+.v44-metrics span{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;border:1px solid #d5e8e7;background:white;border-radius:11px;padding:9px 4px;font-size:12px;color:#526b73}
+.v44-metrics b{font-size:14px;color:#075e72}
+.v44-next{margin-top:10px;font-size:13px;color:#345b66}
+.v44-next a{color:#006f87;font-weight:850;text-decoration:underline;text-underline-offset:3px}
+.v44-extra-photos{margin:24px 0;border:1px solid #d1e5e8;border-radius:18px;background:#fff;padding:0 18px}
+.v44-extra-photos>summary{padding:18px 2px;cursor:pointer;font-weight:850;color:#235568}
+.v44-extra-photos>summary small{display:block;color:#6c8189;font-size:12px;font-weight:500}
+.v44-extra-inner{padding-bottom:20px}
+.v44-extra-inner .inspire-section,.v44-extra-inner .photo-story-section{margin:12px 0}
+@media(max-width:650px){.v44-date-line{font-size:12px;align-items:flex-start;flex-direction:column}.v44-metrics{gap:5px}.v44-metrics span{font-size:11px}.v44-overview{padding:12px}.v44-extra-photos{padding:0 12px}}
