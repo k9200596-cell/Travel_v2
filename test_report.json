@@ -1,428 +1,243 @@
 {
-  "version": "v44",
-  "checked_at": "2026-10-25",
-  "method": "Chromium Playwright page.set_content with in-memory localStorage mock because file:// navigation blocked by administrator. Real persistent browser storage, external image loading and live GitHub Pages not tested.",
-  "passed": 66,
-  "failed": 0,
-  "results": [
+  "version": "v46",
+  "date": "2026-10-27",
+  "checks": [
     {
-      "test": "초기 JS 예외 없음",
+      "test": "page loads",
       "status": "PASS",
-      "detail": "[]"
+      "detail": "K-TRAVEL PICKS | 사진으로 고르는 자유여행 v46"
     },
     {
-      "test": "상단 우측 v44",
+      "test": "v46 header",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "24개 여행지",
+      "test": "24 destination cards",
+      "status": "PASS",
+      "detail": "24"
+    },
+    {
+      "test": "hero compact",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "120개 관광명소",
+      "test": "archive hidden",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "국가별 입국안내 13개",
+      "test": "all cities visible",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "검증 신규 사진 4개",
+      "test": "horizontal overflow home",
+      "status": "PASS",
+      "detail": "390 vs 390"
+    },
+    {
+      "test": "destination opens planner",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "관광명소 사진 출처 76곳",
+      "test": "all five attractions",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "미확인 관광지 사진 44곳",
+      "test": "photo first top",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "날짜 유지 체크 기본 켜짐",
+      "test": "horizontal overflow planner",
+      "status": "PASS",
+      "detail": "390 vs 390"
+    },
+    {
+      "test": "photo click opens detail",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "추가 사진 갤러리 접힘",
+      "test": "detail add CTA",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "기존 사진 특집 DOM 보존",
+      "test": "add closes detail",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "D-day 여행 요약 요소",
+      "test": "schedule activity added",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "날짜 도움말 표시",
+      "test": "bottom bar count",
+      "status": "PASS",
+      "detail": "일정에 담은 명소 1곳"
+    },
+    {
+      "test": "date synchronization",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "출발일 변경 시 기간 유지",
-      "status": "PASS",
-      "detail": "2026-11-14"
-    },
-    {
-      "test": "여행기간 유지 해제 연동",
+      "test": "entry guide retained",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "유지 해제 시 귀국일 고정",
+      "test": "arrival date retained",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "잘못된 여행 날짜 사전 차단",
+      "test": "climate retained",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "잘못된 날짜 안내 표시",
+      "test": "checklist retained",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "여행계획 생성 후 화면 이동",
+      "test": "budget retained",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "선택 도시 나트랑 반영",
+      "test": "flight cost controls present",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "나트랑 국가 입국안내",
+      "test": "saved localStorage",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "현지 도착일 잠정 경고",
+      "test": "saved page navigation",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "우기 건기 표시",
+      "test": "saved plan list",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "12개월 기온 경향",
+      "test": "backup export control",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "맞춤 체크리스트 생성",
+      "test": "backup import control",
       "status": "PASS",
       "detail": ""
     },
     {
-      "test": "D-day 표시",
+      "test": "no horizontal overflow 320",
       "status": "PASS",
-      "detail": ""
+      "detail": "320"
     },
     {
-      "test": "미저장 계획 교체 확인창",
+      "test": "no horizontal overflow 375",
       "status": "PASS",
-      "detail": ""
+      "detail": "375"
     },
     {
-      "test": "교체 취소 시 메모 보존",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "교체 취소 시 계획 유지",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "현지 도착일 계산",
-      "status": "PASS",
-      "detail": "2026-11-13"
-    },
-    {
-      "test": "수동 도착일 반영",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "계획 출발일 변경 시 귀국일 동반 이동",
-      "status": "PASS",
-      "detail": "2026-11-18"
-    },
-    {
-      "test": "출발일 변경 시 도착일 자동 재계산",
-      "status": "PASS",
-      "detail": "2026-11-15"
-    },
-    {
-      "test": "추천 일정 생성",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "추천 일정 중복 명소 없음",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "준비 상태 일정 반영",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "직접 일정 추가 창 열림",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "직접 일정 추가 반영",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "일정 수정 반영",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "일정 삭제 반영",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "맞춤 준비물 체크",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "준비 요약 즉시 갱신",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "실제 항공료 경비 항목",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "경비 요약 항공료 반영",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "브라우저 저장 성공",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "저장 상태 표시",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "수정 시 미저장 경고",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "재저장 시 저장 표시",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "여행계획 JSON 백업",
-      "status": "PASS",
-      "detail": "K-TRAVEL-PUS-나트랑_2026-11-14~11-18-2026-10-25_121159.json"
-    },
-    {
-      "test": "백업 JSON 버전 v44",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "백업 JSON 일정·체크 보존",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "저장 목록 검색 UI",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "저장된 계획 표시",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "저장 계획 복제",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "저장 계획 메모 복원",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "저장 계획 출발일 복원",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "저장 계획 준비물 체크 복원",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "저장 계획 비행시간 복원",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "JSON 파일 가져오기",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "가져오기 중복 ID 재생성",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "저장목록 JSON 내보내기 v44",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "24개 도시 × 7개 기간 데이터 검증 168건",
-      "status": "PASS",
-      "detail": "[]"
-    },
-    {
-      "test": "24개 도시 × 7개 기간 실제 추천일정 생성 168건",
-      "status": "PASS",
-      "detail": "[]"
-    },
-    {
-      "test": "24개 도시 × 12개월 도착일 계산 288건",
-      "status": "PASS",
-      "detail": "[]"
-    },
-    {
-      "test": "모바일 390px 가로 스크롤 없음",
+      "test": "no horizontal overflow 390",
       "status": "PASS",
       "detail": "390"
     },
     {
-      "test": "최종 JS 오류 없음",
+      "test": "no horizontal overflow 430",
       "status": "PASS",
-      "detail": "[]"
+      "detail": "430"
+    },
+    {
+      "test": "no horizontal overflow 768",
+      "status": "PASS",
+      "detail": "768"
+    },
+    {
+      "test": "no horizontal overflow 1024",
+      "status": "PASS",
+      "detail": "1024"
+    },
+    {
+      "test": "no horizontal overflow 1440",
+      "status": "PASS",
+      "detail": "1440"
+    },
+    {
+      "test": "no JS exceptions",
+      "status": "PASS",
+      "detail": ""
     }
   ],
-  "browser_errors": [],
+  "console_errors": [],
+  "notes": [],
+  "pass": 36,
+  "fail": 0,
+  "checked_at": "2026-10-27",
+  "method": "Chromium Playwright page.set_content with simulated localStorage; actual file:// and localhost navigation blocked by browser administrator",
+  "extended_checks": {
+    "cities": 24,
+    "totalSpots": 120,
+    "photoCovered": 80,
+    "missing": 40,
+    "licenseProblems": [],
+    "itineraryOK": 168,
+    "itineraryFail": [],
+    "arrivalOK": 288,
+    "arrivalFail": [],
+    "galleryOK": 24,
+    "galleryFail": [],
+    "budgetOK": true,
+    "budgetTotal": 1080000,
+    "photoCatalogCount": 198,
+    "pageErrors": []
+  },
   "photo_audit": {
-    "total_spots": 120,
-    "spots_with_photo_source": 76,
-    "missing_spots": 44,
-    "new_records_verified_on_commons_file_pages": 4,
-    "new_image_loading_tested": false,
-    "active_catalog_records": 194,
-    "new_source_files": [
-      {
-        "city": "삿포로",
-        "spot": "오도리공원",
-        "source": "https://commons.wikimedia.org/wiki/File:Odori%20park%20at%20Sapporo%20TV%20tower.jpg",
-        "author": "LR0725",
-        "taken": "2023-07-09",
-        "license": "CC BY-SA 4.0",
-        "checked": "2026-10-25",
-        "siteModification": "원본 이미지 파일 수정·재배포 없음. CSS object-fit으로 화면 일부 크롭 가능"
-      },
-      {
-        "city": "뉴욕",
-        "spot": "센트럴파크",
-        "source": "https://commons.wikimedia.org/wiki/File:2024-11-19-Central%20Park-0669.jpg",
-        "author": "Superbass",
-        "taken": "2024-11-19",
-        "license": "CC BY-SA 4.0",
-        "checked": "2026-10-25",
-        "siteModification": "원본 이미지 파일 수정·재배포 없음. CSS object-fit으로 화면 일부 크롭 가능"
-      },
-      {
-        "city": "뉴욕",
-        "spot": "브루클린 브리지",
-        "source": "https://commons.wikimedia.org/wiki/File:Brooklyn%20Bridge%202024.jpg",
-        "author": "Mojnsen",
-        "taken": "2024-02-18",
-        "license": "CC BY-SA 4.0",
-        "checked": "2026-10-25",
-        "siteModification": "원본 이미지 파일 수정·재배포 없음. CSS object-fit으로 화면 일부 크롭 가능"
-      },
-      {
-        "city": "시드니",
-        "spot": "로열 보타닉 가든",
-        "source": "https://commons.wikimedia.org/wiki/File:Sydney%20Royal%20Botanic%20Gardens%20The%20Calyx%20seen%20from%20the%20northwest.jpg",
-        "author": "Ymblanter",
-        "taken": "2024-04-01",
-        "license": "CC BY-SA 4.0",
-        "checked": "2026-10-25",
-        "siteModification": "원본 이미지 파일 수정·재배포 없음. CSS object-fit으로 화면 일부 크롭 가능"
-      }
-    ]
+    "photo_records": 198,
+    "tourist_spots": 120,
+    "licensed_photo_coverage": 80,
+    "missing": 40,
+    "new_photos": 0,
+    "legacy_metadata_inherited": true,
+    "full_source_reverification": false,
+    "external_image_loading_verified": false
   },
-  "regression_scenarios": {
-    "24_cities_x_7_itinerary_durations": 168,
-    "24_cities_x_12_arrival_months": 288,
-    "failed": 0
-  },
-  "limitations": [
-    "file:// navigation blocked, page.set_content + in-memory localStorage mock. Real device persistence not tested.",
-    "4 new photos Commons file description verified but actual external image loading not tested.",
-    "Existing photo catalog entries inherited, not all reverified this run.",
-    "44 attraction photos remain unverified, placeholders preserved.",
-    "Country entry guidance inherited and not individually reverified this run; confirm official rules before departure.",
-    "Monthly climate figures are rough estimates, not official climate normals.",
-    "GitHub write permission probe returned HTTP 403; no commit or deployment.",
-    "GitHub Pages live site could not be reached from web/browser environment, so live deployment state unverified."
-  ],
   "github": {
     "repo": "k9200596-cell/Travel_v2",
     "branch": "main",
-    "remote_index_blob_sha": "0dc7a0526fb1d75d159f26ded63c79489141c890",
-    "remote_version": "v43",
-    "local_target_version": "v44",
-    "write_permission_probe": "mcp__GitHub__create_blob",
-    "write_result": "HTTP 403 Resource not accessible by integration",
-    "update_file_attempted": false,
-    "new_commit_created": false,
-    "pages_live_verified": false,
-    "reason": "GitHub App integration lacks repository Git data write permission; no safe automated commit."
+    "index_blob_sha": "b4176c14048d578a2da1c9a9fc35967c3f73e66b",
+    "index_repo_version": "v44",
+    "write_preflight": "HTTP 403 Resource not accessible by integration (create_blob)",
+    "commit_created": false,
+    "pages_checked": false
   },
-  "responsive_widths_tested": [
-    320,
-    360,
-    390,
-    430,
-    768,
-    1024,
-    1440
+  "limitations": [
+    "외부 이미지 실제 로딩은 환경상 확인 불가; 브라우저 테스트는 외부 요청을 차단하고 대체 이미지를 사용함",
+    "실제 스마트폰·브라우저 재시작 후 저장 지속성은 미검증; localStorage 모의 저장소에서 저장·복원만 확인",
+    "기존 사진 출처 기록은 계승했으며 전체 원본 URL 및 최신 저작권을 오늘 재확인하지 않음",
+    "GitHub 연결의 쓰기 권한 403으로 실제 배포하지 못함",
+    "GitHub Pages 공개 화면 직접 확인 불가"
   ],
-  "responsive_horizontal_overflow": 0
+  "summary": "36 UI checks and JSON export/import round-trip passed, 168 itinerary cases, 288 arrival calculations, 24 destination galleries, no JS errors, no detected failures in tested paths.",
+  "backup_roundtrip": {
+    "export_version": 46,
+    "exported_plan_city": "나트랑",
+    "saved_plan_count_before_import": 1,
+    "saved_plan_count_after_import": 2,
+    "result": "PASS (simulated browser storage)"
+  }
 }

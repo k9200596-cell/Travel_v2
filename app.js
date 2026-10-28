@@ -738,6 +738,7 @@ function renderCityRoute(city){
  };
 }
 
+window.__v46Snap=()=>({days:days.map(d=>d.map(x=>({...x}))) });
 function init(){let names=Object.keys(DATA).sort((a,b)=>{const r=["일본", "베트남", "중국", "태국", "필리핀", "미국", "대만", "홍콩", "싱가포르", "인도네시아", "말레이시아", "프랑스", "호주"];return (r.indexOf(DATA[a].country)<0?99:r.indexOf(DATA[a].country))-(r.indexOf(DATA[b].country)<0?99:r.indexOf(DATA[b].country))}),opts=names.map(n=>`<option value="${safe(n)}">${safe(n)} · ${safe(DATA[n].country)}</option>`).join('');$('city').innerHTML=$('quickCity').innerHTML=opts;let today=new Date(),start=new Date(today.getTime()+30*86400000),end=new Date(today.getTime()+34*86400000),iso=x=>`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`;$('start').value=$('quickStart').value=iso(start);$('end').value=$('quickEnd').value=iso(end);$('cityCards').innerHTML=names.map(n=>{
  const p=CITY_PHOTO_MAP[n];
  const covered=DATA[n].spots.filter(sp=>!!spotPhoto(n,sp[0])).length;
@@ -1448,4 +1449,174 @@ v42PhotoAudit=function(){
 };
 function v44Init(){v44DateUI();v42PhotoAudit();v44Overview();}
 setTimeout(v44Init,40);
+
+
+/* K-TRAVEL PICKS v46: verified photos + recoverable unsaved draft + offline packing list. */
+const V45_PHOTOS=[{"city":"삿포로","spot":"삿포로 TV타워","file":"Sapporo-TV-Tower-2025.jpg","author":"AlphaBetaGamma","taken":"2025-03-29","license":"CC BY 4.0","licenseUrl":"https://creativecommons.org/licenses/by/4.0/","scene":"2025년 봄 삿포로 TV타워 외관.","label":"삿포로 TV타워 · 2025년","cover":false,"checked":"2026-10-26","source":"https://commons.wikimedia.org/wiki/File:Sapporo-TV-Tower-2025.jpg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Sapporo-TV-Tower-2025.jpg?width=960","photoTitle":"Sapporo-TV-Tower-2025.jpg","metadataVerifiedThisRun":true,"metadataVerification":"2026-10-26 Wikimedia Commons 개별 원본 파일 설명에서 장소·촬영일·저작자·상업적 재사용 허용 라이선스 확인","lastVerifiedVersion":"v45","imageTransport":"Wikimedia Commons 외부 이미지: 실제 로딩은 미검증","siteModification":"원본 이미지 파일은 수정·재배포하지 않음. CSS object-fit에 따라 일부 크롭 가능","reuseTerms":"CC BY 4.0 라이선스 조건 준수, 원본·저작자·라이선스 링크·표시 방식 제공","verificationScope":"원본 파일 설명 확인. 실제 파일 바이트·현장 현황 미검증","verificationStatus":"verified_file_description_v45","sourcePageCheckedVia":"Wikimedia Commons 원본 파일 설명 · 2026-10-26","imageBytesChecked":false},{"city":"오키나와","spot":"고우리대교","file":"View of Kouri Island and Kouri Bridge seen from Mount Oppa 202408.jpg","author":"Kugel~commonswiki","taken":"2024-08-03","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/","scene":"오키나와 고우리섬과 고우리대교 전경, 오파산 전망.","label":"고우리대교 · 2024년","cover":false,"checked":"2026-10-26","source":"https://commons.wikimedia.org/wiki/File:View%20of%20Kouri%20Island%20and%20Kouri%20Bridge%20seen%20from%20Mount%20Oppa%20202408.jpg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Kouri%20Island%20and%20Kouri%20Bridge%20seen%20from%20Mount%20Oppa%20202408.jpg?width=960","photoTitle":"View of Kouri Island and Kouri Bridge seen from Mount Oppa 202408.jpg","metadataVerifiedThisRun":true,"metadataVerification":"2026-10-26 Wikimedia Commons 개별 원본 파일 설명에서 장소·촬영일·저작자·상업적 재사용 허용 라이선스 확인","lastVerifiedVersion":"v45","imageTransport":"Wikimedia Commons 외부 이미지: 실제 로딩은 미검증","siteModification":"원본 이미지 파일은 수정·재배포하지 않음. CSS object-fit에 따라 일부 크롭 가능","reuseTerms":"CC BY-SA 4.0 라이선스 조건 준수, 원본·저작자·라이선스 링크·표시 방식 제공","verificationScope":"원본 파일 설명 확인. 실제 파일 바이트·현장 현황 미검증","verificationStatus":"verified_file_description_v45","sourcePageCheckedVia":"Wikimedia Commons 원본 파일 설명 · 2026-10-26","imageBytesChecked":false},{"city":"베이징","spot":"만리장성 무톈위","file":"Mutianyu, grande muraglia cinese, veduta (autunno 2024) 24.jpg","author":"Francesco Bini","taken":"2024-11-10","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/","scene":"2024년 가을 중국 만리장성 무톈위 구간.","label":"만리장성 무톈위 · 2024년","cover":false,"checked":"2026-10-26","source":"https://commons.wikimedia.org/wiki/File:Mutianyu%2C%20grande%20muraglia%20cinese%2C%20veduta%20%28autunno%202024%29%2024.jpg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Mutianyu%2C%20grande%20muraglia%20cinese%2C%20veduta%20%28autunno%202024%29%2024.jpg?width=960","photoTitle":"Mutianyu, grande muraglia cinese, veduta (autunno 2024) 24.jpg","metadataVerifiedThisRun":true,"metadataVerification":"2026-10-26 Wikimedia Commons 개별 원본 파일 설명에서 장소·촬영일·저작자·상업적 재사용 허용 라이선스 확인","lastVerifiedVersion":"v45","imageTransport":"Wikimedia Commons 외부 이미지: 실제 로딩은 미검증","siteModification":"원본 이미지 파일은 수정·재배포하지 않음. CSS object-fit에 따라 일부 크롭 가능","reuseTerms":"CC BY-SA 4.0 라이선스 조건 준수, 원본·저작자·라이선스 링크·표시 방식 제공","verificationScope":"원본 파일 설명 확인. 실제 파일 바이트·현장 현황 미검증","verificationStatus":"verified_file_description_v45","sourcePageCheckedVia":"Wikimedia Commons 원본 파일 설명 · 2026-10-26","imageBytesChecked":false},{"city":"치앙마이","spot":"왓 체디루앙","file":"Temple du grand stupa royal Wat Chedi Luang 6.jpg","author":"Welcome to Thailand","taken":"2024-03-02","license":"CC0 1.0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/","scene":"2024년 3월 치앙마이 왓 체디루앙의 대형 불탑.","label":"왓 체디루앙 · 2024년","cover":false,"checked":"2026-10-26","source":"https://commons.wikimedia.org/wiki/File:Temple%20du%20grand%20stupa%20royal%20Wat%20Chedi%20Luang%206.jpg","url":"https://commons.wikimedia.org/wiki/Special:FilePath/Temple%20du%20grand%20stupa%20royal%20Wat%20Chedi%20Luang%206.jpg?width=960","photoTitle":"Temple du grand stupa royal Wat Chedi Luang 6.jpg","metadataVerifiedThisRun":true,"metadataVerification":"2026-10-26 Wikimedia Commons 개별 원본 파일 설명에서 장소·촬영일·저작자·상업적 재사용 허용 라이선스 확인","lastVerifiedVersion":"v45","imageTransport":"Wikimedia Commons 외부 이미지: 실제 로딩은 미검증","siteModification":"원본 이미지 파일은 수정·재배포하지 않음. CSS object-fit에 따라 일부 크롭 가능","reuseTerms":"CC0 1.0 라이선스 조건 준수, 원본·저작자·라이선스 링크·표시 방식 제공","verificationScope":"원본 파일 설명 확인. 실제 파일 바이트·현장 현황 미검증","verificationStatus":"verified_file_description_v45","sourcePageCheckedVia":"Wikimedia Commons 원본 파일 설명 · 2026-10-26","imageBytesChecked":false}];
+for(const p of V45_PHOTOS){
+ if(!PHOTO_CATALOG.some(x=>x.city===p.city&&x.spot===p.spot&&x.file===p.file)) PHOTO_CATALOG.push(p);
+ if(!spotPhoto(p.city,p.spot)) SPOT_PHOTO_MAP.set(p.city+'|'+p.spot,p);
+}
+const V45_DRAFT_KEY='ktravel-v45-unsaved-draft';
+let v45Ready=false,v45Restoring=false,v45Timer=null,v45DraftSig='';
+function v45DraftRead(){
+ try{
+  const x=JSON.parse(localStorage.getItem(V45_DRAFT_KEY)||'null');
+  if(!x||x.schema!==1||!x.plan||!DATA[x.plan.city]||!Array.isArray(x.plan.days)||x.plan.days.length>60||!Number.isFinite(Date.parse(x.updatedAt)))return null;
+  if(Date.now()-Date.parse(x.updatedAt)>30*86400000){localStorage.removeItem(V45_DRAFT_KEY);return null}
+  return x;
+ }catch{return null}
+}
+function v45DraftClear(){try{localStorage.removeItem(V45_DRAFT_KEY)}catch{};v45DraftNotice()}
+function v45DraftNotice(){
+ const x=v45DraftRead(),bar=$('v45DraftBanner');if(!bar)return;
+ bar.hidden=!x;
+ if(x){$('v45DraftSummary').textContent=`${x.plan.city} · ${x.plan.start} 출발 · ${new Date(x.updatedAt).toLocaleString('ko-KR')} 임시 보관`}
+}
+function v45DraftWrite(){
+ if(!v45Ready||v45Restoring||!v44PlanInitialized)return;
+ const sig=v43Signature();
+ if(sig===v45DraftSig)return;
+ v45DraftSig=sig;
+ if(!v44HasUnsaved()){
+  // An explicit save takes precedence; don't erase a separate, recoverable older draft here.
+  return;
+ }
+ try{
+  localStorage.setItem(V45_DRAFT_KEY,JSON.stringify({schema:1,updatedAt:new Date().toISOString(),plan:snap()}));
+  v45DraftNotice();
+  const state=$('v45DraftState');if(state)state.textContent='✓ 미저장 변경사항 임시 보관됨';
+ }catch{
+  const state=$('v45DraftState');if(state)state.textContent='⚠ 임시 보관 실패 — 파일 백업을 이용하세요';
+ }
+}
+function v45DraftQueue(){if(!v45Ready||v45Restoring)return;clearTimeout(v45Timer);v45Timer=setTimeout(v45DraftWrite,700)}
+function v45DraftRestore(){
+ const x=v45DraftRead();if(!x)return;
+ if(v44HasUnsaved()&&!confirm('현재 화면에 저장하지 않은 변경사항이 있습니다. 임시 보관된 여행계획으로 바꿀까요?'))return;
+ v45Restoring=true;
+ try{
+  load(x.plan);
+  v44PlanInitialized=true;
+  v43SavedSignature=null;v43SaveStatus();
+  v45DraftSig=v43Signature();
+  show('planner');
+  $('v45DraftState').textContent='임시 보관된 여행계획을 복구했습니다. 확인 후 「브라우저에 저장」을 누르세요.';
+  toast('미저장 여행계획을 복구했습니다. 확인 후 저장하세요.');
+ }finally{v45Restoring=false}
+}
+function v45PendingText(){
+ const city=$('city').value,country=DATA[city]?.country||'',month=v42Month(),prefix=city+'|'+month+'|',c=v42Climate(city,month);
+ const todo=v42PackItems().filter(x=>!v42PackChecks[prefix+x[0]]);
+ const g=ENTRY_GUIDES[country],arrival=v42ArrivalCalc();
+ const lines=[
+  `K-TRAVEL PICKS v45 · ${city} 출발 전 준비`,
+  `여행기간: ${$('start').value} ~ ${$('end').value} / 현지 도착: ${$('entryArrivalDate').value||'미확인'} (예상·수정 가능)`,
+  `현지 도착 안내: ${arrival.hint}`,
+  `방문 월: ${month}월 / 기후 참고: ${c.season} · 약 ${c.mean}℃ (개략 추정, 실시간 예보 아님)`,
+  `입국 요건: ${country} · 한국 일반여권·관광 기준 안내이며 국적·체류기간·목적에 따라 달라집니다.`,
+  `공식 확인처: ${[...(g?.sources||[]),...(g?.steps||[]).map(s=>s.url).filter(Boolean)].filter((u,i,a)=>a.indexOf(u)===i).join(' / ')||'해당국 정부·대사관 공식 홈페이지 확인'}`,
+  `입국정보 확인일: ${g?.checked||'미확인'} / 출발 전 재확인 필수`,
+  '',`미완료 준비물 ${todo.length}개` ,...todo.map(x=>'□ '+x[1]+' — '+x[2]),
+  '',`작성일: ${new Date().toLocaleDateString('ko-KR')}`,
+  '주의: 개인 예약번호·비밀번호는 이 파일에 포함하지 않았습니다.'
+ ];return lines.join('\n');
+}
+function v45DownloadPending(){
+ const text=v45PendingText(),name=($('city').value||'여행').replace(/[\\/:*?"<>|]/g,'_');
+ const blob=new Blob(['\ufeff'+text],{type:'text/plain;charset=utf-8'}),u=URL.createObjectURL(blob),a=document.createElement('a');
+ a.href=u;a.download=`K-TRAVEL-${name}-출발준비-v46.txt`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),3000);
+ toast('미완료 준비물·입국 공식 출처를 TXT로 저장했습니다.');
+}
+const v45OldSave=save;
+save=function(){v45OldSave();if(loaded&&read().some(p=>p.id===loaded)&&!v44HasUnsaved()){v45DraftClear();v45DraftSig=v43Signature();$('v45DraftState').textContent='✓ 브라우저에 저장 완료'} };
+const v45OldLoad=load;
+load=function(x){v45OldLoad(x);if(v45Ready&&!v45Restoring){v45DraftSig=v43Signature();$('v45DraftState').textContent='저장된 여행계획을 불러왔습니다.'}}
+const v45OldPhotoAudit=v42PhotoAudit;
+v42PhotoAudit=function(){
+ const missing=Object.entries(DATA).flatMap(([city,d])=>d.spots.filter(s=>!spotPhoto(city,s[0])).map(s=>city+' · '+s[0]));
+ const total=Object.values(DATA).reduce((n,d)=>n+d.spots.length,0);
+ $('v42PhotoAudit').innerHTML=`<strong>📷 관광명소 사진 ${total-missing.length}/${total}곳</strong> · 출처 미확인 ${missing.length}곳. <details><summary>미확인 명소 ${missing.length}곳 보기</summary><p>${missing.map(safe).join(' · ')}</p></details><small>v45 신규 원본 파일 설명 검증 ${V45_PHOTOS.length}건 (2026-10-26). 외부 사진 로딩은 별도 검증이 필요합니다. 미확인 명소는 대체 이미지로 표시됩니다.</small>`;
+};
+backupCurrent=function(){
+ const plan=snap(),stamp=new Date().toLocaleString('sv-SE').replace(' ','_').replaceAll(':','');
+ const name=(plan.name||'여행계획').replace(/[\\/:*?"<>|]/g,'_').replace(/\s+/g,'_').slice(0,55);
+ downloadJSON({format:'K-TRAVEL',version:46,plans:[plan]},`K-TRAVEL-${name}-${stamp}.json`);
+ toast('현재 여행계획을 JSON으로 저장했습니다.');
+};
+exportData=function(){
+ const stamp=new Date().toLocaleString('sv-SE').replace(' ','_').replaceAll(':','');
+ downloadJSON({format:'K-TRAVEL',version:46,plans:read()},`K-TRAVEL-여행계획-${stamp}.json`);
+};
+$('backupCurrent').onclick=backupCurrent;$('export').onclick=exportData;
+$('downloadPhotoSources').onclick=()=>downloadJSON({format:'K-TRAVEL-PHOTO-SOURCES',version:46,city:$('city').value,exportedAt:new Date().toISOString(),photos:PHOTO_CATALOG.filter(p=>p.city===$('city').value)},`K-TRAVEL-사진출처-${$('city').value}-v46.json`);
+function v45Init(){
+ const banner=document.createElement('div');banner.id='v45DraftBanner';banner.className='v45-draft-banner wrap';banner.hidden=true;
+ banner.innerHTML='<div><b>↩️ 저장하지 않은 여행계획이 있습니다</b><small id="v45DraftSummary"></small><small>이 기기에만 임시 보관됩니다. 공유 PC에서는 주의하세요.</small></div><div class="v45-draft-actions"><button type="button" class="btn" id="v45DraftRestore">계획 복구</button><button type="button" class="btn outline" id="v45DraftDiscard">임시본 삭제</button></div>';
+ document.querySelector('.hero').insertAdjacentElement('afterend',banner);
+ $('v45DraftRestore').addEventListener('click',v45DraftRestore);
+ $('v45DraftDiscard').addEventListener('click',()=>{if(confirm('임시 보관된 계획을 삭제할까요?'))v45DraftClear()});
+ const st=document.createElement('p');st.id='v45DraftState';st.className='v45-draft-state';st.textContent='변경사항은 임시 보관되며, 「브라우저에 저장」을 누르면 확정 저장됩니다.';
+ $('v43SaveStatus').insertAdjacentElement('afterend',st);
+ // The original buttons retained a direct onclick reference to the older save function.
+ for(const id of ['saveTop','saveBottom'])$(id).addEventListener('click',()=>setTimeout(()=>{
+   if(loaded&&read().some(p=>p.id===loaded)&&v43SavedSignature===v43Signature()){v45DraftClear();v45DraftSig=v43Signature();$('v45DraftState').textContent='✓ 브라우저에 저장 완료'}
+ },100));
+ const btn=document.createElement('button');btn.type='button';btn.id='v45DownloadPending';btn.className='v43-copy';btn.textContent='⬇ 미완료 준비물 TXT 저장';
+ $('v43CopyPending').insertAdjacentElement('afterend',btn);btn.addEventListener('click',v45DownloadPending);
+ v45Ready=true;v45DraftSig=v43Signature();v45DraftNotice();v42PhotoAudit();
+ document.addEventListener('input',v45DraftQueue,true);document.addEventListener('change',v45DraftQueue,true);
+ document.addEventListener('click',e=>{if(e.target.closest('#v45DraftBanner,#v45DownloadPending'))return;v45DraftQueue()},true);
+ window.addEventListener('pagehide',()=>{clearTimeout(v45Timer);v45DraftWrite()});
+}
+setTimeout(v45Init,110);
+
+
+
+
+/* v46: compact photo-first navigation; preserve all existing application state */
+(function(){
+'use strict';
+const el=id=>document.getElementById(id);
+const discover=el('discover'),planner=el('planner'),hero=discover.querySelector('.hero .wrap');
+const h1=hero.querySelector('h1');h1.textContent='사진으로 고르는 나의 여행';
+const sub=hero.querySelector('p');if(sub)sub.textContent='여행지 선택 → 명소 사진 보기 → 일정에 담기';
+const quick=hero.querySelector('.quick');
+if(quick){const d=document.createElement('details');d.className='v46-quick';d.innerHTML='<summary>날짜와 인원부터 정해서 여행 만들기</summary>';quick.before(d);d.appendChild(quick);}
+const note=discover.querySelector('.section-head .muted');if(note)note.textContent='여행지 사진을 누르면 관광명소를 볼 수 있어요. 순서는 추천 편집순이며 공식 방문객 순위가 아닙니다.';
+const heading=discover.querySelector('.section-head h2');if(heading)heading.textContent='여행지 둘러보기';
+const tools=discover.querySelector('.discover-tools');if(tools){const wrap=document.createElement('details');wrap.className='v46-search';wrap.innerHTML='<summary>여행지 이름으로 검색하기</summary>';tools.before(wrap);wrap.appendChild(tools);}
+const rank=discover.querySelector('.v39-ranking-note');if(rank)rank.textContent='일본 여행지를 먼저 소개하고, 나머지는 편집 추천순으로 표시합니다. 국가·도시별 공식 순위가 아닙니다.';
+const plannerHead=planner.querySelector('.section-head .muted');if(plannerHead)plannerHead.textContent='사진 선택 → 일정 담기 → 날짜·경비 확인';
+const left=planner.querySelector('.layout > div');const tour=el('tourGuide');if(tour?.querySelector(':scope > .row h2'))tour.querySelector(':scope > .row h2').textContent='사진으로 고르는 관광명소';
+const basic=left.querySelector(':scope > section.panel:not([id])');
+if(tour&&basic){left.insertBefore(tour,basic);}
+const shortcuts=left.querySelector('.plan-shortcuts');if(shortcuts)shortcuts.innerHTML='<a href="#tourGuide">📸 명소 사진</a><a href="#tripSchedule">🗓 내 일정</a><a href="#tripBudget">💳 경비</a><a href="#v46Prep">🧳 여행 준비</a>';
+const spots=el('spots');const gallery=tour.querySelector('.city-photo-section');
+if(spots&&gallery){tour.insertBefore(spots,gallery);const extra=document.createElement('details');extra.className='v46-gallery-extra';extra.innerHTML='<summary>이 도시의 다른 사진 더 보기</summary>';gallery.before(extra);extra.appendChild(gallery);}
+const row=Array.from(tour.children).find(n=>n.classList?.contains('row')&&n.querySelector('#spotDay'));
+if(row&&spots)tour.insertBefore(row,spots);
+const intro=document.createElement('p');intro.className='v46-spot-intro';intro.textContent='사진을 누르면 짧은 설명이 나옵니다. 마음에 들면 일정에 담으세요.';if(row)row.before(intro);
+if(basic){const settings=document.createElement('details');settings.className='v46-settings';settings.innerHTML='<summary>여행 기본정보 · 항공편 · 저장 설정</summary>';basic.before(settings);settings.appendChild(basic);}
+const prep=document.createElement('details');prep.id='v46Prep';prep.className='v46-prep';prep.innerHTML='<summary>여행 준비 · 입국 · 기후 · eSIM · 보험 · 옷차림</summary>';const budget=el('tripBudget');budget.after(prep);[el('entryGuide'),el('tripChecklist')].filter(Boolean).forEach(x=>prep.appendChild(x));
+const datebar=document.createElement('div');datebar.className='v46-inline-date';datebar.innerHTML='<strong>여행 날짜</strong><label>출발 <input id="v46Start" type="date" aria-label="출발일"></label><label>귀국 <input id="v46End" type="date" aria-label="귀국일"></label><button id="v46Apply" type="button">날짜 적용</button>';
+if(spots)spots.before(datebar);
+function datesToBar(){el('v46Start').value=el('start').value;el('v46End').value=el('end').value;}
+function applyDates(){const s=el('v46Start').value,e=el('v46End').value;const a=new Date(s+'T12:00:00'),b=new Date(e+'T12:00:00');const n=(b-a)/86400000+1;if(!s||!e||!Number.isFinite(n)||n<1||n>60){alert('출발일과 귀국일을 확인하세요. 여행기간은 1~60일입니다.');return;}el('start').value=s;el('end').value=e;el('start').dispatchEvent(new Event('change',{bubbles:true}));el('end').dispatchEvent(new Event('change',{bubbles:true}));datesToBar();updateBar();}
+el('v46Apply').addEventListener('click',applyDates);['start','end'].forEach(id=>el(id).addEventListener('change',datesToBar));datesToBar();
+const bar=document.createElement('div');bar.className='v46-bottom';bar.setAttribute('aria-label','내 일정 바로가기');bar.innerHTML='<span id="v46Count">담은 명소 0곳</span><button type="button" id="v46View">내 일정 보기</button>';document.body.appendChild(bar);
+function updateBar(){const count=el('dayTabs')?.parentElement?.querySelectorAll?.('[data-activity]')?.length;let total=0;try{const snap=typeof window.__v46Snap==='function'?window.__v46Snap():null;if(snap?.days)total=snap.days.reduce((n,d)=>n+d.length,0);}catch{}if(!total){const dayList=el('tripSchedule');total=dayList?.querySelectorAll('.activity,.schedule-item,.day-activity').length||0;}el('v46Count').textContent='일정에 담은 명소 '+total+'곳';bar.classList.toggle('is-on',!planner.classList.contains('hidden'));}
+el('v46View').addEventListener('click',()=>{el('tripSchedule').scrollIntoView({behavior:'smooth',block:'start'});});
+function focusGallery(){datesToBar();updateBar();setTimeout(()=>tour.scrollIntoView({behavior:'instant',block:'start'}),70);}
+discover.querySelectorAll('[data-city]').forEach(btn=>btn.addEventListener('click',()=>{if(!planner.classList.contains('hidden'))focusGallery();}));
+const observer=new MutationObserver(()=>{spots.querySelectorAll('.spot-figure').forEach((fig,i)=>{fig.tabIndex=0;fig.setAttribute('role','button');fig.setAttribute('aria-label',`${el('city').value} ${fig.closest('.spot')?.querySelector('h3')?.textContent||'관광지'} 상세 사진 보기`);});});
+if(spots){observer.observe(spots,{childList:true});spots.querySelectorAll('.spot-figure').forEach(fig=>{fig.tabIndex=0;fig.setAttribute('role','button');});spots.addEventListener('click',e=>{const fig=e.target.closest('.spot-figure');if(fig){const btn=fig.closest('.spot')?.querySelector('[data-detail]');btn?.click();}});spots.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('.spot-figure')){e.preventDefault();e.target.closest('.spot')?.querySelector('[data-detail]')?.click();}});}
+el('detailAdd')?.addEventListener('click',()=>setTimeout(updateBar,50));spots?.addEventListener('click',e=>{if(e.target.closest('[data-add]'))setTimeout(updateBar,50)});
+const navObserver=new MutationObserver(updateBar);navObserver.observe(planner,{attributes:true,attributeFilter:['class']});
+const daysObserver=new MutationObserver(()=>{updateBar();});if(el('dayItems'))daysObserver.observe(el('dayItems'),{childList:true,subtree:true});
+const modal=el('spotModal');if(el('detailAdd'))el('detailAdd').textContent='이 관광명소 일정에 담기';if(modal){const title=el('detailTitle');title?.insertAdjacentHTML('afterend','<p class="v46-detail-hint" style="color:#60747b;font-size:12px;margin:2px 0 10px">사진을 확인하고 아래 버튼으로 여행 일정에 담으세요.</p>');}
+const footer=document.querySelector('footer');if(footer){footer.innerHTML='<div class="wrap">K-TRAVEL PICKS · v46 · 무료 자유여행 계획 도구 · 사진 출처는 각 카드에서 확인할 수 있습니다. 입국·기후 정보는 출발 전 공식자료로 재확인하세요.</div>';}
+function adjust(){document.querySelectorAll('[data-city]').forEach(btn=>{const info=btn.querySelector('.info h3');if(info){info.textContent=btn.dataset.city;}});}
+adjust();document.querySelectorAll('.city-mosaic-sources summary').forEach(x=>x.textContent='사진 출처');updateBar();
+})();
 

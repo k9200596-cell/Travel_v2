@@ -540,3 +540,124 @@
 .v44-extra-inner .inspire-section,.v44-extra-inner .photo-story-section{margin:12px 0}
 @media(max-width:650px){.v44-date-line{font-size:12px;align-items:flex-start;flex-direction:column}.v44-metrics{gap:5px}.v44-metrics span{font-size:11px}.v44-overview{padding:12px}.v44-extra-photos{padding:0 12px}}
 
+
+/* v45: recoverable unsaved draft and offline checklist */
+.v45-draft-banner{margin:15px auto 0;padding:15px 19px;background:#f0fbfa;border:1px solid #90d8d3;border-radius:15px;display:flex;align-items:center;justify-content:space-between;gap:16px;box-shadow:0 8px 24px #1c66621a}
+.v45-draft-banner[hidden]{display:none!important}
+.v45-draft-banner b{display:block;color:#075e67;font-size:16px}
+.v45-draft-banner small{display:block;color:#4c6971;margin-top:3px}
+.v45-draft-actions{display:flex;gap:8px;flex-wrap:wrap}
+.v45-draft-state{font-size:12px;margin:7px 0 15px;color:#52777e}
+#v45DownloadPending{min-height:40px}
+@media(max-width:640px){.v45-draft-banner{flex-direction:column;align-items:stretch;padding:13px}.v45-draft-actions{display:grid;grid-template-columns:1fr 1fr}.v45-draft-actions button{padding:9px 8px;font-size:13px}.v45-draft-banner b{font-size:14px}}
+
+
+
+
+/* v46 photo-first UI: additive styling; all legacy controls remain available */
+:root{--v46-blue:#0d3b50;--v46-mint:#0b817b}
+html{scroll-padding-top:86px}
+body{background:#f7f8f8}
+.header .head{height:62px}
+.header .brand{font-size:20px}
+.header .nav{gap:0;display:flex!important}
+.header .nav button{font-size:14px;padding:9px 11px}
+.header .version{margin-left:4px}
+.hero{padding:23px 0 25px!important;background:#eef8f6!important;background-image:none!important;background-color:#eef8f6!important;color:#143744!important;min-height:0!important;height:auto!important}
+.hero::before,.hero::after{display:none!important}
+.hero .eyebrow{color:#0a7772!important;letter-spacing:.12em}
+.hero h1{font-size:clamp(24px,4.4vw,37px)!important;line-height:1.25!important;letter-spacing:-1.2px;margin:8px 0!important}
+.hero h1 br{display:none}
+.hero p{font-size:14px!important;color:#526d74!important;margin:0 0 10px!important}
+.hero-photo-credit,.hero-photo-controls,.v39-hero-auto{display:none!important}
+.v46-quick{margin-top:12px;border:1px solid #cee2df;background:#fff;border-radius:14px;padding:10px 13px;max-width:900px}
+.v46-quick summary{font-weight:750;color:#0b6d70;cursor:pointer;min-height:28px}
+.v46-quick .quick{box-shadow:none!important;padding:12px 0 0!important;margin:0!important;background:transparent!important;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr)) auto!important;gap:8px!important}
+.v46-quick .quick .field{min-width:0}
+#discover>.section{padding-top:24px}
+#discover .section-head{margin-bottom:14px}
+#discover .section-head h2{font-size:24px;margin:0}
+#discover .section-head .muted{font-size:13px;line-height:1.5;max-width:600px}
+#discover .discover-tools{margin:12px 0 0!important;display:block!important}
+#discover .discover-tools .field:has(#countryFilter),#discover .global-spot-search,#discover .v37-feature,#discover .v36-archive,#discover .v35-archive,#discover .inspire-section,#discover #photoStory,#discover .footer-note{display:none!important}
+#discover .discover-tools .field:has(#citySearch){max-width:390px}
+#discover #cityCards{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px!important}
+#discover #cityCards .city{min-width:0;margin:0!important;border:0!important;border-radius:18px!important;overflow:hidden;box-shadow:0 8px 26px #0c334518;background:#fff;position:relative}
+#discover .city-open{display:block!important;width:100%;position:relative;text-align:left;border:0!important;padding:0!important;background:#123!important;overflow:hidden}
+#discover .city-mosaic{display:block!important;width:100%!important;height:auto!important;aspect-ratio:4/3!important;overflow:hidden!important;position:relative!important}
+#discover .city-mosaic-item{display:none!important}
+#discover .city-mosaic-item:first-child{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important}
+#discover .city-mosaic-item:first-child img{display:block!important;width:100%!important;height:100%!important;object-fit:cover!important;transition:transform .25s ease}
+#discover .city-mosaic-item:first-child span{display:none!important}
+#discover .city-open:hover .city-mosaic-item:first-child img{transform:scale(1.035)}
+#discover .city-mosaic-card .info{position:absolute!important;bottom:0;left:0;right:0;height:auto!important;min-height:0!important;padding:38px 15px 13px!important;background:linear-gradient(transparent,#091f2de6)!important;color:#fff!important;pointer-events:none}
+#discover .city-mosaic-card .info h3{font-size:clamp(17px,2vw,24px)!important;line-height:1.2;margin:0!important;color:#fff!important}
+#discover .city-mosaic-card .info .badge,#discover .city-mosaic-card .info .muted,#discover .city-mosaic-card .info .city-teaser,#discover .city-mosaic-card .info p{display:none!important}
+#discover .city-mosaic-footer{font-size:11px!important;padding:6px 12px 8px!important;background:#fff}
+#discover .city-photo-note{display:none!important}
+#discover .city-mosaic-sources{font-size:11px!important;color:#56717c!important}
+#discover .city-mosaic-sources summary{cursor:pointer}
+#discover .v39-ranking-note{display:none!important}
+.v46-search{margin:10px 0 12px;border:1px solid #e2eae8;border-radius:11px;background:#fff;padding:8px 12px}.v46-search summary{font-size:13px;font-weight:750;color:#386973;cursor:pointer}
+#planner>.section{padding-top:18px!important}
+#planner>.section>.section-head{margin-bottom:12px!important}
+#planner>.section>.section-head h2{font-size:22px}
+#planner .layout{display:block!important}
+#planner .layout>aside{display:none!important}
+#planner .layout>div{width:100%!important;min-width:0!important}
+#planner .plan-shortcuts{position:sticky;top:62px;z-index:25;display:flex!important;gap:6px!important;background:#fffefb;padding:8px!important;border:1px solid #e2eae8;border-radius:12px;overflow-x:auto;margin:0 0 14px!important;box-shadow:0 3px 12px #0d344010}
+#planner .plan-shortcuts a{white-space:nowrap;font-size:13px;font-weight:700;flex:1;text-align:center;border-radius:9px;padding:8px 7px!important;background:#eff7f5;color:#0a6668}
+#tourGuide{padding:15px!important;margin-top:0!important}
+#tourGuide>.row:first-child h2{font-size:22px!important}
+#tourGuide>.cover,#tourGuide>#cityPhotoCredit,#tourGuide>#cityIntro,#tourGuide>#cityGuide,#tourGuide>.photo-walk-section,#tourGuide>#cityRoute,#tourGuide>.notice,#tourGuide>.spot-search-tools,#tourGuide>#v42PhotoAudit,#tourGuide>#photoStatus,#tourGuide>#photoAuditSummary,#tourGuide>.photo-sort-note,#tourGuide>.photo-legend,#tourGuide>.photo-library,#tourGuide>#spotEmpty{display:none!important}
+#tourGuide .v46-spot-intro{margin:0 0 12px;font-size:13px;color:#60747b}
+#tourGuide>.row:has(#spotDay){margin:8px 0!important}
+#tourGuide>.row:has(#spotDay) h3{display:none!important}
+#tourGuide>.row:has(#spotDay) .field{display:flex!important;align-items:center;gap:8px;font-size:13px;font-weight:700}
+#tourGuide #spotDay{width:auto;min-width:155px;padding:7px 10px!important}
+#tourGuide #spots{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px!important}
+#tourGuide #spots .spot{display:block!important;position:relative;overflow:hidden;border:1px solid #e0e7e7!important;border-radius:14px!important;box-shadow:0 5px 18px #123b4810;background:#fff!important;padding:0!important;margin:0!important}
+#tourGuide #spots .spot-figure{margin:0!important;aspect-ratio:4/3!important;position:relative;cursor:pointer;overflow:hidden;background:#e7efef}
+#tourGuide #spots .spot-figure img{width:100%!important;height:100%!important;object-fit:cover!important;display:block!important}
+#tourGuide #spots .spot-figure figcaption{position:absolute!important;bottom:0;right:0;background:#ffffffdd!important;font-size:9px!important;padding:2px 5px!important;max-width:95%;max-height:20px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+#tourGuide #spots .spot-mini-gallery,#tourGuide #spots .spot-body .badge,#tourGuide #spots .spot-photo-count,#tourGuide #spots .spot-body p{display:none!important}
+#tourGuide #spots .spot-body{padding:10px 11px 12px!important;display:block!important}
+#tourGuide #spots .spot-body h3{font-size:16px!important;line-height:1.4;margin:0 0 9px!important;min-height:23px}
+#tourGuide #spots .spot-body .actions{display:flex!important;gap:6px!important;margin:0!important}
+#tourGuide #spots .spot-body .actions button{font-size:12px!important;padding:8px 6px!important;flex:1!important;min-height:40px}
+#tourGuide #spots .spot-body .actions [data-detail]{background:#eaf4f3!important;color:#0a696a!important}
+#tourGuide #spots .spot-body .actions [data-add]{display:none!important}
+#tourGuide #spots .spot-body .actions [data-detail]{width:100%!important}
+.v46-gallery-extra{margin-top:13px;border:1px solid #e3eaea;border-radius:12px;padding:9px 12px;background:#fbfdfc}
+.v46-gallery-extra summary{cursor:pointer;font-weight:750;font-size:13px;color:#245967}
+.v46-gallery-extra .city-photo-section{padding-top:12px!important}
+.v46-gallery-extra .city-mood-controls,.v46-gallery-extra .city-photo-search-tools{display:none!important}
+#planner .v46-settings{border:1px solid #d9e8e6;border-radius:13px;padding:9px 12px;margin:12px 0;background:#fff}
+#planner .v46-settings summary{font-weight:800;cursor:pointer;color:#155e66}
+#planner .v46-settings>.panel{margin-top:12px!important}
+#planner .v46-prep{border:1px solid #d9e8e6;border-radius:13px;padding:11px 12px;margin:12px 0;background:#fff}
+#planner .v46-prep summary{font-weight:800;cursor:pointer;color:#155e66}
+#planner .v46-prep>section{margin:12px 0!important}
+#planner #tripSchedule,#planner #tripBudget{margin-top:13px!important}
+#planner #tripSchedule h2,#planner #tripBudget h2{font-size:20px!important}
+#planner .v46-inline-date{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:9px 12px;border-radius:12px;background:#eaf6f3;margin:8px 0 12px;font-size:13px}
+#planner .v46-inline-date input{font-size:13px;max-width:150px;padding:7px!important}
+#planner .v46-inline-date label{display:flex;align-items:center;gap:5px}
+#planner .v46-inline-date button{border:0;background:#0a7772;color:#fff;border-radius:8px;padding:9px 12px;min-height:38px;font-weight:700}
+#spotModal .modal-content{padding:16px 19px!important}
+#spotModal .detail-list{display:none!important}
+#spotModal .detail-list:has(#detailTime){display:flex!important}
+#spotModal #detailEditorial{display:none!important}
+#spotModal .modal-content #detailDesc{font-size:15px;line-height:1.6;max-height:110px;overflow:auto}
+#spotModal #detailGallery{display:none!important}
+#spotModal .modal-content>.actions{position:sticky;bottom:0;background:#fff;padding:12px 0 2px;z-index:2}
+#spotModal #detailAdd{font-weight:850;min-height:48px!important}
+.v46-bottom{position:fixed;bottom:0;left:0;right:0;z-index:45;background:#fffffff2;border-top:1px solid #dbe7e6;box-shadow:0 -4px 24px #143b4616;padding:8px max(14px,env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom));display:none;align-items:center;justify-content:space-between;gap:12px}
+.v46-bottom.is-on{display:flex}
+.v46-bottom span{font-size:13px;font-weight:750;color:#315964}
+.v46-bottom button{border:0;background:#0a7772;color:#fff;font-weight:800;border-radius:10px;padding:11px 18px;min-height:43px}
+#planner{padding-bottom:90px}
+@media(max-width:800px){#discover #cityCards,#tourGuide #spots{grid-template-columns:repeat(2,minmax(0,1fr))}#planner .plan-shortcuts a{flex:0 0 auto}}
+@media(max-width:600px){.wrap{width:min(100% - 24px,1180px)!important}.header .head{gap:4px!important;height:56px!important}.header .brand{font-size:15px!important;letter-spacing:-.7px}.header .nav button{padding:7px 6px!important;font-size:11px!important}.header .version{padding:3px 6px!important;font-size:10px!important}.hero{padding:19px 0!important}.hero h1{font-size:26px!important}.hero p{font-size:13px!important}#discover .section-head h2{font-size:20px}#discover #cityCards{gap:9px!important}#discover .city-mosaic-card .info{padding:28px 10px 9px!important}#discover .city-mosaic-card .info h3{font-size:17px!important}#discover .city-mosaic-footer{padding:4px 8px 6px!important}#planner .plan-shortcuts{top:56px;padding:6px!important}#planner .plan-shortcuts a{font-size:12px;padding:7px!important}#tourGuide{padding:10px!important}#tourGuide #spots{gap:9px!important}#tourGuide #spots .spot-body{padding:8px!important}#tourGuide #spots .spot-body h3{font-size:14px!important}#tourGuide #spots .spot-body .actions{flex-direction:column!important}#tourGuide #spots .spot-body .actions button{width:100%;min-height:39px;font-size:12px!important}#tourGuide #spots .spot-figure figcaption{font-size:8px!important}#planner .v46-inline-date{gap:7px}#planner .v46-inline-date input{max-width:135px}#planner .v46-inline-date button{width:100%}.v46-quick .quick{grid-template-columns:repeat(2,minmax(0,1fr))!important}.v46-quick .quick>button{grid-column:1/-1}.v46-bottom span{font-size:12px}.v46-bottom button{padding:10px 12px}.bottom{display:none!important}}
+@media(prefers-reduced-motion:reduce){#discover .city-mosaic-item img{transition:none!important}}
+

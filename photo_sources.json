@@ -1,7 +1,7 @@
 {
-  "release": "v44",
-  "releaseDate": "2026-10-25",
-  "verificationNotice": "v44 신규 사진 4건은 2026-10-25 Wikimedia Commons 개별 파일 설명에서 장소·촬영일·저작자·CC BY-SA 4.0 라이선스 확인. 이전 190건은 기존 출처 기록을 계승했으며 이번에 전수 재검증하지 않음. 실제 이미지 바이트·모바일 로딩은 미검증. 44개 명소는 출처 미확인으로 대체 이미지 사용.",
+  "release": "v46",
+  "releaseDate": "2026-10-27",
+  "verificationNotice": "v46은 사진 중심 UI 개편 버전입니다. 신규 외부 사진을 추가하지 않았으며 v45까지의 198건 출처·저작자·라이선스 기록을 계승했습니다. 기록상 80개 관광명소에 허용 라이선스 사진이 있고 40개 관광명소는 대체 이미지를 표시합니다. 이번 실행에서 외부 이미지 로딩 및 모든 원본 페이지를 전수 재검증하지 않았습니다.",
   "photos": [
     {
       "city": "오사카",
@@ -4978,13 +4978,113 @@
       "verificationStatus": "verified_file_description_v44",
       "sourcePageCheckedVia": "Wikimedia Commons 원본 파일 설명 · 2026-10-25",
       "imageBytesChecked": false
+    },
+    {
+      "city": "삿포로",
+      "spot": "삿포로 TV타워",
+      "file": "Sapporo-TV-Tower-2025.jpg",
+      "author": "AlphaBetaGamma",
+      "taken": "2025-03-29",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "scene": "2025년 봄 삿포로 TV타워 외관.",
+      "label": "삿포로 TV타워 · 2025년",
+      "cover": false,
+      "checked": "2026-10-26",
+      "source": "https://commons.wikimedia.org/wiki/File:Sapporo-TV-Tower-2025.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sapporo-TV-Tower-2025.jpg?width=960",
+      "photoTitle": "Sapporo-TV-Tower-2025.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-26 Wikimedia Commons 개별 원본 파일 설명에서 장소·촬영일·저작자·상업적 재사용 허용 라이선스 확인",
+      "lastVerifiedVersion": "v45",
+      "imageTransport": "Wikimedia Commons 외부 이미지: 실제 로딩은 미검증",
+      "siteModification": "원본 이미지 파일은 수정·재배포하지 않음. CSS object-fit에 따라 일부 크롭 가능",
+      "reuseTerms": "CC BY 4.0 라이선스 조건 준수, 원본·저작자·라이선스 링크·표시 방식 제공",
+      "verificationScope": "원본 파일 설명 확인. 실제 파일 바이트·현장 현황 미검증",
+      "verificationStatus": "verified_file_description_v45",
+      "sourcePageCheckedVia": "Wikimedia Commons 원본 파일 설명 · 2026-10-26",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "오키나와",
+      "spot": "고우리대교",
+      "file": "View of Kouri Island and Kouri Bridge seen from Mount Oppa 202408.jpg",
+      "author": "Kugel~commonswiki",
+      "taken": "2024-08-03",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "scene": "오키나와 고우리섬과 고우리대교 전경, 오파산 전망.",
+      "label": "고우리대교 · 2024년",
+      "cover": false,
+      "checked": "2026-10-26",
+      "source": "https://commons.wikimedia.org/wiki/File:View%20of%20Kouri%20Island%20and%20Kouri%20Bridge%20seen%20from%20Mount%20Oppa%20202408.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Kouri%20Island%20and%20Kouri%20Bridge%20seen%20from%20Mount%20Oppa%20202408.jpg?width=960",
+      "photoTitle": "View of Kouri Island and Kouri Bridge seen from Mount Oppa 202408.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-26 Wikimedia Commons 개별 원본 파일 설명에서 장소·촬영일·저작자·상업적 재사용 허용 라이선스 확인",
+      "lastVerifiedVersion": "v45",
+      "imageTransport": "Wikimedia Commons 외부 이미지: 실제 로딩은 미검증",
+      "siteModification": "원본 이미지 파일은 수정·재배포하지 않음. CSS object-fit에 따라 일부 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0 라이선스 조건 준수, 원본·저작자·라이선스 링크·표시 방식 제공",
+      "verificationScope": "원본 파일 설명 확인. 실제 파일 바이트·현장 현황 미검증",
+      "verificationStatus": "verified_file_description_v45",
+      "sourcePageCheckedVia": "Wikimedia Commons 원본 파일 설명 · 2026-10-26",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "베이징",
+      "spot": "만리장성 무톈위",
+      "file": "Mutianyu, grande muraglia cinese, veduta (autunno 2024) 24.jpg",
+      "author": "Francesco Bini",
+      "taken": "2024-11-10",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "scene": "2024년 가을 중국 만리장성 무톈위 구간.",
+      "label": "만리장성 무톈위 · 2024년",
+      "cover": false,
+      "checked": "2026-10-26",
+      "source": "https://commons.wikimedia.org/wiki/File:Mutianyu%2C%20grande%20muraglia%20cinese%2C%20veduta%20%28autunno%202024%29%2024.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mutianyu%2C%20grande%20muraglia%20cinese%2C%20veduta%20%28autunno%202024%29%2024.jpg?width=960",
+      "photoTitle": "Mutianyu, grande muraglia cinese, veduta (autunno 2024) 24.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-26 Wikimedia Commons 개별 원본 파일 설명에서 장소·촬영일·저작자·상업적 재사용 허용 라이선스 확인",
+      "lastVerifiedVersion": "v45",
+      "imageTransport": "Wikimedia Commons 외부 이미지: 실제 로딩은 미검증",
+      "siteModification": "원본 이미지 파일은 수정·재배포하지 않음. CSS object-fit에 따라 일부 크롭 가능",
+      "reuseTerms": "CC BY-SA 4.0 라이선스 조건 준수, 원본·저작자·라이선스 링크·표시 방식 제공",
+      "verificationScope": "원본 파일 설명 확인. 실제 파일 바이트·현장 현황 미검증",
+      "verificationStatus": "verified_file_description_v45",
+      "sourcePageCheckedVia": "Wikimedia Commons 원본 파일 설명 · 2026-10-26",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "치앙마이",
+      "spot": "왓 체디루앙",
+      "file": "Temple du grand stupa royal Wat Chedi Luang 6.jpg",
+      "author": "Welcome to Thailand",
+      "taken": "2024-03-02",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "scene": "2024년 3월 치앙마이 왓 체디루앙의 대형 불탑.",
+      "label": "왓 체디루앙 · 2024년",
+      "cover": false,
+      "checked": "2026-10-26",
+      "source": "https://commons.wikimedia.org/wiki/File:Temple%20du%20grand%20stupa%20royal%20Wat%20Chedi%20Luang%206.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple%20du%20grand%20stupa%20royal%20Wat%20Chedi%20Luang%206.jpg?width=960",
+      "photoTitle": "Temple du grand stupa royal Wat Chedi Luang 6.jpg",
+      "metadataVerifiedThisRun": true,
+      "metadataVerification": "2026-10-26 Wikimedia Commons 개별 원본 파일 설명에서 장소·촬영일·저작자·상업적 재사용 허용 라이선스 확인",
+      "lastVerifiedVersion": "v45",
+      "imageTransport": "Wikimedia Commons 외부 이미지: 실제 로딩은 미검증",
+      "siteModification": "원본 이미지 파일은 수정·재배포하지 않음. CSS object-fit에 따라 일부 크롭 가능",
+      "reuseTerms": "CC0 1.0 라이선스 조건 준수, 원본·저작자·라이선스 링크·표시 방식 제공",
+      "verificationScope": "원본 파일 설명 확인. 실제 파일 바이트·현장 현황 미검증",
+      "verificationStatus": "verified_file_description_v45",
+      "sourcePageCheckedVia": "Wikimedia Commons 원본 파일 설명 · 2026-10-26",
+      "imageBytesChecked": false
     }
   ],
   "missingSpots": [
-    {
-      "city": "삿포로",
-      "spot": "삿포로 TV타워"
-    },
     {
       "city": "삿포로",
       "spot": "홋카이도 구본청사"
@@ -5004,10 +5104,6 @@
     {
       "city": "오키나와",
       "spot": "국제거리"
-    },
-    {
-      "city": "오키나와",
-      "spot": "고우리대교"
     },
     {
       "city": "오키나와",
@@ -5067,10 +5163,6 @@
     },
     {
       "city": "베이징",
-      "spot": "만리장성 무톈위"
-    },
-    {
-      "city": "베이징",
       "spot": "이화원"
     },
     {
@@ -5080,10 +5172,6 @@
     {
       "city": "치앙마이",
       "spot": "왓 프라탓 도이수텝"
-    },
-    {
-      "city": "치앙마이",
-      "spot": "왓 체디루앙"
     },
     {
       "city": "치앙마이",
