@@ -1,7 +1,7 @@
 {
-  "release": "v46",
-  "releaseDate": "2026-10-27",
-  "verificationNotice": "v46은 사진 중심 UI 개편 버전입니다. 신규 외부 사진을 추가하지 않았으며 v45까지의 198건 출처·저작자·라이선스 기록을 계승했습니다. 기록상 80개 관광명소에 허용 라이선스 사진이 있고 40개 관광명소는 대체 이미지를 표시합니다. 이번 실행에서 외부 이미지 로딩 및 모든 원본 페이지를 전수 재검증하지 않았습니다.",
+  "release": "v47",
+  "releaseDate": "2026-10-28",
+  "verificationNotice": "v47: 24개 도시 240곳 관광명소. 기존 사진 198장 기록 계승(이번 전수 재검증 아님), 2026-10-28 Wikimedia Commons 원본 페이지에서 11장 개별 확인. 전체 85곳에 사진 출처 기록, 155곳은 대체 이미지. 외부 이미지 로딩은 환경에 따라 달라질 수 있음.",
   "photos": [
     {
       "city": "오사카",
@@ -5082,168 +5082,1047 @@
       "verificationStatus": "verified_file_description_v45",
       "sourcePageCheckedVia": "Wikimedia Commons 원본 파일 설명 · 2026-10-26",
       "imageBytesChecked": false
+    },
+    {
+      "city": "도쿄",
+      "spot": "도쿄타워",
+      "label": "2023년 도쿄타워의 모습",
+      "file": "Tokyo Tower 2023.jpg",
+      "author": "Akonnchiroll",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2023-05-16",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_2023.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20Tower%202023.jpg?width=640",
+      "cover": false,
+      "scene": "2023년 도쿄타워의 모습",
+      "photoTitle": "Tokyo Tower 2023.jpg",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "도쿄",
+      "spot": "도쿄타워",
+      "label": "거리에서 본 도쿄타워",
+      "file": "Tokyo tower.jpg",
+      "author": "Beatlehoon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2016-06-21",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Tokyo_tower.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tokyo%20tower.jpg?width=640",
+      "cover": false,
+      "scene": "거리에서 본 도쿄타워",
+      "photoTitle": "Tokyo tower.jpg",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "도쿄",
+      "spot": "신주쿠교엔",
+      "label": "봄철 신주쿠교엔 정원",
+      "file": "Shinjuku Gyoen.jpg",
+      "author": "Fay1982",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2008-03-31",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Shinjuku_Gyoen.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinjuku%20Gyoen.jpg?width=640",
+      "cover": false,
+      "scene": "봄철 신주쿠교엔 정원",
+      "photoTitle": "Shinjuku Gyoen.jpg",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "도쿄",
+      "spot": "신주쿠교엔",
+      "label": "신주쿠교엔 장미정원",
+      "file": "Rose garden of Shinjuku Gyoen National Garden, Shinjuku, Tokyo, Japan, 2024 May.jpg",
+      "author": "Ximonic (Simo Räsänen)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2024-05-18",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Rose_garden_of_Shinjuku_Gyoen_National_Garden%2C_Shinjuku%2C_Tokyo%2C_Japan%2C_2024_May.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rose%20garden%20of%20Shinjuku%20Gyoen%20National%20Garden%2C%20Shinjuku%2C%20Tokyo%2C%20Japan%2C%202024%20May.jpg?width=640",
+      "cover": false,
+      "scene": "신주쿠교엔 장미정원",
+      "photoTitle": "Rose garden of Shinjuku Gyoen National Garden, Shinjuku, Tokyo, Japan, 2024 May.jpg",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "도쿄",
+      "spot": "츠키지 장외시장",
+      "label": "츠키지 장외시장 골목",
+      "file": "Tsukiji Outer Market -02.jpg",
+      "author": "Aimaimyi",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "taken": "2011-12-29",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Tsukiji_Outer_Market_-02.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsukiji%20Outer%20Market%20-02.jpg?width=640",
+      "cover": false,
+      "scene": "츠키지 장외시장 골목",
+      "photoTitle": "Tsukiji Outer Market -02.jpg",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "오키나와",
+      "spot": "만좌모",
+      "label": "만좌모 해안 절벽",
+      "file": "Cape Manzamo 7.JPG",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2015-03-16",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Manzamo_7.JPG",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape%20Manzamo%207.JPG?width=640",
+      "cover": false,
+      "scene": "만좌모 해안 절벽",
+      "photoTitle": "Cape Manzamo 7.JPG",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "오키나와",
+      "spot": "만좌모",
+      "label": "만좌모 다른 각도",
+      "file": "Cape Manzamo.JPG",
+      "author": "そらみみ",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2015-03-16",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Cape_Manzamo.JPG",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cape%20Manzamo.JPG?width=640",
+      "cover": false,
+      "scene": "만좌모 다른 각도",
+      "photoTitle": "Cape Manzamo.JPG",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "상하이",
+      "spot": "예원",
+      "label": "상하이 예원 정원",
+      "file": "Yu Garden.jpg",
+      "author": "DestinationFearFan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2015-09-24",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Yu_Garden.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yu%20Garden.jpg?width=640",
+      "cover": false,
+      "scene": "상하이 예원 정원",
+      "photoTitle": "Yu Garden.jpg",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "상하이",
+      "spot": "예원",
+      "label": "예원 다른 시점",
+      "file": "Yu Garden 20.jpg",
+      "author": "钉钉",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2022-08-13",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Yu_Garden_20.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Yu%20Garden%2020.jpg?width=640",
+      "cover": false,
+      "scene": "예원 다른 시점",
+      "photoTitle": "Yu Garden 20.jpg",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "베이징",
+      "spot": "천단공원",
+      "label": "천단공원 건축",
+      "file": "Temple Of Heaven.jpg",
+      "author": "BIJAY BHANDARI",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2017-06-01",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Temple_Of_Heaven.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple%20Of%20Heaven.jpg?width=640",
+      "cover": false,
+      "scene": "천단공원 건축",
+      "photoTitle": "Temple Of Heaven.jpg",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
+    },
+    {
+      "city": "베이징",
+      "spot": "천단공원",
+      "label": "천단공원 겨울 풍경",
+      "file": "Temple-of-heaven.jpg",
+      "author": "Khushwant8693",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "taken": "2017-12-06",
+      "checked": "2026-10-28",
+      "source": "https://commons.wikimedia.org/wiki/File:Temple-of-heaven.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Temple-of-heaven.jpg?width=640",
+      "cover": false,
+      "scene": "천단공원 겨울 풍경",
+      "photoTitle": "Temple-of-heaven.jpg",
+      "siteModification": "원본 미수정·외부 이미지 링크 사용. CSS object-fit:cover로 일부 잘림.",
+      "reuseTerms": "CC BY-SA: 저작자·원본·라이선스·수정 표시, 수정본 재배포 시 동일조건 공유.",
+      "metadataVerifiedThisRun": true,
+      "lastVerifiedVersion": "v47",
+      "metadataVerification": "2026-10-28 Wikimedia Commons 파일 설명 페이지에서 저작자·촬영일·라이선스 확인",
+      "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
+      "verificationStatus": "verified_file_description_v47",
+      "imageBytesChecked": false
     }
   ],
   "missingSpots": [
     {
       "city": "삿포로",
-      "spot": "홋카이도 구본청사"
+      "spot": "홋카이도 구본청사",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "삿포로",
-      "spot": "모이와산"
+      "spot": "모이와산",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "삿포로",
-      "spot": "시로이 코이비토 파크"
+      "spot": "시로이 코이비토 파크",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "오키나와",
-      "spot": "만좌모"
+      "spot": "국제거리",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "오키나와",
-      "spot": "국제거리"
-    },
-    {
-      "city": "오키나와",
-      "spot": "슈리성 공원"
+      "spot": "슈리성 공원",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "하노이",
-      "spot": "하노이 구시가지"
+      "spot": "하노이 구시가지",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "하노이",
-      "spot": "문묘"
+      "spot": "문묘",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "하노이",
-      "spot": "호찌민 묘소 주변"
+      "spot": "호찌민 묘소 주변",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "하노이",
-      "spot": "쩐꾸옥 사원"
+      "spot": "쩐꾸옥 사원",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "푸꾸옥",
-      "spot": "사오비치"
+      "spot": "사오비치",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "푸꾸옥",
-      "spot": "혼똠 케이블카"
+      "spot": "혼똠 케이블카",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "푸꾸옥",
-      "spot": "즈엉동 야시장"
+      "spot": "즈엉동 야시장",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "푸꾸옥",
-      "spot": "선셋타운"
+      "spot": "선셋타운",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "푸꾸옥",
-      "spot": "푸꾸옥 국립공원"
+      "spot": "푸꾸옥 국립공원",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "상하이",
-      "spot": "예원"
+      "spot": "난징동루",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "상하이",
-      "spot": "난징동루"
-    },
-    {
-      "city": "상하이",
-      "spot": "톈즈팡"
+      "spot": "톈즈팡",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "베이징",
-      "spot": "천단공원"
+      "spot": "이화원",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "베이징",
-      "spot": "이화원"
-    },
-    {
-      "city": "베이징",
-      "spot": "스차하이 후퉁"
+      "spot": "스차하이 후퉁",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "치앙마이",
-      "spot": "왓 프라탓 도이수텝"
+      "spot": "왓 프라탓 도이수텝",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "치앙마이",
-      "spot": "타패 게이트"
+      "spot": "타패 게이트",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "치앙마이",
-      "spot": "선데이 워킹스트리트"
+      "spot": "선데이 워킹스트리트",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "치앙마이",
-      "spot": "도이인타논 국립공원"
+      "spot": "도이인타논 국립공원",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "보라카이",
-      "spot": "윌리스 록"
+      "spot": "윌리스 록",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "보라카이",
-      "spot": "푸카셸비치"
+      "spot": "푸카셸비치",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "보라카이",
-      "spot": "마운트 루호"
+      "spot": "마운트 루호",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "뉴욕",
-      "spot": "메트로폴리탄 미술관"
+      "spot": "메트로폴리탄 미술관",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "가오슝",
-      "spot": "보얼예술특구"
+      "spot": "보얼예술특구",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "가오슝",
-      "spot": "아이허"
+      "spot": "아이허",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "가오슝",
-      "spot": "연지담"
+      "spot": "연지담",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "가오슝",
-      "spot": "치진섬"
+      "spot": "치진섬",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "가오슝",
-      "spot": "류허 야시장"
+      "spot": "류허 야시장",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "코타키나발루",
-      "spot": "탄중아루 비치"
+      "spot": "탄중아루 비치",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "코타키나발루",
-      "spot": "마누칸섬"
+      "spot": "마누칸섬",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "코타키나발루",
-      "spot": "사피섬"
+      "spot": "사피섬",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "코타키나발루",
-      "spot": "시그널힐 전망대"
+      "spot": "시그널힐 전망대",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "코타키나발루",
-      "spot": "키나발루 국립공원"
+      "spot": "키나발루 국립공원",
+      "reason": "원본 사진 저작권 검증 미완료"
     },
     {
       "city": "시드니",
-      "spot": "맨리 비치"
+      "spot": "맨리 비치",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "오사카",
+      "spot": "신세카이",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "오사카",
+      "spot": "텐노지 공원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "오사카",
+      "spot": "스미요시타이샤",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "오사카",
+      "spot": "오사카 역사박물관",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "오사카",
+      "spot": "나카노시마 공원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "도쿄",
+      "spot": "우에노 공원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "도쿄",
+      "spot": "오다이바 해변공원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "도쿄",
+      "spot": "아키하바라",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "나트랑",
+      "spot": "빈원더스 나트랑",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "나트랑",
+      "spot": "나트랑 대성당",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "나트랑",
+      "spot": "바이자이 해변",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "나트랑",
+      "spot": "혼문섬",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "나트랑",
+      "spot": "탑바 온천",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "다낭",
+      "spot": "한시장",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "다낭",
+      "spot": "다낭 대성당",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "다낭",
+      "spot": "선짜반도",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "다낭",
+      "spot": "린응사",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "다낭",
+      "spot": "박미안 해변",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "타이베이",
+      "spot": "용산사",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "타이베이",
+      "spot": "시먼딩",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "타이베이",
+      "spot": "베이터우 온천박물관",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "타이베이",
+      "spot": "단수이 옛거리",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "타이베이",
+      "spot": "예류지질공원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "방콕",
+      "spot": "왓 사켓",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "방콕",
+      "spot": "아시아티크",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "방콕",
+      "spot": "룸피니 공원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "방콕",
+      "spot": "짐 톰슨 하우스",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "방콕",
+      "spot": "카오산 로드",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "싱가포르",
+      "spot": "주얼 창이",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "싱가포르",
+      "spot": "싱가포르 보타닉 가든",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "싱가포르",
+      "spot": "리틀인디아",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "싱가포르",
+      "spot": "하지레인",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "싱가포르",
+      "spot": "클락키",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "세부",
+      "spot": "시라오 가든",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "세부",
+      "spot": "레아 신전",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "세부",
+      "spot": "가와산 폭포",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "세부",
+      "spot": "세부 도교사원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "세부",
+      "spot": "10K 로지스 카페",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "발리",
+      "spot": "우붓 왕궁",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "발리",
+      "spot": "우붓 전통시장",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "발리",
+      "spot": "울룬다누 브라탄 사원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "발리",
+      "spot": "짐바란 해변",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "발리",
+      "spot": "캄푸한 릿지워크",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "파리",
+      "spot": "개선문",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "파리",
+      "spot": "노트르담 대성당",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "파리",
+      "spot": "생트샤펠",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "파리",
+      "spot": "뤽상부르 공원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "파리",
+      "spot": "튈르리 정원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "후쿠오카",
+      "spot": "하카타역 주변",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "후쿠오카",
+      "spot": "구시다 신사",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "후쿠오카",
+      "spot": "후쿠오카 타워",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "후쿠오카",
+      "spot": "텐진 지하상가",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "후쿠오카",
+      "spot": "마린월드 우미노나카미치",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "홍콩",
+      "spot": "홍콩 디즈니랜드",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "홍콩",
+      "spot": "옹핑 360",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "홍콩",
+      "spot": "만모사원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "홍콩",
+      "spot": "미드레벨 에스컬레이터",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "홍콩",
+      "spot": "웡타이신 사원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "삿포로",
+      "spot": "니조시장",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "삿포로",
+      "spot": "삿포로 맥주박물관",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "삿포로",
+      "spot": "나카지마 공원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "삿포로",
+      "spot": "홋카이도 신궁",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "삿포로",
+      "spot": "삿포로 시계탑",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "오키나와",
+      "spot": "아메리칸 빌리지",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "오키나와",
+      "spot": "세나가섬 우미카지테라스",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "오키나와",
+      "spot": "비세 후쿠기 가로수길",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "오키나와",
+      "spot": "나키진 성터",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "오키나와",
+      "spot": "자마미섬",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "하노이",
+      "spot": "하노이 오페라하우스",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "하노이",
+      "spot": "탕롱황성",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "하노이",
+      "spot": "서호",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "하노이",
+      "spot": "롱비엔 다리",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "하노이",
+      "spot": "하노이 여성박물관",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "롱비치",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "딘꺼우 사원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "푸꾸옥 후추 농장",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "함닌 어촌",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "안토이 군도",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "상하이",
+      "spot": "상하이 박물관",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "상하이",
+      "spot": "신천지",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "상하이",
+      "spot": "주가각 수향마을",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "상하이",
+      "spot": "상하이 타워",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "상하이",
+      "spot": "옛 프랑스 조계지",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "베이징",
+      "spot": "징산공원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "베이징",
+      "spot": "북해공원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "베이징",
+      "spot": "난뤄구샹",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "베이징",
+      "spot": "옹화궁",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "베이징",
+      "spot": "왕푸징 거리",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "치앙마이",
+      "spot": "왓 프라싱",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "치앙마이",
+      "spot": "님만해민",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "치앙마이",
+      "spot": "치앙마이 나이트바자",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "치앙마이",
+      "spot": "왓 우몽",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "치앙마이",
+      "spot": "치앙마이 시립예술문화센터",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "보라카이",
+      "spot": "디몰",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "보라카이",
+      "spot": "일리그일리간 비치",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "보라카이",
+      "spot": "디니위드 비치",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "보라카이",
+      "spot": "크리스탈 코브 섬",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "보라카이",
+      "spot": "크로커다일 아일랜드",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "뉴욕",
+      "spot": "엠파이어 스테이트 빌딩",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "뉴욕",
+      "spot": "하이라인",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "뉴욕",
+      "spot": "록펠러 센터",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "뉴욕",
+      "spot": "9·11 메모리얼",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "뉴욕",
+      "spot": "브라이언트 파크",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "가오슝",
+      "spot": "불광산 불타기념관",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "가오슝",
+      "spot": "드림몰",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "가오슝",
+      "spot": "메이리다오역",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "가오슝",
+      "spot": "쇼우산 동물원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "가오슝",
+      "spot": "하마싱 철도문화원구",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "코타키나발루",
+      "spot": "가야섬",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "코타키나발루",
+      "spot": "제셀톤 포인트",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "코타키나발루",
+      "spot": "수리아 사바",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "코타키나발루",
+      "spot": "사바 주립박물관",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "코타키나발루",
+      "spot": "코타키나발루 시티모스크",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "시드니",
+      "spot": "달링하버",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "시드니",
+      "spot": "서큘러키",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "시드니",
+      "spot": "타롱가 동물원",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "시드니",
+      "spot": "더 록스",
+      "reason": "원본 사진 저작권 검증 미완료"
+    },
+    {
+      "city": "시드니",
+      "spot": "블루마운틴",
+      "reason": "원본 사진 저작권 검증 미완료"
     }
   ]
 }

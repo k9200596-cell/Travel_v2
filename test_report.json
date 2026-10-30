@@ -1,243 +1,77 @@
 {
-  "version": "v46",
-  "date": "2026-10-27",
-  "checks": [
-    {
-      "test": "page loads",
-      "status": "PASS",
-      "detail": "K-TRAVEL PICKS | 사진으로 고르는 자유여행 v46"
-    },
-    {
-      "test": "v46 header",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "24 destination cards",
-      "status": "PASS",
-      "detail": "24"
-    },
-    {
-      "test": "hero compact",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "archive hidden",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "all cities visible",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "horizontal overflow home",
-      "status": "PASS",
-      "detail": "390 vs 390"
-    },
-    {
-      "test": "destination opens planner",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "all five attractions",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "photo first top",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "horizontal overflow planner",
-      "status": "PASS",
-      "detail": "390 vs 390"
-    },
-    {
-      "test": "photo click opens detail",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "detail add CTA",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "add closes detail",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "schedule activity added",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "bottom bar count",
-      "status": "PASS",
-      "detail": "일정에 담은 명소 1곳"
-    },
-    {
-      "test": "date synchronization",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "entry guide retained",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "arrival date retained",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "climate retained",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "checklist retained",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "budget retained",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "flight cost controls present",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "saved localStorage",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "saved page navigation",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "saved plan list",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "backup export control",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "backup import control",
-      "status": "PASS",
-      "detail": ""
-    },
-    {
-      "test": "no horizontal overflow 320",
-      "status": "PASS",
-      "detail": "320"
-    },
-    {
-      "test": "no horizontal overflow 375",
-      "status": "PASS",
-      "detail": "375"
-    },
-    {
-      "test": "no horizontal overflow 390",
-      "status": "PASS",
-      "detail": "390"
-    },
-    {
-      "test": "no horizontal overflow 430",
-      "status": "PASS",
-      "detail": "430"
-    },
-    {
-      "test": "no horizontal overflow 768",
-      "status": "PASS",
-      "detail": "768"
-    },
-    {
-      "test": "no horizontal overflow 1024",
-      "status": "PASS",
-      "detail": "1024"
-    },
-    {
-      "test": "no horizontal overflow 1440",
-      "status": "PASS",
-      "detail": "1440"
-    },
-    {
-      "test": "no JS exceptions",
-      "status": "PASS",
-      "detail": ""
-    }
-  ],
-  "console_errors": [],
-  "notes": [],
-  "pass": 36,
-  "fail": 0,
-  "checked_at": "2026-10-27",
-  "method": "Chromium Playwright page.set_content with simulated localStorage; actual file:// and localhost navigation blocked by browser administrator",
-  "extended_checks": {
-    "cities": 24,
-    "totalSpots": 120,
-    "photoCovered": 80,
-    "missing": 40,
-    "licenseProblems": [],
-    "itineraryOK": 168,
-    "itineraryFail": [],
-    "arrivalOK": 288,
-    "arrivalFail": [],
-    "galleryOK": 24,
-    "galleryFail": [],
-    "budgetOK": true,
-    "budgetTotal": 1080000,
-    "photoCatalogCount": 198,
-    "pageErrors": []
+  "release": "v48",
+  "date": "2026-10-29",
+  "source": {
+    "github_repo": "k9200596-cell/Travel_v2",
+    "branch": "main",
+    "github_main_version": "v46",
+    "github_index_blob_sha": "a08748d852f4388a2065f60893ccb68ad00d8493",
+    "previous_local_artifact": "v47",
+    "base": "v47 local artifact; GitHub main v46 matched local v46 by Git blob SHA"
   },
-  "photo_audit": {
-    "photo_records": 198,
-    "tourist_spots": 120,
-    "licensed_photo_coverage": 80,
-    "missing": 40,
-    "new_photos": 0,
-    "legacy_metadata_inherited": true,
-    "full_source_reverification": false,
-    "external_image_loading_verified": false
+  "implemented": [
+    "Frankfurter v2 daily latest published reference rate per selected destination currency; exact publication date/source/fetch timestamp",
+    "Cached last successful rate and publication date when offline; no fabricated rate if none cached",
+    "Manual FX override and explicit auto refresh; per-category KRW/local currency selection and no double conversion",
+    "Cost breakdown and trip totals with pending indicator if local amount lacks rate",
+    "A4 print/PDF itinerary includes all eight cost categories, original currency amounts, converted KRW, FX date/source, total/per-person, per-day itinerary",
+    "Preserved Booking.com search linkage, 24 cities/240 sights, draft protection and existing saved-plan compatibility"
+  ],
+  "fx_source": {
+    "provider": "Frankfurter v2",
+    "endpoint_template": "https://api.frankfurter.dev/v2/rate/{LOCAL}/KRW",
+    "documentation": "https://frankfurter.dev/",
+    "reference": "Provider returns last available published reference rate; actual publication date displayed",
+    "live_api_fetch_verified": false,
+    "reason": "Container internet and Chromium navigation restricted; browser GitHub Pages CORS test not possible"
+  },
+  "tests": {
+    "node_js_syntax": "pass",
+    "node_logic": {
+      "passed": 26,
+      "failed": 0
+    },
+    "node_async_mocked_api": {
+      "passed": 15,
+      "failed": 0
+    },
+    "static_html_data_zip": {
+      "passed": 20,
+      "failed": 0
+    },
+    "total_passed": 61,
+    "total_failed": 0,
+    "browser_e2e": {
+      "status": "blocked",
+      "error": "net::ERR_BLOCKED_BY_ADMINISTRATOR for both file:// and http://127.0.0.1",
+      "affected": [
+        "real UI interactions",
+        "PDF print layout and A4 page breaks",
+        "mobile responsive visual",
+        "GitHub Pages CORS fetch",
+        "Booking.com external URL conditions",
+        "remote photo load"
+      ]
+    },
+    "prior_v47_report": {
+      "passed": 118,
+      "scope": "Prior release Node logic, not re-executed this run"
+    }
+  },
+  "content": {
+    "cities": 24,
+    "sights": 240,
+    "photo_covered": 85,
+    "photo_missing": 155,
+    "new_photo_assets_added": 0,
+    "reason": "No fresh license verification possible this run; unverified photos not introduced"
   },
   "github": {
-    "repo": "k9200596-cell/Travel_v2",
-    "branch": "main",
-    "index_blob_sha": "b4176c14048d578a2da1c9a9fc35967c3f73e66b",
-    "index_repo_version": "v44",
-    "write_preflight": "HTTP 403 Resource not accessible by integration (create_blob)",
-    "commit_created": false,
-    "pages_checked": false
+    "metadata_push_permission": true,
+    "write_attempted": false,
+    "committed": false,
+    "pages_deployment_verified": false,
+    "reason": "User requested no production main change if browser/CORS/PDF E2E cannot be verified; prior actual GitHub write probe was HTTP 403; safe manual artifact supplied instead"
   },
-  "limitations": [
-    "외부 이미지 실제 로딩은 환경상 확인 불가; 브라우저 테스트는 외부 요청을 차단하고 대체 이미지를 사용함",
-    "실제 스마트폰·브라우저 재시작 후 저장 지속성은 미검증; localStorage 모의 저장소에서 저장·복원만 확인",
-    "기존 사진 출처 기록은 계승했으며 전체 원본 URL 및 최신 저작권을 오늘 재확인하지 않음",
-    "GitHub 연결의 쓰기 권한 403으로 실제 배포하지 못함",
-    "GitHub Pages 공개 화면 직접 확인 불가"
-  ],
-  "summary": "36 UI checks and JSON export/import round-trip passed, 168 itinerary cases, 288 arrival calculations, 24 destination galleries, no JS errors, no detected failures in tested paths.",
-  "backup_roundtrip": {
-    "export_version": 46,
-    "exported_plan_city": "나트랑",
-    "saved_plan_count_before_import": 1,
-    "saved_plan_count_after_import": 2,
-    "result": "PASS (simulated browser storage)"
-  }
+  "manual_deploy": "On GitHub repo main, replace index.html with K_TRAVEL_PICKS_v48_index.html after browser/PDF/FX smoke tests; do not upload CSS/JS separately when using the standalone HTML. GitHub Pages Deploy from a branch then publishes main/root."
 }

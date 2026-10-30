@@ -661,3 +661,33 @@ body{background:#f7f8f8}
 @media(max-width:600px){.wrap{width:min(100% - 24px,1180px)!important}.header .head{gap:4px!important;height:56px!important}.header .brand{font-size:15px!important;letter-spacing:-.7px}.header .nav button{padding:7px 6px!important;font-size:11px!important}.header .version{padding:3px 6px!important;font-size:10px!important}.hero{padding:19px 0!important}.hero h1{font-size:26px!important}.hero p{font-size:13px!important}#discover .section-head h2{font-size:20px}#discover #cityCards{gap:9px!important}#discover .city-mosaic-card .info{padding:28px 10px 9px!important}#discover .city-mosaic-card .info h3{font-size:17px!important}#discover .city-mosaic-footer{padding:4px 8px 6px!important}#planner .plan-shortcuts{top:56px;padding:6px!important}#planner .plan-shortcuts a{font-size:12px;padding:7px!important}#tourGuide{padding:10px!important}#tourGuide #spots{gap:9px!important}#tourGuide #spots .spot-body{padding:8px!important}#tourGuide #spots .spot-body h3{font-size:14px!important}#tourGuide #spots .spot-body .actions{flex-direction:column!important}#tourGuide #spots .spot-body .actions button{width:100%;min-height:39px;font-size:12px!important}#tourGuide #spots .spot-figure figcaption{font-size:8px!important}#planner .v46-inline-date{gap:7px}#planner .v46-inline-date input{max-width:135px}#planner .v46-inline-date button{width:100%}.v46-quick .quick{grid-template-columns:repeat(2,minmax(0,1fr))!important}.v46-quick .quick>button{grid-column:1/-1}.v46-bottom span{font-size:12px}.v46-bottom button{padding:10px 12px}.bottom{display:none!important}}
 @media(prefers-reduced-motion:reduce){#discover .city-mosaic-item img{transition:none!important}}
 
+
+/* v47 · Booking.com 날짜·도시 연동과 10곳 명소 카드 */
+.v47-booking{border:1px solid #c8e6df;background:#f8fffc;border-radius:14px;padding:13px 14px;margin:10px 0 15px;display:grid;gap:9px}
+.v47-booking-head{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:15px}
+.v47-booking-head span{font-size:12px;color:#54777a;text-align:right}
+.v47-booking-dates{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.v47-booking-dates label,.v47-booking-people label{font-size:12px;font-weight:700;display:grid;gap:4px;min-width:0}
+.v47-booking input{width:100%;max-width:100%;min-width:0;border:1px solid #c9d9d8;border-radius:9px;padding:8px 9px;background:white;min-height:42px;font-size:14px}
+.v47-booking-guests{font-size:12px;color:#4c6e71}
+.v47-booking-guests summary{cursor:pointer;font-weight:700;padding:4px 0}
+.v47-booking-people{display:grid;grid-template-columns:1fr 1fr 2fr;gap:8px;margin:8px 0}
+.v47-booking-link{display:block;text-align:center;min-height:44px;padding:11px!important;background:#087d75!important;color:white!important}
+.v47-booking-link[aria-disabled="true"]{background:#a7b6b5!important;cursor:not-allowed}
+#v47BookingHint{font-size:12px;color:#576f72;margin:0;line-height:1.5}
+.v47-photo-status{font-size:12px;color:#4f7375;margin:6px 0 4px}
+@media(max-width:450px){.v47-booking{padding:11px}.v47-booking-dates{grid-template-columns:1fr 1fr}.v47-booking-people{grid-template-columns:1fr 1fr}.v47-booking-people label:last-child{grid-column:span 2}}
+
+/* v48: FX-aware budget and printable per-category amounts */
+.v48-cost-item{padding:11px 0;border-bottom:1px solid #e1e9ed;display:grid;grid-template-columns:minmax(0,1fr) minmax(210px,1.2fr);align-items:center;column-gap:12px}
+.v48-cost-item>label{font-weight:750;font-size:13px}.v48-cost-edit{display:grid;grid-template-columns:minmax(0,1fr) 125px;gap:7px}
+.v48-cost-edit input,.v48-cost-edit select{border:1px solid #cbdde2;border-radius:9px;min-width:0;padding:10px;background:white;color:#183645}
+.v48-cost-item small{grid-column:2;color:#597b83;font-size:11px;padding-top:3px}
+.v48-fx-panel{margin-top:17px;background:#f1faf8;border:1px solid #c8e5e0;border-radius:14px;padding:15px}
+.v48-fx-panel .v48-fx-header{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.v48-fx-panel h3{margin:0;font-size:17px}.v48-fx-panel .v48-fx-buttons{display:flex;gap:7px;flex-wrap:wrap}
+.v48-fx-panel .v48-fx-buttons button{padding:7px 12px;min-height:38px}
+.v48-fx-status{font-size:12px;color:#255c66;margin:8px 0}.v48-fx-source{font-size:11px;color:#5a7982;line-height:1.7}
+.v48-fx-source a{color:#066d7d;text-decoration:underline}.v48-fx-panel .exchange-result{font-size:17px;margin-top:9px}
+@media(max-width:650px){.v48-cost-item{grid-template-columns:1fr;gap:5px}.v48-cost-item small{grid-column:1}.v48-cost-edit{grid-template-columns:minmax(0,1fr) 116px}.v48-fx-panel{padding:12px}}
+@media print{#printSheet .print-day{break-inside:avoid-page}#printSheet table{page-break-inside:auto}#printSheet tr{break-inside:avoid-page}#printSheet h2{break-after:avoid-page}}
