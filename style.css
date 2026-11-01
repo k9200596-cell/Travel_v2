@@ -691,3 +691,8 @@ body{background:#f7f8f8}
 .v48-fx-source a{color:#066d7d;text-decoration:underline}.v48-fx-panel .exchange-result{font-size:17px;margin-top:9px}
 @media(max-width:650px){.v48-cost-item{grid-template-columns:1fr;gap:5px}.v48-cost-item small{grid-column:1}.v48-cost-edit{grid-template-columns:minmax(0,1fr) 116px}.v48-fx-panel{padding:12px}}
 @media print{#printSheet .print-day{break-inside:avoid-page}#printSheet table{page-break-inside:auto}#printSheet tr{break-inside:avoid-page}#printSheet h2{break-after:avoid-page}}
+
+/* v50 reconstructed: print cost opt-in */
+.v50-print-option{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-size:13px;font-weight:750;color:#24505b;padding:9px 12px;background:#edf8f6;border:1px solid #bcded9;border-radius:10px;cursor:pointer}
+.v50-print-option input{width:18px;height:18px;accent-color:#087c78}
+@media print{#printSheet .v50-print-budget{break-before:page}}

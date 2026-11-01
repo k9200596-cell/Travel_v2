@@ -1,0 +1,27 @@
+{
+  "version": "v50-reconstructed",
+  "base": "v48",
+  "sourceOriginalV50Recovered": false,
+  "features": [
+    "print cost checkbox default false",
+    "cost section at end only when selected",
+    "version v50 header"
+  ],
+  "retained": [
+    "24 cities",
+    "240 attractions",
+    "booking.com links",
+    "FX conversion",
+    "photo gallery"
+  ],
+  "photoNewVerified": 0,
+  "photoSourceRecordsCarried": 209,
+  "uniqueSpotPhotoSourcesCarried": 85,
+  "tests": {
+    "nodeSyntaxStandalone": "passed",
+    "nodeSyntaxInline": "passed",
+    "browserE2E": "not_run",
+    "externalPhotos": "not_verified"
+  },
+  "deployment": "not_deployed"
+}

@@ -1,7 +1,7 @@
 {
-  "release": "v47",
+  "release": "v50-reconstructed-from-v48",
   "releaseDate": "2026-10-28",
-  "verificationNotice": "v47: 24개 도시 240곳 관광명소. 기존 사진 198장 기록 계승(이번 전수 재검증 아님), 2026-10-28 Wikimedia Commons 원본 페이지에서 11장 개별 확인. 전체 85곳에 사진 출처 기록, 155곳은 대체 이미지. 외부 이미지 로딩은 환경에 따라 달라질 수 있음.",
+  "verificationNotice": "v48 기반 재구성. 예약 실행 당시 추가 사진 13장은 원본을 확보하지 못하여 반영하지 않음. 기존 사진 출처 기록은 재검증하지 않았음.",
   "photos": [
     {
       "city": "오사카",
