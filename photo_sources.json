@@ -1,7 +1,7 @@
 {
-  "release": "v50-reconstructed-from-v48",
+  "release": "v50-reconstructed-phuquoc-photo-update",
   "releaseDate": "2026-10-28",
-  "verificationNotice": "v48 기반 재구성. 예약 실행 당시 추가 사진 13장은 원본을 확보하지 못하여 반영하지 않음. 기존 사진 출처 기록은 재검증하지 않았음.",
+  "verificationNotice": "8 new Phu Quoc photo file pages checked 2026-11-01; actual external image loads untested. Six other attractions still have no verified photos.",
   "photos": [
     {
       "city": "오사카",
@@ -5346,6 +5346,142 @@
       "verificationScope": "파일 설명 개별 확인; 외부 이미지 실제 로딩·저작인격권·초상권 등 별도 확인 필요",
       "verificationStatus": "verified_file_description_v47",
       "imageBytesChecked": false
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "사오비치",
+      "label": "사오비치",
+      "file": "Bai Sao Beach.jpg",
+      "author": "Prince Roy",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "checked": "2026-11-01",
+      "source": "https://commons.wikimedia.org/wiki/File:Bai%20Sao%20Beach.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bai%20Sao%20Beach.jpg?width=960",
+      "cover": false,
+      "metadataVerification": "2026-11-01 Wikimedia Commons 개별 파일 페이지에서 장소·저작자·라이선스 확인",
+      "imageBytesChecked": false,
+      "verificationStatus": "verified_file_description",
+      "siteModification": "CSS crop only; original photo not modified"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "사오비치",
+      "label": "사오비치",
+      "file": "Bãi Sao Beach.jpg",
+      "author": "Prince Roy",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "checked": "2026-11-01",
+      "source": "https://commons.wikimedia.org/wiki/File:B%C3%A3i%20Sao%20Beach.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/B%C3%A3i%20Sao%20Beach.jpg?width=960",
+      "cover": false,
+      "metadataVerification": "2026-11-01 Wikimedia Commons 개별 파일 페이지에서 장소·저작자·라이선스 확인",
+      "imageBytesChecked": false,
+      "verificationStatus": "verified_file_description",
+      "siteModification": "CSS crop only; original photo not modified"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "사오비치",
+      "label": "사오비치",
+      "file": "Star Beach (Bãi Sao).jpg",
+      "author": "Vnecofriendly",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-11-01",
+      "source": "https://commons.wikimedia.org/wiki/File:Star%20Beach%20%28B%C3%A3i%20Sao%29.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Star%20Beach%20%28B%C3%A3i%20Sao%29.jpg?width=960",
+      "cover": false,
+      "metadataVerification": "2026-11-01 Wikimedia Commons 개별 파일 페이지에서 장소·저작자·라이선스 확인",
+      "imageBytesChecked": false,
+      "verificationStatus": "verified_file_description",
+      "siteModification": "CSS crop only; original photo not modified"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "혼똠 케이블카",
+      "label": "혼똠 케이블카",
+      "file": "Hon Thom Cable Car aerial view Phu Quoc Island Vietnam.jpg",
+      "author": "Vivu Vietnam",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-11-01",
+      "source": "https://commons.wikimedia.org/wiki/File:Hon%20Thom%20Cable%20Car%20aerial%20view%20Phu%20Quoc%20Island%20Vietnam.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hon%20Thom%20Cable%20Car%20aerial%20view%20Phu%20Quoc%20Island%20Vietnam.jpg?width=960",
+      "cover": false,
+      "metadataVerification": "2026-11-01 Wikimedia Commons 개별 파일 페이지에서 장소·저작자·라이선스 확인",
+      "imageBytesChecked": false,
+      "verificationStatus": "verified_file_description",
+      "siteModification": "CSS crop only; original photo not modified"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "혼똠 케이블카",
+      "label": "혼똠 케이블카",
+      "file": "Hòn Thơm cable car station.jpg",
+      "author": "Klientos",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-11-01",
+      "source": "https://commons.wikimedia.org/wiki/File:H%C3%B2n%20Th%C6%A1m%20cable%20car%20station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%B2n%20Th%C6%A1m%20cable%20car%20station.jpg?width=960",
+      "cover": false,
+      "metadataVerification": "2026-11-01 Wikimedia Commons 개별 파일 페이지에서 장소·저작자·라이선스 확인",
+      "imageBytesChecked": false,
+      "verificationStatus": "verified_file_description",
+      "siteModification": "CSS crop only; original photo not modified"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "선셋타운",
+      "label": "선셋타운",
+      "file": "Sunset Town Phu Quoc at night.jpg",
+      "author": "Vivu Vietnam",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "checked": "2026-11-01",
+      "source": "https://commons.wikimedia.org/wiki/File:Sunset%20Town%20Phu%20Quoc%20at%20night.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunset%20Town%20Phu%20Quoc%20at%20night.jpg?width=960",
+      "cover": false,
+      "metadataVerification": "2026-11-01 Wikimedia Commons 개별 파일 페이지에서 장소·저작자·라이선스 확인",
+      "imageBytesChecked": false,
+      "verificationStatus": "verified_file_description",
+      "siteModification": "CSS crop only; original photo not modified"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "딘꺼우 사원",
+      "label": "딘꺼우 사원",
+      "file": "Dinh Cậu ở Phú Quốc.jpg",
+      "author": "Bùi Thụy Đào Nguyên",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "checked": "2026-11-01",
+      "source": "https://commons.wikimedia.org/wiki/File:Dinh%20C%E1%BA%ADu%20%E1%BB%9F%20Ph%C3%BA%20Qu%E1%BB%91c.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dinh%20C%E1%BA%ADu%20%E1%BB%9F%20Ph%C3%BA%20Qu%E1%BB%91c.jpg?width=960",
+      "cover": false,
+      "metadataVerification": "2026-11-01 Wikimedia Commons 개별 파일 페이지에서 장소·저작자·라이선스 확인",
+      "imageBytesChecked": false,
+      "verificationStatus": "verified_file_description",
+      "siteModification": "CSS crop only; original photo not modified"
+    },
+    {
+      "city": "푸꾸옥",
+      "spot": "딘꺼우 사원",
+      "label": "딘꺼우 사원",
+      "file": "Dinh Cậu Phú Quốc.jpg",
+      "author": "Hoangvantoanajc",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "checked": "2026-11-01",
+      "source": "https://commons.wikimedia.org/wiki/File:Dinh%20C%E1%BA%ADu%20Ph%C3%BA%20Qu%E1%BB%91c.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dinh%20C%E1%BA%ADu%20Ph%C3%BA%20Qu%E1%BB%91c.jpg?width=960",
+      "cover": false,
+      "metadataVerification": "2026-11-01 Wikimedia Commons 개별 파일 페이지에서 장소·저작자·라이선스 확인",
+      "imageBytesChecked": false,
+      "verificationStatus": "verified_file_description",
+      "siteModification": "CSS crop only; original photo not modified"
     }
   ],
   "missingSpots": [
@@ -5396,22 +5532,7 @@
     },
     {
       "city": "푸꾸옥",
-      "spot": "사오비치",
-      "reason": "원본 사진 저작권 검증 미완료"
-    },
-    {
-      "city": "푸꾸옥",
-      "spot": "혼똠 케이블카",
-      "reason": "원본 사진 저작권 검증 미완료"
-    },
-    {
-      "city": "푸꾸옥",
       "spot": "즈엉동 야시장",
-      "reason": "원본 사진 저작권 검증 미완료"
-    },
-    {
-      "city": "푸꾸옥",
-      "spot": "선셋타운",
       "reason": "원본 사진 저작권 검증 미완료"
     },
     {
@@ -5902,11 +6023,6 @@
     {
       "city": "푸꾸옥",
       "spot": "롱비치",
-      "reason": "원본 사진 저작권 검증 미완료"
-    },
-    {
-      "city": "푸꾸옥",
-      "spot": "딘꺼우 사원",
       "reason": "원본 사진 저작권 검증 미완료"
     },
     {

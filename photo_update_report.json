@@ -1,0 +1,25 @@
+{
+  "base": "v50 reconstructed from v48",
+  "scope": "Phu Quoc 10 attractions",
+  "newPhotos": 8,
+  "attractionsWithNewPhotos": 4,
+  "photoCounts": {
+    "사오비치": 3,
+    "혼똠 케이블카": 2,
+    "선셋타운": 1,
+    "딘꺼우 사원": 2
+  },
+  "remainingWithoutVerifiedPhoto": [
+    "즈엉동 야시장",
+    "푸꾸옥 국립공원",
+    "롱비치",
+    "푸꾸옥 후추 농장",
+    "함닌 어촌",
+    "안토이 군도"
+  ],
+  "source": "Wikimedia Commons individual file pages",
+  "verified": "File page description, author, license",
+  "notVerified": "Live image rendering, external URL response, full browser E2E",
+  "javascriptSyntax": "passed",
+  "deployment": "not deployed"
+}
