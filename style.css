@@ -706,3 +706,15 @@ body{background:#f7f8f8}
 .v51-advanced[open]{padding-bottom:12px}
 .v51-advanced .spot-search-tools{margin-top:8px}
 @media(max-width:640px){.hero{padding:20px 0 25px}.hero h1{font-size:29px;line-height:1.23}.hero .eyebrow{font-size:10px}.hero .quick{padding:12px}.v51-advanced>summary{font-size:13px}}
+
+/* v53: 사진 중심 탐색을 위한 접이식 보조 도구 */
+.v53-extras{margin:14px 0 22px;border:1px solid #dce8e9;background:#fff;border-radius:16px;overflow:hidden}
+.v53-extras>summary{cursor:pointer;padding:15px 19px;font-weight:800;color:#205363;list-style:none;min-height:48px;display:flex;align-items:center;justify-content:space-between}
+.v53-extras>summary::-webkit-details-marker{display:none}
+.v53-extras>summary:after{content:'＋';font-size:20px;line-height:1}
+.v53-extras[open]>summary:after{content:'−'}
+.v53-extras>summary:focus-visible{outline:3px solid #0c9d9a;outline-offset:-3px}
+.v53-extras[open]>.discover-tools,.v53-extras[open]>.global-spot-search{margin:14px}
+.v53-extras>.v37-feature{margin:0;padding:18px}
+#cityCards .city img{aspect-ratio:4/3;object-fit:cover}
+@media(max-width:600px){.v53-extras>summary{font-size:14px;padding:13px 15px}#cityCards .city img{aspect-ratio:4/3}}

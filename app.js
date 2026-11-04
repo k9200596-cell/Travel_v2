@@ -1798,7 +1798,7 @@ function v48FxInit(){
  document.querySelectorAll('[data-city]').forEach(el=>el.addEventListener('click',()=>setTimeout(()=>{v48RenderCosts();v48FxOnCity()},0)));
  $('printTrip').onclick=v48PrintItinerary;
  v48RenderCosts();v48FxOnCity();
- const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v52 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처 기록 95/240곳 · 미확보 145곳 (2026-11-02) · 원본·라이선스는 명소별 확인';
+ const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v53 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처 기록 95/240곳 · 미확보 145곳 (2026-11-02) · 원본·라이선스는 명소별 확인';
 }
 v48FxInit();
 
