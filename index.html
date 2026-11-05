@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#073e55">
-<meta name="description" content="K-TRAVEL PICKS v53: 24개 여행지·240개 관광명소, 사진 중심 일정 담기, 부킹닷컴 여행지·숙박 날짜·인원 연결, 여행 경비 계산·저장.">
-<title>K-TRAVEL PICKS | 사진으로 고르는 자유여행 v53</title>
+<meta name="description" content="K-TRAVEL PICKS v54: 24개 여행지·240개 관광명소, 사진 중심 일정 담기, 부킹닷컴 여행지·숙박 날짜·인원 연결, 여행 경비 계산·저장.">
+<title>K-TRAVEL PICKS | 사진으로 고르는 자유여행 v54</title>
 <style>
 
 
@@ -724,6 +724,7 @@ body{background:#f7f8f8}
 .v53-extras>.v37-feature{margin:0;padding:18px}
 #cityCards .city img{aspect-ratio:4/3;object-fit:cover}
 @media(max-width:600px){.v53-extras>summary{font-size:14px;padding:13px 15px}#cityCards .city img{aspect-ratio:4/3}}
+@media(max-width:640px){.gallery-thumb{min-width:48px;min-height:48px}#detailImage{touch-action:pan-y}}
 </style>
 
 </head>
@@ -2661,5 +2662,28 @@ function v48FxInit(){
 }
 v48FxInit();
 
+
+/* v54: accessible detail-dialog focus handling and mobile photo swipes */
+(function(){
+ const dialog=document.getElementById('spotModal');
+ const image=document.getElementById('detailImage');
+ if(!dialog||!image)return;
+ let touchStart=null;
+ dialog.addEventListener('keydown',function(e){
+  if(e.key!=='Tab'||dialog.classList.contains('hidden'))return;
+  const items=Array.from(dialog.querySelectorAll('button:not([disabled]),a[href],input:not([disabled]),select:not([disabled]),[tabindex]:not([tabindex="-1"])')).filter(el=>el.getClientRects().length && getComputedStyle(el).visibility!=='hidden');
+  if(!items.length){e.preventDefault();return;}
+  const first=items[0],last=items[items.length-1];
+  if(e.shiftKey && (document.activeElement===first||!dialog.contains(document.activeElement))){e.preventDefault();last.focus();}
+  else if(!e.shiftKey && (document.activeElement===last||!dialog.contains(document.activeElement))){e.preventDefault();first.focus();}
+ });
+ image.addEventListener('touchstart',function(e){if(e.touches.length===1)touchStart={x:e.touches[0].clientX,y:e.touches[0].clientY};else touchStart=null;},{passive:true});
+ image.addEventListener('touchend',function(e){
+  if(!touchStart||dialog.classList.contains('hidden')||!e.changedTouches.length)return;
+  const dx=e.changedTouches[0].clientX-touchStart.x,dy=e.changedTouches[0].clientY-touchStart.y;touchStart=null;
+  if(Math.abs(dx)>55 && Math.abs(dx)>Math.abs(dy)*1.4 && detailPhotos.length>1){chooseDetailPhoto(detailPhotoIndex+(dx<0?1:-1));}
+ },{passive:true});
+ image.addEventListener('touchcancel',()=>{touchStart=null;},{passive:true});
+})();
 </script>
 </body></html>

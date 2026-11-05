@@ -718,3 +718,4 @@ body{background:#f7f8f8}
 .v53-extras>.v37-feature{margin:0;padding:18px}
 #cityCards .city img{aspect-ratio:4/3;object-fit:cover}
 @media(max-width:600px){.v53-extras>summary{font-size:14px;padding:13px 15px}#cityCards .city img{aspect-ratio:4/3}}
+@media(max-width:640px){.gallery-thumb{min-width:48px;min-height:48px}#detailImage{touch-action:pan-y}}

@@ -1798,7 +1798,30 @@ function v48FxInit(){
  document.querySelectorAll('[data-city]').forEach(el=>el.addEventListener('click',()=>setTimeout(()=>{v48RenderCosts();v48FxOnCity()},0)));
  $('printTrip').onclick=v48PrintItinerary;
  v48RenderCosts();v48FxOnCity();
- const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v53 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처 기록 95/240곳 · 미확보 145곳 (2026-11-02) · 원본·라이선스는 명소별 확인';
+ const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v52 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처 기록 95/240곳 · 미확보 145곳 (2026-11-02) · 원본·라이선스는 명소별 확인';
 }
 v48FxInit();
 
+
+/* v54: accessible detail-dialog focus handling and mobile photo swipes */
+(function(){
+ const dialog=document.getElementById('spotModal');
+ const image=document.getElementById('detailImage');
+ if(!dialog||!image)return;
+ let touchStart=null;
+ dialog.addEventListener('keydown',function(e){
+  if(e.key!=='Tab'||dialog.classList.contains('hidden'))return;
+  const items=Array.from(dialog.querySelectorAll('button:not([disabled]),a[href],input:not([disabled]),select:not([disabled]),[tabindex]:not([tabindex="-1"])')).filter(el=>el.getClientRects().length && getComputedStyle(el).visibility!=='hidden');
+  if(!items.length){e.preventDefault();return;}
+  const first=items[0],last=items[items.length-1];
+  if(e.shiftKey && (document.activeElement===first||!dialog.contains(document.activeElement))){e.preventDefault();last.focus();}
+  else if(!e.shiftKey && (document.activeElement===last||!dialog.contains(document.activeElement))){e.preventDefault();first.focus();}
+ });
+ image.addEventListener('touchstart',function(e){if(e.touches.length===1)touchStart={x:e.touches[0].clientX,y:e.touches[0].clientY};else touchStart=null;},{passive:true});
+ image.addEventListener('touchend',function(e){
+  if(!touchStart||dialog.classList.contains('hidden')||!e.changedTouches.length)return;
+  const dx=e.changedTouches[0].clientX-touchStart.x,dy=e.changedTouches[0].clientY-touchStart.y;touchStart=null;
+  if(Math.abs(dx)>55 && Math.abs(dx)>Math.abs(dy)*1.4 && detailPhotos.length>1){chooseDetailPhoto(detailPhotoIndex+(dx<0?1:-1));}
+ },{passive:true});
+ image.addEventListener('touchcancel',()=>{touchStart=null;},{passive:true});
+})();

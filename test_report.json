@@ -1,22 +1,20 @@
 {
-  "date": "2026-11-04",
-  "version": "v53",
-  "base": "v52 local ZIP; GitHub main v52 verified via connector",
-  "change": "Move legacy photo showcase and advanced search into collapsible sections, prioritize 24 destination photo cards",
-  "new_photos": 0,
-  "photo_coverage": "Not independently verified in this run; v52 prior report claimed 95 sourced/145 missing",
-  "tests": {
-    "inline_javascript": [
-      {
-        "script": 0,
-        "passed": true,
-        "stderr": ""
-      }
-    ],
-    "standalone_javascript": true,
-    "html_required_ids": true,
-    "print_budget_default_unchecked": true,
-    "full_browser_regression": "pending"
+  "version": "v54 candidate",
+  "source": "previous v53 artifact; GitHub main v53 verified via connector",
+  "main_index_blob_sha": "0a28b59544833f864ad64705d089cb9ad85dd225",
+  "changes": [
+    "modal keyboard Tab focus trap",
+    "touch swipe gallery on detail photo",
+    "mobile gallery touch sizing"
+  ],
+  "checks": {
+    "javascript_syntax": "pass",
+    "core_function_presence": "pass",
+    "html_script_balance": "pass",
+    "browser_e2e": "not run",
+    "image_license_reverification": "not run",
+    "external_API": "not run"
   },
-  "deployment": "not deployed"
+  "deploy": "blocked pending browser regression and photo verification",
+  "new_photo_count": 0
 }
