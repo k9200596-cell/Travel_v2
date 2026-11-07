@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#073e55">
-<meta name="description" content="K-TRAVEL PICKS v54: 24개 여행지·240개 관광명소, 사진 중심 일정 담기, 부킹닷컴 여행지·숙박 날짜·인원 연결, 여행 경비 계산·저장.">
-<title>K-TRAVEL PICKS | 사진으로 고르는 자유여행 v54</title>
+<meta name="description" content="K-TRAVEL PICKS v56: 24개 여행지·240개 관광명소, 사진 중심 일정 담기, 부킹닷컴 여행지·숙박 날짜·인원 연결, 여행 경비 계산·저장.">
+<title>K-TRAVEL PICKS | 사진으로 고르는 자유여행 v56</title>
 <style>
 
 
@@ -725,6 +725,20 @@ body{background:#f7f8f8}
 #cityCards .city img{aspect-ratio:4/3;object-fit:cover}
 @media(max-width:600px){.v53-extras>summary{font-size:14px;padding:13px 15px}#cityCards .city img{aspect-ratio:4/3}}
 @media(max-width:640px){.gallery-thumb{min-width:48px;min-height:48px}#detailImage{touch-action:pan-y}}
+
+/* v56: photo-first mobile and desktop destination cards; preserves controls and data */
+#discover #cityCards{gap:clamp(10px,2vw,20px)!important}
+#discover #cityCards .city{position:relative;isolation:isolate;min-height:215px;display:block;background:#12394b!important;border-radius:18px!important;overflow:hidden}
+#discover #cityCards .city img{display:block;width:100%!important;height:100%!important;min-height:215px;aspect-ratio:4/3;object-fit:cover;transition:transform .22s ease}
+#discover #cityCards .city .info{position:absolute;inset:auto 0 0;z-index:1;padding:36px 14px 13px!important;background:linear-gradient(transparent,rgba(0,24,37,.88));color:#fff!important;pointer-events:none}
+#discover #cityCards .city .info h3{margin:0!important;color:#fff!important;font-size:clamp(17px,2vw,23px)!important;line-height:1.35;text-shadow:0 1px 3px #0009}
+#discover #cityCards .city .info :not(h3){display:none!important}
+#discover #cityCards .city:focus-visible{outline:4px solid #ffbd4a;outline-offset:3px}
+#discover #cityCards .city:hover img{transform:scale(1.035)}
+#tourGuide .city-photo-gallery img,#tourGuide .photo-walk-card img{aspect-ratio:4/3;object-fit:cover}
+#tourGuide .city-photo-gallery button,#tourGuide .photo-walk-card button{min-height:44px;touch-action:manipulation}
+@media(max-width:650px){#discover #cityCards{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}#discover #cityCards .city,#discover #cityCards .city img{min-height:150px!important}#discover #cityCards .city .info{padding:30px 10px 11px!important}#discover #cityCards .city .info h3{font-size:17px!important}#tourGuide .city-photo-gallery img{aspect-ratio:4/3}}
+@media(prefers-reduced-motion:reduce){#discover #cityCards .city img{transition:none}#discover #cityCards .city:hover img{transform:none}}
 </style>
 
 </head>
@@ -941,6 +955,9 @@ function photoCredit(p,compact=false){
 function setCuratedImage(img,p,place,noteEl,requestedWidth=0){
  if(!img)return;
  img.onload=null;img.onerror=null;
+ // Invalidate callbacks from previous city/spot selections before changing src.
+ const photoRequestId=String((Number(img.dataset.photoRequestId)||0)+1);
+ img.dataset.photoRequestId=photoRequestId;
  const fallback=cityFallback(place||'여행지');
  img.style.backgroundImage='url("'+fallback+'")';
  img.style.backgroundSize='cover';img.style.backgroundPosition='center';
@@ -949,12 +966,14 @@ function setCuratedImage(img,p,place,noteEl,requestedWidth=0){
  img.dataset.photoStatus=p?'loading':'fallback';
  if(!p || !isLicensedPhoto(p)){img.src=fallback;if(noteEl)noteEl.textContent='해당 관광지 사진 미확인 · 대체 이미지';return}
  img.onload=()=>{
+  if(img.dataset.photoRequestId!==photoRequestId)return;
   img.dataset.photoStatus='loaded';
   if(noteEl && !noteEl.querySelector('.load-status')){
    const span=document.createElement('span');span.className='load-status';span.textContent=' · 현재 브라우저에서 사진 표시됨';noteEl.append(span);
   }
  };
  img.onerror=()=>{
+  if(img.dataset.photoRequestId!==photoRequestId)return;
   img.onerror=null;img.onload=null;img.dataset.photoStatus='fallback';img.src=fallback;
   img.alt=`${place} 사진 연결 실패 · 대체 이미지`;
   if(noteEl)noteEl.innerHTML='⚠️ 외부 사진 연결 실패 · 대체 이미지 표시. '+photoCredit(p)+' · '+safe(photoAgeLabel(p));
@@ -2658,12 +2677,12 @@ function v48FxInit(){
  document.querySelectorAll('[data-city]').forEach(el=>el.addEventListener('click',()=>setTimeout(()=>{v48RenderCosts();v48FxOnCity()},0)));
  $('printTrip').onclick=v48PrintItinerary;
  v48RenderCosts();v48FxOnCity();
- const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v52 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처 기록 95/240곳 · 미확보 145곳 (2026-11-02) · 원본·라이선스는 명소별 확인';
+ const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v56 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처 기록 95/240곳 · 미확보 145곳 (2026-11-02) · 원본·라이선스는 명소별 확인';
 }
 v48FxInit();
 
 
-/* v54: accessible detail-dialog focus handling and mobile photo swipes */
+/* v56: accessible detail-dialog focus handling and mobile photo swipes */
 (function(){
  const dialog=document.getElementById('spotModal');
  const image=document.getElementById('detailImage');
