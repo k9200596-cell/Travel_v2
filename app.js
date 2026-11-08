@@ -81,6 +81,9 @@ function photoCredit(p,compact=false){
 function setCuratedImage(img,p,place,noteEl,requestedWidth=0){
  if(!img)return;
  img.onload=null;img.onerror=null;
+ // Invalidate callbacks from previous city/spot selections before changing src.
+ const photoRequestId=String((Number(img.dataset.photoRequestId)||0)+1);
+ img.dataset.photoRequestId=photoRequestId;
  const fallback=cityFallback(place||'여행지');
  img.style.backgroundImage='url("'+fallback+'")';
  img.style.backgroundSize='cover';img.style.backgroundPosition='center';
@@ -89,12 +92,14 @@ function setCuratedImage(img,p,place,noteEl,requestedWidth=0){
  img.dataset.photoStatus=p?'loading':'fallback';
  if(!p || !isLicensedPhoto(p)){img.src=fallback;if(noteEl)noteEl.textContent='해당 관광지 사진 미확인 · 대체 이미지';return}
  img.onload=()=>{
+  if(img.dataset.photoRequestId!==photoRequestId)return;
   img.dataset.photoStatus='loaded';
   if(noteEl && !noteEl.querySelector('.load-status')){
    const span=document.createElement('span');span.className='load-status';span.textContent=' · 현재 브라우저에서 사진 표시됨';noteEl.append(span);
   }
  };
  img.onerror=()=>{
+  if(img.dataset.photoRequestId!==photoRequestId)return;
   img.onerror=null;img.onload=null;img.dataset.photoStatus='fallback';img.src=fallback;
   img.alt=`${place} 사진 연결 실패 · 대체 이미지`;
   if(noteEl)noteEl.innerHTML='⚠️ 외부 사진 연결 실패 · 대체 이미지 표시. '+photoCredit(p)+' · '+safe(photoAgeLabel(p));
@@ -1798,12 +1803,12 @@ function v48FxInit(){
  document.querySelectorAll('[data-city]').forEach(el=>el.addEventListener('click',()=>setTimeout(()=>{v48RenderCosts();v48FxOnCity()},0)));
  $('printTrip').onclick=v48PrintItinerary;
  v48RenderCosts();v48FxOnCity();
- const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v52 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처 기록 95/240곳 · 미확보 145곳 (2026-11-02) · 원본·라이선스는 명소별 확인';
+ const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v56 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처 기록 95/240곳 · 미확보 145곳 (2026-11-02) · 원본·라이선스는 명소별 확인';
 }
 v48FxInit();
 
 
-/* v54: accessible detail-dialog focus handling and mobile photo swipes */
+/* v56: accessible detail-dialog focus handling and mobile photo swipes */
 (function(){
  const dialog=document.getElementById('spotModal');
  const image=document.getElementById('detailImage');

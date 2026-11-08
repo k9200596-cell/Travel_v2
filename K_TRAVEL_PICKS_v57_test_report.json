@@ -1,0 +1,16 @@
+{
+  "candidate": "v57",
+  "source": "local v56 candidate, GitHub main v56 checked separately",
+  "changes": [
+    "visible version corrected from v53 to v57",
+    "hero condensed to prioritize city photo cards",
+    "mobile search/date fields compacted without deleting form controls"
+  ],
+  "tests": {
+    "javascript_syntax": "passed (node --check)",
+    "browser_smoke": "timed out (Chromium headless)",
+    "full_regression": "not verified",
+    "image_license_audit": "not verified"
+  },
+  "deploy": "not attempted"
+}

@@ -719,3 +719,36 @@ body{background:#f7f8f8}
 #cityCards .city img{aspect-ratio:4/3;object-fit:cover}
 @media(max-width:600px){.v53-extras>summary{font-size:14px;padding:13px 15px}#cityCards .city img{aspect-ratio:4/3}}
 @media(max-width:640px){.gallery-thumb{min-width:48px;min-height:48px}#detailImage{touch-action:pan-y}}
+
+/* v56: photo-first mobile and desktop destination cards; preserves controls and data */
+#discover #cityCards{gap:clamp(10px,2vw,20px)!important}
+#discover #cityCards .city{position:relative;isolation:isolate;min-height:215px;display:block;background:#12394b!important;border-radius:18px!important;overflow:hidden}
+#discover #cityCards .city img{display:block;width:100%!important;height:100%!important;min-height:215px;aspect-ratio:4/3;object-fit:cover;transition:transform .22s ease}
+#discover #cityCards .city .info{position:absolute;inset:auto 0 0;z-index:1;padding:36px 14px 13px!important;background:linear-gradient(transparent,rgba(0,24,37,.88));color:#fff!important;pointer-events:none}
+#discover #cityCards .city .info h3{margin:0!important;color:#fff!important;font-size:clamp(17px,2vw,23px)!important;line-height:1.35;text-shadow:0 1px 3px #0009}
+#discover #cityCards .city .info :not(h3){display:none!important}
+#discover #cityCards .city:focus-visible{outline:4px solid #ffbd4a;outline-offset:3px}
+#discover #cityCards .city:hover img{transform:scale(1.035)}
+#tourGuide .city-photo-gallery img,#tourGuide .photo-walk-card img{aspect-ratio:4/3;object-fit:cover}
+#tourGuide .city-photo-gallery button,#tourGuide .photo-walk-card button{min-height:44px;touch-action:manipulation}
+@media(max-width:650px){#discover #cityCards{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}#discover #cityCards .city,#discover #cityCards .city img{min-height:150px!important}#discover #cityCards .city .info{padding:30px 10px 11px!important}#discover #cityCards .city .info h3{font-size:17px!important}#tourGuide .city-photo-gallery img{aspect-ratio:4/3}}
+@media(prefers-reduced-motion:reduce){#discover #cityCards .city img{transition:none}#discover #cityCards .city:hover img{transform:none}}
+
+/* v57: 사진 카드 우선, 상단 안내 영역 간결화 (기존 입력·기능 보존) */
+#discover .hero{padding:22px 0 24px;background:linear-gradient(110deg,#073e55,#116f7e)}
+#discover .hero .eyebrow,#discover .hero h1,#discover .hero> .wrap>p,#discover .hero .hero-photo-credit,#discover .hero .hero-photo-controls,#discover .hero .v39-hero-auto>span{display:none!important}
+#discover .hero .quick{box-shadow:none;padding:12px;border-radius:15px}
+#discover .hero .v39-hero-auto{margin-top:8px}
+#discover .section{padding-top:22px}
+#discover #cityCards .city{overflow:hidden}
+#discover #cityCards .city img{width:100%;aspect-ratio:4/3;object-fit:cover}
+@media(max-width:650px){
+ #discover .hero{padding:8px 0 12px}
+ #discover .hero .quick{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:8px}
+ #discover .hero .quick .field:first-child{grid-column:1/-1}
+ #discover .hero .quick .field input,#discover .hero .quick .field select{min-height:44px}
+ #discover .hero .quick #quickGo{grid-column:1/-1;min-height:46px}
+ #discover .hero .v39-hero-auto{display:none!important}
+ #discover #cityCards .city img{aspect-ratio:4/3}
+ #discover .section{padding-top:14px}
+}
