@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#073e55">
-<meta name="description" content="K-TRAVEL PICKS v56: 24개 여행지·240개 관광명소, 사진 중심 일정 담기, 부킹닷컴 여행지·숙박 날짜·인원 연결, 여행 경비 계산·저장.">
-<title>K-TRAVEL PICKS | 사진으로 고르는 자유여행 v56</title>
+<meta name="description" content="K-TRAVEL PICKS v57: 24개 여행지·240개 관광명소, 사진 중심 일정 담기, 부킹닷컴 여행지·숙박 날짜·인원 연결, 여행 경비 계산·저장.">
+<title>K-TRAVEL PICKS | 사진으로 고르는 자유여행 v57</title>
 <style>
 
 
@@ -739,11 +739,30 @@ body{background:#f7f8f8}
 #tourGuide .city-photo-gallery button,#tourGuide .photo-walk-card button{min-height:44px;touch-action:manipulation}
 @media(max-width:650px){#discover #cityCards{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}#discover #cityCards .city,#discover #cityCards .city img{min-height:150px!important}#discover #cityCards .city .info{padding:30px 10px 11px!important}#discover #cityCards .city .info h3{font-size:17px!important}#tourGuide .city-photo-gallery img{aspect-ratio:4/3}}
 @media(prefers-reduced-motion:reduce){#discover #cityCards .city img{transition:none}#discover #cityCards .city:hover img{transform:none}}
+
+/* v57: 사진 카드 우선, 상단 안내 영역 간결화 (기존 입력·기능 보존) */
+#discover .hero{padding:22px 0 24px;background:linear-gradient(110deg,#073e55,#116f7e)}
+#discover .hero .eyebrow,#discover .hero h1,#discover .hero> .wrap>p,#discover .hero .hero-photo-credit,#discover .hero .hero-photo-controls,#discover .hero .v39-hero-auto>span{display:none!important}
+#discover .hero .quick{box-shadow:none;padding:12px;border-radius:15px}
+#discover .hero .v39-hero-auto{margin-top:8px}
+#discover .section{padding-top:22px}
+#discover #cityCards .city{overflow:hidden}
+#discover #cityCards .city img{width:100%;aspect-ratio:4/3;object-fit:cover}
+@media(max-width:650px){
+ #discover .hero{padding:8px 0 12px}
+ #discover .hero .quick{display:grid;grid-template-columns:1fr 1fr;gap:7px;padding:8px}
+ #discover .hero .quick .field:first-child{grid-column:1/-1}
+ #discover .hero .quick .field input,#discover .hero .quick .field select{min-height:44px}
+ #discover .hero .quick #quickGo{grid-column:1/-1;min-height:46px}
+ #discover .hero .v39-hero-auto{display:none!important}
+ #discover #cityCards .city img{aspect-ratio:4/3}
+ #discover .section{padding-top:14px}
+}
 </style>
 
 </head>
 <body>
-<header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v53</span></div></header>
+<header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v57</span></div></header>
 <main id="discover"><div class="hero"><div class="wrap"><div class="eyebrow">YOUR TRIP, YOUR WAY</div><h1>사진으로 먼저 떠나는 여행,<br>나만의 자유여행 완성</h1><p>실제 명소 사진으로 여행지를 발견하고, 마음에 드는 곳을 일정에 담아보세요.</p><div class="hero-photo-credit" id="heroPhotoCredit" aria-live="polite">실제 관광지 사진의 출처를 불러오는 중입니다.</div><div class="hero-photo-controls" role="group" aria-label="대표 여행지 사진 넘기기"><button type="button" id="heroPrev" aria-label="이전 대표 사진">‹</button><span id="heroPhotoCount" aria-live="polite">1 / 5</span><button type="button" id="heroNext" aria-label="다음 대표 사진">›</button><span>싱가포르 · 도쿄 · 발리 · 파리 · 세부 등 실제 촬영 사진</span></div><div class="quick"><label class="field">여행지<select id="quickCity"></select></label><label class="field">출발일<input id="quickStart" type="date"></label><label class="field">귀국일<input id="quickEnd" type="date"></label><label class="field">인원<input id="quickPeople" type="number" min="1" max="30" value="2"></label><button class="btn" id="quickGo">여행계획 만들기 →</button></div><div class="v39-hero-auto"><span>여행지와 날짜만 선택하면 일차별 코스를 바로 불러옵니다.</span><button type="button" class="btn" id="v39QuickAuto">✨ 추천 여행일정 자동 불러오기</button></div></div></div><section class="wrap section"><div class="section-head"><div><h2>인기 여행지 둘러보기</h2><div class="muted">24개 여행지 · 240개 관광명소. 사진이 없는 명소는 대체 이미지를 표시합니다.</div></div></div><details class="v53-extras v53-search"><summary>🔎 여행지·관광명소 검색 및 상세 필터</summary>
 <div class="discover-tools"><label class="field">여행지·테마 검색<input id="citySearch" type="search" placeholder="예: 오사카, 해변, 미식" autocomplete="off"></label><label class="field">국가별 보기<select id="countryFilter"><option value="">전체 국가</option></select></label><span id="cityCount" class="muted small" role="status" aria-live="polite"></span></div><section class="global-spot-search" aria-label="240개 관광지 통합 빠른 검색"><label class="field"><strong>🔎 240개 명소 한 번에 찾기</strong><input type="search" id="globalSpotSearch" placeholder="예: 야경, 에펠탑, 참탑, 바다, 사원" autocomplete="off" aria-controls="globalSpotResults"></label><div id="globalSpotResults" class="global-spot-results hidden" role="region" aria-live="polite" aria-label="관광지 검색 결과"></div><p class="hint">명소를 누르면 해당 도시의 사진 갤러리·방문 팁·일정 추가 화면으로 이동합니다.</p></section><p class="v39-ranking-note">🇰🇷 한국인 해외여행 선호 국가를 참고한 국가별 여행지 정렬입니다. 일본·베트남·중국·태국 등 주요 방문국 우선. 정확한 국가별 순위는 집계 기준에 따라 달라집니다. 기존 12곳 사진은 이전 버전의 출처 기록을 사용하며, 새로 추가한 12곳은 라이선스 검증 전까지 실제 사진 대신 대체 디자인을 표시합니다.</p></details>
 <div id="cityCards" class="cards"></div>
