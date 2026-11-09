@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#073e55">
-<meta name="description" content="K-TRAVEL PICKS v57: 24개 여행지·240개 관광명소, 사진 중심 일정 담기, 부킹닷컴 여행지·숙박 날짜·인원 연결, 여행 경비 계산·저장.">
-<title>K-TRAVEL PICKS | 사진으로 고르는 자유여행 v57</title>
+<meta name="description" content="K-TRAVEL PICKS v58: 24개 여행지·240개 관광명소, 사진 중심 일정 담기, 부킹닷컴 여행지·숙박 날짜·인원 연결, 여행 경비 계산·저장.">
+<title>K-TRAVEL PICKS | 사진으로 고르는 자유여행 v58</title>
 <style>
 
 
@@ -758,11 +758,12 @@ body{background:#f7f8f8}
  #discover #cityCards .city img{aspect-ratio:4/3}
  #discover .section{padding-top:14px}
 }
+.v58-photo-audit{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:16px 0;color:var(--muted);font-size:12px}.v58-photo-audit button{font-size:12px;min-height:44px}@media(max-width:640px){.v58-photo-audit button{width:100%}}
 </style>
 
 </head>
 <body>
-<header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v57</span></div></header>
+<header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v58</span></div></header>
 <main id="discover"><div class="hero"><div class="wrap"><div class="eyebrow">YOUR TRIP, YOUR WAY</div><h1>사진으로 먼저 떠나는 여행,<br>나만의 자유여행 완성</h1><p>실제 명소 사진으로 여행지를 발견하고, 마음에 드는 곳을 일정에 담아보세요.</p><div class="hero-photo-credit" id="heroPhotoCredit" aria-live="polite">실제 관광지 사진의 출처를 불러오는 중입니다.</div><div class="hero-photo-controls" role="group" aria-label="대표 여행지 사진 넘기기"><button type="button" id="heroPrev" aria-label="이전 대표 사진">‹</button><span id="heroPhotoCount" aria-live="polite">1 / 5</span><button type="button" id="heroNext" aria-label="다음 대표 사진">›</button><span>싱가포르 · 도쿄 · 발리 · 파리 · 세부 등 실제 촬영 사진</span></div><div class="quick"><label class="field">여행지<select id="quickCity"></select></label><label class="field">출발일<input id="quickStart" type="date"></label><label class="field">귀국일<input id="quickEnd" type="date"></label><label class="field">인원<input id="quickPeople" type="number" min="1" max="30" value="2"></label><button class="btn" id="quickGo">여행계획 만들기 →</button></div><div class="v39-hero-auto"><span>여행지와 날짜만 선택하면 일차별 코스를 바로 불러옵니다.</span><button type="button" class="btn" id="v39QuickAuto">✨ 추천 여행일정 자동 불러오기</button></div></div></div><section class="wrap section"><div class="section-head"><div><h2>인기 여행지 둘러보기</h2><div class="muted">24개 여행지 · 240개 관광명소. 사진이 없는 명소는 대체 이미지를 표시합니다.</div></div></div><details class="v53-extras v53-search"><summary>🔎 여행지·관광명소 검색 및 상세 필터</summary>
 <div class="discover-tools"><label class="field">여행지·테마 검색<input id="citySearch" type="search" placeholder="예: 오사카, 해변, 미식" autocomplete="off"></label><label class="field">국가별 보기<select id="countryFilter"><option value="">전체 국가</option></select></label><span id="cityCount" class="muted small" role="status" aria-live="polite"></span></div><section class="global-spot-search" aria-label="240개 관광지 통합 빠른 검색"><label class="field"><strong>🔎 240개 명소 한 번에 찾기</strong><input type="search" id="globalSpotSearch" placeholder="예: 야경, 에펠탑, 참탑, 바다, 사원" autocomplete="off" aria-controls="globalSpotResults"></label><div id="globalSpotResults" class="global-spot-results hidden" role="region" aria-live="polite" aria-label="관광지 검색 결과"></div><p class="hint">명소를 누르면 해당 도시의 사진 갤러리·방문 팁·일정 추가 화면으로 이동합니다.</p></section><p class="v39-ranking-note">🇰🇷 한국인 해외여행 선호 국가를 참고한 국가별 여행지 정렬입니다. 일본·베트남·중국·태국 등 주요 방문국 우선. 정확한 국가별 순위는 집계 기준에 따라 달라집니다. 기존 12곳 사진은 이전 버전의 출처 기록을 사용하며, 새로 추가한 12곳은 라이선스 검증 전까지 실제 사진 대신 대체 디자인을 표시합니다.</p></details>
 <div id="cityCards" class="cards"></div>
@@ -2683,7 +2684,7 @@ function v48PrintItinerary(){
  const dayHtml=days.map((arr,i)=>`<section class="print-day"><h2>${i+1}일차 · ${safe(dateLabel(i))}</h2>${arr.length?`<table><thead><tr><th>시간</th><th>장소</th><th>메모</th>${includeBudget?'<th>예상 비용 (KRW)</th>':''}</tr></thead><tbody>${arr.slice().sort((a,b)=>(a.time||'99:99').localeCompare(b.time||'99:99')).map(x=>`<tr><td>${safe(x.time||'-')}</td><td>${safe(x.place)}</td><td>${safe(x.memo||'')}</td>${includeBudget?`<td>${won(x.cost)}</td>`:''}</tr>`).join('')}</tbody></table>`:'<p class="print-muted">일정 미정</p>'}</section>`).join('');
  const check=TASKS.map((x,i)=>`${checks[i]?'☑':'□'} ${safe(x)}`).join('　');
  const budgetHtml=includeBudget?`<section class="v50-print-budget"><h2>여행 경비 상세</h2><p class="print-muted">환율: ${safe(fxLine)}${v48FxCheckedAt?' · 조회/입력 '+safe(new Date(v48FxCheckedAt).toLocaleString('ko-KR')):''}</p><table><thead><tr><th>항목</th><th>원래 입력 금액 (전체 적용)</th><th>원화 환산</th></tr></thead><tbody>${rows}<tr><td>일정별 추가 비용</td><td>${won(t.activities)}</td><td>${won(t.activities)}</td></tr><tr><th>총 여행경비</th><th colspan="2">${pending?'환율 미확인 · 총액 산출 보류':won(t.total)}</th></tr><tr><th>1인당 예상 경비</th><th colspan="2">${pending?'환율 미확인 · 총액 산출 보류':won(t.total/t.people)}</th></tr></tbody></table><p class="print-muted">항공료는 1인 금액×인원, 숙박비는 1박 금액×박수×객실 수로 계산. 원화 항목은 다시 환산하지 않습니다. 실제 카드/현찰 환율과 수수료는 다를 수 있습니다.</p></section>`:'';
- $('printSheet').innerHTML=`<h1>K-TRAVEL PICKS | ${safe(title)}</h1><p class="print-muted">${safe($('city').value)} · ${safe($('start').value)} ~ ${safe($('end').value)} · ${t.people}명 · ${t.nights}박 · ${t.rooms}객실</p><h2>일자별 여행 일정</h2>${dayHtml}${budgetHtml}<p class="print-footer">K-TRAVEL PICKS v52 · 생성 ${new Date().toLocaleString('ko-KR')} · 브라우저 인쇄에서 PDF 저장 가능</p>`;
+ $('printSheet').innerHTML=`<h1>K-TRAVEL PICKS | ${safe(title)}</h1><p class="print-muted">${safe($('city').value)} · ${safe($('start').value)} ~ ${safe($('end').value)} · ${t.people}명 · ${t.nights}박 · ${t.rooms}객실</p><h2>일자별 여행 일정</h2>${dayHtml}${budgetHtml}<p class="print-footer">K-TRAVEL PICKS v58 · 생성 ${new Date().toLocaleString('ko-KR')} · 브라우저 인쇄에서 PDF 저장 가능</p>`;
  window.print();
 }
 function v48FxInit(){
@@ -2696,7 +2697,7 @@ function v48FxInit(){
  document.querySelectorAll('[data-city]').forEach(el=>el.addEventListener('click',()=>setTimeout(()=>{v48RenderCosts();v48FxOnCity()},0)));
  $('printTrip').onclick=v48PrintItinerary;
  v48RenderCosts();v48FxOnCity();
- const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v56 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처 기록 95/240곳 · 미확보 145곳 (2026-11-02) · 원본·라이선스는 명소별 확인';
+ const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v58 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처는 관광명소별 확인';
 }
 v48FxInit();
 
@@ -2722,6 +2723,26 @@ v48FxInit();
   if(Math.abs(dx)>55 && Math.abs(dx)>Math.abs(dy)*1.4 && detailPhotos.length>1){chooseDetailPhoto(detailPhotoIndex+(dx<0?1:-1));}
  },{passive:true});
  image.addEventListener('touchcancel',()=>{touchStart=null;},{passive:true});
+})();
+
+/* v58 — 현재 소스 기준 사진 메타데이터 전수 점검. 미검증 사진은 확보로 집계하지 않음. */
+(function(){
+ const host=document.getElementById('cityCards');if(!host||!window.Blob)return;
+ const bar=document.createElement('div');bar.className='v58-photo-audit';
+ bar.innerHTML='<span id="v58AuditSummary" role="status" aria-live="polite"></span><button type="button" id="v58AuditExport" class="btn outline">사진 누락 목록 CSV</button>';
+ host.insertAdjacentElement('afterend',bar);
+ const records=Object.entries(DATA).flatMap(([city,data])=>data.spots.map(sp=>{
+  const name=sp[0],photos=spotGallery(city,name).filter(isLicensedPhoto);
+  const unique=[...new Map(photos.map(p=>[p.source,p])).values()];
+  return {city,name,count:unique.length,reason:unique.length?'':'재사용 조건을 충족하는 사진 메타데이터 없음'};
+ }));
+ const missing=records.filter(r=>r.count===0),cities=Object.keys(DATA).length;
+ document.getElementById('v58AuditSummary').textContent=`사진 출처 메타데이터 점검: ${cities}개 도시 · ${records.length}개 명소 · 사진 기록 ${records.length-missing.length}곳 · 미확보 ${missing.length}곳 (파일 실재·원본 권리 재검증 전)`;
+ document.getElementById('v58AuditExport').onclick=()=>{
+  const csv='도시,관광명소,검증형식사진수,누락사유\r\n'+records.map(r=>[r.city,r.name,r.count,r.reason].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');
+  const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));
+  const a=document.createElement('a');a.href=url;a.download='K_TRAVEL_photo_audit_v58.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ };
 })();
 </script>
 </body></html>
