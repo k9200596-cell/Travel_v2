@@ -759,6 +759,7 @@ body{background:#f7f8f8}
  #discover .section{padding-top:14px}
 }
 .v58-photo-audit{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:16px 0;color:var(--muted);font-size:12px}.v58-photo-audit button{font-size:12px;min-height:44px}@media(max-width:640px){.v58-photo-audit button{width:100%}}
+.v59-audit{display:block!important;margin:8px auto 18px;padding:0 12px;font-size:12px}.v59-audit summary{cursor:pointer;list-style:revert;padding:8px 0;color:var(--muted)}.v59-audit-inner{padding:8px 0 14px;line-height:1.7}.v59-audit-inner button{margin-top:10px;min-height:44px}@media(max-width:640px){.v59-audit-inner{font-size:12px}}
 </style>
 
 </head>
@@ -2725,23 +2726,36 @@ v48FxInit();
  image.addEventListener('touchcancel',()=>{touchStart=null;},{passive:true});
 })();
 
-/* v58 — 현재 소스 기준 사진 메타데이터 전수 점검. 미검증 사진은 확보로 집계하지 않음. */
+/* v59 — 사진 감사 정보를 접이식 보조 영역으로 이동하고 누락만 CSV 내보내기. */
 (function(){
  const host=document.getElementById('cityCards');if(!host||!window.Blob)return;
- const bar=document.createElement('div');bar.className='v58-photo-audit';
- bar.innerHTML='<span id="v58AuditSummary" role="status" aria-live="polite"></span><button type="button" id="v58AuditExport" class="btn outline">사진 누락 목록 CSV</button>';
- host.insertAdjacentElement('afterend',bar);
  const records=Object.entries(DATA).flatMap(([city,data])=>data.spots.map(sp=>{
-  const name=sp[0],photos=spotGallery(city,name).filter(isLicensedPhoto);
-  const unique=[...new Map(photos.map(p=>[p.source,p])).values()];
-  return {city,name,count:unique.length,reason:unique.length?'':'재사용 조건을 충족하는 사진 메타데이터 없음'};
+  const name=sp[0];
+  const photos=spotGallery(city,name).filter(isLicensedPhoto);
+  const unique=[...new Map(photos.map(p=>[p.source||p.file,p])).values()];
+  return {city,name,count:unique.length,reason:unique.length?'':'사용 가능 조건이 기록된 사진 메타데이터 없음'};
  }));
  const missing=records.filter(r=>r.count===0),cities=Object.keys(DATA).length;
- document.getElementById('v58AuditSummary').textContent=`사진 출처 메타데이터 점검: ${cities}개 도시 · ${records.length}개 명소 · 사진 기록 ${records.length-missing.length}곳 · 미확보 ${missing.length}곳 (파일 실재·원본 권리 재검증 전)`;
- document.getElementById('v58AuditExport').onclick=()=>{
-  const csv='도시,관광명소,검증형식사진수,누락사유\r\n'+records.map(r=>[r.city,r.name,r.count,r.reason].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');
+ const bar=document.createElement('details');bar.className='v58-photo-audit v59-audit';
+ bar.innerHTML='<summary id="v59AuditSummary"></summary><div class="v59-audit-inner"><p>소스의 라이선스 형식과 출처 기록만 검사했습니다. 원본 권리, 장소 일치, 사진 URL 실제 접근 여부는 이번 검사에서 검증하지 않았습니다.</p><div id="v59CityAudit"></div><button type="button" id="v58AuditExport" class="btn outline">사진 누락 명소만 CSV 저장</button><button type="button" id="v59PhotoProvenance" class="btn outline">사진 출처 기록 전체 CSV</button></div>';
+ host.insertAdjacentElement('afterend',bar);
+ document.getElementById('v59AuditSummary').textContent=`사진 출처 기록: ${cities}개 도시 · ${records.length}개 명소 중 ${records.length-missing.length}곳 기록 · ${missing.length}곳 미확보 (상세 보기)`;
+ const perCity=Object.entries(DATA).map(([city,data])=>({city,total:data.spots.length,missing:missing.filter(r=>r.city===city).length}));
+ document.getElementById('v59CityAudit').textContent=perCity.map(x=>`${x.city} ${x.total-x.missing}/${x.total}`).join(' · ');
+ document.getElementById('v59PhotoProvenance').onclick=()=>{
+  const rows=Object.entries(DATA).flatMap(([city,data])=>data.spots.flatMap(sp=>{
+   const name=sp[0],photos=spotGallery(city,name);
+   if(!photos.length)return [[city,name,'','', '', '', '사진 기록 없음']];
+   return photos.map(p=>[city,name,p.author||p.artist||'',p.source||p.url||p.file||'',p.license||'',p.reviewedAt||p.checkedAt||'',isLicensedPhoto(p)?'형식상 기록 있음 (원본 미검증)':'이용조건 기록 불충분']);
+  }));
+  const csv='도시,관광명소,저작자,원문출처,라이선스,확인일,검증상태\r\n'+rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');
   const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));
-  const a=document.createElement('a');a.href=url;a.download='K_TRAVEL_photo_audit_v58.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  const a=document.createElement('a');a.href=url;a.download='K_TRAVEL_photo_provenance_candidate.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ };
+ document.getElementById('v58AuditExport').onclick=()=>{
+  const csv='도시,관광명소,누락사유\r\n'+missing.map(r=>[r.city,r.name,r.reason].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');
+  const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));
+  const a=document.createElement('a');a.href=url;a.download='K_TRAVEL_missing_photos_v59.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
  };
 })();
 </script>
