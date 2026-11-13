@@ -2737,11 +2737,21 @@ v48FxInit();
  }));
  const missing=records.filter(r=>r.count===0),cities=Object.keys(DATA).length;
  const bar=document.createElement('details');bar.className='v58-photo-audit v59-audit';
- bar.innerHTML='<summary id="v59AuditSummary"></summary><div class="v59-audit-inner"><p>소스의 라이선스 형식과 출처 기록만 검사했습니다. 원본 권리, 장소 일치, 사진 URL 실제 접근 여부는 이번 검사에서 검증하지 않았습니다.</p><div id="v59CityAudit"></div><button type="button" id="v58AuditExport" class="btn outline">사진 누락 명소만 CSV 저장</button><button type="button" id="v59PhotoProvenance" class="btn outline">사진 출처 기록 전체 CSV</button></div>';
+ bar.innerHTML='<summary id="v59AuditSummary"></summary><div class="v59-audit-inner"><p>소스의 라이선스 형식과 출처 기록만 검사했습니다. 원본 권리, 장소 일치, 사진 URL 실제 접근 여부는 이번 검사에서 검증하지 않았습니다.</p><div id="v59CityAudit"></div><button type="button" id="v58AuditExport" class="btn outline">사진 누락 명소만 CSV 저장</button><button type="button" id="v60PhotoReviewQueue" class="btn outline">사진 권리검증 대기 목록 CSV</button><button type="button" id="v59PhotoProvenance" class="btn outline">사진 출처 기록 전체 CSV</button></div>';
  host.insertAdjacentElement('afterend',bar);
  document.getElementById('v59AuditSummary').textContent=`사진 출처 기록: ${cities}개 도시 · ${records.length}개 명소 중 ${records.length-missing.length}곳 기록 · ${missing.length}곳 미확보 (상세 보기)`;
  const perCity=Object.entries(DATA).map(([city,data])=>({city,total:data.spots.length,missing:missing.filter(r=>r.city===city).length}));
  document.getElementById('v59CityAudit').textContent=perCity.map(x=>`${x.city} ${x.total-x.missing}/${x.total}`).join(' · ');
+ document.getElementById('v60PhotoReviewQueue').onclick=()=>{
+  const rows=Object.entries(DATA).flatMap(([city,data])=>data.spots.flatMap(sp=>{
+   const name=sp[0],photos=spotGallery(city,name);
+   if(!photos.length)return [[city,name,'0','사진 없음','', '', '사진 확보 필요']];
+   return photos.map(p=>[city,name,'1',p.source||p.url||p.file||'',p.author||p.artist||'',p.license||'', '원본 라이선스·장소 일치·재게시 허용 재검증 필요']);
+  }));
+  const csv='도시,명소,사진기록수,출처URL,저작자,라이선스,필요조치\r\n'+rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');
+  const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));
+  const a=document.createElement('a');a.href=url;a.download='K_TRAVEL_photo_rights_review_queue.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ };
  document.getElementById('v59PhotoProvenance').onclick=()=>{
   const rows=Object.entries(DATA).flatMap(([city,data])=>data.spots.flatMap(sp=>{
    const name=sp[0],photos=spotGallery(city,name);
