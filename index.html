@@ -760,6 +760,8 @@ body{background:#f7f8f8}
 }
 .v58-photo-audit{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:16px 0;color:var(--muted);font-size:12px}.v58-photo-audit button{font-size:12px;min-height:44px}@media(max-width:640px){.v58-photo-audit button{width:100%}}
 .v59-audit{display:block!important;margin:8px auto 18px;padding:0 12px;font-size:12px}.v59-audit summary{cursor:pointer;list-style:revert;padding:8px 0;color:var(--muted)}.v59-audit-inner{padding:8px 0 14px;line-height:1.7}.v59-audit-inner button{margin-top:10px;min-height:44px}@media(max-width:640px){.v59-audit-inner{font-size:12px}}
+
+.v60-audit-table{width:100%;border-collapse:collapse;margin:10px 0;font-size:13px}.v60-audit-table th,.v60-audit-table td{padding:7px 9px;border-bottom:1px solid #d9e5e9;text-align:left}.v60-audit-table caption{text-align:left;font-weight:700;margin-bottom:8px}.v59-audit-inner{overflow-x:auto}
 </style>
 
 </head>
@@ -2741,7 +2743,38 @@ v48FxInit();
  host.insertAdjacentElement('afterend',bar);
  document.getElementById('v59AuditSummary').textContent=`사진 출처 기록: ${cities}개 도시 · ${records.length}개 명소 중 ${records.length-missing.length}곳 기록 · ${missing.length}곳 미확보 (상세 보기)`;
  const perCity=Object.entries(DATA).map(([city,data])=>({city,total:data.spots.length,missing:missing.filter(r=>r.city===city).length}));
- document.getElementById('v59CityAudit').textContent=perCity.map(x=>`${x.city} ${x.total-x.missing}/${x.total}`).join(' · ');
+
+ // Candidate: cross-attraction duplicate image-reference audit. A shared image URL is a review flag, not proof of a copyright violation.
+ const imageUses=new Map();
+ Object.entries(DATA).forEach(([city,data])=>data.spots.forEach(sp=>{
+  spotGallery(city,sp[0]).forEach(photo=>{
+   const source=String(photo.file||photo.url||'').trim();
+   if(!source)return;
+   if(!imageUses.has(source))imageUses.set(source,[]);
+   imageUses.get(source).push({city,spot:sp[0]});
+  });
+ }));
+ const sharedImages=[...imageUses].map(([source,uses])=>({source,uses:[...new Map(uses.map(u=>[u.city+' / '+u.spot,u])).values()]})).filter(item=>item.uses.length>1);
+ const sharedNote=document.createElement('p');
+ sharedNote.textContent=`서로 다른 명소에 중복 연결된 사진 참조: ${sharedImages.length}건 (장소 일치 여부 수동 확인 필요)`;
+ bar.querySelector('.v59-audit-inner').appendChild(sharedNote);
+ const duplicateButton=document.createElement('button');duplicateButton.type='button';duplicateButton.className='btn outline';duplicateButton.textContent='명소 간 사진 중복 검토 CSV';
+ duplicateButton.addEventListener('click',()=>{
+  const csvCell=value=>'"'+String(value).replace(/^[=+@\-]/, "'$&").replace(/"/g,'""')+'"';
+  const rows=sharedImages.flatMap(item=>item.uses.map(u=>[u.city,u.spot,item.source,item.uses.length]));
+  const csv='도시,명소,사진 참조,중복 명소 수\r\n'+rows.map(row=>row.map(csvCell).join(',')).join('\r\n');
+  const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));
+  const a=document.createElement('a');a.href=url;a.download='K_TRAVEL_shared_photo_review.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+ });
+ bar.querySelector('.v59-audit-inner').appendChild(duplicateButton);
+
+ // v60 candidate: 도시별 사진 기록 현황을 읽기 쉬운 표로 제공하며 권리검증 완료로 오인하지 않도록 구분.
+ const cityAudit=document.getElementById('v59CityAudit');
+ const auditTable=document.createElement('table');auditTable.className='v60-audit-table';
+ auditTable.innerHTML='<caption>사진 메타데이터 기록 현황 (원본 권리검증 완료 수치가 아님)</caption><thead><tr><th scope="col">도시</th><th scope="col">명소</th><th scope="col">사진기록 있음</th><th scope="col">사진기록 없음</th></tr></thead><tbody></tbody>';
+ perCity.forEach(x=>{const tr=document.createElement('tr');[x.city,x.total,x.total-x.missing,x.missing].forEach(value=>{const td=document.createElement('td');td.textContent=String(value);tr.appendChild(td)});auditTable.tBodies[0].appendChild(tr)});
+ cityAudit.appendChild(auditTable);
+ const note=document.createElement('p');note.textContent='원본 사진 권리·촬영 장소 일치 검증: 이번 실행에서 확인된 신규 건수 0건. 출처 기록만으로 사용 허가를 확정할 수 없습니다.';cityAudit.appendChild(note);
  document.getElementById('v60PhotoReviewQueue').onclick=()=>{
   const rows=Object.entries(DATA).flatMap(([city,data])=>data.spots.flatMap(sp=>{
    const name=sp[0],photos=spotGallery(city,name);
