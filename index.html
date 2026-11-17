@@ -762,6 +762,9 @@ body{background:#f7f8f8}
 .v59-audit{display:block!important;margin:8px auto 18px;padding:0 12px;font-size:12px}.v59-audit summary{cursor:pointer;list-style:revert;padding:8px 0;color:var(--muted)}.v59-audit-inner{padding:8px 0 14px;line-height:1.7}.v59-audit-inner button{margin-top:10px;min-height:44px}@media(max-width:640px){.v59-audit-inner{font-size:12px}}
 
 .v60-audit-table{width:100%;border-collapse:collapse;margin:10px 0;font-size:13px}.v60-audit-table th,.v60-audit-table td{padding:7px 9px;border-bottom:1px solid #d9e5e9;text-align:left}.v60-audit-table caption{text-align:left;font-weight:700;margin-bottom:8px}.v59-audit-inner{overflow-x:auto}
+
+/* v59: mobile-first discovery sort, without fabricated ranking or prices */
+.v59-sort{margin:12px auto 18px}.v59-sort-row{display:flex;gap:9px;flex-wrap:wrap}.v59-sort-row button{border:1px solid #cbdde2;background:#fff;color:#173f50;border-radius:999px;padding:11px 15px;min-height:44px;font-weight:750}.v59-sort-row button[aria-pressed="true"]{background:#07566a;border-color:#07566a;color:white}.v59-sort p{font-size:12px;color:#506b78;margin:8px 0 0}@media(max-width:600px){.v59-sort-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.v59-sort-row button{font-size:13px;padding:10px 7px}}
 </style>
 
 </head>
@@ -769,6 +772,7 @@ body{background:#f7f8f8}
 <header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v58</span></div></header>
 <main id="discover"><div class="hero"><div class="wrap"><div class="eyebrow">YOUR TRIP, YOUR WAY</div><h1>사진으로 먼저 떠나는 여행,<br>나만의 자유여행 완성</h1><p>실제 명소 사진으로 여행지를 발견하고, 마음에 드는 곳을 일정에 담아보세요.</p><div class="hero-photo-credit" id="heroPhotoCredit" aria-live="polite">실제 관광지 사진의 출처를 불러오는 중입니다.</div><div class="hero-photo-controls" role="group" aria-label="대표 여행지 사진 넘기기"><button type="button" id="heroPrev" aria-label="이전 대표 사진">‹</button><span id="heroPhotoCount" aria-live="polite">1 / 5</span><button type="button" id="heroNext" aria-label="다음 대표 사진">›</button><span>싱가포르 · 도쿄 · 발리 · 파리 · 세부 등 실제 촬영 사진</span></div><div class="quick"><label class="field">여행지<select id="quickCity"></select></label><label class="field">출발일<input id="quickStart" type="date"></label><label class="field">귀국일<input id="quickEnd" type="date"></label><label class="field">인원<input id="quickPeople" type="number" min="1" max="30" value="2"></label><button class="btn" id="quickGo">여행계획 만들기 →</button></div><div class="v39-hero-auto"><span>여행지와 날짜만 선택하면 일차별 코스를 바로 불러옵니다.</span><button type="button" class="btn" id="v39QuickAuto">✨ 추천 여행일정 자동 불러오기</button></div></div></div><section class="wrap section"><div class="section-head"><div><h2>인기 여행지 둘러보기</h2><div class="muted">24개 여행지 · 240개 관광명소. 사진이 없는 명소는 대체 이미지를 표시합니다.</div></div></div><details class="v53-extras v53-search"><summary>🔎 여행지·관광명소 검색 및 상세 필터</summary>
 <div class="discover-tools"><label class="field">여행지·테마 검색<input id="citySearch" type="search" placeholder="예: 오사카, 해변, 미식" autocomplete="off"></label><label class="field">국가별 보기<select id="countryFilter"><option value="">전체 국가</option></select></label><span id="cityCount" class="muted small" role="status" aria-live="polite"></span></div><section class="global-spot-search" aria-label="240개 관광지 통합 빠른 검색"><label class="field"><strong>🔎 240개 명소 한 번에 찾기</strong><input type="search" id="globalSpotSearch" placeholder="예: 야경, 에펠탑, 참탑, 바다, 사원" autocomplete="off" aria-controls="globalSpotResults"></label><div id="globalSpotResults" class="global-spot-results hidden" role="region" aria-live="polite" aria-label="관광지 검색 결과"></div><p class="hint">명소를 누르면 해당 도시의 사진 갤러리·방문 팁·일정 추가 화면으로 이동합니다.</p></section><p class="v39-ranking-note">🇰🇷 한국인 해외여행 선호 국가를 참고한 국가별 여행지 정렬입니다. 일본·베트남·중국·태국 등 주요 방문국 우선. 정확한 국가별 순위는 집계 기준에 따라 달라집니다. 기존 12곳 사진은 이전 버전의 출처 기록을 사용하며, 새로 추가한 12곳은 라이선스 검증 전까지 실제 사진 대신 대체 디자인을 표시합니다.</p></details>
+<section class="v59-sort" aria-label="여행지 정렬 및 조건"><div class="v59-sort-row"><button type="button" data-v59-sort="popular" aria-pressed="true">인기 여행지 20선</button><button type="button" data-v59-sort="distance" aria-pressed="false">거리순</button><button type="button" data-v59-sort="value" aria-pressed="false">가성비순</button><button type="button" data-v59-sort="solo" aria-pressed="false">혼자여행</button></div><p id="v59SortNote" role="status">인기 통계의 도시별 순위가 검증되지 않아 기존 추천 배열에서 20곳만 표시합니다. 공식 인기 순위가 아닙니다.</p></section>
 <div id="cityCards" class="cards"></div>
 
 <details class="v53-extras"><summary>📷 더 많은 여행 사진·테마 갤러리 보기</summary>
@@ -2800,6 +2804,37 @@ v48FxInit();
   const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));
   const a=document.createElement('a');a.href=url;a.download='K_TRAVEL_missing_photos_v59.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
  };
+})();
+</script>
+<script>
+/* v59 — discovery controls. Editorial guidance, not measured popularity or real-time price rankings. */
+(function(){
+ const grid=document.getElementById('cityCards'),bar=document.querySelector('.v59-sort'),note=document.getElementById('v59SortNote');
+ if(!grid||!bar)return;
+ const original=Array.from(grid.querySelectorAll('.city'));
+ const order=new Map(original.map((el,i)=>[el,i]));
+ // Approximate great-circle flight distance from ICN, based on destination airport coordinates.
+ const airportCoordinates={KIX:[34.43,135.24],NRT:[35.77,140.39],CXR:[12.23,109.2],DAD:[16.04,108.2],TPE:[25.08,121.23],BKK:[13.69,100.75],SIN:[1.36,103.99],CEB:[10.31,123.98],DPS:[-8.75,115.17],CDG:[49.01,2.55],FUK:[33.59,130.45],HKG:[22.31,113.92],CTS:[42.78,141.69],PVG:[31.14,121.8],PEK:[40.08,116.58],MNL:[14.51,121.02],KUL:[2.75,101.71],SYD:[-33.94,151.18],MEL:[-37.67,144.84],LAX:[33.94,-118.41],JFK:[40.64,-73.78],SFO:[37.62,-122.38],HND:[35.55,139.78],SGN:[10.82,106.65],HAN:[21.22,105.81],CNX:[18.77,98.96],GUM:[13.48,144.8],BKI:[5.94,116.05],PUS:[35.18,128.94]};
+ function km(code){const c=airportCoordinates[code];if(!c)return Infinity;const rad=x=>x*Math.PI/180;const a=rad(37.46),b=rad(126.44),lat=rad(c[0]),lon=rad(c[1]);const h=Math.sin((lat-a)/2)**2+Math.cos(a)*Math.cos(lat)*Math.sin((lon-b)/2)**2;return Math.round(12742*Math.asin(Math.sqrt(h)));}
+ // Explicitly qualitative editorial groups, not verified expenditure or safety ratings.
+ const budgetCountries=['베트남','태국','필리핀','말레이시아','인도네시아','대만'];
+ const soloCountries=['일본','대만','싱가포르','홍콩','프랑스','호주'];
+ let mode='popular';
+ function apply(){
+  const cards=original.slice();
+  if(mode==='distance')cards.sort((a,b)=>km(DATA[a.querySelector('[data-city]').dataset.city]?.airport)-km(DATA[b.querySelector('[data-city]').dataset.city]?.airport)||order.get(a)-order.get(b));
+  if(mode==='value')cards.sort((a,b)=>Number(!budgetCountries.includes(DATA[a.querySelector('[data-city]').dataset.city]?.country))-Number(!budgetCountries.includes(DATA[b.querySelector('[data-city]').dataset.city]?.country))||order.get(a)-order.get(b));
+  if(mode==='solo')cards.sort((a,b)=>Number(!soloCountries.includes(DATA[a.querySelector('[data-city]').dataset.city]?.country))-Number(!soloCountries.includes(DATA[b.querySelector('[data-city]').dataset.city]?.country))||order.get(a)-order.get(b));
+  cards.forEach(el=>grid.appendChild(el));
+  original.forEach(el=>{el.hidden=false;el.style.display='';});
+  if(mode==='popular')cards.slice(20).forEach(el=>{el.hidden=true;el.style.display='none';});
+  const messages={popular:'기존 추천 순서의 20곳을 표시합니다. 한국인 방문객 공식 도시별 순위가 검증되지 않아 실제 TOP 20 순위라고 단정하지 않습니다.',distance:'인천공항(ICN)에서 주요 도착 공항까지의 대략적인 직선거리순입니다. 실제 항공거리·비행시간과 다릅니다. 공항 좌표가 없는 도시는 뒤에 표시됩니다.',value:'동남아·대만 등 일반적인 현지 체류비 경향을 참고한 편집상 추천순입니다. 실시간 항공료·숙박료를 반영한 객관적 가성비 순위가 아닙니다.',solo:'교통·관광 접근성이 비교적 편리한 국가를 앞에 둔 편집상 추천순입니다. 개인별 안전·여행 적합성 보장은 아닙니다.'};
+  note.textContent=messages[mode];
+  if(typeof filterCities==='function')filterCities();
+ }
+ bar.addEventListener('click',e=>{const btn=e.target.closest('[data-v59-sort]');if(!btn)return;mode=btn.dataset.v59Sort;bar.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));apply();});
+ // Run after the existing init has created cards.
+ if(original.length===24)apply();else window.addEventListener('load',()=>{if(grid.children.length===24)location.hash=location.hash;},{once:true});
 })();
 </script>
 </body></html>
