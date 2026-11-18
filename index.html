@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#073e55">
-<meta name="description" content="K-TRAVEL PICKS v58: 24개 여행지·240개 관광명소, 사진 중심 일정 담기, 부킹닷컴 여행지·숙박 날짜·인원 연결, 여행 경비 계산·저장.">
-<title>K-TRAVEL PICKS | 사진으로 고르는 자유여행 v58</title>
+<meta name="description" content="K-TRAVEL PICKS v59: 24개 여행지·240개 관광명소, 사진 중심 일정 담기, 부킹닷컴 여행지·숙박 날짜·인원 연결, 여행 경비 계산·저장.">
+<title>K-TRAVEL PICKS | 사진으로 고르는 자유여행 v59</title>
 <style>
 
 
@@ -758,7 +758,7 @@ body{background:#f7f8f8}
  #discover #cityCards .city img{aspect-ratio:4/3}
  #discover .section{padding-top:14px}
 }
-.v58-photo-audit{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:16px 0;color:var(--muted);font-size:12px}.v58-photo-audit button{font-size:12px;min-height:44px}@media(max-width:640px){.v58-photo-audit button{width:100%}}
+.v59-photo-audit{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:16px 0;color:var(--muted);font-size:12px}.v59-photo-audit button{font-size:12px;min-height:44px}@media(max-width:640px){.v59-photo-audit button{width:100%}}
 .v59-audit{display:block!important;margin:8px auto 18px;padding:0 12px;font-size:12px}.v59-audit summary{cursor:pointer;list-style:revert;padding:8px 0;color:var(--muted)}.v59-audit-inner{padding:8px 0 14px;line-height:1.7}.v59-audit-inner button{margin-top:10px;min-height:44px}@media(max-width:640px){.v59-audit-inner{font-size:12px}}
 
 .v60-audit-table{width:100%;border-collapse:collapse;margin:10px 0;font-size:13px}.v60-audit-table th,.v60-audit-table td{padding:7px 9px;border-bottom:1px solid #d9e5e9;text-align:left}.v60-audit-table caption{text-align:left;font-weight:700;margin-bottom:8px}.v59-audit-inner{overflow-x:auto}
@@ -767,12 +767,15 @@ body{background:#f7f8f8}
 .v59-sort{margin:12px auto 18px}.v59-sort-row{display:flex;gap:9px;flex-wrap:wrap}.v59-sort-row button{border:1px solid #cbdde2;background:#fff;color:#173f50;border-radius:999px;padding:11px 15px;min-height:44px;font-weight:750}.v59-sort-row button[aria-pressed="true"]{background:#07566a;border-color:#07566a;color:white}.v59-sort p{font-size:12px;color:#506b78;margin:8px 0 0}@media(max-width:600px){.v59-sort-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.v59-sort-row button{font-size:13px;padding:10px 7px}}
 </style>
 
+<style>
+.v59-ranking-source{margin-top:12px;border-top:1px solid #d5e5e7;padding-top:10px;font-size:13px;color:#284f5c}.v59-ranking-source summary{cursor:pointer;font-weight:750;min-height:32px;display:list-item}.v59-source-body{padding:4px 0;line-height:1.7}.v59-source-body a{color:#075d70;text-decoration:underline}.v59-rank-table-wrap{overflow:auto}.v59-source-body table{width:100%;border-collapse:collapse;font-size:13px;background:#fff}.v59-source-body th,.v59-source-body td{padding:8px;border-bottom:1px solid #dce8e8;text-align:left;white-space:nowrap}.v59-source-body caption{text-align:left;font-weight:750;padding:9px 0}.v59-rank-badge{background:#edf7f7;color:#145969;font-size:13px;font-weight:750;padding:10px 12px;line-height:1.4}.v59-rank-badge[hidden]{display:none}.v59-sort-row{display:flex;flex-wrap:wrap;gap:8px}.v59-sort-row button{min-height:44px}@media(max-width:600px){.v59-sort-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.v59-sort-row button:first-child{grid-column:1/-1}.v59-sort-row button{min-height:46px}.v59-rank-badge{font-size:12px;padding:8px}.v59-source-body{font-size:12px}}
+</style>
 </head>
 <body>
-<header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v58</span></div></header>
+<header class="header"><div class="wrap head"><a href="#" class="brand" id="brand">K-<b>TRAVEL</b> PICKS</a><nav class="nav" aria-label="주 메뉴"><button data-nav="discover" class="active">여행지 찾기</button><button data-nav="planner">내 여행계획</button><button data-nav="saved">저장한 여행</button></nav><span class="version" aria-label="현재 버전">v59</span></div></header>
 <main id="discover"><div class="hero"><div class="wrap"><div class="eyebrow">YOUR TRIP, YOUR WAY</div><h1>사진으로 먼저 떠나는 여행,<br>나만의 자유여행 완성</h1><p>실제 명소 사진으로 여행지를 발견하고, 마음에 드는 곳을 일정에 담아보세요.</p><div class="hero-photo-credit" id="heroPhotoCredit" aria-live="polite">실제 관광지 사진의 출처를 불러오는 중입니다.</div><div class="hero-photo-controls" role="group" aria-label="대표 여행지 사진 넘기기"><button type="button" id="heroPrev" aria-label="이전 대표 사진">‹</button><span id="heroPhotoCount" aria-live="polite">1 / 5</span><button type="button" id="heroNext" aria-label="다음 대표 사진">›</button><span>싱가포르 · 도쿄 · 발리 · 파리 · 세부 등 실제 촬영 사진</span></div><div class="quick"><label class="field">여행지<select id="quickCity"></select></label><label class="field">출발일<input id="quickStart" type="date"></label><label class="field">귀국일<input id="quickEnd" type="date"></label><label class="field">인원<input id="quickPeople" type="number" min="1" max="30" value="2"></label><button class="btn" id="quickGo">여행계획 만들기 →</button></div><div class="v39-hero-auto"><span>여행지와 날짜만 선택하면 일차별 코스를 바로 불러옵니다.</span><button type="button" class="btn" id="v39QuickAuto">✨ 추천 여행일정 자동 불러오기</button></div></div></div><section class="wrap section"><div class="section-head"><div><h2>인기 여행지 둘러보기</h2><div class="muted">24개 여행지 · 240개 관광명소. 사진이 없는 명소는 대체 이미지를 표시합니다.</div></div></div><details class="v53-extras v53-search"><summary>🔎 여행지·관광명소 검색 및 상세 필터</summary>
 <div class="discover-tools"><label class="field">여행지·테마 검색<input id="citySearch" type="search" placeholder="예: 오사카, 해변, 미식" autocomplete="off"></label><label class="field">국가별 보기<select id="countryFilter"><option value="">전체 국가</option></select></label><span id="cityCount" class="muted small" role="status" aria-live="polite"></span></div><section class="global-spot-search" aria-label="240개 관광지 통합 빠른 검색"><label class="field"><strong>🔎 240개 명소 한 번에 찾기</strong><input type="search" id="globalSpotSearch" placeholder="예: 야경, 에펠탑, 참탑, 바다, 사원" autocomplete="off" aria-controls="globalSpotResults"></label><div id="globalSpotResults" class="global-spot-results hidden" role="region" aria-live="polite" aria-label="관광지 검색 결과"></div><p class="hint">명소를 누르면 해당 도시의 사진 갤러리·방문 팁·일정 추가 화면으로 이동합니다.</p></section><p class="v39-ranking-note">🇰🇷 한국인 해외여행 선호 국가를 참고한 국가별 여행지 정렬입니다. 일본·베트남·중국·태국 등 주요 방문국 우선. 정확한 국가별 순위는 집계 기준에 따라 달라집니다. 기존 12곳 사진은 이전 버전의 출처 기록을 사용하며, 새로 추가한 12곳은 라이선스 검증 전까지 실제 사진 대신 대체 디자인을 표시합니다.</p></details>
-<section class="v59-sort" aria-label="여행지 정렬 및 조건"><div class="v59-sort-row"><button type="button" data-v59-sort="popular" aria-pressed="true">인기 여행지 20선</button><button type="button" data-v59-sort="distance" aria-pressed="false">거리순</button><button type="button" data-v59-sort="value" aria-pressed="false">가성비순</button><button type="button" data-v59-sort="solo" aria-pressed="false">혼자여행</button></div><p id="v59SortNote" role="status">인기 통계의 도시별 순위가 검증되지 않아 기존 추천 배열에서 20곳만 표시합니다. 공식 인기 순위가 아닙니다.</p></section>
+<section class="v59-sort" aria-label="여행지 정렬 및 조건"><div class="v59-sort-row"><button type="button" data-v59-sort="popular" aria-pressed="true">부산 출발 인기 20선</button><button type="button" data-v59-sort="korean" aria-pressed="false">한국인 검색 TOP 10</button><button type="button" data-v59-sort="distance" aria-pressed="false">거리순</button><button type="button" data-v59-sort="value" aria-pressed="false">가성비순</button><button type="button" data-v59-sort="solo" aria-pressed="false">혼자여행</button></div><p id="v59SortNote" role="status">2026.08~10 김해공항 출발 여객 실적 기준 · 등록 여행지 내 순위</p></section>
 <div id="cityCards" class="cards"></div>
 
 <details class="v53-extras"><summary>📷 더 많은 여행 사진·테마 갤러리 보기</summary>
@@ -840,7 +843,7 @@ body{background:#f7f8f8}
 </section><div id="cityEmpty" class="empty hidden">검색 결과가 없습니다. 검색어 또는 국가 필터를 변경해 보세요.</div><p class="footer-note">도시 대표 사진은 출처 기록이 있는 관광지 사진을 우선 사용합니다. v44에서는 신규 4개 명소 사진의 원본 설명과 저작권을 확인했습니다. 기존 사진 출처 기록은 계승했으며 전수 재검증하지 않았습니다. 외부 사진 연결 상태는 실제 접속 시 달라질 수 있으며, 과거 사진은 현재 모습과 다를 수 있습니다. 원본 출처·라이선스를 확인하세요.</p></section></main>
 <main id="planner" class="hidden"><section class="wrap section"><div class="section-head"><div><h2>내 여행계획</h2><div class="muted">① 기본정보 → ② 관광지·일정 → ③ 경비 → ④ 저장</div></div><button class="btn alt" data-nav="discover">여행지 다시 선택</button></div><div class="layout"><div>
 <nav class="plan-shortcuts" aria-label="여행계획 바로가기"><a href="#tourGuide">📍 관광지</a><a href="#tripSchedule">🗓 일정</a><a href="#tripBudget">💳 경비</a><a href="#entryGuide">🛂 입국</a><a href="#tripChecklist">✓ 준비</a></nav>
-<section class="panel"><div class="row"><h2 id="planTitle">여행 기본정보</h2><button id="saveTop" class="btn alt">현재 여행 브라우저에 저장</button></div><div id="v43SaveStatus" class="v43-save-state" role="status" aria-live="polite">저장 상태 확인 중</div><div class="grid2"><label class="field">여행계획 이름<input id="tripName" maxlength="120"></label><label class="field">여행지<select id="city"></select></label><label class="field">출발공항<select id="origin"><option value="PUS">김해(PUS)</option><option value="ICN">인천(ICN)</option><option value="TAE">대구(TAE)</option><option value="CJJ">청주(CJJ)</option><option value="CJU">제주(CJU)</option></select></label><label class="field">인원<input id="people" type="number" min="1" max="30" value="2"></label><label class="field">출발일<input id="start" type="date"></label><label class="field">귀국일<input id="end" type="date"></label><label class="field">객실 수<input id="rooms" type="number" min="1" max="20" value="1"></label><label class="field">전체 여행 예산 (원)<input id="budget" type="number" min="0" step="10000" placeholder="선택 입력"></label></div><div class="actions" style="margin-top:14px"><button id="makeDays" class="btn">날짜별 일정표 만들기</button><a id="flightLink" class="btn alt" href="https://flight.naver.com/" target="_blank" rel="noopener noreferrer">네이버 항공권 검색 ↗</a><a id="hotelLink" class="btn alt" href="https://www.booking.com/" target="_blank" rel="noopener noreferrer">부킹닷컴 호텔 검색 ↗</a></div><div class="v39-action"><h3>🗓 여행지와 날짜만 고르면 일정 완성</h3><p>추천 명소를 일차별로 배치합니다. 이미 작성한 일정은 확인 없이 덮어쓰지 않습니다.</p><button type="button" id="v39PlannerAuto" class="btn">✨ 추천 여행일정 자동 불러오기</button></div><p class="hint">항공권 링크는 선택한 날짜·인원·출발공항을 전달합니다. 항공료는 검색 후 아래에 실제 금액을 입력하세요.</p></section>
+<section class="panel"><div class="row"><h2 id="planTitle">여행 기본정보</h2><button id="saveTop" class="btn alt">현재 여행 브라우저에 저장</button></div><div id="v43SaveStatus" class="v43-save-state" role="status" aria-live="polite">저장 상태 확인 중</div><div class="grid2"><label class="field">여행계획 이름<input id="tripName" maxlength="120"></label><label class="field">여행지<select id="city"></select></label><label class="field">출발공항<select id="origin"><option value="PUS" selected>부산 · 김해(PUS)</option><option value="ICN">인천(ICN)</option><option value="TAE">대구(TAE)</option><option value="CJJ">청주(CJJ)</option><option value="CJU">제주(CJU)</option></select></label><label class="field">인원<input id="people" type="number" min="1" max="30" value="2"></label><label class="field">출발일<input id="start" type="date"></label><label class="field">귀국일<input id="end" type="date"></label><label class="field">객실 수<input id="rooms" type="number" min="1" max="20" value="1"></label><label class="field">전체 여행 예산 (원)<input id="budget" type="number" min="0" step="10000" placeholder="선택 입력"></label></div><div class="actions" style="margin-top:14px"><button id="makeDays" class="btn">날짜별 일정표 만들기</button><a id="flightLink" class="btn alt" href="https://flight.naver.com/" target="_blank" rel="noopener noreferrer">네이버 항공권 검색 ↗</a><a id="hotelLink" class="btn alt" href="https://www.booking.com/" target="_blank" rel="noopener noreferrer">부킹닷컴 호텔 검색 ↗</a></div><div class="v39-action"><h3>🗓 여행지와 날짜만 고르면 일정 완성</h3><p>추천 명소를 일차별로 배치합니다. 이미 작성한 일정은 확인 없이 덮어쓰지 않습니다.</p><button type="button" id="v39PlannerAuto" class="btn">✨ 추천 여행일정 자동 불러오기</button></div><p class="hint">항공권 링크는 선택한 날짜·인원·출발공항을 전달합니다. 항공료는 검색 후 아래에 실제 금액을 입력하세요.</p></section>
 
 <section class="panel entry-guide" id="entryGuide" aria-labelledby="entryHeading">
  <div class="row entry-head"><div><span class="entry-kicker">✈️ BEFORE YOU FLY</span><h2 id="entryHeading">나라별 입국 준비 · 사전 신고</h2></div><span class="badge" id="entryCountryBadge">국가 확인</span></div>
@@ -1042,7 +1045,15 @@ function renderBreakdown(){
  const t=totals(),groups=[['항공료',num(costs[0])*t.people],['숙박비',num(costs[1])*t.nights*t.rooms],['현지 경비',costs.slice(2).reduce((a,b)=>a+num(b),0)],['일정별 비용',t.activities]];
  $('costBreakdown').innerHTML=groups.map(([label,value])=>`<div class="breakdown-item"><div class="breakdown-label"><span>${label}</span><strong>${won(value)}</strong></div><div class="breakdown-track"><div class="breakdown-fill" style="width:${t.total?Math.min(100,value/t.total*100):0}%"></div></div></div>`).join('');
 }
-function filterCities(){let q=$('citySearch').value.trim().toLocaleLowerCase(),country=$('countryFilter').value,n=0;document.querySelectorAll('[data-city]').forEach(b=>{let c=DATA[b.dataset.city],hit=(!country||c.country===country)&&(!q||(b.dataset.city+' '+c.country+' '+c.tag+' '+c.intro).toLocaleLowerCase().includes(q));b.closest('.city').classList.toggle('hidden',!hit);if(hit)n++});$('cityCount').textContent=`${n}개 도시 표시`;$('cityEmpty').classList.toggle('hidden',n!==0)}
+function filterCities(){
+ const q=$('citySearch').value.trim().toLocaleLowerCase(),country=$('countryFilter').value;let n=0;
+ document.querySelectorAll('#cityCards .city').forEach(card=>{
+  const city=card.querySelector('[data-city]')?.dataset.city,c=DATA[city];if(!c)return;
+  const hit=card.dataset.rankVisible!=='false'&&(!country||c.country===country)&&(!q||(city+' '+c.country+' '+c.tag+' '+c.intro).toLocaleLowerCase().includes(q));
+  card.classList.toggle('hidden',!hit);card.hidden=!hit;card.style.display=hit?'':'none';if(hit)n++;
+ });
+ $('cityCount').textContent=`${n}개 도시 표시`;$('cityEmpty').classList.toggle('hidden',n!==0);
+}
 function renderCityGuide(city){let labels=['공항에서 시내','현지 이동','추천 동선','알아두면 좋은 팁'];let a=CITY_GUIDES[city]||['공항·시내 이동 수단과 운행시간을 공식 교통기관에서 확인하세요.','도심은 대중교통·도보, 외곽 명소는 투어·차량 이동을 비교하세요.','가까운 관광지 2~3곳을 하루에 묶고 먼 근교 코스는 별도 하루를 확보하세요.','입장료·운영시간·휴무일·날씨는 여행 직전에 공식 사이트에서 확인하세요.'];$('cityGuide').innerHTML=a.map((v,i)=>`<div class="guide-card"><strong>${labels[i]}</strong>${safe(v)}</div>`).join('')}
 function moveActivity(i,to){if(!Number.isInteger(to)||to<0||to>=days.length||to===active)return;const item=days[active].splice(i,1)[0];if(!item)return;days[to].push(item);active=to;renderDays();refresh();toast(`${to+1}일차로 일정을 이동했습니다`)}
 function sortActiveDay(){if(!days.length)return;days[active].sort((a,b)=>(a.time||'99:99').localeCompare(b.time||'99:99'));renderDays();toast('시간순으로 정렬했습니다')}
@@ -2500,7 +2511,7 @@ const h1=hero.querySelector('h1');h1.textContent='사진으로 고르는 나의 
 const sub=hero.querySelector('p');if(sub)sub.textContent='여행지 선택 → 명소 사진 보기 → 일정에 담기';
 const quick=hero.querySelector('.quick');
 if(quick){const d=document.createElement('details');d.className='v46-quick';d.innerHTML='<summary>날짜와 인원부터 정해서 여행 만들기</summary>';quick.before(d);d.appendChild(quick);}
-const note=discover.querySelector('.section-head .muted');if(note)note.textContent='여행지 사진을 누르면 관광명소를 볼 수 있어요. 순서는 추천 편집순이며 공식 방문객 순위가 아닙니다.';
+const note=discover.querySelector('.section-head .muted');if(note)note.textContent='부산 출발 여객 실적과 한국인 숙소 검색 순위를 비교하고, 여행지 사진을 눌러 명소를 둘러보세요.';
 const heading=discover.querySelector('.section-head h2');if(heading)heading.textContent='여행지 둘러보기';
 const tools=discover.querySelector('.discover-tools');if(tools){const wrap=document.createElement('details');wrap.className='v46-search';wrap.innerHTML='<summary>여행지 이름으로 검색하기</summary>';tools.before(wrap);wrap.appendChild(tools);}
 const rank=discover.querySelector('.v39-ranking-note');if(rank)rank.textContent='일본 여행지를 먼저 소개하고, 나머지는 편집 추천순으로 표시합니다. 국가·도시별 공식 순위가 아닙니다.';
@@ -2691,7 +2702,7 @@ function v48PrintItinerary(){
  const dayHtml=days.map((arr,i)=>`<section class="print-day"><h2>${i+1}일차 · ${safe(dateLabel(i))}</h2>${arr.length?`<table><thead><tr><th>시간</th><th>장소</th><th>메모</th>${includeBudget?'<th>예상 비용 (KRW)</th>':''}</tr></thead><tbody>${arr.slice().sort((a,b)=>(a.time||'99:99').localeCompare(b.time||'99:99')).map(x=>`<tr><td>${safe(x.time||'-')}</td><td>${safe(x.place)}</td><td>${safe(x.memo||'')}</td>${includeBudget?`<td>${won(x.cost)}</td>`:''}</tr>`).join('')}</tbody></table>`:'<p class="print-muted">일정 미정</p>'}</section>`).join('');
  const check=TASKS.map((x,i)=>`${checks[i]?'☑':'□'} ${safe(x)}`).join('　');
  const budgetHtml=includeBudget?`<section class="v50-print-budget"><h2>여행 경비 상세</h2><p class="print-muted">환율: ${safe(fxLine)}${v48FxCheckedAt?' · 조회/입력 '+safe(new Date(v48FxCheckedAt).toLocaleString('ko-KR')):''}</p><table><thead><tr><th>항목</th><th>원래 입력 금액 (전체 적용)</th><th>원화 환산</th></tr></thead><tbody>${rows}<tr><td>일정별 추가 비용</td><td>${won(t.activities)}</td><td>${won(t.activities)}</td></tr><tr><th>총 여행경비</th><th colspan="2">${pending?'환율 미확인 · 총액 산출 보류':won(t.total)}</th></tr><tr><th>1인당 예상 경비</th><th colspan="2">${pending?'환율 미확인 · 총액 산출 보류':won(t.total/t.people)}</th></tr></tbody></table><p class="print-muted">항공료는 1인 금액×인원, 숙박비는 1박 금액×박수×객실 수로 계산. 원화 항목은 다시 환산하지 않습니다. 실제 카드/현찰 환율과 수수료는 다를 수 있습니다.</p></section>`:'';
- $('printSheet').innerHTML=`<h1>K-TRAVEL PICKS | ${safe(title)}</h1><p class="print-muted">${safe($('city').value)} · ${safe($('start').value)} ~ ${safe($('end').value)} · ${t.people}명 · ${t.nights}박 · ${t.rooms}객실</p><h2>일자별 여행 일정</h2>${dayHtml}${budgetHtml}<p class="print-footer">K-TRAVEL PICKS v58 · 생성 ${new Date().toLocaleString('ko-KR')} · 브라우저 인쇄에서 PDF 저장 가능</p>`;
+ $('printSheet').innerHTML=`<h1>K-TRAVEL PICKS | ${safe(title)}</h1><p class="print-muted">${safe($('city').value)} · ${safe($('start').value)} ~ ${safe($('end').value)} · ${t.people}명 · ${t.nights}박 · ${t.rooms}객실</p><h2>일자별 여행 일정</h2>${dayHtml}${budgetHtml}<p class="print-footer">K-TRAVEL PICKS v59 · 생성 ${new Date().toLocaleString('ko-KR')} · 브라우저 인쇄에서 PDF 저장 가능</p>`;
  window.print();
 }
 function v48FxInit(){
@@ -2704,7 +2715,7 @@ function v48FxInit(){
  document.querySelectorAll('[data-city]').forEach(el=>el.addEventListener('click',()=>setTimeout(()=>{v48RenderCosts();v48FxOnCity()},0)));
  $('printTrip').onclick=v48PrintItinerary;
  v48RenderCosts();v48FxOnCity();
- const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v58 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처는 관광명소별 확인';
+ const foot=document.querySelector('footer .wrap');if(foot)foot.textContent='K-TRAVEL PICKS · v59 · 무료 여행계획 · 환율: Frankfurter v2 · 사진 출처는 관광명소별 확인';
 }
 v48FxInit();
 
@@ -2742,8 +2753,8 @@ v48FxInit();
   return {city,name,count:unique.length,reason:unique.length?'':'사용 가능 조건이 기록된 사진 메타데이터 없음'};
  }));
  const missing=records.filter(r=>r.count===0),cities=Object.keys(DATA).length;
- const bar=document.createElement('details');bar.className='v58-photo-audit v59-audit';
- bar.innerHTML='<summary id="v59AuditSummary"></summary><div class="v59-audit-inner"><p>소스의 라이선스 형식과 출처 기록만 검사했습니다. 원본 권리, 장소 일치, 사진 URL 실제 접근 여부는 이번 검사에서 검증하지 않았습니다.</p><div id="v59CityAudit"></div><button type="button" id="v58AuditExport" class="btn outline">사진 누락 명소만 CSV 저장</button><button type="button" id="v60PhotoReviewQueue" class="btn outline">사진 권리검증 대기 목록 CSV</button><button type="button" id="v59PhotoProvenance" class="btn outline">사진 출처 기록 전체 CSV</button></div>';
+ const bar=document.createElement('details');bar.className='v59-photo-audit v59-audit';
+ bar.innerHTML='<summary id="v59AuditSummary"></summary><div class="v59-audit-inner"><p>소스의 라이선스 형식과 출처 기록만 검사했습니다. 원본 권리, 장소 일치, 사진 URL 실제 접근 여부는 이번 검사에서 검증하지 않았습니다.</p><div id="v59CityAudit"></div><button type="button" id="v59AuditExport" class="btn outline">사진 누락 명소만 CSV 저장</button><button type="button" id="v60PhotoReviewQueue" class="btn outline">사진 권리검증 대기 목록 CSV</button><button type="button" id="v59PhotoProvenance" class="btn outline">사진 출처 기록 전체 CSV</button></div>';
  host.insertAdjacentElement('afterend',bar);
  document.getElementById('v59AuditSummary').textContent=`사진 출처 기록: ${cities}개 도시 · ${records.length}개 명소 중 ${records.length-missing.length}곳 기록 · ${missing.length}곳 미확보 (상세 보기)`;
  const perCity=Object.entries(DATA).map(([city,data])=>({city,total:data.spots.length,missing:missing.filter(r=>r.city===city).length}));
@@ -2799,7 +2810,7 @@ v48FxInit();
   const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));
   const a=document.createElement('a');a.href=url;a.download='K_TRAVEL_photo_provenance_candidate.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
  };
- document.getElementById('v58AuditExport').onclick=()=>{
+ document.getElementById('v59AuditExport').onclick=()=>{
   const csv='도시,관광명소,누락사유\r\n'+missing.map(r=>[r.city,r.name,r.reason].map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');
   const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));
   const a=document.createElement('a');a.href=url;a.download='K_TRAVEL_missing_photos_v59.csv';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
@@ -2807,34 +2818,48 @@ v48FxInit();
 })();
 </script>
 <script>
-/* v59 — discovery controls. Editorial guidance, not measured popularity or real-time price rankings. */
+/* v59: sourced popularity snapshots and PUS distance sorting. */
 (function(){
+ const stats={"source": "한국공항공사 국제선 노선별 통계", "sourceUrl": "https://www.airport.co.kr/www/cms/frFlightStatsCon/internationalLineStats.do?MENU_ID=1250", "retrievedAt": "2026-11-18", "start": "2026-08", "end": "2026-10", "origin": "PUS", "metric": "출발 여객 전체(유임+무임+환승), 여객기, 정기+부정기, 국적사+외항사", "monthlyDepartureTotals": {"2026-08": 549485, "2026-09": 502159, "2026-10": 544586}, "allRouteDepartureTotal": 1596230, "airportMapping": {"오사카": ["KIX", "ITM", "UKB"], "도쿄": ["NRT", "HND"], "나트랑": ["CXR"], "다낭": ["DAD"], "타이베이": ["TPE"], "방콕": ["BKK", "DMK"], "싱가포르": ["SIN"], "세부": ["CEB"], "발리": ["DPS"], "파리": ["CDG"], "후쿠오카": ["FUK"], "홍콩": ["HKG"], "삿포로": ["CTS"], "오키나와": ["OKA"], "하노이": ["HAN"], "푸꾸옥": ["PQC"], "상하이": ["PVG", "SHA"], "베이징": ["PEK", "PKX"], "치앙마이": ["CNX"], "보라카이": ["MPH"], "뉴욕": ["JFK"], "가오슝": ["KHH"], "코타키나발루": ["BKI"], "시드니": ["SYD"]}, "cityDepartures": {"오사카": 195848, "도쿄": 123618, "나트랑": 61469, "다낭": 52842, "타이베이": 231362, "방콕": 35075, "싱가포르": 25510, "세부": 25946, "발리": 8797, "후쿠오카": 195422, "홍콩": 46417, "삿포로": 55977, "오키나와": 24091, "하노이": 42742, "푸꾸옥": 23391, "상하이": 70912, "베이징": 25229, "치앙마이": 5193, "가오슝": 48024, "코타키나발루": 1456}};
+ const agoda=['도쿄','후쿠오카','오사카','나트랑','발리','다낭','방콕','삿포로','타이베이','푸꾸옥'];
+ const agodaUrl='https://www.agoda.com/press/2025-international-travel-overview-agoda-unveils-the-ranking-of-top-overseas-destinations-among-south-korean-travelers/';
  const grid=document.getElementById('cityCards'),bar=document.querySelector('.v59-sort'),note=document.getElementById('v59SortNote');
  if(!grid||!bar)return;
- const original=Array.from(grid.querySelectorAll('.city'));
- const order=new Map(original.map((el,i)=>[el,i]));
- // Approximate great-circle flight distance from ICN, based on destination airport coordinates.
- const airportCoordinates={KIX:[34.43,135.24],NRT:[35.77,140.39],CXR:[12.23,109.2],DAD:[16.04,108.2],TPE:[25.08,121.23],BKK:[13.69,100.75],SIN:[1.36,103.99],CEB:[10.31,123.98],DPS:[-8.75,115.17],CDG:[49.01,2.55],FUK:[33.59,130.45],HKG:[22.31,113.92],CTS:[42.78,141.69],PVG:[31.14,121.8],PEK:[40.08,116.58],MNL:[14.51,121.02],KUL:[2.75,101.71],SYD:[-33.94,151.18],MEL:[-37.67,144.84],LAX:[33.94,-118.41],JFK:[40.64,-73.78],SFO:[37.62,-122.38],HND:[35.55,139.78],SGN:[10.82,106.65],HAN:[21.22,105.81],CNX:[18.77,98.96],GUM:[13.48,144.8],BKI:[5.94,116.05],PUS:[35.18,128.94]};
- function km(code){const c=airportCoordinates[code];if(!c)return Infinity;const rad=x=>x*Math.PI/180;const a=rad(37.46),b=rad(126.44),lat=rad(c[0]),lon=rad(c[1]);const h=Math.sin((lat-a)/2)**2+Math.cos(a)*Math.cos(lat)*Math.sin((lon-b)/2)**2;return Math.round(12742*Math.asin(Math.sqrt(h)));}
- // Explicitly qualitative editorial groups, not verified expenditure or safety ratings.
+ const original=Array.from(grid.querySelectorAll('.city')),order=new Map(original.map((el,i)=>[el,i]));
+ const cityOf=el=>el.querySelector('[data-city]').dataset.city;
+ const ranked=Object.entries(stats.cityDepartures).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'ko'));
+ const busanRanks=new Map(ranked.map(([city],i)=>[city,i+1]));
+ const airportCoordinates={KIX:[34.43,135.24],NRT:[35.77,140.39],CXR:[12.23,109.2],DAD:[16.04,108.2],TPE:[25.08,121.23],BKK:[13.69,100.75],SIN:[1.36,103.99],CEB:[10.31,123.98],DPS:[-8.75,115.17],CDG:[49.01,2.55],FUK:[33.59,130.45],HKG:[22.31,113.92],CTS:[42.78,141.69],PVG:[31.14,121.8],PEK:[40.08,116.58],MNL:[14.51,121.02],KUL:[2.75,101.71],SYD:[-33.94,151.18],MEL:[-37.67,144.84],LAX:[33.94,-118.41],JFK:[40.64,-73.78],SFO:[37.62,-122.38],HND:[35.55,139.78],SGN:[10.82,106.65],HAN:[21.22,105.81],CNX:[18.77,98.96],GUM:[13.48,144.8],BKI:[5.94,116.05],PUS:[35.18,128.94],PQC:[10.17,103.99],OKA:[26.2,127.65],KHH:[22.58,120.35],MPH:[11.92,121.95]};
+ function km(code){const c=airportCoordinates[code];if(!c)return Infinity;const rad=x=>x*Math.PI/180;const a=rad(airportCoordinates.PUS[0]),b=rad(airportCoordinates.PUS[1]),lat=rad(c[0]),lon=rad(c[1]);const h=Math.sin((lat-a)/2)**2+Math.cos(a)*Math.cos(lat)*Math.sin((lon-b)/2)**2;return Math.round(12742*Math.asin(Math.sqrt(Math.min(1,h))));}
  const budgetCountries=['베트남','태국','필리핀','말레이시아','인도네시아','대만'];
  const soloCountries=['일본','대만','싱가포르','홍콩','프랑스','호주'];
+ const detail=document.createElement('details');detail.className='v59-ranking-source';
+ detail.innerHTML=`<summary>ⓘ 순위 산정 방법·출처·실적 보기</summary><div class="v59-source-body"><p><strong>부산 출발 인기순</strong> · 2026년 8~10월 김해공항 국제선 출발 여객 수를 항공사별로 합산했습니다. 여객기·정기/부정기·국적사/외항사 전체, 유임·무임·환승 여객 포함입니다.</p><p>비교 범위는 이 웹에 등록된 24개 여행지입니다. 실적이 확인된 20곳만 순위를 매겼습니다. 외국인·출장 등도 포함하므로 한국인 관광객 수나 전국 방문객 순위와 다릅니다. 공항을 이용한 뒤 이동한 최종 여행지는 파악하지 않습니다.</p><p>복수 공항은 같은 여행지로 합산합니다. 보라카이는 칼리보·카티클란 등 인근 공항의 여객 목적지를 확정할 수 없어 합산하지 않습니다. 파리·보라카이·뉴욕·시드니는 이번 부산 순위에서 제외되며, 거리순 등에서는 계속 볼 수 있습니다.</p><p>자료 확인: ${stats.retrievedAt} · 월별 출발 여객 전체: 8월 ${stats.monthlyDepartureTotals['2026-08'].toLocaleString('ko-KR')}명 / 9월 ${stats.monthlyDepartureTotals['2026-09'].toLocaleString('ko-KR')}명 / 10월 ${stats.monthlyDepartureTotals['2026-10'].toLocaleString('ko-KR')}명. 아래 등록 여행지 외 노선도 포함한 합계입니다.</p><p><a href="${stats.sourceUrl}" target="_blank" rel="noopener noreferrer">한국공항공사 원문 통계 ↗</a> · 조회: 2026.08~2026.10 / 노선 김해(PUS) / 여객기 / 나머지 전체. 이 페이지는 확인일 기준 자료이며 실시간 자동 갱신은 아닙니다.</p><div class="v59-rank-table-wrap"><table><caption>등록 여행지 내 부산 출발 순위 · 2026.08~10</caption><thead><tr><th>순위</th><th>여행지</th><th>집계 공항</th><th>출발 여객</th></tr></thead><tbody>${ranked.map(([city,n],i)=>`<tr><td>${i+1}</td><td>${city}</td><td>${stats.airportMapping[city].filter(code=>({"KHH": 48024, "RMQ": 22334, "TPE": 231362, "HKG": 46417, "DPS": 8797, "CTS": 55977, "FSZ": 6576, "FUK": 195422, "HIJ": 0, "IBR": 539, "KIX": 195848, "KMJ": 13462, "KOJ": 619, "MYJ": 15641, "NGO": 27547, "NRT": 123618, "OKA": 24091, "SHI": 3097, "TAK": 6631, "TOY": 886, "MFM": 6278, "BKI": 1456, "CEB": 25946, "CRK": 7485, "MNL": 13381, "TAG": 11047, "SIN": 25510, "BKK": 35075, "CNX": 5193, "CXR": 61469, "DAD": 52842, "HAN": 42742, "PQC": 23391, "SGN": 35706, "CAN": 2394, "DYG": 18635, "HET": 1524, "HGH": 5952, "KWL": 3278, "NKG": 7847, "PEK": 25229, "PVG": 70912, "SHE": 3441, "SJW": 4264, "TAO": 29214, "TFU": 2776, "TXN": 366, "XIY": 4398, "XMN": 177, "YNJ": 17693, "UBN": 9647, "ALA": 3324, "GUM": 10750})[code]>0).join(' · ')}</td><td>${n.toLocaleString('ko-KR')}명</td></tr>`).join('')}</tbody></table></div><p><strong>한국인 검색 TOP 10</strong> · 아고다의 2025년 한국인 해외 숙소 검색 순위입니다. 발표일 2026.01.07. 실제 예약·방문객 순위, 부산 출발 순위와 다릅니다. 원문에 공개된 10위까지만 사용합니다. <a href="${agodaUrl}" target="_blank" rel="noopener noreferrer">아고다 공식 발표 ↗</a></p><p><strong>거리순</strong> · 부산 김해(PUS)에서 주요 도착 공항까지의 좌표 기반 직선거리입니다. 직항 운항 여부·실제 비행시간과 다릅니다. <strong>가성비순·혼자여행</strong> · 기존 편집 추천 기준으로, 측정된 가격·안전 순위가 아닙니다.</p></div>`;
+ bar.appendChild(detail);
+ original.forEach(el=>{const badge=document.createElement('div');badge.className='v59-rank-badge';el.appendChild(badge);});
  let mode='popular';
  function apply(){
   const cards=original.slice();
-  if(mode==='distance')cards.sort((a,b)=>km(DATA[a.querySelector('[data-city]').dataset.city]?.airport)-km(DATA[b.querySelector('[data-city]').dataset.city]?.airport)||order.get(a)-order.get(b));
-  if(mode==='value')cards.sort((a,b)=>Number(!budgetCountries.includes(DATA[a.querySelector('[data-city]').dataset.city]?.country))-Number(!budgetCountries.includes(DATA[b.querySelector('[data-city]').dataset.city]?.country))||order.get(a)-order.get(b));
-  if(mode==='solo')cards.sort((a,b)=>Number(!soloCountries.includes(DATA[a.querySelector('[data-city]').dataset.city]?.country))-Number(!soloCountries.includes(DATA[b.querySelector('[data-city]').dataset.city]?.country))||order.get(a)-order.get(b));
+  if(mode==='popular')cards.sort((a,b)=>(busanRanks.get(cityOf(a))||Infinity)-(busanRanks.get(cityOf(b))||Infinity)||order.get(a)-order.get(b));
+  if(mode==='korean')cards.sort((a,b)=>(agoda.includes(cityOf(a))?agoda.indexOf(cityOf(a)):Infinity)-(agoda.includes(cityOf(b))?agoda.indexOf(cityOf(b)):Infinity)||order.get(a)-order.get(b));
+  if(mode==='distance')cards.sort((a,b)=>km(DATA[cityOf(a)].airport)-km(DATA[cityOf(b)].airport)||order.get(a)-order.get(b));
+  if(mode==='value')cards.sort((a,b)=>Number(!budgetCountries.includes(DATA[cityOf(a)].country))-Number(!budgetCountries.includes(DATA[cityOf(b)].country))||order.get(a)-order.get(b));
+  if(mode==='solo')cards.sort((a,b)=>Number(!soloCountries.includes(DATA[cityOf(a)].country))-Number(!soloCountries.includes(DATA[cityOf(b)].country))||order.get(a)-order.get(b));
   cards.forEach(el=>grid.appendChild(el));
-  original.forEach(el=>{el.hidden=false;el.style.display='';});
-  if(mode==='popular')cards.slice(20).forEach(el=>{el.hidden=true;el.style.display='none';});
-  const messages={popular:'기존 추천 순서의 20곳을 표시합니다. 한국인 방문객 공식 도시별 순위가 검증되지 않아 실제 TOP 20 순위라고 단정하지 않습니다.',distance:'인천공항(ICN)에서 주요 도착 공항까지의 대략적인 직선거리순입니다. 실제 항공거리·비행시간과 다릅니다. 공항 좌표가 없는 도시는 뒤에 표시됩니다.',value:'동남아·대만 등 일반적인 현지 체류비 경향을 참고한 편집상 추천순입니다. 실시간 항공료·숙박료를 반영한 객관적 가성비 순위가 아닙니다.',solo:'교통·관광 접근성이 비교적 편리한 국가를 앞에 둔 편집상 추천순입니다. 개인별 안전·여행 적합성 보장은 아닙니다.'};
-  note.textContent=messages[mode];
-  if(typeof filterCities==='function')filterCities();
+  original.forEach(el=>{
+   const city=cityOf(el),badge=el.querySelector('.v59-rank-badge');
+   el.dataset.rankVisible=String(mode==='popular'?busanRanks.has(city):mode==='korean'?agoda.includes(city):true);
+   badge.hidden=false;
+   if(mode==='popular')badge.textContent=busanRanks.has(city)?`등록지 내 ${busanRanks.get(city)}위 · 출발 ${stats.cityDepartures[city].toLocaleString('ko-KR')}명`:'';
+   else if(mode==='korean')badge.textContent=agoda.includes(city)?`한국인 숙소 검색 ${agoda.indexOf(city)+1}위 · 2025`:'';
+   else if(mode==='distance')badge.textContent=Number.isFinite(km(DATA[city].airport))?`부산 김해에서 약 ${km(DATA[city].airport).toLocaleString('ko-KR')}km · 직선거리`:'거리 미확인';
+   else {badge.textContent='';badge.hidden=true;}
+  });
+  const messages={popular:'2026.08~10 김해공항 출발 여객 실적순 · 등록 24곳 중 실적이 확인된 20곳 · 외국인 포함',korean:'아고다 2025년 한국인 해외 숙소 검색 TOP 10 · 발표 2026.01.07 · 검색 기준',distance:'부산 김해공항(PUS) → 주요 도착 공항 직선거리순 · 등록 여행지 24곳 · 실제 비행거리·시간과 다름',value:'현지 체류비 경향을 참고한 편집 추천순 · 실시간 항공료·숙박료를 반영한 순위는 아닙니다.',solo:'교통·관광 접근성을 참고한 기존 편집 추천순 · 측정된 안전 순위는 아닙니다.'};
+  note.textContent=messages[mode];filterCities();
  }
- bar.addEventListener('click',e=>{const btn=e.target.closest('[data-v59-sort]');if(!btn)return;mode=btn.dataset.v59Sort;bar.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));apply();});
- // Run after the existing init has created cards.
- if(original.length===24)apply();else window.addEventListener('load',()=>{if(grid.children.length===24)location.hash=location.hash;},{once:true});
+ bar.addEventListener('click',e=>{const btn=e.target.closest('[data-v59-sort]');if(!btn)return;mode=btn.dataset.v59Sort;bar.querySelectorAll('[data-v59-sort]').forEach(b=>b.setAttribute('aria-pressed',String(b===btn)));apply();});
+ apply();
 })();
 </script>
 </body></html>
